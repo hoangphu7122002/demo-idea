@@ -55,6 +55,23 @@ to `v2.md` as the roadmap.
 lookup, polling, running tests, formatting → cheapest model; implementation → mid-tier model;
 architecture, review, critic → strongest model. Spawn an agent team only when the work is truly parallel.
 
+## Usage budget (hard limit)
+
+The operator has limited weekly usage: **≤ 20% of the weekly limit for this whole project**.
+Every agent, workflow and teammate must respect it.
+
+| Phase | Budget | How |
+|---|---|---|
+| demo-scope | ~6–8% | Reuse the existing research run (`scope/2026-10-03-dev-knowledge-blog/`); resume from Step 2, don't redo Step 1 |
+| pr-team (build hour 1) | ~10–12% | Max **2 builders**, 1 reviewer, 1 watcher on **Haiku**; review budget **3** open PRs |
+| Focus Hour (build hour 2) | 0% now | Postponed until the weekly limit resets |
+
+Rules when spawning:
+- Ask before spawning more than 3 agents at once, or any extra Opus agent.
+- Prefer Haiku/low effort for lookup, polling, extraction, formatting; Sonnet for code; Opus only for critic and PR review.
+- Don't re-run a step whose output already exists; reuse files.
+- Check `/usage` after each phase and log it; stop and ask the operator when a phase goes over its budget.
+
 
 
 ## Process
