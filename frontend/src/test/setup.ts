@@ -1,4 +1,4 @@
-import { cleanup } from '@testing-library/react'
+import { cleanup, configure } from '@testing-library/react'
 import { afterEach } from 'vitest'
 
 afterEach(() => {
@@ -20,3 +20,6 @@ if (!window.matchMedia) {
       dispatchEvent: () => false,
     }) as MediaQueryList
 }
+
+// Lazy route chunks (MDX + Shiki + KaTeX) can take >1s to transform on a cold cache.
+configure({ asyncUtilTimeout: 10_000 })

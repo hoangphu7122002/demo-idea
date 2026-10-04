@@ -1,0 +1,23 @@
+# Why Raft needs a majority
+
+A replicated log stays safe only when every decision is seen by a quorum. With `n = 2f + 1` replicas, a cluster tolerates `f` crashes, so you need exactly 3 nodes to survive one failure.
+
+## The quorum rule
+
+Any two majorities overlap in at least one node:
+
+$$
+|Q_1 \cap Q_2| \ge 2\left\lceil \tfrac{n+1}{2} \right\rceil - n \ge 1
+$$
+
+Inline, the size of a majority is $\lfloor n/2 \rfloor + 1$.
+
+## A tiny quorum check
+
+```ts
+export function hasQuorum(acks: number, n: number): boolean {
+  return acks >= Math.floor(n / 2) + 1
+}
+```
+
+Readers can highlight any sentence above and suggest a fix.
