@@ -3,6 +3,7 @@ from typing import Any
 from fastapi.testclient import TestClient
 
 from app.core.db import SyncSessionLocal
+from app.models import Suggestion
 from app.seeds.post import SLUG, SOURCE, seed_post
 
 URL = f"/api/posts/{SLUG}/suggestions"
@@ -72,3 +73,18 @@ def test_list_filters_by_status(client: TestClient) -> None:
 def test_unknown_post_404(client: TestClient) -> None:
     assert client.post("/api/posts/nope/suggestions", json=_payload()).status_code == 404
     assert client.get("/api/posts/nope/suggestions").status_code == 404
+
+
+def test_half_anchor_span_422(client: TestClient) -> None:
+    _seed()
+    assert client.post(URL, json=_payload(anchor_end=None)).status_code == 422
+    p = _payload(anchor_start=None, paragraph_id="p-1")
+    assert client.post(URL, json=p).status_code == 422
+
+
+def test_honeypot_is_stored(client: TestClient) -> None:
+    _seed()
+    assert client.post(URL, json=_payload(website="bot")).status_code == 201
+    with SyncSessionLocal() as s:
+        row = s.query(Suggestion).one()
+        assert row.honeypot == "bot"

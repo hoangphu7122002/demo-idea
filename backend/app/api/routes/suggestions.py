@@ -2,10 +2,11 @@ from fastapi import APIRouter, HTTPException
 
 from app.api.deps import SessionDep
 from app.models import Suggestion
-from app.schemas.suggestion import SuggestionIn, SuggestionOut, SuggestionStatus
+from app.schemas.suggestion import RunFilterOut, SuggestionIn, SuggestionOut, SuggestionStatus
 from app.services import suggestions as service
 
 router = APIRouter(prefix="/api/posts/{slug}/suggestions", tags=["suggestions"])
+filter_router = APIRouter(prefix="/api/posts/{slug}", tags=["suggestions"])
 
 
 @router.post("", response_model=SuggestionOut, status_code=201)
@@ -23,5 +24,14 @@ async def list_suggestions(
 ) -> list[Suggestion]:
     try:
         return await service.list_suggestions(session, slug, status)
+    except service.PostNotFoundError:
+        raise HTTPException(404, "post not found") from None
+
+
+@filter_router.post("/run-filter", response_model=RunFilterOut)
+async def run_filter(slug: str, session: SessionDep) -> RunFilterOut:
+    """Classify pending suggestions; spam moves to filtered. Returns counts."""
+    try:
+        return RunFilterOut(**await service.run_rules_filter(session, slug))
     except service.PostNotFoundError:
         raise HTTPException(404, "post not found") from None
