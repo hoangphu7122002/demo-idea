@@ -1,0 +1,104 @@
+{
+  "rows": [
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=1151569",
+      "date": "2010-02-25",
+      "quote_or_number": "From the March issue of Inc",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=5040965",
+      "date": "2013-01-11",
+      "quote_or_number": "You devalue the profession and craft when you do this",
+      "persona_match": "n",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=7548999",
+      "date": "2014-04-07",
+      "quote_or_number": "I think people waste a lot of time blogging. Why not focus on what matters, first? Collect emails and validate that your messaging will convert with your target audience. See how I do it at http://TunaHack.com P.S. would love any feedback on my copy Thanks, Rob",
+      "persona_match": "n",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=11634387",
+      "date": "2016-05-05",
+      "quote_or_number": "Hello, I am submitting this post to seek some guidance & feedback on possible solution to revenue loss caused due to adblockers",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=4664529",
+      "date": "2012-10-17",
+      "quote_or_number": "I missed the original post on coding horror but came across a video of Jeff giving the presentation at the 2012 Atlassian summit",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "review",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=338485",
+      "date": "2008-10-21",
+      "quote_or_number": "I'm relaunching my blog and I'm considering two platforms, Wordpress and Webby/Webgen/staticfiles",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=46792021",
+      "date": "2026-01-28",
+      "quote_or_number": "I built Lapse because most of my blogs died quietly, abandoned after a few months",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=14904274",
+      "date": "2017-08-01",
+      "quote_or_number": "Hey HN, I've spent years working on my personal blogging site",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=17977722",
+      "date": "2018-09-13",
+      "quote_or_number": "You guys know me",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=2558824",
+      "date": "2011-05-18",
+      "quote_or_number": "Rails was my first programming endeavor",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    }
+  ]
+}

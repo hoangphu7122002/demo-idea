@@ -1,0 +1,384 @@
+{
+  "rows": [
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=8070407",
+      "date": "2014-07-22",
+      "quote_or_number": "If you wind up going with a static site generator (like Jekyll, for example), one thing to watch out for which I experienced on my own technical blog is that if you want comments functionality then your only realistic choice is Disqus..",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47973948",
+      "date": "2026-05-01",
+      "quote_or_number": "There's more to the article than just the article. A technical blog elicits discussion and conversation in the comments. I never get why people totally miss such value add.",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=9862505",
+      "date": "2015-07-10",
+      "quote_or_number": "Given the point you're trying to make, I'm really struggling with understanding your comment. Are you saying that you don't believe the Amazon technical blog is aimed primarily at existing AWS users?",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=9734802",
+      "date": "2015-06-17",
+      "quote_or_number": "I tried to contact Zed about a month back, to ask him this question",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=9318322",
+      "date": "2015-04-03",
+      "quote_or_number": "Someone writes a detailed technical blog post and submits it",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=8281325",
+      "date": "2014-09-07",
+      "quote_or_number": "Reddit admins could have garnered more sympathy and understanding if they framed their actions purely in terms of site reliability and manpower instead of any weights about the morals of various subreddits",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=7681270",
+      "date": "2014-05-01",
+      "quote_or_number": "Academia.edu | Downtown San Francisco | Full Time Engineers | Relocation Available Academia.edu is an agile startup located in San Francisco on Kearny and Bush Street",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=7511144",
+      "date": "2014-04-01",
+      "quote_or_number": "ACADEMIA.EDU DOWNTOWN San Francisco FULL TIME Engineers WORK with CEO Richard Price WORK with CTO Ben Lund WORK with 9 Senior Engineers WORK with the mission to make life better BUILD a killer recommendation engine immersed in Machine Learning and NLP BUILD our next major platform called \u201cPeer...",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=7511134",
+      "date": "2014-04-01",
+      "quote_or_number": "ACADEMIA.EDU DOWNTOWN San Francisco FULL TIME Engineers WORK with CEO Richard Price WORK with CTO Ben Lund WORK with 9 Senior Engineers WORK with the mission to make life better BUILD a killer recommendation engine immersed in Machine Learning and NLP BUILD our next major platform called \u201cPeer...",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=7428951",
+      "date": "2014-03-19",
+      "quote_or_number": "I'm sorry that I did not paint a real-world picture with sufficient tears to satisfy you",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=7235779",
+      "date": "2014-02-14",
+      "quote_or_number": "This is odd, but I've noticed that technical Chinese blogs auto-translate really well",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=6820956",
+      "date": "2013-11-29",
+      "quote_or_number": "> someone might find it upsetting that you are sending him to some external, tracking, data leeching entity where he even may need to create a new account, give away his email address I'm not at all happy about those things, but this is an issue of tradeoffs - the blog I'm talking about isn't my...",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=6252337",
+      "date": "2013-08-21",
+      "quote_or_number": "This looks great! Do you plan to support comments? I know it's a difficult thing to do so I'm not expecting that, just curious. I also know about Disqus, but that is no good for a technical blog since they took away the ability to post code samples a year or two ago.",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=5532164",
+      "date": "2013-04-11",
+      "quote_or_number": "Comments sections improve blogs because they are a place where readers can point out errors in the parent article",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=5350979",
+      "date": "2013-03-10",
+      "quote_or_number": "I'll be more interested in hearing the opinions of women who didn't have access to a TI99/4A at age five on the need for \"women in CS\" programs",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=5148920",
+      "date": "2013-02-01",
+      "quote_or_number": "Actually, I am wrong",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=4970947",
+      "date": "2012-12-26",
+      "quote_or_number": "Have you read their actual contract terms instead of their marketing materials",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49550047",
+      "date": "2026-09-03",
+      "quote_or_number": "The incentives have disappeared",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "review",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49088266",
+      "date": "2026-07-28",
+      "quote_or_number": ">No one is writing purely for themselves Every time I see posts like this one and go into comments, everyone in the comments treat writing as a hobby which they would like to turn into work and earn money from, more or less",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48942030",
+      "date": "2026-07-17",
+      "quote_or_number": "That\u2019s actually a fair question",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48392418",
+      "date": "2026-06-04",
+      "quote_or_number": "Previously: https://news.ycombinator.com/item?id=47195123 (March 2026, 136 comments) Several months ago I posted about my little proto-app, Now I Get It",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47726610",
+      "date": "2026-04-11",
+      "quote_or_number": "A post by dang about related posts: A Technical Blog Post by a Big Name Expert - https://news.ycombinator.com/item?id=5326511 - March 2013 (189 comments) A compelling title that is cryptic enough to get you to take action on it - https://news.ycombinator.com/item?id=43219556 - Feb 2025 (112...",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47721995",
+      "date": "2026-04-10",
+      "quote_or_number": "\"A Technical Blog Post by a Big Name Expert\" (2013) http://bradconte.com/files/misc/HackerNewsParodyThread/ Discussion (589 points, 189 comments): https://news.ycombinator.com/item?id=5326511",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=4747794",
+      "date": "2012-11-06",
+      "quote_or_number": "How about following the definition you yourself picked",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=4740707",
+      "date": "2012-11-04",
+      "quote_or_number": "This is my first technical blog post; I am looking forward to your comments.",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47242306",
+      "date": "2026-03-04",
+      "quote_or_number": "I for one appreciate this genre of comment",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=46835599",
+      "date": "2026-01-31",
+      "quote_or_number": "> Pre-training is, actually, our collective gift I feel like this wording isn't great when there are many impactful open source programmers who have explicitly stated that they don't want their code used to train these models and licensed their work in a world where LLMs didn't exist",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=4605558",
+      "date": "2012-10-03",
+      "quote_or_number": "Problem is he didn't do that critical second step, the \"burrowing through emails or checking blog comments\" for something that links the IP to a friend",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=45712229",
+      "date": "2025-10-26",
+      "quote_or_number": "Based on all the negative comments, and being a non-expert, I had an LLM generate an article for that same title",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=45705975",
+      "date": "2025-10-25",
+      "quote_or_number": "> I'm not sure LP is a high-quality source",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=44757954",
+      "date": "2025-08-01",
+      "quote_or_number": "It's better to wait until you have a localized version in English, and post it",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=4825172",
+      "date": "2012-11-24",
+      "quote_or_number": "Thank you for your comment",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=9156519",
+      "date": "2015-03-06",
+      "quote_or_number": "To clarify my down-voted comment a bit: I think part of the problem is that GC tuning has become kind of a black art",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=8518795",
+      "date": "2014-10-27",
+      "quote_or_number": "Not the way I am thinking of it",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=8282646",
+      "date": "2014-09-07",
+      "quote_or_number": "Org-mode for in-class notes, since I'm a student",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=8165887",
+      "date": "2014-08-11",
+      "quote_or_number": "If your comment isn't simply rhetorical, there was a lot of coverage of the root cause: the federal procurement process is a mess, which is especially harmful for IT",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=7263332",
+      "date": "2014-02-19",
+      "quote_or_number": "HP's Vice President of HP Servers Support Technology Services received a beating in the comments for the announcement: http://h30507.www3.hp.com/t5/Technical-Support-Services-Blog...",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=6918375",
+      "date": "2013-12-16",
+      "quote_or_number": "Read and implement papers is extremely good advice",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    }
+  ]
+}

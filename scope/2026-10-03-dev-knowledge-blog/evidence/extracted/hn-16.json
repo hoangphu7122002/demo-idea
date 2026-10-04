@@ -1,0 +1,394 @@
+{
+  "rows": [
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47357370",
+      "date": "2026-03-12",
+      "quote_or_number": "It broke my heart to have a visceral \"I'm being slop'd\" reaction reading this: it's such good work, and AI's barely used AFAICT, but there's enough odd transitions and copy-pasta'd markdown that you get the subconcious \"this is AI\" reaction regardless",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=9896320",
+      "date": "2015-07-16",
+      "quote_or_number": ">>I don\u2019t consider myself very devoted to my work, but >Don't try and pretend your problems are our problems",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=37781191",
+      "date": "2023-10-05",
+      "quote_or_number": "Free Speech to Text transcription using the Whisper API. Use it now for free to transcribe your voice to create text, articles, blog posts and more.",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49257983",
+      "date": "2026-08-11",
+      "quote_or_number": "Many good comments here",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=44640626",
+      "date": "2025-07-21",
+      "quote_or_number": "> I am very clear that this is a conversation with a Claude impersonation of Graham Priest, not Graham Priest himself",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=34367579",
+      "date": "2023-01-13",
+      "quote_or_number": "Why someone should listen a voice when is faster to read the blog post ?",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=46854761",
+      "date": "2026-02-02",
+      "quote_or_number": "What about me",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=3903003",
+      "date": "2012-04-28",
+      "quote_or_number": "A car needs a road to run on, that is all the infrastructure that has to be common between cars (your car might need gasoline, but that does not mean that your neighbors car can't run on diesel or be an electric car)",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=9913521",
+      "date": "2015-07-20",
+      "quote_or_number": "Editor\u2019s note: This week, to mark the 170th anniversary of the appearance of the first issue of The Economist on September 2nd 1843, this blog will answer some of the more frequently asked questions about The Economist itself",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=9641188",
+      "date": "2015-06-01",
+      "quote_or_number": "In this thread: folks who get snippy about other folks criticizing presentation choices without offering an alternative means to voice such criticism",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=9500777",
+      "date": "2015-05-06",
+      "quote_or_number": "I recently completed the Coding House program and have been actively interviewing for four weeks",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=865",
+      "date": "2007-02-24",
+      "quote_or_number": "I think this article is mainly relevant to mobile web",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=7506376",
+      "date": "2014-04-01",
+      "quote_or_number": "For me, this video doesn't really explain anything ",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=6747586",
+      "date": "2013-11-17",
+      "quote_or_number": "Sadly, most of the things on there are true",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=6736402",
+      "date": "2013-11-14",
+      "quote_or_number": "Slightly off topic, but still related: have you tried the mac os speech tool? I find the default voice, Alex, to be quite good. So good that I have completely stopped reading news stores and blog posts: I just let the computer read things out to me (unless there is code blocks).",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=6607388",
+      "date": "2013-10-24",
+      "quote_or_number": "I like the commands, especially the ssh one, which I didn't know before and will certainly use in the future. I also enjoyed the format of the article. A whole dev team each contributing their own piece to a blog post provides a lot of different voices and styles in a concise way.",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=5874776",
+      "date": "2013-06-13",
+      "quote_or_number": "Not everybody does",
+      "persona_match": "n",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=5756449",
+      "date": "2013-05-23",
+      "quote_or_number": "One key thing you're brushing over is that the OP link is to a blog post on the economist web site",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=5113928",
+      "date": "2013-01-25",
+      "quote_or_number": "http://ambientdays.com/ I occasionally post YouTube/Grooveshark/SoundCloud videos. I kept trying to write blog posts (both on musical and technical topics), but I could never come up with a voice that I liked.",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49910438",
+      "date": "2026-09-30",
+      "quote_or_number": "I was considering adding a permanent disclaimer to every blog post on my site about it not being AI written",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49899192",
+      "date": "2026-09-29",
+      "quote_or_number": "This comment makes 1000 times more sense than the blog post intro itself",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=4973517",
+      "date": "2012-12-27",
+      "quote_or_number": "What is this post responding to",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49604429",
+      "date": "2026-09-08",
+      "quote_or_number": "Yes",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49046591",
+      "date": "2026-07-25",
+      "quote_or_number": "I should indeed make a video which shows the sound assignments on the bass pedal and how my feet operate on them",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48839578",
+      "date": "2026-07-09",
+      "quote_or_number": "I'm so jaded at this point",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48569549",
+      "date": "2026-06-17",
+      "quote_or_number": "As an aside, I've been using Claude to search for blog posts from people who went through similar experience to mine. Then use Eleven Readers app which converts the voice to text to listen to it. It's been much better for self therapy vs talking to an LLM.",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48294646",
+      "date": "2026-05-27",
+      "quote_or_number": "I remember a moment at the very onset when chatgpt was just opened to the public",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47579057",
+      "date": "2026-03-30",
+      "quote_or_number": "I certainly miss the pre-AI reading era",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47382383",
+      "date": "2026-03-14",
+      "quote_or_number": "Creating videos used to be complicated",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47144881",
+      "date": "2026-02-24",
+      "quote_or_number": "Actually, you might find this interesting: we wrote a blog post a while back about how we gave our agent a way to voice its suffering",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47144011",
+      "date": "2026-02-24",
+      "quote_or_number": "Creating search engine optimized (SEO) blog posts is crucial for businesses looking to drive quality traffic and enhance their online presence",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47063867",
+      "date": "2026-02-18",
+      "quote_or_number": "> Extraordinary claims require extraordinary evidence",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=46967329",
+      "date": "2026-02-10",
+      "quote_or_number": "I have to be honest - build a blog and post your thoughts. Human thoughts, your ideas, the projects, the tips, and the art. Just add more human voices to the internet. We need them.",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=46529338",
+      "date": "2026-01-07",
+      "quote_or_number": "Hi HN, I\u2019m John, founder of PostReach AI",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=46080750",
+      "date": "2025-11-28",
+      "quote_or_number": "here is the entire exchange",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=45303108",
+      "date": "2025-09-19",
+      "quote_or_number": "I'm puzzled why this very short 133 word blog post that offers nothing new \u2014 literally: \"I will add my voice to the chorus\" \u2014 is getting upvoted so much on HN. I don't disagree with the blog post, but it's just not interesting, informative, or useful.",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=44329800",
+      "date": "2025-06-20",
+      "quote_or_number": "Overall don't disagree with the post too much, but I don't like the example given of speaking to the AI \"Charlie\"",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=44230846",
+      "date": "2025-06-09",
+      "quote_or_number": "I spent the last month writing with ChatGPT, and found some better ways to steer it",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=4402720",
+      "date": "2012-08-18",
+      "quote_or_number": "I think people are not getting the point of the parable inherent in this article if the only things that come out of reading the blog post are \"Ohh 12 to 16 hours of work\" or \"I would quit because I got threatened\"",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+ "query_url": "https://hn.algolia.com/api/v1/search?query=voice+to+blog+post&tags=comment&hitsPerPage=40",
+ "args": [
+  "voice to blog post",
+  "comment"
+ ],
+ "items": [
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=47357370",
+   "date": "2026-03-12",
+   "title": "Forcing Flash Attention onto a TPU and Learning the Hard Way",
+   "text": "It broke my heart to have a visceral \"I'm being slop'd\" reaction reading this: it's such good work, and AI's barely used AFAICT, but there's enough odd transitions and copy-pasta'd markdown that you get the subconcious \"this is AI\" reaction regardless. Many sentences are 3x as long as it normally would be in subtle ways (to wit: \"My flash attention is 35x slower than the fused standard at n=4096. Not a little worse. Catastrophically worse.\"), it really wears on attention. (pun intended) It brings literary voice to a technical blog post, and a very difficult process-oriented technical blog post. I have to reallocate my unfortunately-limited brain cells from \"maintaining state of where we are in the process\" to \"is this cutesy fluff or important\" and I've never had to do that in 37 years with technical blog posts. The Markdown gets bad . Bolding is used for important phrases (like a human would), then, all of a sudden, after the \"Inside a TPU chip\" header its being used every other sentence, on anything that is a proper noun/would have a Wikipedia article. It got so weird that at some point I was like \"a human definitely didn't let this through...they must be links?\" and tried clicking them. It's doubly bad at that point, because markdown tables start coming in hot and heavy too. So you're left with \"It's pretty apparent the LLM did it from here, and I can't keep trying to keep the state of the process in my head while trying to figure out if the bolding is important, reflexive close tab",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=9896320",
+   "date": "2015-07-16",
+   "title": "Vim's 400 line function to wait for keyboard input",
+   "text": ">>I don\u2019t consider myself very devoted to my work, but >Don't try and pretend your problems are our problems. Struggling to survive, scrap by scrap. Fuck off. If you're ever in the Silicon Valley we should \"meet up\". I'll be nicer to you. You trawled through my writings to find one sentence in one blog post[1] to voice outrage at. I'm not sure how to react to that. I guess... congratulations on your hard work. I live in the bay area, but I prefer not to hang out with people who treat others so callously. I hope you understand. Edit: It appears roghummal has significantly revised his comment since I finished my reply. 1. http://geoff.greer.fm/2015/01/07/burnout-is-in-the-mind/",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=37781191",
+   "date": "2023-10-05",
+   "title": "Free Speech to Text Tool Will Blow Your Mind",
+   "text": "Free Speech to Text transcription using the Whisper API. Use it now for free to transcribe your voice to create text, articles, blog posts and more.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=49257983",
+   "date": "2026-08-11",
+   "title": "How Claude marks AI-generated content",
+   "text": "Many good comments here. It\u2019s somewhat common for me to voice record say a blog post of product updates, more like a ramble. Then have Claude clean it up. Then argue back and forth about certain things until it\u2019s good, then make a final pass sometimes to change a few key words. This is incredibly different than pure ai text. Presumably it will show as ai generated here, even though I would argue it is not really. So I can\u2019t use Claude for this usecase anymore. I think the solution is assume everything is ai generated unless told otherwise and rely on authorship/brand as a sign of quality.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=44640626",
+   "date": "2025-07-21",
+   "title": "Logical implication is a comparison operator",
+   "text": "> I am very clear that this is a conversation with a Claude impersonation of Graham Priest, not Graham Priest himself. Only after you make the upfront claim, in bold letters, in words you chose: \"A Conversation with Graham Priest About Abstraction Logic\". You did not choose to title your blog post \"A Conversation About Abstraction Logic With Claude Representing Graham Priest\" which is the more honest title for your blog post, except that it's clear that Claude was not capable of representing Priest since \"the real Graham Priest says that it doesn't really sound like his voice.\" You chose to title your blog post \"A Conversation with Graham Priest About Abstraction Logic\". Obviously this line gives the impression that you had an actual conversation with the actual Graham Priest. You must have recognized that the wording you chose is false and deceptive. Are you hoping that attaching Priest's name gives your work more gravitas or encourages more sales of your book? > I don't see what is unethical about that. You see nothing unethical about prompting an LLM to take on someone's persona and then presenting the resulting conversation in a blog post with a title which gives the initial impression that you had an actual conversation with the actual person? Be clear about where you stand on this at least so that any university or elsewhere that might have any interest in offering a job for you to continue your work in abstraction logic might know where you stand on misrepresenting professional academics. > Who is \"we\"? The general public to which you are presenting your work and advertising your book. > I don't even know who you are, AbstractPlay. I'm a member of the general public to which you are presenting your work and advertising your book. > The article exists because I personally find it interesting, and I actually learnt something through it. If somebody else finds it interesting, great. If you don't, too bad. Okay, but you're presenting this pseudo-conversation on t",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=34367579",
+   "date": "2023-01-13",
+   "title": "This Voice Doesn't Exist \u2013 Generative Voice AI",
+   "text": "Why someone should listen a voice when is faster to read the blog post ?",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46854761",
+   "date": "2026-02-02",
+   "title": "Two kinds of AI users are emerging",
+   "text": "What about me? I'm in group 3 and I can't be alone. I'm a subject matter expert 45 years in programming and data, aware of the tools limitation but still use it all day every day to implement non-trivial code, all the while using other tools to do voice transcription, internal blog posting about new tools, agents information gathering while I sleep, various classifiers, automated OCR, email scanning, recipe creation, electronics designing, many many other daily tasks.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=3903003",
+   "date": "2012-04-28",
+   "title": "Opera Confirms WebKit Prefix Usage",
+   "text": "A car needs a road to run on, that is all the infrastructure that has to be common between cars (your car might need gasoline, but that does not mean that your neighbors car can't run on diesel or be an electric car). So you driving an old car does not mean I can't drive a new much more fuel-efficient car. A web browser on the other hand has a gigantic interface between it and the users and as such it is extremely arrogant to assume that the web should be held back due to your choice of browser. If you don't like the look of it, or whatever you can totally apply skins or plugins to make it obey voice commands (I would love to read a blog post about how you did that) since those things don't interfere with the progress of the web.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=9913521",
+   "date": "2015-07-20",
+   "title": "Sorry to burst your bubble",
+   "text": "Editor\u2019s note: This week, to mark the 170th anniversary of the appearance of the first issue of The Economist on September 2nd 1843, this blog will answer some of the more frequently asked questions about The Economist itself. MOST newspapers and magazines use bylines to identify the journalists who write their articles. The Economist, however, does not. Its articles lack bylines and its journalists remain anonymous. Why? Part of the answer is that The Economist is maintaining a historical tradition that other publications have abandoned. Leaders are often unsigned in newspapers, but everywhere else there has been rampant byline inflation (to the extent that some papers run picture bylines on ordinary news stories). Historically, many publications printed articles without bylines or under pseudonyms\u2014a subject worthy of a forthcoming explainer of its own\u2014to give individual writers the freedom to assume different voices and to enable early newspapers to give the impression that their editorial teams were larger than they really were. The first few issues of The Economist were, in fact, written almost entirely by James Wilson, the founding editor, though he wrote in the first-person plural. But having started off as a way for one person to give the impression of being many, anonymity has since come to serve the opposite function at The Economist: it allows many writers to speak with a collective voice. Leaders are discussed and debated each week in meetings that are open to all members of the editorial staff. Journalists often co-operate on articles. And some articles are heavily edited. Accordingly, articles are often the work of The Economist's hive mind, rather than of a single author. The main reason for anonymity, however, is a belief that what is written is more important than who writes it. In the words of Geoffrey Crowther, our editor from 1938 to 1956, anonymity keeps the editor \"not the master but the servant of something far greater than himself\u2026it gives to ",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=9641188",
+   "date": "2015-06-01",
+   "title": "Lego Universe's Dong Detection Problem",
+   "text": "In this thread: folks who get snippy about other folks criticizing presentation choices without offering an alternative means to voice such criticism. Like it or not, folks, presentation is just as important as the content being presented in most cases. If the presentation style is so distracting as to cause threads (like this one) focusing on presentation rather than content, then one should probably strive to fix that problem instead of sitting on one's haunches complaining about the flood of criticism. In my book, therefore, presentation criticism is fair game, and I'm with the parent commenter on this. If you don't want to be criticized for using inappropriate presentation methods, then don't use inappropriate presentation methods. A more conventional blog post would have been far more appropriate for this sort of thing.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=9500777",
+   "date": "2015-05-06",
+   "title": "About Coding House (2014)",
+   "text": "I recently completed the Coding House program and have been actively interviewing for four weeks. I had three offers this morning from different companies - all six figures and above (yes - $100,000+). I am accepting one of those now. I also turned down several other opportunities because they didn\u2019t fit my career interest. This didn\u2019t happen by chance and it certainly would not have been possible without the exceptional program I attended at Coding House. These post come at the perfect time for me to voice my opinion on coding bootcamps. And by the way this has nothing to do about money - it has to do with an amazing program that provided me with thousands of career opportunities. For complete transparency I graduated college with a business degree, worked in the software industry (project management/account management side) for 5+ years, and completed multiple online certifications for various programming languages. I am telling you this not to brag (because this experience doesn\u2019t mean shit) but to demonstrate these programs can benefit individuals who have a solid work/education background, as well as those wanting to make a career change. Prior to Coding House I was making roughly $50,000. I was teaching myself programming on the side on platforms such as Pluralsight, Codecademy, and Code School. I also took took three classes at O\u2019Reilly School of Tech. I can say from personal experience NO ONE can become a Jr. Developer in a reasonable time using these resources. These platforms teach you programming in a kiddie pool environment far away from real world environments. Try developing a production ready application after completing those courses - it isn\u2019t possible for 99% of people. You don\u2019t have professionals showing you the ropes of Version Control Systems, framework architecture, Test Driven Development, Design Driven Development, development tools, deployments to AWS, Digital Ocean, Heroku, and API integrations. Anyone who is claiming someone can make the ",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=865",
+   "date": "2007-02-24",
+   "title": "Doesn't the Social Web Realize that People Talk?",
+   "text": "I think this article is mainly relevant to mobile web. If you've got myspace on your mobile phone why type in comments and messages when you can send a quick voice message instead? I know livejournal already offeres a similar feature with a voice posting phone number. Users can add a text transcript later when they're at a keyboard. Theres also companies such as spinvox who offer the ability to do voice messaging and voice to blog. With spinvox you record your voice message and it converts it to text. This way you can post/message using the easiest mobile medium (voice) and others can either read or lsiten to it depending on what is easiest.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7506376",
+   "date": "2014-04-01",
+   "title": "16-line KASLR defeat in Linux 3.14",
+   "text": "For me, this video doesn't really explain anything . I know the terminology, and have actually read the blog post https://forums.grsecurity.net/viewtopic.php?f=7&t=3367 that's behind it all, but ... the video doesn't impart any of this. It needs a clear and concise voice-over to explain what its doing and unhype it.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=6994103",
+   "date": "2014-01-01",
+   "title": "Ask HN: How do you focus?",
+   "text": "I have ADD/ADHD so it's very difficult. Some things might seem extreme to some people. GTD - Getting Things Done is an invaluable book/workflow/system. The GTD workflow map helps if you're familiar with the system: http://ideas2followup.files.wordpress.com/2009/06/gtd-workfl... Objective-- One thing often overlooked, undervalued, and even stressful is knowing that your focus is correctly directed. (GTD helps) This is a lot harder than it sounds, and usually determined by the most unqualified and biased person for the job; yourself. Mitch Hedberg explains it best: \"I play the guitar, I taught myself how to play the guitar, which was a bad decision... because I didn't know how to play it, so I was a shitty teacher. I would never have went to me.\" Steve Jobs has an amazing technique to stay on top of this: \u201cI have looked in the mirror every morning and asked myself: \"If today were the last day of my life, would I want to do what I am about to do today?\" And whenever the answer has been \"No\" for too many days in a row, I know I need to change something.\u201d Environment-- Having literally nothing going on around me. No sounds, music, movies, TV, radio, people, moving objects, windows to stare out of, etc. Even voices in the next room that are basically inaudible distract me. Silence any possible notifications/apps/programs that distract you, and be anal about it. Recreational email/social usage is a time suck, for business purposes 4 hour work week goes into a system for appearing responsive while not being distracted. Health-- Diet and exercise matter. Meditation is important. Breaks are important. Most of the hardest problems I encounter are solved away from the computer. Going outside is very important. Ironically under health, one reason I loved smoking was the excuse to go outside. Without that excuse I have to force myself to remember to go outside, and always find some excuse not to. Find your excuse and/or force yourself. Wake up early. Other stuff-- Multitasking is",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=6747586",
+   "date": "2013-11-17",
+   "title": "What 4chan thinks of HN",
+   "text": "Sadly, most of the things on there are true. We can try to deny it all we want, but most of the stuff that's there is true. The power of anonymity is that you get to voice honest opinions without tying it up with your identity and/or feeling responsible for it. Of course, this can be argued otherwise too, by citing some (bad) comments as example from that thread, but for the most part, what you see there are honest comments. Some of my favorites: >Why [popular technology] is [unexpected opinion] >Why I have decided to stop using [ Tried and true web dev environment] and start using Meteor >Why [obscure framework] is the next [industry standard framework]. >Ask HN: Why is nobody using [obscure niche technology from the 80s]? >[Actually interesting topic] - 0 comments >Can the NSA blow up your PC remotely? >Why you shouldn't store your files locally, but in the cloud >Why it's impossible to use PHP even though millions of people are doing great things with it >Some blog post about scalability... blog crashes after posting link to HN and /r/programming >Show /hn/: I ripped off an existing product and added Bootstrap to it >Pay me $50 to teach you decades old vim features in screencast form >Reasons Why A Basic Income Guarantee Might Just Be A Bad Idea And this is the best: >38090087 so the password is password?",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=6736402",
+   "date": "2013-11-14",
+   "title": "Ask HN: Netflix for audiobooks?",
+   "text": "Slightly off topic, but still related: have you tried the mac os speech tool? I find the default voice, Alex, to be quite good. So good that I have completely stopped reading news stores and blog posts: I just let the computer read things out to me (unless there is code blocks).",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=6607388",
+   "date": "2013-10-24",
+   "title": "Level Up Your Shell Game",
+   "text": "I like the commands, especially the ssh one, which I didn't know before and will certainly use in the future. I also enjoyed the format of the article. A whole dev team each contributing their own piece to a blog post provides a lot of different voices and styles in a concise way.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=5874776",
+   "date": "2013-06-13",
+   "title": "Ask HN: Java and PHP rant",
+   "text": "Not everybody does. I'm relatively partial to Java, for example, although I despise PHP. That said, there are fair criticisms of both Java and PHP, and hackers can sometimes run towards being obsessive over details and over analytical. So the extent to which Java is verbose because of the required boilerplate for, say, getters and setters, offends the aesthetic sense a lot of people have. Likewise, Java is seen as \"less powerful\" because it lacks some features (multiple inheritance, etc.) My take on Java is this: I don't like the language per-se as much as I like, say, C++. But in pragmatic terms I can get a shit-ton more usable work done in Java, because it had binary compatibility for libraries from day 1, which meant that creating and distributing libraries in Java is dead simple, which led to an ecosystem where Java has libraries for damn near everything. And the JVM is nearly ubiquitous, running on almost every platform known to man. And since I learned Java back when it was still fairly new, it just happens that I already know it , it does most everything I need, and has libraries for everything under the sun and then some. Pragmatically speaking, it's a great choice, at least for the kinds of problems I tend to find myself working on. Of course, the great thing is, no one is limited to just one language. I can fall back to C, C++ or Python if needed... and I actually do most of my coding in Groovy these days - but I consider Groovy to just be \"a better Java\". All of that said, I have an ambition to dive deeper into a number of other languages (Erlang, Haskell, Go, Scala, Clojure, R among others) but just rarely have time to go off and spend time with that stuff. That's the downside to having a dayjob and a startup I guess... time to do purely exploratory, \"fun\" stuff is a little limited. why do hackers seem to hate the most popular languages? I'd argue that most don't, and that you're hearing from a vocal minority. The people who find Java, PHP, COBOL, whatev",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=5756449",
+   "date": "2013-05-23",
+   "title": "Is Silicon Valley getting too big for its boots?",
+   "text": "One key thing you're brushing over is that the OP link is to a blog post on the economist web site. The print edition gives no credit to its writers and tries to speak with a single editorial voice for consistency's sake. The blog section of the economist website has no such restriction. Compare the following two articles: \"Is Silicon Valley getting too big for its boots\" [OP] May 22nd 2013, 14:20 by T.N. | LOS ANGELES \"Feed yourself: if only Nigeria could revamp its farms\" [1] May 4th 2013 | TARABA |From the print edition [1] http://www.economist.com/news/middle-east-and-africa/2157711...",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=5113928",
+   "date": "2013-01-25",
+   "title": "Ask HN: What's your blog?",
+   "text": "http://ambientdays.com/ I occasionally post YouTube/Grooveshark/SoundCloud videos. I kept trying to write blog posts (both on musical and technical topics), but I could never come up with a voice that I liked.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=49910438",
+   "date": "2026-09-30",
+   "title": "I can't tell who's teaching who anymore",
+   "text": "I was considering adding a permanent disclaimer to every blog post on my site about it not being AI written. Then I relented. Because I don\u2019t have to explain to strangers on the internet that I wrote it myself. I like writing, and even if it is imperfect at times I\u2019m okay with that. But I do catch myself editing my own words multiples times a day. Because I'm less sure if that sentence structure is truly mine or a side effect of me conversing with LLMs so much. I'm trying to counter this by trying to read more fiction, but for every page that I read, I'm probably reading 50 pages or so of LLM output. So I think this is a battle I'm going to lose out on in the long term. And I can probably only delay the inevitable. But yeah, I don't like beginning to lose or doubt my own writing voice one bit.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=49899192",
+   "date": "2026-09-29",
+   "title": "What Sentry's 16GB selfhosted taught me",
+   "text": "This comment makes 1000 times more sense than the blog post intro itself. I\u2019m not one of those people who thinks LLMs should never be used to write blog posts, however it\u2019s up to you to tell the model what audience and tone of voice you\u2019re aiming for - maybe try explicitly saying this is aimed at external developers who\u2019ve never heard of your product and don\u2019t know what you\u2019re trying to achieve\u2026 makes me wonder if somewhere out there is a blogger\u2019s equivalent of Matt Pocock skills?",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=4973517",
+   "date": "2012-12-27",
+   "title": "Rails is omakase",
+   "text": "What is this post responding to? And who is the target audience? Reading this feels exactly like reading the passive aggressive facebook posts of someone currently in a fight with their boy/girlfriend. We get it, Rails is \"opinionated\", sorry I guess we're saying \"omakase\" these days. Who really gives a fuck? The reason DHH is getting loud complaints is because people feel that they carry a legitimate grievance but also feel no way to voice that opinion (or are trolls). Douchetastic talking down to them like exemplified in this post won't help (and will encourage trolls). People with limited knowledge and understanding of something and/or restricted mobility in tech aren't in a place to see things the way you see them. Help them get to that place, instead of just telling them how to see things with metaphors that only work once you're at that place. Or just don't engage them at all. Edit: Huh. This DHH blog post doesn't really feel on par as a response to the conversation in that github issue. But if it is, know that my post was written assuming the criticism was of the type he describes, not the type that transpired.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=49604429",
+   "date": "2026-09-08",
+   "title": "Working on Economics with Fable 5",
+   "text": "Yes? The author is very clear in the blog post about having used AI very heavily: Up until now you have been reading the words of Anthropic\u2019s Claude, in particular Fable 5. In part, this is because I simply could not have written this piece. ... Although it might seem strange I thought it wrong to impose too much upon the machine, changing its voice to emulate mine. Richard Sutton\u2019s bitter lesson would likely advise as much. Instead it has its unique voice, grating to some perhaps but altogether fitting that it should be able to keep it, and I only gave it advice on what considerations during writing would bridge the gap between its understanding and that of a reader.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=49046591",
+   "date": "2026-07-25",
+   "title": "Learning Musical Multitasking",
+   "text": "I should indeed make a video which shows the sound assignments on the bass pedal and how my feet operate on them. Let me see what I can do (video is not my medium). The \"muscle memory\" is extremely important, since the feet are working \"blindly\"; I don't even see them when I'm sitting at the keyboard. You're free to write a blog post; I will read it with interest ;-) A few years ago I announced what I'm doing on a few Subreddits, HN, Facebook and some other places, hoping to find people with similar interests. But that wasn't successful. I found an American company building and selling physical/accoustical foot drums, but no one so far using a bass pedal. I have been using bass pedals just for playing the bass since the nineties, so the step to using them \"polyphonically\" for the drums was natural, but it took quite some time until the idea manifested and I really tried. Here are my first recordings after a few weeks of practice: http://rochus-keller.ch/?p=317 EDIT: Here is another recording from 2014 where I play together with a very talented sax player. This might be interesting for you because I overlayed a whole big band over the piano and even the bass sound and was able to fade it in and out by key pressure (what you seem to do with the breath controller): http://rochus-keller.ch/?p=962 Depending on the music I use a \"bite switch\" to operate the sustain pedal. I also made experiments with singing ( http://rochus-keller.ch/?p=828 ) and voice to midi conversion, but that doesn't work good enough yet.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=48839578",
+   "date": "2026-07-09",
+   "title": "Rewriting Bun in Rust",
+   "text": "I'm so jaded at this point. The AI translation from Bun to Rust doesn't bother me, I think it's interesting, but that this blog was so clearly written by LLM's is offputting for some reason. I think after having to interact with LLM's for much of the day, it's exhausting to read LLM speak in so many things I see online. It feels almost disrespectful to the reader. It's written from a first person perspective, but Jarred did not write these words. I was looking forward to this blog post too, but in retrospect I don't know why. I could have had an LLM generate a hypothetical of what this blog post might have looked like and it would have probably been able to get close. I feel like we've replaced unique voices on the internet with the same style / author, which might be more tolerable if the breathless LLM writing style wasn't so jarring. Contrary to the amount of times \"But honestly\" or \"genuinely\" is mentioned, nothing about having your LLM speak for you feels honest or genuine. I know it's not cool to leave responses like this, but I'm really tired of all of this at this point. The ironic thing too is that it might actually be better to have LLM written text be so distinct so that you can still pick out when a human has actually authored something. Again, this is a blog post from Anthropic about having an AI translate 500k+ lines of code in 11 days, so I guess my disappointment is my fault for expecting otherwise.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=48569549",
+   "date": "2026-06-17",
+   "title": "Has AI already killed self-help nonfiction books?",
+   "text": "As an aside, I've been using Claude to search for blog posts from people who went through similar experience to mine. Then use Eleven Readers app which converts the voice to text to listen to it. It's been much better for self therapy vs talking to an LLM.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=48294646",
+   "date": "2026-05-27",
+   "title": "I'm Tired of Talking to AI",
+   "text": "I remember a moment at the very onset when chatgpt was just opened to the public. A manager sent us a congratulations text chatGPT had prepared for his kid's graduation from high school. He said that he was not much of a writer and that was miles better than he could have said. We had a discussion about the moral side of that (though moral might not be the word), pointing out that bad words that come from a genuine place and required effort from you are better than great words that are manufactured by a robot. He didn't see the issue. I think this just depends on a system of values, \"to each their own\". I don't see the point of having a bot write comments for me on HN, or blog posts for me, or answers on GitHub. I feel great for articulating my thoughts in a way that (narcisticaly) I can enjoy re-reading myself. Some people don't value that, and for whatever motivation don't mind delegating their voice to a bot. And then there are the \"people\" who just try to build accounts with lots of internet points that they might be able to resell for a few bucks. Those can die.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=47579057",
+   "date": "2026-03-30",
+   "title": "I am definitely missing the pre-AI writing era",
+   "text": "I certainly miss the pre-AI reading era. So much content is just straight copy/pasted from the LLM now. Articles, blog posts, linked in posts, reddit comments, etc. Even just using the LLM for 'editing' tends to shift the voice to an obvious LLM voice when used naively. It is getting worse too. Last week a co-worker sent me a screenshot of Claude for me to review their \"work\", which was just whatever Claude made up. Usually, if something is very obviously unfiltered LLM output, I just stop reading. I do use LLMs for writing myself. They are useful, but are poor authors.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=47382383",
+   "date": "2026-03-14",
+   "title": "[dead]",
+   "text": "Creating videos used to be complicated. You needed editing software, technical skills, and hours of work just to produce a short video. Because of this, many bloggers and creators avoided video completely. But things have changed fast. Today a Free AI Video Generator can transform simple text into a full video with visuals, voice narration, subtitles, and music. What once took hours can now happen in minutes. Many creators are now using AI tools to turn blog posts into videos, create social media content, and even produce YouTube videos without editing experience.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=47144881",
+   "date": "2026-02-24",
+   "title": "Show HN: Tag Promptless on any GitHub PR/Issue to get updated user-facing docs",
+   "text": "Actually, you might find this interesting: we wrote a blog post a while back about how we gave our agent a way to voice its suffering. The first example is from the screenshot updating subagent, where it got stuck after 84 browser interactions trying to log into a customer's app :'( https://promptless.ai/blog/technical/i-must-scream",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=47144011",
+   "date": "2026-02-24",
+   "title": "How to grow organically with SEO in 2026",
+   "text": "Creating search engine optimized (SEO) blog posts is crucial for businesses looking to drive quality traffic and enhance their online presence. Through my experience in digital marketing, especially during my internship at a startup, I learned how impactful well-crafted SEO content can be. I managed to increase the company's web traffic by focusing on strategic content creation. Why SEO Matters SEO isn't just a buzzword; it's essential for improving visibility, building credibility, and driving revenue. By optimizing your content for search engines, you make it easier for potential customers to find and trust your website. Common SEO Misconceptions Some common misunderstandings include thinking keyword stuffing works, that SEO is a one-time task, or that more backlinks are always better. These approaches can actually lead to penalties. Instead, integrate keywords naturally, treat SEO as an ongoing process, and emphasize high-quality backlinks. Crafting the Perfect SEO Blog Post Effective SEO content starts with thorough keyword research and continues with creating a structured outline and writing valuable content. Use short paragraphs and active voice to make your writing more readable. Additionally, optimize technical aspects such as URLs and meta titles to ensure your content is search engine friendly. Conclusion and Call to Action Mastering the art of SEO blog posts requires strategy, creativity, and persistence. By aligning your content with user intent and focusing on delivering genuine value, you can significantly improve your online presence. Ready to take your content creation strategy to the next level? Start implementing these tactics today and observe the impact. Share your thoughts or any questions you have below\u2014let's discuss! check out kerplexir.com to automate this process.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=47063867",
+   "date": "2026-02-18",
+   "title": "GrapheneOS \u2013 Break Free from Google and Apple",
+   "text": "> Extraordinary claims require extraordinary evidence. It's your claims which are extraordinarily and have been thoroughly debunked. You're directly engaging in bullying with baseless personal attacks. You make false accusations about us while you're actively engaging in those things. > I find it very hard to reconcile claims like \"repeated swatting attacks aimed at killing our team members...Child Sex Abuse Material...\" with the proof offered being a blog post that makes the fairly anodyne (especially read in light of this comment) case that you are an extremely paranoid person whose paranoia leads you to extreme judgements that may harm users. If you are the target of extreme attacks, it seems far more plausible to me that those originate from state actors and security adversaries, rather than from erstwhile allies also trying to build better mobile OSes. It's very easy to see that the site which was linked is a neo-nazi conspiracy site. Ga\u00ebl Duval knew that when linking to it. Ga\u00ebl Duval has repeatedly spread harassment and libel content from Kiwi Farms and elsewhere. He has linked to the same harassment content linked in the post. Both of those videos are from Kiwi Farmers and one of them participates on the site with an account in their real name which received identity verification. They openly use the site as their personal army and were the one to involve them. Duval very clearly knows that he's directing his community to target our team with harassment by spreading fabricated stories about us. Anyone can take a look around the site which was linked and see a whole lot of the paranoia and delusion you falsely attribute to me with no basis. Duval is opportunistically spreading harassment content to benefit his for-profit business for the same reason he has heavily invested in spreading misinformation about GrapheneOS. Duval is not an ally. He's a grifter selling phony privacy products with dramatically worse privacy and security than an iPhone. They're scammi",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46967329",
+   "date": "2026-02-10",
+   "title": "Ask HN: What do you want people to build?",
+   "text": "I have to be honest - build a blog and post your thoughts. Human thoughts, your ideas, the projects, the tips, and the art. Just add more human voices to the internet. We need them.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46529338",
+   "date": "2026-01-07",
+   "title": "Show HN: I spent 12 months building a conversational agent for social media",
+   "text": "Hi HN, I\u2019m John, founder of PostReach AI. For the last 12 months, my team has been building a conversational agent for social media. The Beta: We are opening our beta today for the HN community. It is completely free while we gather feedback. A Note on Access: > Because we are managing heavy GPU loads for the visual analysis and content generation, we are provisioning new accounts in batches. You\u2019ll receive your access email within roughly 30 minutes of signing up. We are doing this to make sure the \"Brand Brain\" training for each new user doesn't crash the system for everyone else. The Problem: As founders, we all know we should be active on LinkedIn, X, Facebook and Instagram. But the reality is a fragmented mess, you use ChatGPT for ideas, Canva for design, and Hootsuite for scheduling. It\u2019s a context-switching tax that most small teams can\u2019t afford. What we built: PostReach isn\u2019t a dashboard, it\u2019s a chat interface. We wanted to see if we could collapse the entire \"idea-to-published\" stack into a single conversation. Some technical bits the community might find interesting: -Brand Ingestion: We don't just prompt a generic LLM. We built a \"Brand Brain\" that ingests your website and past voice to ensure the AI doesn't sound like a generic bot. -Visual Analysis: Our Image-to-Post feature uses visual reasoning to understand the \"mood\" of an image. If you upload a photo of your messy dev desk, it won't just say \"Working hard\", it understands the hardware and context to write something relatable. -URL-to-Post: We use a custom summarization pipeline to extract the \"hook\" from any article or blog post and transform it into platform-specific formats (a technical post for X vs. a professional takeaway for LinkedIn). So why now? We\u2019ve just moved into beta after aggressive testing. We are looking for our first \"real world\" cohort of users. The Ask: We would love for the HN community to break this. -Does the conversational flow feel faster than a dashboard? -Is the AI output ",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46080750",
+   "date": "2025-11-28",
+   "title": "We're losing our voice to LLMs",
+   "text": "here is the entire exchange. you decide: Me: I want to reply to this HN article: We're Losing Our Voice to LLMs Social media has become a reminder of something precious we are losing in the age of LLMs: unique voices. Over time, it has become obvious just how many posts are being generated by an LLM. The tell is the voice. Every post sounds like it was posted by the same social media manager. If you rely on an LLM to write all your posts, you are making a mistake. Your voice is an asset. Not just what you want to say, but how you say it. Your voice is unique. It is formed from your lifetime of lived experiences. No one's voice will be exactly like yours. Your voice becomes recognizable. Over many posts it becomes something people subconsciously connect with, recognize, trust, and look forward to. Your voice provides the framework for the impression you leave in a job interview, while networking at a meet-up, or with a co-worker. Years ago I got a job thanks to my blog posts. A manager wanted my voice influencing their organization. Your voice is an asset. Your voice matures and becomes even more unique with time and practice. LLMs can rob you of that voice, and the rest of us lose something precious in the process. Having an LLM write \"in your voice\" is not the same. Your voice is not static. It changes with the tides of your life and state of mind. Your most impactful message may come because it was the right moment and you were in the right frame of mind. Let your voice grow with use. Let it be unique. Do not let one of your greatest assets fade into atrophy, wilted by cognitive laziness. Write in your own voice. I do not care what the linguistic remix machine juggles into being. I care what you have to say. Join my newsletter. Get my posts, best coupons, and most interesting links direct to your inbox. Email address Join \u00a9 2025 Tony Alicea. All rights reserved. tonyalicea.dev Here is my proposed reply: It is not a zero sum game. I have always had a ver idiosyncra",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=45303108",
+   "date": "2025-09-19",
+   "title": "Slow Liquid",
+   "text": "I'm puzzled why this very short 133 word blog post that offers nothing new \u2014 literally: \"I will add my voice to the chorus\" \u2014 is getting upvoted so much on HN. I don't disagree with the blog post, but it's just not interesting, informative, or useful.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=44329800",
+   "date": "2025-06-20",
+   "title": "GPU Hosting and Open Source AI Will Revolutionize or Kill WordPress",
+   "text": "Overall don't disagree with the post too much, but I don't like the example given of speaking to the AI \"Charlie\". I work with AI on a daily basis, and frankly I don't think I'll EVER want to just prompt the LLM to do things like craft and send an email autonomously or draft a blog post. Andrej Karpathy's recent talk on programming discussed the generation -> verification loop. For any serious work, you don't want to just rely on AI to generate lots of content (textual, email, etc) without verifying what the AI has done. Maybe in a few decades when we've reached HAL 9000 levels of intelligence and the accuracy is 99.999%, but even then there is some something in me (perhaps neuroticism) where I ALWAYS went to check the content of the email before it is sent. For blog posting, I just want my natural voice to shine, so I would never use an LLM to wholesale write a blog post for me. But maybe that's just me.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=44230846",
+   "date": "2025-06-09",
+   "title": "Vibe Writing: Getting ChatGPT to write like you is a steering problem",
+   "text": "I spent the last month writing with ChatGPT, and found some better ways to steer it. After spending a lot of time on it, I believe ChatGPT\u2019s generic writing is actually just a steering problem. I believe you need A LOT more context than people expect. ~5k tokens for a 1k token blog post. The big question is \"How do you give an LLM enough context to steer it to write what you wanted to?\" Using voice to capture LOTS of raw tokens / notes, then refining them through AI is working pretty well for me, and I'd love to see what other people think. There\u2019s an interactive demo to try it out. I\u2019d love your feedback and opinions!",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=4402720",
+   "date": "2012-08-18",
+   "title": "Ben Horowitz: A Good Place to Work",
+   "text": "I think people are not getting the point of the parable inherent in this article if the only things that come out of reading the blog post are \"Ohh 12 to 16 hours of work\" or \"I would quit because I got threatened\". The focus should not be in the way the situation was handled, but in the priorities displayed by the author. Could he have handled the situation better than to voice a harsh requirement which if not met would result in termination? The answer is obviously a huge \"YES\". Now take into account that the administrative team have been told that one if their main objectives is not to be \"classical\" bossy managers, but to be the main conduit of incentives and communication between the company and it's employees to ensure the productiveness and happiness of the cogs that move the company forward. This is not about reprimanding a manager because he did not turn a report on time - which by the way should be handled by asking the reason and though process of the manager's decision to use time for something else he deems more important. This is about a manager not being able to fulfill one of the KEY objectives stablished by the company's head honcho. If you're always trying to nicely get people to do what you say and it doesn't work, sometimes you have to resort to drastic measures. In this story, both Tim and Steve failed to accomplish a goal that had long been stablished to have a high priority. It's akin to a sales person not selling, or to a programmer not doing his programming quota. There is something wrong with the machine, and one cog not working correctly can bring said machine down to the ground. I think that he should have asked why things aren't getting done first before resorting to drastic monologues, but at the end of the day drastic monologues are sometimes the only way to push, incentive, or realign a rogue \"cog\". At the very list I'd prefer to hear \"You're not doing your job correctly because of A, B, and C. Either you fix it or your out!\" than \"Yo",
+   "points": null
+  }
+ ]
+}

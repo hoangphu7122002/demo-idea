@@ -1,0 +1,329 @@
+{
+ "query_url": "https://hn.algolia.com/api/v1/search?query=stop+blogging&tags=story&hitsPerPage=40",
+ "args": [
+  "stop blogging",
+  "story"
+ ],
+ "items": [
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=1151569",
+   "date": "2010-02-25",
+   "title": "Joel Spolsky to stop blogging; shares insights from JoelOnSoftware success",
+   "text": "From the March issue of Inc. Magazine's \"How Hard Could It Be?\" column... Let's Take This Offline A decade ago, I started Joel on Software, a blog that put my company on the map. But as the business matures, I've come to realize that blogging is holding me back. Later in the article: So having become an Internet celebrity in the narrow, niche world of programming, I've decided that it's time to retire from blogging. March 17, the 10th anniversary of Joel on Software, will mark my last major post. This also will be my last column for Inc. For the most part, I will also quit podcasting and public speaking. The article also has some good insights into why most startup blogs are awful and boring. JoelOnSoftware, on the other hand, was by accident an effective blog for the niche of readers who might use Fog Creek products. Short answer: blog about topics interesting to people who haven't yet heard of your startup, but who might be customers one day. I haven't been able to find the text online, possibly because Inc wants the print edition to circulate first?",
+   "points": 90
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=1048279",
+   "date": "2010-01-12",
+   "title": "Stop Blogging.",
+   "text": "",
+   "points": 18
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=5040965",
+   "date": "2013-01-11",
+   "title": "Stop blogging about how fun coding is",
+   "text": "You devalue the profession and craft when you do this. In some contexts, sure, it can be rewarding and enjoyable. The same can be said about just about any other job. It can be fun to push shopping carts around or paint or whatever. By proclaiming how \"fun\" and \"rewarding\" it is, you are leaving it open to Tom Sawyer fence-painting political arguments which devalues the very real tedium and decade-long learning curve experience required, along with your own intelligence.",
+   "points": 14
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=3780671",
+   "date": "2012-03-31",
+   "title": "Lawrence Lessig stops blogging",
+   "text": "",
+   "points": 4
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=20769819",
+   "date": "2019-08-22",
+   "title": "Why Your Company Should Stop Blogging on Medium",
+   "text": "",
+   "points": 4
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=15861226",
+   "date": "2017-12-06",
+   "title": "Stop Blogging and Start Building Tools for Great Content Marketing ROI",
+   "text": "",
+   "points": 3
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=38772023",
+   "date": "2023-12-26",
+   "title": "I'll never stop blogging: it's an itch I have to scratch",
+   "text": "",
+   "points": 3
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=23290894",
+   "date": "2020-05-24",
+   "title": "Stop Blogging on Medium If You Care about SEO",
+   "text": "",
+   "points": 3
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=21694755",
+   "date": "2019-12-03",
+   "title": "Startups and smbs, a humble suggestion: stop blogging",
+   "text": "",
+   "points": 3
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=38873105",
+   "date": "2024-01-04",
+   "title": "I'll never stop blogging: it's an itch I have to scratch",
+   "text": "",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=16104368",
+   "date": "2018-01-09",
+   "title": "Stop Blogging and Start Building \u2013 Indiehackers",
+   "text": "",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7548999",
+   "date": "2014-04-07",
+   "title": "Validate your audience (stop blogging)",
+   "text": "I think people waste a lot of time blogging. Why not focus on what matters, first? Collect emails and validate that your messaging will convert with your target audience. See how I do it at http://TunaHack.com P.S. would love any feedback on my copy Thanks, Rob",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=3328140",
+   "date": "2011-12-08",
+   "title": "Stop blogging god dammit ",
+   "text": "",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=21259145",
+   "date": "2019-10-15",
+   "title": "A Humble Suggestion: Stop Blogging",
+   "text": "",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=21201656",
+   "date": "2019-10-09",
+   "title": "Devblog (Public release), one-stop blogging solution optimized for devs",
+   "text": "",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=20462824",
+   "date": "2019-07-17",
+   "title": "A Humble Suggestion: Stop Blogging",
+   "text": "",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=11634387",
+   "date": "2016-05-05",
+   "title": "Solution to revenue loss to adblockers",
+   "text": "Hello, I am submitting this post to seek some guidance & feedback on possible solution to revenue loss caused due to adblockers. I used to be a professional blogger (tech blog) about 6 years back and was earning decent ad revenue but as adblocker picked up, my revenue started going doing & eventually I had to stop blogging. Many suggested me to show message to such visitors, block content & what not. I feel engaging with adblocker using visitors is the right solution. Hence, I created AdLatch (http://adlatch.com) to help bloggers and publishers to quickly generate a 2 line javascript code, put that on their blog/site and engage adb using visitors in different ways. I have also written a comprehensive algo to estimate revenue loss because of adblockers. I would like to hear your thoughts on different ways we can derive value for bloggers from visitors who are not generating any ad revenue for them because of adb.",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=8870810",
+   "date": "2015-01-11",
+   "title": "Stop Comparing Your Life to Others",
+   "text": "",
+   "points": 3
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=8997749",
+   "date": "2015-02-04",
+   "title": "Stop Comparing Your Life to Others",
+   "text": "",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=1930964",
+   "date": "2010-11-22",
+   "title": "Should Google be scared of Bing replacing it on Android?",
+   "text": "",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=723387",
+   "date": "2009-07-25",
+   "title": "Create a great brand. Create great content. Stop: You're both blogging right.",
+   "text": "",
+   "points": 4
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7816096",
+   "date": "2014-05-29",
+   "title": "1000 Reasons Why Developers Need to Start Blogging and Stop Growth Hacking",
+   "text": "",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=24170231",
+   "date": "2020-08-15",
+   "title": "A Blogging Tip: Stop Beating Around The Bush",
+   "text": "",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=10369388",
+   "date": "2015-10-11",
+   "title": "Why bloggers should stop event based niche blogging",
+   "text": "",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=261668",
+   "date": "2008-07-30",
+   "title": "Posterous becomes a one-stop-shop for cross platform blogging",
+   "text": "",
+   "points": 4
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=24108123",
+   "date": "2020-08-10",
+   "title": "Stop Beating Around the Bush (Blogging)",
+   "text": "",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=3369079",
+   "date": "2011-12-19",
+   "title": "Easy Static Blog Set Up Using GitHub and Octopress",
+   "text": "",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=245602",
+   "date": "2008-07-14",
+   "title": "Stop the press: Jason Calacanis has stopped blogging",
+   "text": "",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=4664529",
+   "date": "2012-10-17",
+   "title": "How I Interpret Jeff Atwood\u2019s: How to stop at sucking and be awesome.",
+   "text": "I missed the original post on coding horror but came across a video of Jeff giving the presentation at the 2012 Atlassian summit. After watching the video I wrote up a new blog post about my thoughts on Jeff's talk. I am new at blogging so I would love any feedback you guys have. Link To Blog Post: http://oakcitylabs.com/2012/10/17/how-i-interpret-jeff-atwoods-how-to-stop-at-sucking-and-be-awesome",
+   "points": 7
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=338485",
+   "date": "2008-10-21",
+   "title": "Blogging platform: Wordpress or Webby?",
+   "text": "I'm relaunching my blog and I'm considering two platforms, Wordpress and Webby/Webgen/staticfiles. I plan to use disqus comments for both, and my requirements include easy embedding of media and syntax-colored code. Wordpress: * Simple to set up * Can write in HTML or use WYSIWYTYG editor. Can post from external clients that support Atom Publishing Protocol or Wordpress's XML-RPC. Can easily post from anywhere. * Disqus plugin incorporates comment text into the actual page without javascript, so Google can index comments at my site * Plugins provide relatively painless media embedding * No good source embedding, but gist.github's secret .pibb format (http://gist.github.com/15914.pibb) provides a stop-gap solution, and I'm sure I could get someone to write a plugin to automate that. * It's written in PHP and MySQL, and I hate PHP and MySQL. * Since of course I will immediately become famous and widely read, Wordpress's dynamic page generation could be a performance issue. Webby: * More complex to set up -- I have to write posts, run the generator on them, and then upload them to the site. This can be automated, but it's still a higher level of effort. * Can write in HTML, Markdown, whatever. Can write in my favorite editor easily. However, if there's infrastructure for the blog on my personal machine, I can't easily post from other machines. * Disqus integration would happen via javascript; Google would index comments at the disqus page. * Media embedding is more difficult, though a few custom template tags can make this easier. * Excellent and very customizable source embedding. * Not written in PHP and MySQL. * Static files scale very well. On the whole, I'm leaning towards using Wordpress, due to a lower amount of up-front effort needed, but I thought I'd get your comments, if you have any to offer.",
+   "points": 4
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=2914826",
+   "date": "2011-08-23",
+   "title": "Real name blogger - troll mails blogger's employees, blogger ordered to stop",
+   "text": "",
+   "points": 4
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46792021",
+   "date": "2026-01-28",
+   "title": "Show HN: A blog that deletes itself if you stop writing",
+   "text": "I built Lapse because most of my blogs died quietly, abandoned after a few months. lapse.blog is a minimal blogging platform with one rule: if you don't post for 30 days, your blog is permanently deleted. No warnings, no recovery. How it works: - No signup. Your unique passphrase grants access to your blog. Same passphrase = same blog. (If two people pick the same one, they'll control the same blog by design) - The longer you post consistently, the longer it lives. Borrowing from social-media streaks, but for writing. If they can encourage you to Snapchat someone, surely we can encourage ourselves to write. - Markdown only. No images, no embeds. - RSS and Atom feeds included. - Forget your passphrase? Blog gets deleted. Stop posting? Blog gets deleted. - No ads, no tracking. The idea is that impermanence, hopefully, removes the pressure to be perfect, and the deadline offers an incentive to keep writing.",
+   "points": 3
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7366668",
+   "date": "2014-03-08",
+   "title": "WebRTC DataChannels or: How I Learned To Stop Worrying And Flap My Arms",
+   "text": "",
+   "points": 3
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=6786472",
+   "date": "2013-11-23",
+   "title": "People often try blogging by writing a couple of posts and stop there.",
+   "text": "",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=6137866",
+   "date": "2013-08-01",
+   "title": "Stop Worrying, and Learn to Love Free WiFi",
+   "text": "",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=14904274",
+   "date": "2017-08-01",
+   "title": "Ask HN: Market for a blogging/newsletter product?",
+   "text": "Hey HN, I've spent years working on my personal blogging site. The blog is optimized for SEO and has automated Twitter/Facebook/email integrations so that you can just worry about writing those articles. Today it also includes a newsletter builder that's focused around sharing links to interesting stuff I find about a particular topic. The newsletter is then shared on a weekly basis. The system houses an invoicing feature as well, where you can quickly hash out an invoice for services rendered that need to get paid. These days the site generates a decent chunk of revenue, mostly from newsletter sponsorships, but also from on-site advertisement. I'm thinking of turning it into a product. It would work by hosting a simple page somewhere like superhost.com and then people can request instances of what used to be my personal blogging site. They then get lucas.superhost.com, or whatever subdomain they want. I could charge on a few different vectors, when they want a custom domain, or e.g a fixed monthly fee, or subscriber segments, a mix of the former, etc. I'm fundamentally interested to learn whether this is a product that could do well, or if you think it's too broad of a focus. I think today most products are hyperfocused and a \"one-stop shop\" for everything a freelancer or small company needs to market themselves can be valuable to non-technical and lazy people alike. Would love your insight",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=34503176",
+   "date": "2023-01-24",
+   "title": "Ask HN: Self-hosting in 2023: Nextcloud on Linode, or...?",
+   "text": "I have always chafed at handing any aspect of my life over to a corporation, but the ease and convenience of Google's ecosystem has herded me in over the years, and I never want to be without that type of \"cloud\" style document and data storage again. I'm also ready to do what is necessary to stop relying on some faceless entity to manage it, I'm just not sure what to use, or where. Plan A: Nextcloud on Linode. Probably not the dirt cheapest choice, but affordable as a steady expense right now, and it seems to provide a lot of resource headroom while I get on top of how it works and what my actual needs are gonna be re compute and bandwidth and so forth, as well as allowing me to stand up any extra services I may want on this web presence - Nextcloud's open nature is good for that as well, but I want access to the system itself. What I need: I will be using one of the Nextcloud office suites for the same stuff I currently do on Google - text documents (chord charts mostly), spreadsheets, etc. Likewise I will be figuring out how to hoover every photo and video taken by our phones and computers up into a backup collection, and we can then treat our phones like \"thin clients\" which are only representing our data, not storing it. I have not successfully used any organizational aids for pictures before so for now I'll be happy just to have a collection of dated folders for each phone, and we'll improve from there. It will be stored in some sort of cheap bucket or block storage as well as on my local ZFS server (seems like block storage might be the better choice for that reason). Likewise I want to get all my email history backed up somewhere other than gmail's servers on an ongoing basis. I don't think I'll stop using that email address and I don't expect to actually control my email (nor would I want to), but I don't want to be in a position anymore where Google could just up and decide to lock me out of my own communications history based on some algorithm. That said,",
+   "points": 219
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=3838747",
+   "date": "2012-04-13",
+   "title": "My mission to solve the problem with Facebook, Google+ etc.",
+   "text": "Now I know everyone has their own issues with the current state of social networks. Some have issues with privacy, some have issues with too many friends, some have issues with spam. My issue is with all the above, but more importantly I am sick of the fact that I look like everyone else and I don't own the content. I am being controlled and it needs to stop. I am tired of feeling like I live in an apartment complex where I have no control over how things function or look. It's not even like a complex anymore. It's more like a prison. Best quote in a long time... \"If you aren't paying for a product, you are the product.\" Your data is being sold to advertisers so they can find sneaky was to throw their ads in front of your faces. And who is going to take the time out to actually go through on FB and customize your ad experience so they are relevant to you? Not me. For the past year and a half I have been working on a solution to solve these problems and many others. It's been a very difficult journey. But I am so passionate about it that I will stop at nothing to see this vision come to life. I have had my car repo'd, 3-day notices from my landlord almost every month for the past year, cell phone service canceled for good, family and friends giving up hope and not believing in me and to make matters worse I have a wife and two kids under the age of 4. For 6 months I had to ride around Orange County on a beach cruiser pulling a trailer w my two kids in the back. Not complaining at all, it was a humbling experience and we had a lot of fun with it. There have been days where we literally haven't had anything to eat besides rice. It's been the single most biggest trial of my entire life. But I'm pushing forward because life is too short not too. The good thing is, I have a very talented team behind me. Also a bunch of influential people that are backing us and this idea. We are wrapping up our prototype and will begin seeking funding soon to bring on more incredible engi",
+   "points": 11
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=17977722",
+   "date": "2018-09-13",
+   "title": "Ok, Google. What have I done?",
+   "text": "You guys know me. I've been here since the board opened almost. I go through spells of blogging a lot, then nothing, then another binge. I used to be interested in content marketing, but that was years ago. It was a complete waste of time. I've always been interested in programming, startups, philosophy, history, tech, etc. I'm trying to post this link on the G+ Agile forum. I have been a member in good standing in the forum for years. I know the moderators. People like my content. I engage with folks. Google won't let me post it. It keeps telling me it's spam. http://tiny-giant-books.com/blog/information-accounting-budget-your-code/ I've taken any kind of pop-ops off the blog. I've removed any tool or add-on that might offend folks. I spend a lot of time trying to create content to share with people. But this is spam? What the fuck, Google? Who do I go complain to? The wall? I don't even know what I've done, much less how to stop doing it. This BigTech gatekeeper situation is insane. People have to go on HN begging for attention so that somebody at Google will do their freaking job?",
+   "points": 5
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=2558824",
+   "date": "2011-05-18",
+   "title": "Ask HN: Daily updated learning portal - would this work?",
+   "text": "Rails was my first programming endeavor. With a non-cs background, learning it was an impossibly difficult task. Every resource I found either assumed the reader had some prior programming knowledge, was incomplete, or was outdated, which led to frustration. I tried to struggle through countless tutorials, videos and ebooks, but nothing made sense and I always gave up. Railscasts were helpful for specific concepts, but not so much for general ideas and clueless newbies. After months of spinning wheels, I found a decent ebook and I realized that programming was not all that difficult as long as it was properly explained and dissected. Since then, I've thrown around the idea of starting dedicated a blog to teaching Ruby on Rails to non-programmers. I know for a fact that there are people out there that would find this valuable - constant email inquiries enforce this. The only problem is I'm terrible at blogging since there is nobody to hold me accountable if I slack off (it happens). Lightbulb - if I launch a platform with strong intentions to update every single day (think Woot.com for learning), I may be inclined to do just that. This would solve a number of issues: - first post would assume absolutely no previous programming experience - each new post would build on the last (building increasingly complex sample applications, etc) - with daily updates, content would never become stale or dated - would not require a huge commitment (maybe an hour a day) - at the end of every month, the previous 30 posts could be packaged into an ebook But why stop with Rails? The same platform could host a number of programming languages, community driven or maintained by a number of select contributers. It could be like Wikipedia + Woot + Railscasts. And it doesn't just have to be for beginner programmers. Eventually it could turn into a daily dose of programming tidbits - little tips and tricks that even experienced programmers could find useful. So who wants to collaborate?",
+   "points": 4
+  }
+ ]
+}

@@ -1,0 +1,324 @@
+{
+  "rows": [
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=22641967",
+      "date": "2020-03-20",
+      "quote_or_number": "Now that I'm stuck home due to the corona virus, I want to pick up blogging",
+      "persona_match": "n",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=31432538",
+      "date": "2022-05-19",
+      "quote_or_number": "I was surprised to see that HN considers dev.to, and in some cases, Medium as platforms for spammers.[1] For me fact that HN flags this sites means that I should stay away from them",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=24303569",
+      "date": "2020-08-28",
+      "quote_or_number": "I am building a blogging platform for developers (like myself), with these three main qualities in mind: - minimalistic, lightweight pages with blazingly fast loading times - own your data: exporting and syncing capabilities - green: combined with fast loading times, it will run on renewable energy...",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=31154567",
+      "date": "2022-04-25",
+      "quote_or_number": "Greetings, creator here",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=3557396",
+      "date": "2012-02-06",
+      "quote_or_number": "The big-name blogging platforms currently on the market aren't catered to the needs of hackers",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=1830401",
+      "date": "2010-10-25",
+      "quote_or_number": "TPM Media LLC, the company that owns Talkingpointsmemo.com, is looking for a developer with design chops",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=14080868",
+      "date": "2017-04-10",
+      "quote_or_number": "There exist a plethora of blogging platforms from WordPress to Ghost but most of the developers prefer just static blog engines like Jekyll, Hugo",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=25263421",
+      "date": "2020-12-01",
+      "quote_or_number": "I've been reading developer blogs from a long time and was a consumer",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=33835935",
+      "date": "2022-12-02",
+      "quote_or_number": "The SEO-optimized, flexible No-Code blogging platform that lets you build and manage your blog without worrying about servers, developers, branding, and SEO",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=19413809",
+      "date": "2019-03-17",
+      "quote_or_number": "I am a senior developer and I am interested in doing some tech blogging",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=1963368",
+      "date": "2010-12-02",
+      "quote_or_number": "I am working on site for developers and IT-geeks",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=6664412",
+      "date": "2013-11-03",
+      "quote_or_number": "I am coming back to the IT industry after about 6 years of being involved in something completely unrelated",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=16796654",
+      "date": "2018-04-09",
+      "quote_or_number": "Hello",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=15488743",
+      "date": "2017-10-17",
+      "quote_or_number": "I'm a grad student in IT, but I'm looking to get a job as a front-end web application developer",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=21407362",
+      "date": "2019-10-31",
+      "quote_or_number": "Hello Community",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=2024254",
+      "date": "2010-12-20",
+      "quote_or_number": "I'm a PHP developer by day",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=44382354",
+      "date": "2025-06-25",
+      "quote_or_number": "According to Stack Overflow\u2019s annual surveys, about 1 in 3 developers say that company-owned content \u2014 like engineering blogs \u2014 is one of their top three ways of discovering potential employers (alongside personal networks and company reviews)",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=7172953",
+      "date": "2014-02-03",
+      "quote_or_number": "Hi Everyone, This is the first time here, but I was really looking forward to have something to post",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=12737080",
+      "date": "2016-10-18",
+      "quote_or_number": "Hey, my name's Aaron",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "review",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=14129383",
+      "date": "2017-04-17",
+      "quote_or_number": "Hi HN",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "review",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=45800810",
+      "date": "2025-11-03",
+      "quote_or_number": "Hello, I've been blogging on multiple platforms (Dev.to, Hashnode, Medium, Ghost) for the past year",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=44713142",
+      "date": "2025-07-28",
+      "quote_or_number": "The Next.js SaaS boilerplate market is saturated, but there's still room if you solve real developer pain points",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=423765",
+      "date": "2009-01-07",
+      "quote_or_number": "Practically every morning when I tune into HN, I find an announcement of at least one if not more new apps related to Twitter",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=27762869",
+      "date": "2021-07-07",
+      "quote_or_number": "I have always had a dream of having a self-built blog where I share what I learn",
+      "persona_match": "n",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=46133567",
+      "date": "2025-12-03",
+      "quote_or_number": "FULL PROJECT HERE \u2192 https://ainewshub2025.netlify.app/ and if you are interested you can purchase here \u2192 https://polar.sh/checkout/polar_c_HcM5XbbPsBCAetYTy8JZunQX8kVxj1cfLRni14Z0Bh7 I built AI News Hub as a complete platform that automatically collects, organizes, and publishes the latest content...",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=9045297",
+      "date": "2015-02-13",
+      "quote_or_number": "Repcoin\u2019s the first market-based approach to reputation. It\u2019s a content-discovery platform for everyone from developers to musicians. Investors give reps, our virtual currency, to experts they believe in for various skills like coding, blogging, and guitar.",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=12818724",
+      "date": "2016-10-28",
+      "quote_or_number": "Under the heading of \"be the change you want to see in the world\", I'm playing around with the idea of restricting myself to only using free and open-source software in 2017 and blogging about the experience (I know - it's already been done: http://yearofopensource.net/)",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=1429996",
+      "date": "2010-06-14",
+      "quote_or_number": "Good afternoon everybody, [SLIDE #1] Since I only have 30 minutes, let me jump right into it",
+      "persona_match": "n",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=29894319",
+      "date": "2022-01-11",
+      "quote_or_number": "Let's ask some questions of yourself before we begin",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=3573405",
+      "date": "2012-02-09",
+      "quote_or_number": "Ruby on Rails Developer- Two Full Time Positions Available Daily Kos is the nation's largest liberal online political community, news organization, and activism hub",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=41635830",
+      "date": "2024-09-24",
+      "quote_or_number": "Hey HN, I\u2019m offering the source code for three of my AI-powered SaaS products, designed for developers or anyone looking to jumpstart a similar business",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=5146938",
+      "date": "2013-01-31",
+      "quote_or_number": "I am a developer by profession and currently working on building a platform for developers to pair up with marketing professionals - www.tractionify.com",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    }
+  ]
+}

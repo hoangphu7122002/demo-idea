@@ -1,0 +1,16 @@
+name,authoring,comments,contributions,moderation,reputation,freshness,voice,video,source_url
+Medium,polished editor; no code highlight/math,basic responses,none,platform-level,claps/followers only,date only,none,none,https://www.wisp.blog/blog/medium-alternatives-developers
+dev.to,markdown; KaTeX via liquid tag,threaded comments,none to post,community+admin,reactions/badges,date only,none,none,https://dev.to/peateasea/quick-notes-about-writing-latex-on-devto-3bil
+Hashnode,markdown + LaTeX + code,built-in comments,none to post,platform,followers/reactions,date only,none,none,https://hashnode.com/vs/medium-substack
+Substack,newsletter editor,comments on posts,none,author-only,subscriber count,date only,none,none,https://hashnode.com/vs/medium-substack
+Ghost,editor + themes,members comments (basic),none,author,none,date only,none,none,https://www.wisp.blog/blog/medium-alternatives-developers
+WordPress,block editor + plugins,native comments (spam heavy),none,Akismet/manual,none,date only,none,none,https://site.extension.uga.edu/climate/?p=1463
+Static site + giscus,Git + markdown (best for math/code),GitHub Discussions (GitHub login),PR only,GitHub UI,GitHub identity only,manual,none,none,https://merginit.com/blog/21062026-free-commenting-platforms-comparison
+Static site + Remark42/Isso,Git + markdown,self-hosted multi-auth,PR only,admin panel; Isso weak anti-spam,none,manual,none,none,https://www.pistack.xyz/posts/giscus-vs-remark42-vs-isso-self-hosted-comment-systems-guide-2026/
+Disqus,n/a,threaded SaaS embed,none,paid tiers better,none,none,none,none,https://merginit.com/blog/21062026-free-commenting-platforms-comparison
+Docs sites (Docusaurus/Starlight),Git + MDX,none built in,Edit this page -> PR,maintainer PR review,GitHub contributor list,review metadata possible (manual),none,none,https://docs.evefrontier.com/contributing/contributing
+Hypothesis,n/a (overlay),inline annotations,none (not merged),group/mod tools,none,none,none,none,https://web.hypothes.is/developers/
+Stack Overflow,Q&A editor,answers/comments,community edits,mods+votes,rep points/badges,outdated answers common,none,none,https://tianpan.co/forum/t/stack-overflow-questions-hit-near-zero-3-862-in-december-where-does-developer-knowledge-go-when-the-commons-dies/596
+Wispr Flow / Superwhisper,dictate into any app,n/a,n/a,n/a,n/a,n/a,strong dictation; not structured long-form,none,https://eesel.ai/blog/wispr-flow-overview
+Voicenotes,voice -> AI draft,n/a,n/a,n/a,n/a,n/a,voice -> blog draft,none,https://mighil.com/this-blog-post-was-initially-drafted-on-voicenotescom
+Remotion + Claude Code,n/a,n/a,n/a,n/a,n/a,n/a,TTS add-on possible,prompt -> React -> MP4,https://blog.openreplay.com/making-videos-claude-code-remotion/

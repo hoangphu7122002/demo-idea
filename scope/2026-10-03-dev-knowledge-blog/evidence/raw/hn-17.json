@@ -1,0 +1,329 @@
+{
+ "query_url": "https://hn.algolia.com/api/v1/search?query=voice+to+blog+post&tags=story&hitsPerPage=40",
+ "args": [
+  "voice to blog post",
+  "story"
+ ],
+ "items": [
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=41764845",
+   "date": "2024-10-07",
+   "title": "Show HN: Convert your voice to valuable content",
+   "text": "Convert your voice to social media posts, blogs, lists, newsletters, etc.",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46464942",
+   "date": "2026-01-02",
+   "title": "Show HN: IngestGPT \u2013 Chat with YouTube, podcasts and more",
+   "text": "Hi HN, I would like to share a project I have been working on called IngestGPT ( https://ingestgpt.com ). Try without signup or login on https://ingestgpt.com/features/youtube-ingestion IngestGPT is a tool to summarize content and then chat directly with the source. I know I am a bit late to the \u201csummarize and chat with X\u201d SaaS party, so I am very open to feedback, guidance, and suggestions from the community on where this can be improved or differentiated. Current features include: \u2022 YouTube summaries \u2022 Podcast summaries, with built-in iTunes search, so you can search podcasts and episodes directly without finding episode URLs \u2022 Audio file summaries \u2022 PDF summaries \u2022 PPT summaries \u2022 Study plan generation just by topic \u2022 Answer the Public\u2013style questions generated from topic/category For all of these, you also get: \u2022 Chat with the source, including voice chat \u2022 Ability to repurpose the content into blog posts and social media posts (Facebook, LinkedIn, X) The main goal is to help people consume long-form content faster and then reuse it in practical ways, instead of just reading a short summary and stopping there. As mentioned, I realize this is a crowded space already. I would really appreciate honest feedback from HN: \u2022 What features matter most in tools like this? \u2022 What feels unnecessary? \u2022 Where do you think there is still room to stand out? Thanks for reading, and I am looking forward to your thoughts.",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=47065963",
+   "date": "2026-02-18",
+   "title": "Show HN: NarrateNow \u2013 Add AI audio to any blog post with a single script tag",
+   "text": "Hey HN, I built NarrateNow after noticing a pretty consistent pattern: blog readers engage more when there's an audio option, but the barrier to adding it is either \"record yourself\" or \"pay for an enterprise tool with a demo call.\" Neither is realistic for an indie blogger or a small team running a content blog. So I built the simplest version I could think of. You drop one line into your site's , and a floating audio player appears on every article automatically. No markup changes, no manual uploads, no config beyond that. How it works technically: - JS snippet detects article content on page load - Text is sent to the backend and converted via TTS - Generated MP3 is cached in object storage and served via CDN - On repeat visits, audio loads instantly from cache The whole integration takes about 60 seconds. I've kept the architecture intentionally simple. Free tier: 5 articles/month, male voice, watermarked player \u2014 enough to actually test it on a real site before committing. Pro: $15/month for unlimited articles, both voices, and an unbranded widget. Still very early. I'd genuinely appreciate signups from people willing to kick the tyres \u2014 especially if you run a blog with decent traffic, since I want to stress test this under real conditions. narratenow.app Bugs, architecture questions, pricing feedback \u2014 all welcome in the comments.",
+   "points": 5
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46854791",
+   "date": "2026-02-02",
+   "title": "What do people use for Text-to-Voice?",
+   "text": "I find that I often listen to long articles/blog posts using Apple's in built text-to-speech (when you highlight the text and right click while using Chrome or any Apple browser or text app, then hit speech). Its still rather bad and I wondered if anyone has a better solution for more natural sounding text to speech whcih is easy to use, at my finger tips for when I want to listen to a long article while designing or playing a game..?",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46793874",
+   "date": "2026-01-28",
+   "title": "Show HN: Turn blog posts and X threads into talking head videos",
+   "text": "Hi HN, I\u2019m one of the founders of Gling https://gling.ai We\u2019ve been working on AI video editing for a while (mostly helping YouTubers remove silences and bad takes), but we just released a new feature that I wanted to share with you: converting text links directly into talking head videos. The Problem: Repurposing text content (blogs, Twitter threads, LinkedIn posts) into video is tedious. You usually have to summarize the text, write a script, set up a camera/teleprompter, record, and edit. We wanted to collapse that entire stack into one click. How it works: You paste a URL (e.g., a TechCrunch article, blog post, or an X thread), and Gling does the following: Content Extraction: We scrape the meaningful content from the page. Script Generation: We use llm to summarize the content and rewrite it into a natural-sounding video script. Video Synthesis: This is the core update. We generate the visual and audio using elevenlabs and veed fabric, you can either upload your avatar and voice, or select an AI generated one. The Tech Stack: Backend: Node.js on google cloud. Video/Audio: Elevenlabs for audio, Veed fabirc for video, and mediabunny for handling the media files Why we built this: We noticed many of our users were manually reading their own blog posts to camera. We figured we could automate the \"talking head\" part so creators can test video versions of their written content without the production friction. The Ask: We are looking for feedback on: The \"Uncanny Valley\": How natural does the movement/voice feel to you? Script Quality: Does the summarization miss key technical context from your links? Use Cases: Would you use this for docs? Marketing? Internal updates? You can try it here: https://app.gling.ai \u2013 no login required for the first video. Thanks!",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=15806578",
+   "date": "2017-11-29",
+   "title": "UWashington Students Win Alexa Prize (to Get Voice Conversations to 20 Minutes)",
+   "text": "",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=15185089",
+   "date": "2017-09-06",
+   "title": "Launch HN: Lyrebird (YC S17) \u2013 Create a digital copy of your voice",
+   "text": "Hi HN! We are the co-founders of Lyrebird ( https://lyrebird.ai/ ) and PhD students in AI at University of Montreal. We are building speech synthesis technologies to improve the way we communicate with computers. Right now, our key innovation is that we can copy the voice of someone else and make it say anything. The tech is still at its early stage but we believe that it is eventually going to make possible a wide range of new applications such as: - reading loud text messages with the voice of the sender, - reading audiobooks with the voice of your choice, - giving a personalized digital voice to people who lost their voice due to a disease, - allowing video game makers to have more customized dialogs generated on the fly, or avatars of their players, - allowing movie makers to freeze the voice of their actors so that they can still use it if the actor ages or dies. Yesterday we launched a beta version of our voice-cloning software: anyone can record one minute of audio and get a digital voice that sounds like them. We know that many on HN are concerned about potential misuses surrounding these technologies and we share your concern. We write further on our ethical stance on this page: https://lyrebird.ai/ethics/ . Our blogpost about the launch: https://lyrebird.ai/blog/create-your-voice-avatar that features the first video combining generated audio and generated elements of the video. There was a thread about us on HN when we launched our website four months ago ( https://news.ycombinator.com/item?id=14182262 ) but at that time, no one could test our software yet and we did not really answer any question of the community. So this time we are ready for questions and would love some feedback!",
+   "points": 154
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=45572130",
+   "date": "2025-10-13",
+   "title": "Ask HN: Has AI stolen the satisfaction from programming?",
+   "text": "I've been trying to articulate why coding feels less pleasant now. The problem: You can't win anymore. The old way: You'd think about the problem. Draw some diagrams. Understand what you're actually trying to do. Then write the code. Understanding was mandatory. You solved it. The new way: The entire premise of AI coding tools is to automate the thinking, not just the typing. You're supposed to describe a problem and get a solution without understanding the details. That's the labor-saving promise. So I feel pressure to always, always, start by info dumping the problem description to AI and gamble for a one-shot. Voice transcription for 10 minutes, hit send, hope I get something first try, if not hope I can iterate until something works. And when even something does work = zero satisfaction because I don't have the same depth of understanding of the solution. Its no longer my code, my idea. It's just some code I found online. `import solution from chatgpt` If I think about the problem, I feel inefficient. \"Why did you waste 2 hours on that? AI would've done it in 10 minutes.\" If I use AI to help, the work doesn't feel like mine. When I show it to anyone, the implicit response is: \"Yeah, I could've prompted for that too.\" The steering and judgment I apply to AI outputs is invisible. Nobody sees which suggestions I rejected, how I refined the prompts, or what decisions I made. So all credit flows to the AI by default. The result: Nothing feels satisfying anymore. Every problem I solve by hand feels too slow. Every problem I solve with AI feels like it doesn't count. There's this constant background feeling that whatever I just did, someone else would've done it better and faster. I was thinking of all the classic exploratory learning blog posts. Things that sounded fun. Writing a toy database to understand how they work, implementing a small Redis clone. Now that feels stupid. Like I'd be wasting time on details the AI is supposed to handle. It bothers me that my reac",
+   "points": 99
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=3104544",
+   "date": "2011-10-12",
+   "title": "Show HN: Diaspora Slowly going broke and fading away?",
+   "text": "Just received an email from the Diapora team, asking to contribute a bit more to their efforts. I wonder why would people still do that since they havent been able to get a project up and running that would has a social hook. Email copied below Dear Ahsan - We love you. Yes. Really, we do. We\u2019re building Diaspora , in a spirit of community, because we believe in you. You\u2019re one of the innovators, the creative ones, the people who make the world awesome. We\u2019re building tools that we hope will help you bring your true voice to the world. For no other reason than we want to see what you\u2019ll say and do here. For the pure joy of it. And it\u2019s incredibly moving for us whenever someone steps up to help make it happen, by writing a blog post or contributing code, or giving money. It says someone shares our love for what\u2019s possible, and is going the extra distance to show it. It\u2019s like getting a huge, warm hug. We\u2019re not in this for the money. But today we\u2019re asking for your help -- some money -- to keep building Diaspora . Can you contribute $25.-, or any other amount you feel comfortable with? It will really make a difference, enabling us to build more great features to help you express yourself, however you like. We recently asked Diasporans what they love about our service. There were tons of beautiful responses. Here are a few of our favorites: What people love about Diaspora* Diaspora is: For benefit rather than profit. A community rather than a corporation. A place where who you are and what you say and to whom is all in your control, not in the control of the people who run it. Run by people who listen to their users and respond. - Goober Fox It's interesting how much people seem to be sharing on an intellectual level, there are conversations here. Not just short comments and banter. - Satu Jokinen ...all the... wonderful friends I've made here who are too numerous to list... - Garidin Winslow I like that i can control who to share what with. I like that I'm not bombar",
+   "points": 6
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46907373",
+   "date": "2026-02-06",
+   "title": "Show HN: Obooko \u2013 Free ebooks with an open-source web reader",
+   "text": "Hey HN, I'm George. I spent few months rebuilding Obooko, a free ebook platform that's been around since 2010 with 11 million downloads. Reading is losing to scrolling, but BookTok has 370B+ views. People want book content, they're just not reading books. I think that\u2019s because modern reading hasn\u2019t kept up with the pace of the internet. What I built Obooko is ad-supported like YouTube. No paywall, no subscription, no account required. 4,000+ books across 30+ genres. You can read in the browser, sync across devices, or download as PDF/EPUB/Kindle. The reader is built on EPUB.js ( https://github.com/futurepress/epub.js ). Frontend is vanilla JavaScript, no framework. Backend is Laravel handling progress tracking. The implementation uses continuous scrolling, font size controls (4 levels), chapter navigation, and persists reading progress to a pivot table via debounced API calls. It's still MVP quality. I went with EPUB.js because it was simpler to integrate and I wanted to ship fast. Now that I'm getting user feedback, the reader is the biggest pain point. (Actually, more books is now the #1 request, but reader UX is close behind.) I'm probably going to switch to Readium ( https://github.com/readium ) which looks more robust but is more work to integrate. Being a solo founder This is my third startup but first time doing it alone. I scaled SmartrMail to exit and built Bluethumb to $100M+ in art sales, but both had co-founders. The day-to-day whiplash of switching between growth work and building product is rough. Some days I'm doing SEO audits and writing blog posts, emails, social. Other days I'm debugging PHP. It feels so hard to get everything covered off, and then I spent time building automations for it in Claude but wonder if I\u2019m over automating. Maybe the hardest thing I\u2019ve discovered as a solo founder is prioritisation and idea selection. I\u2019m used to have someone to shoot down my dumb ideas. Now Claude just tells me every idea is amazing lol and I can get los",
+   "points": 4
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=29422166",
+   "date": "2021-12-02",
+   "title": "Ask HN: Audio-based content creation?",
+   "text": "I was reading how someone made 6-figures PER DAY making Excel videos (https://www.theverge.com/22807858/tiktok-influencer-microsoft-excel-instagram-decoder-podcast) and started wondering if creators would benefit from having a platform where they could create content centered around audio. Speech-to-text (STT): All your words are transcribed in real-time. This supports foreign languages as well. You can even edit the text in-place while you speak. Text-to-speech (TTS): Supply the text and receive an mp3 audio file with a voice that sounds like yours reading the text. This also supports different languages. This could be used to create video courses more easily, or add personal flavor to your blog posts. Whether it's teaching React or talking about any topic you're interested in, your voice dictates the creative process.",
+   "points": 3
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46518527",
+   "date": "2026-01-06",
+   "title": "Show HN: An open-source telephony stack for AI voice agents (Twilio alternative)",
+   "text": "We built this stack last summer while working on AI voice agents for healthcare practices. Twilio worked well functionally, but its HIPAA option started at $2k per month before a single call, and that fixed cost dominated almost immediately, long before usage-based costs like LLM tokens mattered. That imbalance pushed us to build and operate our own telephony layer. This repo is the result. It's a self-hosted, HIPAA-eligible telephony stack built on Asterisk + AWS Chime that handles phone numbers, SIP/TLS, RTP media, and real-time audio streaming to AI voice agents via a Twilio-like WebSocket interface. A shim server bridges audio to modern WSS-based AI services. You bring the voice AI. This just handles the phone infrastructure. (Example server using OpenAI Realtime API for voice-to-voice included in repo.) We've since moved on to other projects, but as AI voice agents keep proliferating, we noticed we couldn't find a comprehensive, open-source, self-hostable option in this space. Rather than let it sit unused, we cleaned it up and open-sourced it. This isn't for everyone. If you don't want to run infrastructure, Twilio is still the easiest option. Happy to answer questions about architecture, trade-offs, scaling, or design decisions! --- Blog post: https://vectorly.app/blog/open-telephony-stack",
+   "points": 3
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46268002",
+   "date": "2025-12-14",
+   "title": "Show HN: I vibe coded a vibe marketing platform",
+   "text": "Heya HN, I've been working on a vibe-marketing platform as my primary side project for the last few months. Doing a (very) soft launch today, mainly because I want to use it to challenge how we think about AI-generated content (Some people call it SLOP - bear with me). How PostKing works: I create a statistical model of your existing content - blogs, social posts, university assignment anything you've written. It learns your brand voice, tone, and positioning - not just surface-level writing style, but the actual way you think Generate content across any channel that sounds authentically like you, not generic AI slop I take these fingerprints from your content: Stylometric: - Function word frequency (the, a, and, etc.) \u2014 normalized ratios - Lexical diversity: Matthews (type-token), Yule's K, Simpson's - Signature Phrases (TF-IDF): - Top 10 bigrams - Top 10 trigrams - Top 15 distinctive words (length > 3) Sentiment: - Overall score - Emotional markers: joy, sadness, anger, fear, surprise (normalized) - Sentiment variation (sentence-level deviation) Patterns: - Collocations: frequent two-word pairs (\u22652 occurrences, top 20) - Recurring phrases: three-word phrases (\u22652 occurrences, length > 10, top 10) - Structural templates: questions, exclamations, lists, quotations - Rhetorical: - Metaphor density (like/as/is indicators per sentence) - Alliteration frequency (adjacent same-letter starts per sentence) - Parallelism instances (repeated structures per sentence) - Anaphora instances (repeated sentence beginnings per sentence) It's a simple model, but I hope it's a better one than the \"prompt and pray\" approach most AI writing tools use. Fundamentally I feel like most AI content tools improve for volume over authenticity, which creates a race to the bottom. That misalignment is what drove me to make this. Because this is a soft launch, the voice training algorithm is still being refined. You won't get bad output or anything, but the more diverse your input content, the bet",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=35439433",
+   "date": "2023-04-04",
+   "title": "Show HN: IKiBlast \u2013 Aggregating the latest AI tech on a user-friendly platform",
+   "text": "Hi HN! I'm a 21-year-old trying to build some new things and I'd like to present you something I worked on with my associate these previous months. A user-friendly, All-in-one AI platform to access a range of fine-tuned AI chat-based (for now) apps to simplify work, business and daily life. One of the goals was to have a team of expert assistants for every aspect of daily and professional life. These apps are grouped in different categories such as Writing, Learning, Lifestyle, Marketing, Selling, Working, Publishing and Programming. We've tried our best to make it as easy as possible to navigate and use the various apps (one of the goal was that my grandmother could use it...). This AI platform is designed to be easily accessible and user-friendly, eliminating the need for technical knowledge or experience to use it. Here's how it works: 1. Start by navigating to the app that will best address your current need. 2. Then input your data in the chat. Whether you're wondering how to cook a romantic diner, write a blog post, create a sales script, or debug code, the fine-tuned AI will give you an answer on point. 3. To provide tailored answers, it does not hesitate to ask you more questions to perfectly identify your needs. 4. And in a few seconds, you have the perfect solution to all your little problems of everyday life and work that ruin your days. (Well at least we try haha) In addition, it keeps track of your latest interactions so that they are not lost when you switch apps or close the window unintentionally. All interactions history is kept on your own device so that your data is always in your possession, somewhere you have full control over it. I agree like a lot of you that new AI apps come everyday and are seen as an easy cash-grab. My take on current AI apps market is that most \"over-specialized\" tools are bringing confusion to general public. Instead, we try to aggregate every useful AI apps (and models) on a single platform. Why pay for mutliple AI tools",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=19235790",
+   "date": "2019-02-23",
+   "title": "Alexa and Jenkins: Voice-Controlled CI/CD",
+   "text": "",
+   "points": 3
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=48262413",
+   "date": "2026-05-25",
+   "title": "Teaching Codex to Test a Voice-First Calendar App",
+   "text": "",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=20768234",
+   "date": "2019-08-22",
+   "title": "Amazon transfers inflection, rhythm from recorded speaker to synthesized voice",
+   "text": "",
+   "points": 6
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=18093217",
+   "date": "2018-09-28",
+   "title": "How Alexa is using on-screen graphics to clarify voice requests",
+   "text": "",
+   "points": 5
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=45672059",
+   "date": "2025-10-22",
+   "title": "Show HN: Convert Videos into Blog Posts",
+   "text": "Hey HN, My name is Andrew Petrovics. First time poster. Long time lurker. I created a web app called Video To Blog that converts videos into (what I think are awesome) blog posts / email newsletters. I originally created the tool with YouTubers in mind as a way to quickly repurpose existing videos into blog posts and help capture traffic from another channel (i.e. search engines). Since I launched though I've had a bunch of other people use it for all different reasons including bloggers, affiliate marketers, digial agencies, realtors, churches, and more. My growth has flat lined and I'm trying to find a solid niche to focus on in order to spark growth and get this to a point where I can work on it full time (I'm almost there, but having a family, I need to grow a bit more before I'm comfortable taking the leap). Any who, our most popular feature is \"auto screenshots\" which can automatically take screenshots from the video and put into the blog post. The tool allows for a ton of other customization options (like automatically including internal/external links, tone/voice customiziation, ability to add writing samples / custom AI instructions, and more). Would love to hear and feedback you have. Also, just a heads up, an email is required in order to test it out (without an email requirment we saw a bunch of abuse). Thanks, Andrew Petrovics",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=42660042",
+   "date": "2025-01-10",
+   "title": "Tell HN: I'm a programmer who bought a typewriter",
+   "text": "I have been programming for the last 7 years professionally. I like computers from my early age. My father bought me Sinclair ZX Spectrum+ when I was in the first grade. Since then, computers were part of my life, significantly. I stare at my screen almost whole day. One day there was some voice in me saying \"Buy a typewriter\". I listened to the voice and bought Smith Corona Silent from 1946. It was the most profound experience I ever had with some kind of machine. I was not so happy when I got my first cell phone, and later smartphone nor computer. This is something different, probably because the basics are the same, I'm still typing. Suddenly I found myself writing a diary, and a novel. I never wrote anything other than blog posts (many of them since I had website similar to The Verge) - which I sold later. I now have 3 typewriters, 2x Smith Corona Silent (1946 and 1956), and Olympia Monica (I think it's from '70). What I found very interesting is that writing on a typewriter is perfectly synchronized with how fast my mind is working. Time slows down! I read that on the web somewhere, and it is slowing the time when you type on a typewriter! I can confess that! My fingers are too fast on computer keyboard, and I even don't want to talk about distractions like auto correct and other stuff that always pops up. This is something what really makes me feel good. I can write a story, poem, diary, or a letter to a friend. It's truly something we should have on our desk somewhere in the room, and just put our thoughts on a paper.",
+   "points": 59
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46883160",
+   "date": "2026-02-04",
+   "title": "Ask HN: How to read out loud articles with equations and code?",
+   "text": "I have been toying with the idea of converting my blog posts to audio by reading them out loud. The primary purpose of this would be to practice my English-as-a-second-language, but also there's a chance someone might like to learn from the articles that way instead of reading. (My inspiration here is The Economist , which publishes high-quality audio recordings of their articles. Their voice actors do a great job. I want to learn how to do that too!) Unlike the newspaper, my articles often contain code, plots, tables and/or equations, which can't really be read out loud verbatim. I'm out of role models here. Who are some people who read technical stuff out loud and do a good job of it? How do they solve the equations-and-code problem? I get that podcasting is a completely different format from written articles, so this question might have no answer at all. Or the answer might be \"write a separate script to be read that elides many of the technical details\" which is beyond what I can take time to do. Here's a recent example containing plots, graphs, equations, and code: https://entropicthoughts.com/nvidia-stock-crash-prediction",
+   "points": 5
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=48147390",
+   "date": "2026-05-15",
+   "title": "Show HN: Blogr \u2013 for developers who never blog consistently",
+   "text": "I built Blogr because I've shipped a handful of side projects and can never stick to blogging, even though I know it's the best thing to do for SEO long term. I want to spend my time building, not blogging! Blogr is a GitHub App. You install it on your repo, configure your site once (description, tone, audience, keywords you want to rank for, topics to avoid), pick a schedule, and it commits MDX blog posts to your repo automatically. The positioning for this app over others like it: - Posts commit as MDX files in your repo, so you keep them if you cancel. - It reads your existing posts to match voice, avoid duplicate topics, and add internal linking. - If you're on something like Vercel, posts auto-deploy as soon as Blogr commits. - Posts are run through multiple filters to maximize SEO and humanize the writing. - Set and forget. Nothing to monitor or babysit. Happy to answer anything about the implementation or the idea.",
+   "points": 4
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=5641157",
+   "date": "2013-05-01",
+   "title": "Got fired, told I was going to be vested and now they want to rescind the offer",
+   "text": "I was fired from a startup 6 weeks before my first year of vesting, (my guess is mainly because they are running out of funding and I was the most expensive employ) but I was told in the exit interview that they would make that day my vesting cliff, because I had worked very hard and deserved (their words not mine). Two weeks later I get a call from the CEO telling me that they wont vest me. I have the exit interview recorded stating that they would vest me. Is there anything I can do? I am in a state were its legal to record voice conversations: http://www.vegress.com/images/vegress/notification-map-550a.jpg The two options that I am thinking about is to either lawyer up, or right a blog post so future employs know what kind of people they are dealing with, or both. Thanks",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=41014490",
+   "date": "2024-07-20",
+   "title": "Show HN: Mdxish \u2013 Write high-quality, interactive blog posts in Markdown, live",
+   "text": "Hi HN! I wanted an easier way to write technical interactive blog posts. So I built `mdxish`! You can write in markdown, mixing classic markdown, html, and javascript together, and see the output html live as you author it. Writing it in this way creates a really nice medium for the source (easy to read), which is just markdown mixed with code blocks. Also, many IDEs have support for syntax highlighting and intellisense / autocomplete features inside these code blocks. And because `marked` (one of the only dependencies, but does near all of the heavy lifting) works client side, we can even render markdown directly to html on the client side. For example, I created a gist of my falling sand blog post, rewritten in mdxish format: https://gist.github.com/jasonjmcghee/cba64163600fa90a3ea5d2e... (also threw in the css it used as other files in that gist) And now you or I or anyone can just replace \"gist.github\" with \"mdxish\". https://mdxish.com/jasonjmcghee/cba64163600fa90a3ea5d2ea099f... And after a slight delay, you get the full rendered post- and the author only needs to upload to gist. `mdxish` itself can do this client approach, the live server, or just one-off mdxish flavored md to html. In the live mode, you can store state that persists across updates, like \"time\" (very useful for iterating on animations). Anyway, hope others find this interesting / useful. If you'd like to contribute, please let me know! Try it out and tell me what you think. I've created a repo for doing GitHub Actions, the idea being, you should be able to just create a repo of mdxish flavored markdown and it'll take care of making it a full site for you. But not quite done with that yet! Note: I also added a short video with a voice-over if you'd like to see it in action.",
+   "points": 6
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=36001581",
+   "date": "2023-05-19",
+   "title": "Ask HN: What real alternatives are there to Twitter?",
+   "text": "Posting this with a throwaway account. I signed up to Twitter back in 2009 and never really used it much apart from the odd tweet here and there. Then I actually bought Musk's line on what Free Speech is https://twitter.com/elonmusk/status/1519036983137509376 on Twitter. Over the past few months I've been increasingly disillusioned with British government policy and have taken to Twitter to contribute to the discourse there. I don't have a high follower count and don't care for one - but I did feel my views were suddenly being heard. It felt nice to feel 'not alone' with quite a few tweets getting decent numbers of likes and retweets. Most of my tweets objected to government policy in certain areas and often linked to news articles contradicting official narratives. Some of my tweets were lightly humorous. I took care to avoid anything that may be illegal, hateful, distasteful, etc. Then, a few days ago, I suddenly noticed my tweets and tweet replies were barely getting any views at all. And no likes at all. I suspected something was amiss. I checked Twitter without being logged in only to find my tweet replies had vanished from general view and my hashtags weren't even appearing in the 'Latest' section of Twitter. Everything I'd ever posted, hidden from general view. In a recent blog post Twitter posted here https://blog.twitter.com/en_us/topics/product/2023/freedom-of-speech-not-reach-an-update-on-our-enforcement-philosophy about their 'Freedom of Speech, Not Reach' policy they go on to highlight how they might mark tweets with limited visibility but in my case my tweet replies are no longer shown at all, not even in the 'Show additional replies, including those that may contain offensive content' section. That is complete censorship with no warning that I'd ever done anything wrong. The blog post even says 'Authors will be able to submit feedback on the label if they think we incorrectly limited their Tweet\u2019s visibility.' which isn't true in my case because there",
+   "points": 4
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=43404396",
+   "date": "2025-03-18",
+   "title": "Show HN: Speech-1, TTS to reduce AI call drop-rate",
+   "text": "We\u2019re releasing access to Speech-1, our conversational speech model designed specifically for customer phone calls (8khz telephony) to reduce call drop rates. Try it: https://tts.metavoice.io Samples: https://www.metavoice.io Voice AI calls today face >30% call drop rates with current synthetic voices. We want to make this tend to 0 by making AI speech far more human-like and engaging. Current synthetic voices are overly perfect, and don\u2019t sound like the typical human phone agent. They have audiobook-like narration, erratic emotions (e.g. over-enthusiastic \u201cGot it!\u201d), and lack natural-sounding imperfections (like breaths, hmm, umm). They also can\u2019t reliably speak numbers, spellings, emails, etc. (& often produce chipmunk like sped-up speech). Speech-1 fixes these problems! We\u2019re also releasing a research preview of Speech-1.1. It\u2019s trained using ProsodyAlign, a novel post-training technique to more closely capture human-like speech patterns \u2013 pauses, stress, and how the voice goes up/down in tone on different words. However, it is currently less stable than Speech-1. For more details, read our blogpost: https://www.metavoice.io/blog-posts/conversational-speech-mo...",
+   "points": 4
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=15749079",
+   "date": "2017-11-21",
+   "title": "Dear Sam: we need you to lead the fight for net neutrality",
+   "text": "Dear Sam, Eight months ago you wrote a blog post titled, \"Keep the Internet Open\" (http://blog.samaltman.com/keep-the-internet-open) where you wrote: \"We need to make our voices heard. We won this fight once before, and we can win it again. I really hope an activist or tech leader will step up and organize this fight (and I'm happy to help!). It's important for our future.\" Well, the fight is here, and I don't see tech leaders stepping up in the same way they did when we won this fight before. What's going on? We need you, Sam. We need more than just your help. We need your leadership. We need you to show us with your actions how outraged and panicked we should be. We need you to put on hold whatever it is that you're doing and make this issue your primary focus. We need you to recruit every tech leader in your contact list to do the same. Please, Sam. We really need you.",
+   "points": 3
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=47120884",
+   "date": "2026-02-23",
+   "title": "Show HN: WinClaw \u2013 An AI agent for Windows that anyone can use",
+   "text": "Hey HN, The Claw ecosystem is incredible \u2014 OpenClaw alone has 180K GitHub stars. But I noticed something: every Claw variant requires npm, Docker, Python, Rust, or at minimum a terminal. The official Windows guide for OpenClaw literally says \"Use via WSL2.\" That's fine for us. But 75% of desktop users run Windows, and most of them have never opened a terminal in their lives. So we built WinClaw \u2014 an AI agent designed specifically for Windows, with zero technical barrier: Double-click installer, 3 minutes to get running Voice control from your phone \u2014 talk to your PC from the couch, the subway, anywhere Built-in tools: Office doc generation (PPT/Word/Excel), browser automation (operates your real browser with your cookies/logins), file management, screenshots, and 26+ more Private knowledge base with RAG over your local documents Completely free, local deployment, privacy-first Supports DeepSeek, Doubao, and any OpenAI-compatible model We're not trying to compete with OpenClaw \u2014 it's a Swiss Army knife for power users and we love it. WinClaw is more like a universal remote: same arena, different audience. The people we're building for are office admins processing Excel files, college students making PPTs, small business owners, and parents who find computers complicated enough already. The blog post explains our thinking in detail: https://docs.winclaw.cc/blog/windows-use-winclaw Website: https://winclaw.cc Docs: https://docs.winclaw.cc Would love to hear your thoughts, especially from Windows users who've tried other Claw variants.",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=43508946",
+   "date": "2025-03-28",
+   "title": "Show HN: TalkToSales makes websites voice-controlled",
+   "text": "Hi folks, Alex Kolchinski here - I'm a YC alum (W21 with Mezli) and Stanford AI Lab alum from before that. Today I'm launching something new with my friend Alec Bell (a W23 YC alum) that we'd love to get your thoughts on. TalkToSales adds AI assistants to websites: they can answer visitors' questions, give them live tours of the website or app, and even help them book follow-up calls and buy things right in the conversation. Unlike traditional websites, which are the same for everyone who visits them, the TalkToSales assistant customizes the conversation and content shown to every visitor, whether the content is dynamic slides, a website/app tour, or both. TalkToSales also lets the people behind a website offer to \"drop in\" in place of the AI assistant and talk with visitors directly, when visitors accept. Shopkeepers in physical stores have always been able to talk to customers as they browse, but it hasn't been possible to do this on the web until now. We think this could be quite useful for companies that do business online to have more personal engagement with web visitors. We think TalkToSales assistants can be helpful for a number of use cases: Software sales: the website itself can become the first sales call, answering visitors' questions, qualifying their good fit and intent, and booking follow-up calls for good leads. Software onboarding and support: Imagine a Clippy that actually worked, talking to you over voice and actually taking actions in a web app for you as you ask it for how to do things. E-commerce: Imagine having a personal shopper on e.g. the Home Depot website, where a virtual man in an orange apron could show you different dishwasher models and help you pick between them. Real estate: Imagine going to an apartment building's website and having a virtual real estate agent answer your questions, give you virtual tours of apartments, and book you for a real-world tour. (Any other ideas? We're all ears!) We think TalkToSales assistants can also b",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=38068413",
+   "date": "2023-10-30",
+   "title": "Show HN: Halfway \u2013 Smart generated content for all your writing needs",
+   "text": "Hi, I wanted a faster way to write repetitive content that may have some variation like emails, cover letters, etc. Halfway generates smart content to help you write papers, blog posts, social media post, newsletters, blogs, seo content and much more. If you are stuck (halfway) in your writing or need an idea you can use it to help you get to your desired outcome. It uses the Open AI API as a static web app with no server or database. Data is stored locally in your browser and you need an API key to get started. You can check the network tab to verify that only Open AI API calls are made. Use the rich text editor to edit your content in place to match your voice and achieve your desired result. Any feedback is greatly appreciated. Best, Kyle",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=44540182",
+   "date": "2025-07-12",
+   "title": "Show HN: Sage-AI \u2013 AI-Powered Writing Assistant",
+   "text": "Hi Hacker News I\u2019ve been working on Sage-AI and am excited to share it with the community. What is Sage-AI? Sage-AI: Is an AI-driven writing assistant designed to help creators, marketers, and students write better, faster, and smarter. It adapts to your writing style, remembers your brand voice, and generates high-quality content in seconds. Features of Sage-AI: AI-generated writing templates for blog posts, emails, social media, and more. Multilingual support for global content creation. Brand voice memory that adjusts to your tone over time. Team collaboration for group projects, assignments, or business teams. Long-form content generation \u2014 not just short snippets. Automatic segmentation for targeted email campaigns. Why did I build it? I started Sage-AI out of frustration with existing tools. As a student/entrepreneur/content creator, I wanted a tool that would save me time while still helping me maintain high-quality output. Traditional tools didn\u2019t cut it, so I built Sage-AI to be smarter, easier to use, and affordable for all users. Current Status: Beta launch Collecting feedback and feature requests from early users Join the waitlist [ https://sage-ai-waitlist.vercel.app ] Feedback: I\u2019d love to hear any feedback, suggestions, or thoughts on how we can improve. If you\u2019re looking to boost your writing productivity or supercharge your email marketing, feel free to join the waitlist for early access to Sage-AI. [ https://sage-ai-waitlist.vercel.app ]",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=41443651",
+   "date": "2024-09-04",
+   "title": "AI-Powered SEO Blog Content Generator",
+   "text": "Hi HN, I'd like to introduce Blogcard, an advanced AI-powered SEO blog content generator I've been working on. It's designed to help website owners, content creators, and digital marketers easily produce high-quality, search-engine-optimized blog posts. What Blogcard does: Leverages AI to create engaging, readable content tailored to your niche Incorporates SEO data analysis to enhance search engine performance Provides competitor analysis for refined content strategies Integrates with platforms like Shopify, Shopline, and WordPress Key benefits: Time-saving: Reduces content creation and SEO research time Quality assurance: Produces SEO-friendly and reader-valuable content Customization: Tailors content to match your brand voice I built Blogcard to address the challenges of creating consistent, SEO-optimized content while maintaining quality and relevance. I'm looking for feedback on: The AI-driven approach to content generation SEO optimization features Integration with e-commerce platforms What are your thoughts on using AI for blog content creation? Any suggestions for additional features or improvements?",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=5129485",
+   "date": "2013-01-28",
+   "title": "Mark Cuban stretches his opinionated voice to education (and it\u2019s a great read)",
+   "text": "",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=42531744",
+   "date": "2024-12-28",
+   "title": "Show HN: Sine Wave Speech, a real-time audio effect in Rust->WASM",
+   "text": "Source code: https://github.com/vvolhejn/sine_wave_speech An interactive website for exploring how human speech can be reduced to just a few sine waves and still be intelligible - or at least recognized to be a human voice. On top of that, I've added various ways to make the sound more musical. The sound effect is based on research from the 80s, which has largely been forgotten by then. To have the effect run in real-time in the browser, I opted to use Rust compiled into WebAssembly. Still, I had to rewrite some linear algebra routines. More about that experience in the blog post: https://vvolhejn.com/2024/11/16/sinewavespeech-com-live.html",
+   "points": 10
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=44272381",
+   "date": "2025-06-13",
+   "title": "Show HN: WaveGen \u2013 turn blog articles into text overlay videos, not slops",
+   "text": "Hi HN, I\u2019ve been building a social media automation tool called WaveGen, which turns blog posts into short-form, text-overlay videos for platforms like TikTok, Instagram, and YouTube Shorts. It started as a simple social media scheduler. As I decided what to build on top, instead of fake avatars or uncanny content that AI is usually used to make, I want to help amplify real voices. So I ended up building this to help bloggers turn their useful long-form writing into text-first short videos. Also everything generated is editable, so they can make the final touch before publishing to make sure their content is uncompromised. I hope this can be useful for bloggers, educators, and businesses who want to stay visible on video-first platforms. Happy to answer any questions, and would love feedback!",
+   "points": 3
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=44800231",
+   "date": "2025-08-05",
+   "title": "Show HN: Cartoony AI Voices on ESP32 with Pitch Shifting",
+   "text": "I show how to use Pitch shifting supported by the arduino-audio-tools[1] and ElatoAI[2] library on ESP32 to get OpenAI Realtime and Gemini Live Voices to sound like cartoons like Alvin and the Chipmunks or Hulk. [1] https://github.com/pschatzmann/arduino-audio-tools [2] https://github.com/akdeb/ElatoAI",
+   "points": 3
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=1205317",
+   "date": "2010-03-19",
+   "title": "Tell HN: Open Government Initiative Deadline is Today",
+   "text": "Background: About the Open Government Initiative: http://www.whitehouse.gov/open/about About the public participation period: http://www.whitehouse.gov/blog/2010/02/23/make-your-voice-heard I just learned about the Open Government Initiative last night.The OG Initiative was setup to improve the transparency of US government operations as well as provide a method for the public to influence govt operations. To achieve the latter, the govt opened up a window (Feb 23 - Mar 19) for the public to submit feedback (new new ideas, vote and comment on submitted ideas etc.) to any one of the numerous government agencies. The deadline to submit this feedback is today! Each agency has a website where you can provide feedback (the links to these are in the blog post referenced above). For example, this is NASA's website: http://opennasa.ideascale.com/ I hear NASA has been quite receptive of the ideas submitted through its portal. One suggestion was that NASA support existing communities that are working on space-related ideas. NASA followed up quickly by providing funding for the SpaceUp barcamp: http://www.nasa.gov/open/spaceup.html",
+   "points": 3
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=44186796",
+   "date": "2025-06-04",
+   "title": "Show HN: Getyourbrandvoice.com \u2013 Discover and analyze your brand's unique voice",
+   "text": "I built GetYourBrandVoice.com\u2014an AI tool that crawls all publicly available text about your brand (website copy, blog posts, social media, reviews, press mentions, etc.) and produces a clear, data-backed \u201cBrand Voice Report.\u201d Instead of guessing your tone or manually collecting examples, you simply enter your domain or social handle, and the system automatically: 1. *Aggregates public text* from your site, blog archive, social profiles, and any media coverage. 2. *Extracts top tone adjectives* (e.g., \u201cWarm & Friendly,\u201d \u201cTechnical & Authoritative\u201d) by analyzing the most frequently used descriptors and sentence structures. 3. *Identifies core themes/values* (e.g., \u201cSustainability,\u201d \u201cHandcrafted Quality,\u201d \u201cCommunity Support\u201d) by running topic clustering over all sourced content. 4. *Highlights best practices*\u2014actionable tips on how to keep new copy aligned with your existing voice (e.g., ideal sentence length, preferred vocabulary, recurring metaphors or keywords). 5. *Maintains a public history* of every scanned brand voice report so you can browse past analyses or compare multiple brands: https://www.dondo.com/ai/brand-voice/history *Why I built it:* - In my work at Dondo (an eCommerce automation startup), I saw that founders, marketers, and small teams often struggle to maintain a consistent tone as they scale. Multiple writers or agencies can drift off-brand without realizing it. - Existing \u201cvoice analyzers\u201d typically require you to upload a handful of snippets or only look at a homepage. GetYourBrandVoice.com goes deeper\u2014scraping every public source (product pages, blog posts, Twitter threads, review sites) to give you a more complete, objective picture of how you actually communicate. *Key features:* - *Automatic public scraping:* Point it at any domain or social handle\u2014no manual copy-and-paste needed. - *Tone adjective extraction:* See the top 5\u201310 adjectives that define how you write (e.g., \u201cEnergetic,\u201d \u201cApproachable,\u201d \u201cTrustworthy\u201d). - *Core theme detection:* ",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=42756157",
+   "date": "2025-01-19",
+   "title": "Show HN: My tool to word vomit at to organise & tag my life into my calendar",
+   "text": "I\u2019ve always had a million thoughts, to-dos, and reminders swirling around in my head. I tried normal to-do lists, but they\u2019d quickly get lost under a mountain of other tasks or I'd forget about them. So I hacked together a tool that turns quick voice notes into organised tasks and tags. It started as a personal sanity-saver, but my friends and family jumped in too and said it was worth paying for. I call it mmbl\u2014basically, it transcribes your ramblings, auto-detects tasks, adds tags, and syncs them to your calendar. My brother uses it to rattle off his daily to-dos while making coffee, and by the time he\u2019s done, his day is fully mapped out. Another friend uses it to generate tweets from their ramblings. It\u2019s like dumping your brain out without the guilt of cluttered notes and being able to ask about it later. I also started using it to whip up content like tweets and blog posts by using it to draft something based on my notes\u2014it\u2019s surprisingly good at saving me from blank-page syndrome. And if I need to find that random idea from last month, I can just search in natural language instead of scrolling through endless lists. Would love any thoughts or feedback. It\u2019s still rough around the edges, but it\u2019s already making life easier for me (and apparently a few others). It's free to try so give it a shot, there's a one-time fee too for unlimited usage. If anyone likes it and wants to subscribe to premium - here's a discount code for 20% off your first month: K1NDK3O I posted it on r/sideproject and had some really nice feedback from people saying how useful it is which is great to see and I've been able to make improvements pretty quickly from that which is great. Features currently in the works: - Sorting tasks by duration, due date and more - Ability to edit tasks - Improvements to the asking / creating to utilise more context about your notes. - Considering an iOS app Let me know what you think!",
+   "points": 3
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=40042646",
+   "date": "2024-04-15",
+   "title": "Show HN: AI Copilot for Modern Marketing Teams",
+   "text": "Hey HN'ers! Hope you're doing well Today I'm launching this startup that I've been working on for some months now. It's an AI copilot for Modern Marketing Teams. Basically you describe your business to us. Be it by a simple text description, or something more complex like uploading images, powerpoint presentations, word docs, etc... Anything that you upload will be used by a LLM to then: 1. Brainstorm content ideas 2. Turn those content ideas either into visual social media posts (we do linkedin and instagram carousels for now) 3. Written content like blog posts, ad copy, cold emails etc... (where we do provide a real time collaboration feature thanks to liveblocks!) Besides those main features we also allow you to: - Create your own brand voice, so you don't sound robotic like all other ChatGPT generators. - Define Brand Safety Rules. These are strict rules that aren't based on AI so you are perfectly sure that your texts ALWAYS follow these rules. Thanks in advance, I hope you like the tool. I'm open for your feedback Mike PD: Obligatory Tech Stack: - Next.js - Prisma - PostgreSQL - tRPC - zod - TailwindCSS - Shadcn/ui - LiveBlocks - ChatGPT API - TipTap editor - Posthog",
+   "points": 2
+  }
+ ]
+}

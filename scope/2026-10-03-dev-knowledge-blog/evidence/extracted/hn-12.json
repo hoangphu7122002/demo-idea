@@ -1,0 +1,404 @@
+{
+  "rows": [
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=33960996",
+      "date": "2022-12-12",
+      "quote_or_number": "Wow that would be a scorched earth policy, would it not? You would then be deplatforming video and image hosting sites, discussion forums, and blogs. Including people.kernel.org, the Linux kernel developer blogging platform.",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=30204817",
+      "date": "2022-02-04",
+      "quote_or_number": "Hashnode | Multiple roles (engineering, design, product) | Full-Time | REMOTE - globally(!) | https://careers.hashnode.com/jobs Hashnode is a free developer blogging platform that allows you to publish articles on your own domain and helps you stay connected with a global developer community",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "review",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=21223661",
+      "date": "2019-10-11",
+      "quote_or_number": "I usually hate these kinds of comments but I have to: Please check out dev.to. It's a minimal, fast, developer focussed blogging platform. It's open source, and quite active.",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=5626192",
+      "date": "2013-04-29",
+      "quote_or_number": "Im a little confused by the choice to use Node.js, whats the purpose? The creator says that ghost is not a blogging platform for developers, but then builds a node.js blog?",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "review",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=38600990",
+      "date": "2023-12-11",
+      "quote_or_number": "First, hats off for making banner blog",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=34232225",
+      "date": "2023-01-03",
+      "quote_or_number": "Another great blogging zero hastle blogging platform for developers is _hashnode_. * https://hashnode.com/",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "review",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=31874117",
+      "date": "2022-06-25",
+      "quote_or_number": "IMO these social blogging platforms for developers lowered the overall quality of online technical content by a lot, and made researching technical topics a fair bit harder",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=30915755",
+      "date": "2022-04-05",
+      "quote_or_number": "Hashnode | Fully REMOTE & Async | Full-Time Multiple roles (Engineering, Design, Product) Hashnode is the #1 blogging platform for developers that allows you to publish articles on your own domain and helps you stay connected with a global developer community",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=30552217",
+      "date": "2022-03-04",
+      "quote_or_number": "Hashnode | Fully REMOTE & Async | Full-Time Multiple roles (Engineering, Design, Product) Hashnode is the #1 blogging platform for developers that allows you to publish articles on your own domain and helps you stay connected with a global developer community",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=29533482",
+      "date": "2021-12-12",
+      "quote_or_number": "Greetings Greg, really great work",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=15083379",
+      "date": "2017-08-23",
+      "quote_or_number": "Not a SaaS, but I'm working on a blogging platform for developers : https://www.ploghub.com/ ",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=6788606",
+      "date": "2013-11-24",
+      "quote_or_number": "He might have if he trademarked it",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=40956661",
+      "date": "2024-07-13",
+      "quote_or_number": "> This really must be the way of milking money Check the projects that are still there in 2 years, building a blogging platform is the developer's favorite hobby when they already have a todo list app.",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=24641452",
+      "date": "2020-09-30",
+      "quote_or_number": "spartapride creator here",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=24588069",
+      "date": "2020-09-25",
+      "quote_or_number": "Because it is 1000 words of content with the ability for you to comment on the content, click one of many numerous react options, retweet it, bookmark it, see how long it will take you to read, view other posts with the same tags, for the developer to know who visited, where they visited from, what...",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=24292131",
+      "date": "2020-08-27",
+      "quote_or_number": "It doesn't look like an alternative to Medium to me \u2013 its a collection of posts by nominated open source developers, as opposed to a technical blogging platform",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=22393704",
+      "date": "2020-02-22",
+      "quote_or_number": "I rarely find a developer website without RSS",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=16495254",
+      "date": "2018-03-01",
+      "quote_or_number": "Threespot | WordPress Developer | Washington, DC | ONSITE | Full Time | https://www.threespot.com/ Threespot is an independent digital agency hell-bent on helping those, and only those, who are committed to helping others",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=10604717",
+      "date": "2015-11-21",
+      "quote_or_number": "The creator of ghost (the blogging platform) was a wordpress developer. He doesn't think that wordpress hasn't changed: > http://john.onolan.org/project-ghost/",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=7211191",
+      "date": "2014-02-10",
+      "quote_or_number": "How about \"Oh you think you can build a blogging platform that competes with WordPress",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "review",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=666008",
+      "date": "2009-06-20",
+      "quote_or_number": "I don't think he's approaching this from a user-centric perspective, but more from the perspective of how it's not \"fair\" to developers and designers",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=3798459",
+      "date": "2012-04-04",
+      "quote_or_number": "I am the creator of this and I am planning to add varnish support within this week to make your blogs HN/reddit resistant. I'd love to know if anyone would be willing to pay for a blogging platform built for hackers/programmers/developers.",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=31432803",
+      "date": "2022-05-19",
+      "quote_or_number": "This is what I do at the moment. I do have it on github pages. I've created account at dev.to some time ago but mainly to comment and follow other developers. It seems to me that blogging platforms could bring more audience to me. Am I wrong?",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=22300690",
+      "date": "2020-02-11",
+      "quote_or_number": "ButterCMS | SaaS Headless CMS | Remote | Full Stack Developer I'm the founder",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=22162327",
+      "date": "2020-01-27",
+      "quote_or_number": "Notable that the word \"Perl\" appears nowhere in his write up of technical legacy. He was once Chief Architect at Six Apart, developers of the Perl-based Movable Type blogging platform which once rivaled Wordpress.",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "review",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=9832930",
+      "date": "2015-07-05",
+      "quote_or_number": "With respect, you're flat wrong here",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=9715586",
+      "date": "2015-06-14",
+      "quote_or_number": "This is the prototype/MVP of an idea I had for a blogging platform",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=9606973",
+      "date": "2015-05-26",
+      "quote_or_number": "Thank you",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "review",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=9445578",
+      "date": "2015-04-27",
+      "quote_or_number": "We outsource it",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=8053144",
+      "date": "2014-07-18",
+      "quote_or_number": "Hi there, Ghostly developer here. The app is built specifically for the Ghost blogging platform and works with Disqus comments. Any feedback would be appreciated.",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=7778555",
+      "date": "2014-05-21",
+      "quote_or_number": "I find this to be true of a lot of promising new technologies",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=7656947",
+      "date": "2014-04-27",
+      "quote_or_number": "I am a python developer and use flask extensively and after having come across it few months back, I can say that there's nothing Flask can't do",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=7599140",
+      "date": "2014-04-16",
+      "quote_or_number": "Totally get your point, and we could have a fun philosophical discussion around whether or not people SHOULD want to learn how to code",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "review",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=757057",
+      "date": "2009-08-12",
+      "quote_or_number": "I had a nutty professor in college",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "review",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=7476258",
+      "date": "2014-03-26",
+      "quote_or_number": "I hear people say stuff like this a lot",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=7367382",
+      "date": "2014-03-09",
+      "quote_or_number": "Thank-you for the thoughtful response",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=7318108",
+      "date": "2014-02-28",
+      "quote_or_number": "Here is an idea for something that has been in my head for some time",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=7149595",
+      "date": "2014-01-30",
+      "quote_or_number": "1) Trust",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "review",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=7050773",
+      "date": "2014-01-13",
+      "quote_or_number": "I'm writing from a writer's perspective, not a developer's perspective",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=7001425",
+      "date": "2014-01-02",
+      "quote_or_number": "Try http://getkirby.com or http://concrete5.org or http://silverstripe.org there are many many other CMS or Blogging platforms too",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "rows": [
+    {
+      "type": "competitor",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/openblog-simple-blogging-for-devs",
+      "date": "2024-07",
+      "quote_or_number": "Free blogging for devs, no sign up required.",
+      "persona_match": "high",
+      "theme": "developer_blogging",
+      "note": "No signup blogging platform targeting developers; minimalist editor emphasizes simplicity for technical writers."
+    },
+    {
+      "type": "competitor",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/tab-the-automated-blog",
+      "date": "2025-09-27",
+      "quote_or_number": "World's simplest blog that ranks on AI and SEO",
+      "persona_match": "medium",
+      "theme": "developer_blogging",
+      "note": "AI-powered blogging with SEO optimization; focuses on discoverability for technical content and simple setup."
+    },
+    {
+      "type": "competitor",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/git-blog",
+      "date": "2026-04",
+      "quote_or_number": "Publish sites using Markdown & GitHub from your phone",
+      "persona_match": "high",
+      "theme": "developer_blogging",
+      "note": "Mobile-first GitHub integration for Markdown blogging; native developer workflow with static site generators (Hugo, Jekyll, Astro)."
+    },
+    {
+      "type": "competitor",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/voicetypr",
+      "date": "2025-10-24",
+      "quote_or_number": "offline ai voice to text for writing faster & privately",
+      "persona_match": "medium",
+      "theme": "voice_to_blog",
+      "note": "Offline voice-to-text for founders/developers; one-time purchase model addresses privacy concerns for technical writers."
+    },
+    {
+      "type": "competitor",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/wisprflow",
+      "date": "2024-09-30",
+      "quote_or_number": "Voice productivity for your writing and your meetings.",
+      "persona_match": "medium",
+      "theme": "voice_to_blog",
+      "note": "Universal voice dictation for Mac; real-time formatting and editing for technical writing across applications."
+    },
+    {
+      "type": "competitor",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/voisistant",
+      "date": "2025-10-29",
+      "quote_or_number": "Voice to smart text in 5 AI modes + real-time translation",
+      "persona_match": "medium",
+      "theme": "voice_to_blog",
+      "note": "Multi-mode voice conversion for different use cases; system integration for Mac reduces friction in voice-first writing."
+    },
+    {
+      "type": "competitor",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/voquill",
+      "date": "2025-08-04",
+      "quote_or_number": "The open source alternative to WisprFlow",
+      "persona_match": "high",
+      "theme": "voice_to_blog",
+      "note": "Open-source voice-to-text with cross-platform support (Windows, macOS, Linux, mobile); aligns with developer preference for open ecosystems."
+    },
+    {
+      "type": "competitor",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/golpo",
+      "date": "2025-01",
+      "quote_or_number": "The most powerful AI video generator for explainer videos",
+      "persona_match": "medium",
+      "theme": "blog_to_video",
+      "note": "Document-to-video with narrated whiteboard animations; enables technical blog posts to become engaging video content."
+    },
+    {
+      "type": "competitor",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/motionvid-ai",
+      "date": "2025-04-03",
+      "quote_or_number": "Create Motion Graphics within seconds with AI",
+      "persona_match": "medium",
+      "theme": "blog_to_video",
+      "note": "Text-to-motion-graphics for blog posts; generates cinematic visuals from plain language descriptions for video repurposing."
+    }
+  ]
+}

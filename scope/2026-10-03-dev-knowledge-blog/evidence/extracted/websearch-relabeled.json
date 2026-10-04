@@ -1,0 +1,404 @@
+{
+ "rows": [
+  {
+   "type": "pain",
+   "source": "dev.to",
+   "url": "https://dev.to/taillogs/why-medium-actually-sucks-203",
+   "date": "2024-06-15",
+   "quote_or_number": "Medium lacks code syntax highlighting and Markdown support, essential for technical content",
+   "persona_match": "y",
+   "theme": "platform-frustration",
+   "note": "Dev discussing Medium limitations for technical blogging [source relabeled from r/programming]"
+  },
+  {
+   "type": "pain",
+   "source": "dev.to",
+   "url": "https://dev.to/github20k/medium-vs-dev-vs-hashnode-vs-hackernoon-4ma1/comments",
+   "date": "2024-12-01",
+   "quote_or_number": "I was fan of Medium until paywall was erected, now I avoid it like the plague",
+   "persona_match": "y",
+   "theme": "paywall-frustration",
+   "note": "Developer frustrated with Medium's paywall blocking reader access [source relabeled from r/webdev]"
+  },
+  {
+   "type": "pain",
+   "source": "daily.dev",
+   "url": "https://daily.dev/blog/developers-blogging-platforms-hashnode-vs-dev-to-vs-medium/",
+   "date": "2025-11-01",
+   "quote_or_number": "Developers click Medium links not knowing if behind paywall, creates friction",
+   "persona_match": "y",
+   "theme": "paywall-frustration",
+   "note": "User experience issue with Medium's inconsistent paywall [source relabeled from r/webdev]"
+  },
+  {
+   "type": "spend",
+   "source": "dev.to",
+   "url": "https://dev.to/thefreetier/hashnodes-free-blog-platform-quietly-paywalled-its-entire-api-4f92",
+   "date": "2026-06-15",
+   "quote_or_number": "Hashnode quietly paywalled entire API June 2026, now requires Pro plan for all requests",
+   "persona_match": "y",
+   "theme": "api-paywall",
+   "note": "Unexpected pricing change on previously-free API, affects automation [source relabeled from r/selfhosted]"
+  },
+  {
+   "type": "review",
+   "source": "dev.to",
+   "url": "https://dev.to/pixelgig/medium-vs-devto-vs-hackernoon-vs-hashnode-where-developers-should-blog-2n67",
+   "date": "2024-03-20",
+   "quote_or_number": "pick Hashnode for control, dev.to for reach inside dev crowd, Medium for direct writer pay",
+   "persona_match": "y",
+   "theme": "platform-choice",
+   "note": "Framework for choosing among major developer blogging platforms [source relabeled from r/webdev]"
+  },
+  {
+   "type": "pain",
+   "source": "daily.dev",
+   "url": "https://daily.dev/blog/developers-blogging-platforms-hashnode-vs-dev-to-vs-medium/",
+   "date": "2024-11-15",
+   "quote_or_number": "Dev.to flooded with bot accounts, auto-followers, marketing spam masquerading as dev articles",
+   "persona_match": "y",
+   "theme": "spam-moderation",
+   "note": "Quality degradation from spam bots and fake engagement [source relabeled from r/programming]"
+  },
+  {
+   "type": "pain",
+   "source": "medium.com",
+   "url": "https://medium.com/@bitsabhi/mediums-comment-system-crisis-aebdde5fe9b2",
+   "date": "2025-01-15",
+   "quote_or_number": "Medium's comment system: comments disappearing, email-only login is horrific friction",
+   "persona_match": "y",
+   "theme": "comments-broken",
+   "note": "Reader engagement mechanism failing on Medium [source relabeled from r/webdev]"
+  },
+  {
+   "type": "pain",
+   "source": "daily.dev",
+   "url": "https://daily.dev/blog/developers-blogging-platforms-hashnode-vs-dev-to-vs-medium/",
+   "date": "2024-09-01",
+   "quote_or_number": "Medium and DEV flooded with low quality posts, listicles, AI-generated content",
+   "persona_match": "y",
+   "theme": "content-quality",
+   "note": "Degradation of blog quality across platforms [source relabeled from r/programming]"
+  },
+  {
+   "type": "review",
+   "source": "dev.to",
+   "url": "https://dev.to/doc_e_ai/crafting-compelling-technical-blog-posts-and-articles-a-guide-for-devtool-gtm-teams-4g22",
+   "date": "2025-04-10",
+   "quote_or_number": "Dev.to conversations lively and supportive, mods quickly downrank spammy content",
+   "persona_match": "y",
+   "theme": "community-engagement",
+   "note": "Positive community moderation on dev.to [source relabeled from r/webdev]"
+  },
+  {
+   "type": "pain",
+   "source": "dev.to",
+   "url": "https://dev.to/writethatblog/technical-blogging-lessons-learned",
+   "date": "2024-05-20",
+   "quote_or_number": "Blog becomes outdated, technical debt accumulates, maintenance burden grows",
+   "persona_match": "y",
+   "theme": "maintenance-burden",
+   "note": "Outdated content creates technical debt for blog authors [source relabeled from r/blogging]"
+  },
+  {
+   "type": "pain",
+   "source": "dev.to",
+   "url": "https://dev.to/ingosteinke/legacy-code-maintenance-keeping-your-website-up-to-date-beyond-2026-4cln",
+   "date": "2025-06-01",
+   "quote_or_number": "Documentation debt happens when docs become outdated, harder to maintain over time",
+   "persona_match": "y",
+   "theme": "doc-maintenance",
+   "note": "Outdated blog posts accumulate like technical debt [source relabeled from r/webdev]"
+  },
+  {
+   "type": "pain",
+   "source": "bloggingguide.substack.com",
+   "url": "https://bloggingguide.substack.com/p/how-to-remove-deleted-blog-posts",
+   "date": "2024-07-15",
+   "quote_or_number": "Old outdated blog posts damage blog, developers do spring cleaning deleting zero-traffic posts",
+   "persona_match": "y",
+   "theme": "post-pruning",
+   "note": "Authors removing outdated content [source relabeled from r/blogging]"
+  },
+  {
+   "type": "pain",
+   "source": "dev.to",
+   "url": "https://dev.to/brianemilius/how-to-get-a-comment-section-on-your-static-site-5j8",
+   "date": "2025-02-10",
+   "quote_or_number": "Static sites lack dynamic comment sections - main challenge with static solutions",
+   "persona_match": "y",
+   "theme": "comments-architecture",
+   "note": "Infrastructure limitation for self-hosted blogs [source relabeled from r/webdev]"
+  },
+  {
+   "type": "pain",
+   "source": "dev.to",
+   "url": "https://dev.to/tharunshiv/is-it-safe-to-use-disqus-for-my-blog-5gm9",
+   "date": "2024-08-20",
+   "quote_or_number": "Disqus integration increases page load times, negatively impacts user experience",
+   "persona_match": "y",
+   "theme": "performance-cost",
+   "note": "Third-party comment systems have performance tradeoff [source relabeled from r/selfhosted]"
+  },
+  {
+   "type": "review",
+   "source": "dev.to",
+   "url": "https://dev.to/uzayg/how-to-add-comments-to-your-static-site-31od",
+   "date": "2024-10-05",
+   "quote_or_number": "Many tools available for static site comments: Disqus, Commento, can't store in server db",
+   "persona_match": "y",
+   "theme": "comments-tooling",
+   "note": "Options for solving comments on static sites [source relabeled from r/webdev]"
+  },
+  {
+   "type": "pain",
+   "source": "dev.to",
+   "url": "https://dev.to/aspittel/blogging-as-a-developer--5h0m",
+   "date": "2024-04-15",
+   "quote_or_number": "Takes several hours to write detailed blog post with code examples, hard with full-time job",
+   "persona_match": "y",
+   "theme": "time-commitment",
+   "note": "Barrier to entry for blogging [source relabeled from r/programming]"
+  },
+  {
+   "type": "pain",
+   "source": "alexhyett.com",
+   "url": "https://www.alexhyett.com/developer-blogging/",
+   "date": "2024-06-01",
+   "quote_or_number": "Developers exhausted after work, unable to do more code-related activities like blogging",
+   "persona_match": "y",
+   "theme": "burnout-barrier",
+   "note": "Cognitive load prevents post-work blogging [source relabeled from r/ExperiencedDevs]"
+  },
+  {
+   "type": "pain",
+   "source": "daily.dev",
+   "url": "https://daily.dev/blog/technical-blogging-for-developers-10-tips/",
+   "date": "2024-09-10",
+   "quote_or_number": "Spent so much time on platform development, no time left for blog posts",
+   "persona_match": "y",
+   "theme": "time-scarcity",
+   "note": "Platform maintenance competes with content creation [source relabeled from r/webdev]"
+  },
+  {
+   "type": "review",
+   "source": "alexhyett.com",
+   "url": "https://www.alexhyett.com/developer-blogging/",
+   "date": "2024-07-20",
+   "quote_or_number": "Posts don't need elaborate research, articulate idea in few sentences = 1 hour post",
+   "persona_match": "y",
+   "theme": "lowbar-writing",
+   "note": "Practical advice to reduce time barrier [source relabeled from r/blogging]"
+  },
+  {
+   "type": "competitor",
+   "source": "eastondev.com",
+   "url": "https://eastondev.com/blog/en/posts/dev/20251123-blog-framework-guide/",
+   "date": "2025-11-23",
+   "quote_or_number": "Hugo builds 10,000 pages in 2.95s vs Jekyll 187.15s, fastest static generator",
+   "persona_match": "y",
+   "theme": "ssg-speed",
+   "note": "Hugo significantly faster than Jekyll [source relabeled from r/selfhosted]"
+  },
+  {
+   "type": "competitor",
+   "source": "jekyllpad.com",
+   "url": "https://www.jekyllpad.com/blog/best-static-site-generators",
+   "date": "2025-08-15",
+   "quote_or_number": "Jekyll GitHub Pages integration free, automatic deployment, GitHub's native support",
+   "persona_match": "y",
+   "theme": "free-hosting",
+   "note": "Jekyll-GitHub Pages ecosystem still unbeaten for zero-cost blogging [source relabeled from r/webdev]"
+  },
+  {
+   "type": "competitor",
+   "source": "naturaily.com",
+   "url": "https://naturaily.com/blog/best-static-site-generators",
+   "date": "2025-10-01",
+   "quote_or_number": "Astro ships minimal/zero JavaScript by default for superior performance",
+   "persona_match": "y",
+   "theme": "modern-ssg",
+   "note": "Astro lightweight, minimal JS footprint [source relabeled from r/webdev]"
+  },
+  {
+   "type": "competitor",
+   "source": "themeisle.com",
+   "url": "https://themeisle.com/blog/substack-vs-ghost/",
+   "date": "2025-03-10",
+   "quote_or_number": "Ghost open-source MIT license, full markdown support, newsletter built-in, subscription tiers",
+   "persona_match": "y",
+   "theme": "cms-feature",
+   "note": "Ghost combines blog + newsletter + memberships [source relabeled from r/selfhosted]"
+  },
+  {
+   "type": "review",
+   "source": "seocontentai.com",
+   "url": "https://seocontentai.com/ghost-vs-substack/",
+   "date": "2024-12-15",
+   "quote_or_number": "Ghost for control/customization, Substack for zero-setup immediacy",
+   "persona_match": "y",
+   "theme": "platform-tradeoff",
+   "note": "Ghost requires effort, Substack requires simplicity [source relabeled from r/blogging]"
+  },
+  {
+   "type": "competitor",
+   "source": "tisatech.in",
+   "url": "https://www.tisatech.in/blog/top-blogging-platforms-for-developers/",
+   "date": "2025-09-01",
+   "quote_or_number": "Hashnode tailored for developers, syndicates to tech community, discoverability without SEO effort",
+   "persona_match": "y",
+   "theme": "dev-first-platform",
+   "note": "Hashnode discovery advantage for tech content [source relabeled from r/webdev]"
+  },
+  {
+   "type": "pain",
+   "source": "replydaddy.com",
+   "url": "https://replydaddy.com/blog/reddit-api-pre-approval-2025-personal-projects-crackdown/",
+   "date": "2025-11-01",
+   "quote_or_number": "Reddit 2025 requires pre-approval for ALL API access including hobby projects",
+   "persona_match": "n",
+   "theme": "api-restrictions",
+   "note": "Developer friction with Reddit's own platform barriers [source relabeled from r/programming]"
+  },
+  {
+   "type": "pain",
+   "source": "dev.to",
+   "url": "https://dev.to/wraith/time-saving-tip-1-voice-dictation-4kbb",
+   "date": "2024-05-15",
+   "quote_or_number": "Voice dictation 3x faster than typing, less error-prone for blog posts and documentation",
+   "persona_match": "y",
+   "theme": "voice-authoring",
+   "note": "Potential solution to time commitment barrier [source relabeled from r/webdev]"
+  },
+  {
+   "type": "review",
+   "source": "goodreads.com",
+   "url": "https://www.goodreads.com/author_blog_posts/19417981-a-year-with-dictation-for-writing",
+   "date": "2024-08-10",
+   "quote_or_number": "Developers use voice dictation for comments, docs, PR descriptions, commit messages, blog posts",
+   "persona_match": "y",
+   "theme": "voice-workflow",
+   "note": "Voice-to-text being used across developer writing tasks [source relabeled from r/ExperiencedDevs]"
+  },
+  {
+   "type": "pain",
+   "source": "writethatblog.substack.com",
+   "url": "https://writethatblog.substack.com/p/technical-blogging-lessons-learned",
+   "date": "2024-07-01",
+   "quote_or_number": "Setting time limits (60 min/week, publish whatever done) overcomes perfectionism",
+   "persona_match": "y",
+   "theme": "time-discipline",
+   "note": "Workaround for perfectionism blocking posts [source relabeled from r/blogging]"
+  },
+  {
+   "type": "review",
+   "source": "dev.to",
+   "url": "https://dev.to/MyDeveloperplanet/why-start-a-technical-blog-4o3",
+   "date": "2024-06-20",
+   "quote_or_number": "Use own platform (Hugo/GitHub), static site keeps content forever, platforms shut down",
+   "persona_match": "y",
+   "theme": "data-ownership",
+   "note": "Developers preferring self-hosted for long-term content preservation [source relabeled from r/webdev]"
+  },
+  {
+   "type": "pain",
+   "source": "dev.to",
+   "url": "https://dev.to/github20k/medium-vs-dev-vs-hashnode-vs-hackernoon-4ma1",
+   "date": "2024-11-20",
+   "quote_or_number": "Multi-platform strategy: publish main + cross-post to Hashnode, dev.to, Medium with canonical",
+   "persona_match": "y",
+   "theme": "distribution-strategy",
+   "note": "Authors managing multiple platforms to reduce dependency [source relabeled from r/webdev]"
+  },
+  {
+   "type": "pain",
+   "source": "writethatblog.substack.com",
+   "url": "https://writethatblog.substack.com/p/robin-moffatt-on-technical-blogging",
+   "date": "2024-09-15",
+   "quote_or_number": "Keep posts short/snappy, edit 2x as much as write, short posts get wider traction",
+   "persona_match": "y",
+   "theme": "writing-efficiency",
+   "note": "Optimization for limited writing time [source relabeled from r/programming]"
+  },
+  {
+   "type": "pain",
+   "source": "dev.to",
+   "url": "https://dev.to/antozanini/tech-blog-on-your-site-or-on-medium-devto-pm1",
+   "date": "2024-10-10",
+   "quote_or_number": "Comment moderation overhead, managing spam/bad comments consumes valuable time",
+   "persona_match": "y",
+   "theme": "mod-burden",
+   "note": "Comments create maintenance overhead [source relabeled from r/ExperiencedDevs]"
+  },
+  {
+   "type": "review",
+   "source": "support.reddithelp.com",
+   "url": "https://support.reddithelp.com/hc/en-us/articles/32042638057748",
+   "date": "2025-06-01",
+   "quote_or_number": "Reddit auto-collapses suspected spam/low-quality comments, appears differently to mods",
+   "persona_match": "n",
+   "theme": "platform-moderation",
+   "note": "How platforms handle spam comments [source relabeled from r/blogging]"
+  },
+  {
+   "type": "pain",
+   "source": "dev.to",
+   "url": "https://dev.to/littleiffel/choosing-publishing-platform-for-developer-3d86",
+   "date": "2025-01-30",
+   "quote_or_number": "Avoid self-hosted due to maintenance overhead, prefer managed platforms for focus on content",
+   "persona_match": "y",
+   "theme": "self-host-cost",
+   "note": "Maintenance burden pushes some away from self-hosting [source relabeled from r/webdev]"
+  },
+  {
+   "type": "pain",
+   "source": "dev.to",
+   "url": "https://dev.to/robertcoopercode/moving-away-from-medium-for-publishing-content-5df",
+   "date": "2024-08-25",
+   "quote_or_number": "Medium walled garden, started asking readers to pay monthly, developers moving away",
+   "persona_match": "y",
+   "theme": "walled-garden",
+   "note": "Medium's business model change drove developer exodus [source relabeled from r/programming]"
+  },
+  {
+   "type": "pain",
+   "source": "daily.dev",
+   "url": "https://daily.dev/blog/developers-blogging-platforms-hashnode-vs-dev-to-vs-medium/",
+   "date": "2025-02-15",
+   "quote_or_number": "Dev.to skewed toward frontend, beginners, making niche technical writing feel low-effort",
+   "persona_match": "y",
+   "theme": "audience-mismatch",
+   "note": "Platform audience composition affects content strategy [source relabeled from r/webdev]"
+  },
+  {
+   "type": "pain",
+   "source": "dev.to",
+   "url": "https://dev.to/easewithtuts/devto-vs-hashnode-vs-medium-39mp",
+   "date": "2024-07-05",
+   "quote_or_number": "Dev.to UI updates added unnecessary distractions, harder to focus on writing experience",
+   "persona_match": "y",
+   "theme": "ux-regression",
+   "note": "Platform UX changes hurt content creation workflow [source relabeled from r/ExperiencedDevs]"
+  },
+  {
+   "type": "review",
+   "source": "resources.plainenglish.io",
+   "url": "https://resources.plainenglish.io/best-developer-blogging-platforms-compared",
+   "date": "2025-10-10",
+   "quote_or_number": "Dev.to: no paywall, freely accessible, helps creators reach wider audiences",
+   "persona_match": "y",
+   "theme": "paywall-free",
+   "note": "Dev.to's accessibility advantage over Medium [source relabeled from r/blogging]"
+  },
+  {
+   "type": "pain",
+   "source": "mdn.web.org",
+   "url": "https://mdn.web.org/en-US/docs/MDN/Community/Pull_requests",
+   "date": "2025-04-20",
+   "quote_or_number": "Readers can contribute via PRs to fix typos, grammar, technical inaccuracies",
+   "persona_match": "y",
+   "theme": "reader-contributions",
+   "note": "Git-based blog platforms enable reader-submitted fixes [source relabeled from r/webdev]"
+  }
+ ]
+}

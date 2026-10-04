@@ -1,0 +1,329 @@
+{
+ "query_url": "https://hn.algolia.com/api/v1/search?query=technical+blog+comments&tags=story&hitsPerPage=40",
+ "args": [
+  "technical blog comments",
+  "story"
+ ],
+ "items": [
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=10001342",
+   "date": "2015-08-04",
+   "title": "Ask HN: How to become a better at writing?",
+   "text": "Can someone suggest a good starting point (on-line courses, books,blog etc...) to improve my writing skills. I am mainly interested in technical writing ( research papers, blog post, source code comments and documentation), but i would also like to be able to construct a narrative text around a string of arguments when i need to debate/convince someone by text. Random questions : I am an avid reader, are there ways i can use my reading to improve my writing? (maybe getting into the habit or writing a review/summary of books i read? ) Is there an on-line community where i can post text i wrote and get some constructive feedback ?",
+   "points": 15
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=42467666",
+   "date": "2024-12-20",
+   "title": "Ask HN: Recommendations for site to post technical blogs?",
+   "text": "Hi all, I have a bunch of blog posts I want to share for free and am looking for a good platform to post on. Please share your recommendations I'm looking for: - Free to post, free to read - Minimal analytics (don't want to write articles no one reads) - Code blocks, mermaid / charts as code, graphviz support would also be awesome. - Comments / Likes / Engagement I have tried; - GitHub Repo Markdown / Github Wiki Nearly perfect but it doesn't have analytics or more advanced layouts (like columns). - Medium Aside from the site pestering people to pay, the lack of support for code highlighting, mermaid, graphs as code and the limited formatting makes it less than ideal. - Dev.to Nice, free, simple but lacking a lot of features & formatting. The editor is quite basic and complex articles that are better illustrated with expressive formatting are impossible. You also lose you changes if you refresh the editor page which can be devastating. - Atlassian Confluence Pretty great when it comes to features but requires a paid subscription to access analytics/plugins. It's also slow and difficult to share articles. - Static Site Generator (rspress) I tried to use a static site generator like rspress and a Giscus widget to add comments however it lacks the customizability I crave - Hand-Written Static Site Generator (Giscus, Plausible) This is my current solution but the overhead of maintaining a website while not being a talented designer means it never looks how I want it to and I spend more time tinkering with the site than I do actually writing articles.",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=19864093",
+   "date": "2019-05-08",
+   "title": "Sequence: Technical Recap on Reddit's April Fools Experiment",
+   "text": "",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=38531759",
+   "date": "2023-12-05",
+   "title": "Show HN: Beeper Mini \u2013 iMessage client for Android",
+   "text": "Hi HN! I\u2019m proud to share that we have built a real 3rd party iMessage client for Android. We did it by reverse engineering the iMessage protocol and encryption system. It's available to download today (no waitlist): https://play.google.com/store/apps/details?id=com.beeper.ima and there's a technical writeup here: https://blog.beeper.com/p/how-beeper-mini-works . Unlike every other attempt to build an iMessage app for Android (including our first gen app), Beeper Mini does not use a Mac server relay in the cloud. The app connects directly to Apple servers to send and receive end-to-end encrypted messages. Encryption keys never leave your device. No Apple ID is required. Beeper does not have access to your Apple account. With Beeper Mini, your Android phone number is registered on iMessage. You show up as a \u2018blue bubble\u2019 when iPhone friends text you, and can join real iMessage group chats. All chat features like typing status, read receipts, full resolution images/video, emoji reactions, voice notes, editing/unsending, stickers etc are supported. This is all unprecedented, so I imagine you may have a lot of questions. We\u2019ve written a detailed technical blog post about how Beeper Mini works: https://blog.beeper.com/p/how-beeper-mini-works . A team member has published an open source Python iMessage protocol PoC on Github: https://github.com/JJTech0130/pypush . You can try it yourself on any Mac/Windows/Linux computer and see how iMessage works. My cofounder and I are also here to answer questions in the comments. Our long term vision is to build a universal chat app ( https://blog.beeper.com/p/were-building-the-best-chat-app-on ). Over the next few months, we will be adding support for SMS/RCS, WhatsApp, Signal and 12 other chat networks into Beeper Mini. At that point, we\u2019ll drop the `Mini` postfix. We\u2019re also rebuilding our Beeper Desktop and iOS apps to support our new \u2018client-side bridge\u2019 architecture that preserves full end-to-end encryption. We\u2019re also renaming ",
+   "points": 1521
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=45643176",
+   "date": "2025-10-20",
+   "title": "Show HN: VebGen \u2013 Autonomous AI agent with zero-token AST intelligence",
+   "text": "Hi HN! I'm Ramesh, a 20-year-old developer from India. I spent 8 months building VebGen \u2013 an autonomous AI development agent for Django projects. Built this at my cousin's house (limited internet at home), no degree, no team, $0 funding. The entire 500KB codebase was developed using free-tier models. The Story: I wanted an AI agent that actually understands Django projects without burning through API tokens. Cursor and Copilot are great for line-level coding, but I wanted something that could build full features autonomously while staying within free-tier limits. What VebGen Does: Think of it as having a senior developer + QA engineer working 24/7 on your Django project. You describe what you want (\"build a blog with comments\"), and it: \u2022 Plans the architecture (adaptive based on complexity) \u2022 Writes the code (models, views, URLs, tests) \u2022 Reviews for security (OWASP Top 10, N+1 queries) \u2022 Fixes bugs autonomously (70% success rate) \u2022 Never loses progress (auto-save with rollback) How It Compares: Cursor/Copilot \u2192 Assisted coding (you type, they help) \u2192 Great for productivity VebGen \u2192 Autonomous development (you describe, it builds) \u2192 Different scope Cursor \u2192 Sends code to LLM every analysis ($$$) \u2192 VebGen: AST parsing locally (free) Copilot \u2192 Auto-completion tool \u2192 VebGen: Full feature implementation Devin \u2192 $500/month, waitlist, closed \u2192 VebGen: Open source, runs locally, $0 Where VebGen shines: \u2022 Works on free-tier APIs (Cursor/Copilot require paid tokens) \u2022 Understands Django deeply (95+ constructs: models, views, serializers, signals, admin, Celery, Channels, etc.) \u2022 Self-healing (70% bug fix rate, tries 3 approaches) \u2022 Security-first (built-in OWASP Top 10 checks, N+1 detection) \u2022 State persistence (5 rolling backups, never lose progress) Where Cursor/Copilot win: \u2022 Better UX/polish \u2022 Smoother IDE integration \u2022 Larger ecosystem Key Innovation - Zero-Token AST Parsing: Instead of sending your entire codebase to an LLM every time (expensive!), VebGen parses Djang",
+   "points": 3
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=39637566",
+   "date": "2024-03-08",
+   "title": "Show HN: Voltfin Crypto \u2013 Crypto AI Agents",
+   "text": "Recently, AI, LLM, AI agents, all these buzzwords are spreading everywhere, triggered tons of frenzy and enthusiasm. However, AI-related things link a little too much to giant company and drifted away from common people. Personally, AI is a new kind of steam engine, it will do the tedious and heavy work which human beings don\u2019t want or hard to do. Here our team introduced a product called Voltfin Crypto AI Agents. the goal is to let this product be the copilot during anyone's Web3 journey. So you must have the question: Why Crypto? Because (1) It fits. open network has the freedom of data, information which is a natural oasis for AI agents. (2) It helps. Until today Web3 is still like a Wild West, where we need our own copilots to help. In this industry, like people always say, don\u2019t trust, verify. (3) It is promising. We believe in that Web3 is the future. Product demo is ready. Hope it is self-explainable when you click the link and start using the app. You can create Agent by directly typing in the Add Agent button. We created 1 agent already in the app, it is going to write the technical analytics blog for Bitcoin every day. Feel free to add more agents, like writing technical blog for Ethereum, Solana, etc. The future for this app is promising and full of imagination and ambition, like we can create an agent to track smart money and send alerts if any smart money make a move, or we can track some whales weird transaction. Or verify anything, like there is a crypto project kept sending information and you are not sure whether it is scam, or there is a contract address someone told you to transfer to but you don\u2019t have time to read through the smart contract code to verify. No worries, there will be verification Voltfin Crypto AI Agent to read it through for you and make decision. Not to mention the trading alerts, chain health, on-chain metrics analytics and more and more and more\u2026 Technology side, we prefer to create a mobile-native, cloud-native serverless app",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=1627619",
+   "date": "2010-08-23",
+   "title": "Geekiest Hacker News comments from the last month",
+   "text": "",
+   "points": 79
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=3259457",
+   "date": "2011-11-21",
+   "title": "Offer HN: create a collaborative tech blog?",
+   "text": "Hi fellow HN readers! tl;dr: what about setting up a community blog about technical topics? Sometimes I want to share my experience/knowledge on some subjects, but I don't want to maintain a blog which I'll update only a few time per year. So I was thinking that if some of you are like me we could setup a blog where each of us could share his thoughts on whatever he want as long it remains topics that may interest HN readers. Moreover if the quality of the posts is great we may have more visibility (what's the point of writing if nobody read it?) than if each of us as his own blog lost in some dark corner of the Internet. Want to tell everybody why (vim|emacs) is awesome? Want to show us your nifty new demo in (HTML5|CSS3|WebGL)? Want explain some IOCCC entries? Want to talk about internals of the Linux kernel? Rails advanced topics? Python metaclasses? Lexing and parsing? Node? Something else? It's ok, c'mon guys I'm pretty sure we can do something together! We just have to use Hyde/Jekyll and setup a repo on Github. It'll allow us to submit new articles (via pullrequest, and discuss them before publishing them), and to fix already published articles (by submitting an issue/pullrequest). What do you think about it? Would you be interested in a such project? Another questions? Just drop a comment!",
+   "points": 60
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=34281695",
+   "date": "2023-01-06",
+   "title": "Ask HN: What should I do with dontbenebby.org, com, and net?",
+   "text": "I saw an essay on Ask HN the other day by a full on sex offender looking for work, so I thought I'd follow up with my own plea for assistance. I registered the handle \"dontbenebby\" on a variety of platforms intending to use it for the weekend in Las Vegas for Defcon, but the joke seems to have gotten a bit out of hand. I thought I would get a job offer at Defcon, and abandon it after a weekend of jokingly tweeting like a Chapo, but instead folks took me into the room Steven Paddock would later shoot out of (or one very similar in the same set_) and told me they're not required to hire me, then made a show of making be try to do the OSCP as I had a string of breakins, cyber and physical. I went back again, after that attack, and folks still weren't very helpful. In parallel with the above, I was living with my parents, who abused the fact they were former state and federal officials to do things like slit my mail open\", threaten me with firearms, and generally engage in the same abuses that I left out of my hit essay[1] in order to let them and others save face. (Abuses like: having my septum deviated, my collarbone broken, and being forced to take speech therapy classes for my lisp after I was \"too aggressive\" about the homophobic comments staff and students made to a twice exceptional queer, autistic Appalachian son of a carpenter. ) On my end, I will admit I can be an unpleasant person, but one of the core sources of my anger is lack of reoccurring income, paired with a deep regret I spent over ten year acquiring skills that normally are off no use if no one opts into letting you use them. (Lockpicking, penetration testing, Tang Soo Do... you know, typical \"IT stuff\".) I'm about to pay the bare minimum on my secured card through the credit union account I opened during my aborted PhD. Should I stand up a website on the domain, blog about technical topics, and continue this charade of \"looking for work\"? Or sell it and exit the United States, having accomplished my",
+   "points": 5
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=561958",
+   "date": "2009-04-14",
+   "title": "Ask HN: What tools do you use to blog / where do you host your blog ?",
+   "text": "Hi fellow hackers, I was going to start a new blog (personal / technical) and was wondering what platforms / tools people use here. I tried hosting my own thing writing PHP scripts etc to control everything but that turned out to be a little more work than I thought it would be. Suggestions / comments / good-bad experiences ?",
+   "points": 3
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=43099509",
+   "date": "2025-02-19",
+   "title": "Show HN: Instantly Convert Markdown to PDF/HTML \u2013 No Setup Required",
+   "text": "In November2024, I built MD2FILE ( https://md2file.com ) \u2013 a Markdown editor and Markdown to PDF converter (two-in-one). I do a lot of documentation, technical notes, and blog posts, and I wanted a tool that could help me edit Markdown easily and also convert Markdown to friendly formats like HTML or PDF for easy sharing with other people. I searched online and while I was inspired by some of the greatest tools, I noticed most were a bit clunky and limited. Some were good but didn't allow users to try them for free before committing. That inspired me to create MD2FILE, a Markdown Editor & Markdown to PDF converter with these features: \u2022GitHub-style markdown that just works \u2022Live preview while you type (WYSIWYG) \u2022Drop in math equations and charts super easily \u2022Quick PDF/HTML export \u2022Customize how your code looks Some features I\u2019m still working on include: - Cloud sync \u2013 Connect to Google Drive, Dropbox, GitHub, and publish straight to Blogger or WordPress. - Team mode \u2013 collaborate, merge changes smoothly, add inline comments just like in Google Docs. - Offline writing - Integrated comments like it works in Word or Google Docs. To use the tool, users click on OPEN EDITOR at the top, paste their document in Markdown format, edit, and save (export it as HTML or PDF). We are in public beta phase and still fine-tuning the tool to make it more user-friendly. It's the reason I affed the submit feedback button at the top (visible when someone opens the editor) to let users give suggestions for improvement. It's where I got inspiration for creating additional features mentioned above. I would love your feedback on whether MD2FILE addresses your Markdown editing and conversion pain points.",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=38745315",
+   "date": "2023-12-23",
+   "title": "Show HN: Talk Paper Scissors",
+   "text": "hey all! just in time for the friends&family gatherings, friend and collaborator Nolen from eieio[0] and I just launched Talk Paper Scissors i.e. rock paper scissors over the telephone! with strangers! Nolen goes into a lot of technical detail on his blog[1] ... including how we had to implement a weird \"ping pong\" hack to make Twilio behave less unpredictably around weird telephony states. turns out that phone/web/API games are cool little hard async problems! we had to mutex stuff! feel free to ask questions/leave comments here -- and wishing everyone happy holidays!! cheeers oh... and here's the source code!! [2] [0] from https://stranger.video fame!! -- discussed here https://news.ycombinator.com/item?id=38305787 [1] https://eieio.games/nonsense/game-13-talk-paper-scissors/ [2] https://github.com/gregsadetsky/tps/",
+   "points": 102
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=6284610",
+   "date": "2013-08-27",
+   "title": "Ask HN: Algorithms for inline comments?",
+   "text": "I want to put inline comments on my blog. Like GitHub allows you to do (or BitBucket, Diigo, Medium etc). However, I want the comments to 'stick' to the item (paragraph, sentence, image): if I move it to another place in the document, if I make text amends - even if I merge two paragraphs, the comment should remain visible. OK, the comment may not be relevant any more, but then I can 'archive' them with he previous draft (preserving a full history of comments plus text changes). In my research I've found BitBucket's post [1] about how they built theirs, but it lacks detail. I imagine the technical challenges to be similar to Real-time Collaborative Editing [2] - keep track of text changes and re-apply comments to the right place. So I appeal to the HN Community : Are there sample open source implementations out there? What terminology should I be searching for (finding the language of a new problem domain is challenging)? How would you implement it? Are there papers/web pages you can recommend? I believe Operational Transforms [3] are the way to go, but I have no basis for that. 1. http://blog.bitbucket.org/2012/10/30/building-inline-comments-for-pull-requests-and-commits/ 2. http://en.wikipedia.org/wiki/Collaborative_real-time_editor 3. http://en.wikipedia.org/wiki/Operational_transformation",
+   "points": 9
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=40704613",
+   "date": "2024-06-17",
+   "title": "Reddit is so hard for newcomers",
+   "text": "How do you gain karma on Reddit when you constantly get blocked and filtered? I am a cybersecurity expert and I have experience in writing decent technical content (like https://blog.vidocsecurity.com/blog/hacking-swagger-ui-from-xss-to-account-takeovers/ or https://www.moczadlo.com/2024/delightful-inputs-with-intellisense-and-syntax-highlighting) It is almost impossible to translate it into Reddit karma - I tried posting content on some of the subreddits, but I simply can't cause of minimal karma requirements. Reddit said that you need to comment before being allowed to post content on most of the subreddits, but for me, it is really hard to find interesting posts I could comment on. It is far easier to create new engaging content, than finding ways of contributing to existing content. You need to filter through hundreds of bad posts to find a couple of interesting ones and be early enough to add value through comments. How do you do it?",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=35904292",
+   "date": "2023-05-11",
+   "title": "Show HN: Gromit, the OSS, AI powered assistant for your website/app",
+   "text": "Hello HN, Today we are launching Gromit, an open-source AI powered assistant for your website. Gromit digests your documentation and using redis with OpenAI embeddings creates an assistant that your customers can interact with. You can easily use Gromit to create a new way for your customers to interact with your documentation. It not only will give concise, conversational answers based on your documentation, but it also gives useful examples. The github repo for gromit: https://github.com/releasehub-com/gromit The github repo for an example using gromit: https://github.com/releasehub-com/gromit-example Blog post/s with technical details of Gromit: https://release.com/blog/gromit-an-open-source-ai-assistant-... https://release.com/blog/training-chatgpt-with-custom-librar... We were inspired by what supabase did with the creation of their own ai powered assistant here: https://supabase.com/blog/chatgpt-supabase-docs but we wanted to make one that used a more standard backend in redis and ruby. Gromit is super new; please give it a shot and make pull requests, leave comments, we would love to chat with you about it!",
+   "points": 8
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=45629572",
+   "date": "2025-10-18",
+   "title": "Show HN: I scraped Reddit to find the most controversial chef knife",
+   "text": "I wanted to quantify the endless \"which knife should I buy\" debates on r/chefknives, so I built a data analysis pipeline to get some real answers. The project is a 5-phase system built with Node.js. It first uses Fuse.js for fast, typo-tolerant fuzzy matching of ~450 known brands and ~8,700 models. The remaining text is then passed to an LLM (via OpenRouter) for discovering new, unknown entities and performing sentiment analysis on every mention. I ran it on over 1,000 threads, totaling more than 25,000 comments. A few interesting findings: The Underdog: Budget-friendly Tojiro has a massive 27-to-1 positive-to-negative mention ratio. The Controversy King: Shun is by far the most polarizing brand, sparking strong love/hate discussions (59 positive vs. 24 negative mentions). The Unloved: Dalstrong was one of the few brands to receive more negative mentions than positive. The system isn't perfect\u2014I'm open about a critical entity aggregation bug in the write-up. The full technical architecture, results, and raw data are available. I'm here to answer any questions! Blog Post (full story & visualizations): https://new.knife.day/blog/we-analyzed-25000-reddit-comments... GitHub (technical breakdown & raw data): https://github.com/pvijeh/reddit-named-entity-recognition/bl... Original Reddit Discussion: https://www.reddit.com/r/chefknives/comments/1o2p363/i_analy...",
+   "points": 7
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=3174407",
+   "date": "2011-10-30",
+   "title": "For HN: Open access to scientific papers, a summary of the state of play",
+   "text": "[EDIT: Available at the following URL with proper hyperlinks, per a suggestion in the comments: http://michaelnielsen.org/blog/open-access-a-short-summary/] The topic of open access to scientific papers comes up often on Hacker News. Unfortunately, those discussions sometimes bog down in misinformation and misunderstandings. Although it's not exactly my area of expertise, it's close --- I've spent the last three years working on open science. So I thought it might be useful to post a summary of the current state of open access. There's a lot going on, so even though this essay appears lengthy, it's actually a very brief and incomplete summary of what's happening. I have links to further reading at the end. This is not a small stakes game. The big scientific publishers are phenomenally profitable. In 2009, Elsevier made a profit of 1.1 billion dollars on revenue of 3.2 billion dollars. That's a margin (and business model) they are very strongly motivated to protect. They're the biggest commercial journal publisher, but the other big publishers are also extremely profitable. Even not-for-profit societies often make an enormous profit on their journals. In 2004 (the most recent year for which I have figures) the American Chemical Society made a profit of 40 million dollars on revnues of 340 million dollars. Not bad! This money is reinvested in other society activities, including salaries. Top execs receive salaries in the 500k to 1m range (as of 2006, I'm sure it's quite a bit higher now: http://www.chemistry-blog.com/2008/01/02/acs-executive-compensations-for-2006/) The traditional publishers make money by charging journal subscription fees to libraries. Why they make so much money is a matter for much discussion, but I will merely point out one fact: there are big systematic inefficiencies built into the market. University libraries for the most part pay the subscription fees, but they rely on guidance (and often respond to pressure) from faculty members in deciding ",
+   "points": 102
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=9318462",
+   "date": "2015-04-03",
+   "title": "Ask HN: How to make Google notice me?",
+   "text": "I really want to work at Google, for various reasons. I'm writing software for many years, got a great job, managed people, and I can get any Sr. software engineer role I really want. But I really want to work there. I got many other companies contact me, Twitter, Apple, Facebook, Amazon, Linked-In, Netflix and even a couple of YC companies. Google contacted me only once, but for a \"10% technical, mostly customer support around ad services\" What do I need to do to get on their radar for a software engineer position? :) What do I need to do in addition to this: - got a 5 digit stackoverflow reputation, 3% overall in various topics - got tons of twitter followers on technical topics - got many github repos in many languages, several pull requests merged into popular projects. - My degree is from a top 10 US university in computer science. - I have many years of software experience - My company SOLD Google one of the products I worked on (instead of developing in house) - got a pretty high HN karma on technical related comments in my \"real\" username - Great linked in profile, tons of recommendations and endorsements - People tell me I'm a really good software engineer - I am a really full stack T-shaped guy, knows a little about a lot and a lot about a little. - I can write fluently in Java, Scala, C++, C, JavaScript, ES6, HTML5, CSS3 - Have a relatively popular blog, with a couple of technical posts getting to HN front page. - I'm REALLY prepared to take that Google interview, but I just need them to call! So to all of you who keep getting Google recruiter spam. What are you doing that I'm not? Do I need to start speaking at conferences? Write books? Start a PhD at Stanford? (an MSc from a top 10 CS program is not enough?) Google? why not you like me? :) Hope to get some insights, really appreciate your help.",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=22777673",
+   "date": "2020-04-04",
+   "title": "Ask HN: Is Google failing to filter spam?",
+   "text": "I've noticed that in the past few months, I'm increasingly encountering spam results in the first page of Google searches. They are more \"intelligent\" than the usual spam which I used to recognize quickly ('+' joined keywords in the url, nonsense description, generic domain name) : The results seem to have a correct description, the URL looks like that of a blog post, but when I click on it, either I get a 404 or redirected to a site which gets blocked by my ad blocker. I mostly encounter those with my programming/technical queries. Here is one I encountered today : Query : edgerouter nas pihole wireguard 9th Result: - Url : cultureofsales.com \u203a unifi-wireguard - Title : Unifi wireguard - Description : In my last post, I setup the Ubiquiti EdgeRouter Lite (ERL) as a basic router and firewall. ... My Synology NAS is backup (with regards to the DNS-based Pi-Hole ... The description turns out to be a combination of sentences from this blog post[1] and this HN comment[2]. The second page of results is even worse. Did anyone notice the same thing? And please, do not suggest DuckDuckGo, you can check for yourself how bad are the results compared to Google for the above query. [1] https://loganmarchione.com/2016/05/edgerouter-lite-openvpn-setup/ [2] https://news.ycombinator.com/item?id=19209399",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=35151881",
+   "date": "2023-03-14",
+   "title": "Show HN: Using GPT-3 and Whisper to save doctors\u2019 time",
+   "text": "Hey HN, We're Alex, Martin and Laurent. We previously founded Wit.ai (W14), which we sold to Facebook in 2015. Since 2019, we've been working on Nabla ( https://nabla.com ), an intelligent assistant for health practitioners. When GPT-3 was released in 2020, we investigated it's usage in a medical context[0], to mixed results. Since then we\u2019ve kept exploring opportunities at the intersection of healthcare and AI, and noticed that doctors spend am awful lot of time on medical documentation (writing clinical notes, updating their EHR, etc.). Today, we're releasing Nabla Copilot, a Chrome extension generating clinical notes from video consultations, to address this problem. You can try it out, without installation nor sign up, on our demo page: https://nabla.com/copilot-demo/ Here\u2019s how it works under the hood: - When a doctor starts a video consultation, our Chrome extension auto-starts itself and listens to the active tab as well as the doctor\u2019s microphone. - We then transcribe the consultation using a fine-tuned version of Whisper. We've trained Whisper with tens of thousands of hours of medical consultation and medical terms recordings, and we have now reached an error rate which is 3\u00d7 lower than Google's Speech-To-Text. - Once we have the transcript, we feed it to a heavily trained GPT-3, which generates a clinical note. - We finally return the clinical note to the doctor through our Chrome extension, the doctor can copy it to their EHR, and send a version to the patient. This allows doctors to be fully focused on their consultation, and saves them a lot time. Next, we want to make this work for in-person consultation. We also want to extract structured data (in the FHIR standard) from the clinical note, and feed it to the doctor\u2019s EHR so that it is automatically added to the patient's record. Happy to further discuss technical details in comments! --- [0]: https://nabla.com/blog/gpt-3/",
+   "points": 117
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=383784",
+   "date": "2008-12-03",
+   "title": "What are your thoughts on Joomla?",
+   "text": "I work extensively in .NET with some background in PHP on the server side. I've never worked with Joomla before and I have a close friend asking me what my thoughts are -- some firm is trying to sell it to him as a CMS that is \"as easy to update as a blog\". Assume he has zero technical knowledge and is a business guy trying to get a website up. I know he needs a hacker, but focus your comments on how you think the Joomla experience would be for a non-technical user once set up by someone who knows how. The guy is also touting it as a SEO miracle, bringing search results up several ranks just being installed. Thoughts?",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=34599673",
+   "date": "2023-01-31",
+   "title": "Reducing technical debt by valuing comments as much as code",
+   "text": "",
+   "points": 189
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=2375827",
+   "date": "2011-03-27",
+   "title": "Show HN: The lengths I will go to in order to find a technical co-founder",
+   "text": "My day job is managing a UX team at Intuit's global division. But I've had an idea bouncing around my head for the past few months that won't go away -- a B2B Web application that will dramatically improve the quality of life for anyone has to regularly attend meetings as part of their job. Everyone talks about hating meetings (especially people who work in companies with more than 500 employees), but meetings can be productive and even enjoyable, if the person who sets it up actually knows what they're doing. This idea of mine will quickly help companies uncover its employees' bad meeting habits -- isolating the individuals and functional teams who need coaching on how to set up effective meetings. I work remotely from my home office in Victoria, British Columbia, and I am finding it impossible to find anyone in my immediate circle who would be suitable as a technical co-founder for this B2B project. So I decided to take a different approach than just 'asking around'. As a person with a vision for what will hopefully become a very large business, it's frustrating not being able to build it yourself. And with each passing day I grow more and more impatient to get something into the hands of potential customers. I know my strengths (designing user-friendly Web sites and applications, analytics, A/B testing, user research) and I also know my gaps/weaknesses (data modeling, coding, performance tuning... and all the things that go into taking something from an idea on paper to usable pixels on a screen). So in an effort to demonstrate my passion for this idea and passion for finding someone with the skills to help me build out a vision, I set out to build something on a much, much smaller scale... with the help of my 11-year-old and 8-year-old sons. I already had a good understanding of HTML and CSS, but I had to seriously brush up on syntax and proper formatting. The last time I wrote anything resembling code was in 2000, when I learned PHP to build a stock tip Web sit",
+   "points": 16
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46261174",
+   "date": "2025-12-14",
+   "title": "Show HN: I built an AI that scans 10k Reddit comments to find 'Blue Ocean' ideas",
+   "text": "Hi HN, I dropped out of college 3 months ago to solve my own problem: I kept building SaaS products that nobody wanted. I realized I was guessing instead of measuring. So I built a system to automate \"Market Signal Detection\" using LLMs. The Architecture: 1. Ingests data primarily from Reddit (niche communities), Hacker News, and rising Search Queries. 2. Filters for \"Negative Sentiment\" + \"Financial Pain\" (e.g., people complaining about losing money). 3. Calculates a \"Velocity Score\" to spot trends before they hit mainstream Google Trends. I wrote a detailed technical breakdown of the methodology and the \"3 Signals\" I look for (Bleeding Neck, Fragmentation, Wallet Index). You can read the full guide (no paywall) here: https://blog.vect.pro/trend-hacking-guide The tool itself is part of the platform I'm building, but the guide stands alone as a framework for finding ideas manually if you prefer. Would love feedback on the signal detection logic. - Afraz",
+   "points": 4
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=9216151",
+   "date": "2015-03-17",
+   "title": "Ask HN: What blog service to use for software/electronic side-projects?",
+   "text": "Good day fellow HNers, I've been looking at alternatives to increase my online presence a little (in ways other than a StackOverflow and GitHub account). I have a number of small side projects that I'd like to write about (on various topics, but mostly electronic and software). I don't expect daily articles, but the ones that will be posted should be reasonably high quality (some howtos, experimental projects, research projects, etc). It also turns out that there are MUCH more blogging platform options available than I thought, including various technical tradeoffs: - Self hosted vs Free cloud based vs Premium cloud based - Static vs Dynamic engines - Varying degrees of interactiveness - etc For those of you who do similar things, what were the things you considered when you made your choice, and what has turned out to be important, ie: - Is user comments and feedback valuable, or a nice to have? - How important is social media integration for a reasonably niche topic? - Is self hosting more trouble than it's worth? (cost and timewise) - Impact on search engine exposure - .... Is it a viable option to self host (just because I want to play around with it) with links to those articles from a more mainstream blogging site? As always, your feedback is much appreciated!",
+   "points": 3
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=35871077",
+   "date": "2023-05-09",
+   "title": "Show HN: Hyvor Blogs \u2013 Multi-language blogging platform",
+   "text": "Hi HN, We are super excited to launch our second SaaS product, Hyvor Blogs. We (a small team of 3) have been working on this for about a year. After a bunch of testing, feedback, and iterations, here we are at the launch. We are trying to build a blogging platform that has all the features you need to run a blog without having to depend on plugins (themes, SEO, multi-language support, tags, team management, etc.). Most importantly, it\u2019s just a blogging platform - not a site builder - not a membership platform. Overall, it\u2019s been a great learning experience working on Hyvor Blogs. We\u2019d love to know what HN thinks about our project. I am happy to answer any questions you might have. Finally, if you plan to upgrade, use this coupon for a 40% discount: HN_ROCKS (First, I was going to add all the technical details to the post text, but it looks like HN has a 4000 chars limit. I will add them in a comment below)",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=36783073",
+   "date": "2023-07-19",
+   "title": "Tell HN: Hire Technical Writers",
+   "text": "I often read comments here on HN stating how difficult writing documentation is and how big of a chore it can be. _Writing is hard_, the HN hive mind seems to think. Well, you've a solution: Hire technical writers. I wrote a letter in my blog about this not long ago: https://news.ycombinator.com/item?id=36472637 Some of the responses to that thread were a bit depressing. Some conflated technical writing (documentation) with technical content marketing. Others said they'd never seen tech writers at their jobs before. Is technical writing so unknown? If it is, what would help you understand what it is about and how it can provide value to your team?",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=18189201",
+   "date": "2018-10-10",
+   "title": "Technical Teardown of Cloudflare's Latest Generation Servers",
+   "text": "",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=1741128",
+   "date": "2010-09-29",
+   "title": "Chasing Technical Rainbows",
+   "text": "",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=35084108",
+   "date": "2023-03-09",
+   "title": "Show HN: APIRank.dev \u2013 We crawled and ranked public APIs from the internet",
+   "text": "tl;dr we at Escape (YC W23), we scanned 5651+ public APIs on the internet with our in house feedback driven API exploration tech, and ranked them using security, performance, reliability, and design criteria. The results are public on https://apirank.dev . You can request that we index your own API to the list for free and see how it compares to others. Why we did that? During a YC meetup I spoke with a fellow founder that told me how hard it was to pick the right external APIs to use within your own projects. I realized that most of what we build relies on public APIs from external vendors, but there was no benchmark to help developers compare and evaluate public APIs before picking one. So we decided to do it ourselves. Say hi to apirank.dev. Why is ranking public APIs hard? Automating Public API technical assessment is a tough problem. First, we needed to find all the public APIs and their specifications - mostly OpenAPI files. We used several strategies to find those: - Crawl API repositories like apis.guru - Crawl Github for openapi.json and openapi.yaml files - A cool google dork Those strategies enabled us to gather around ~20.000 OpenAPI specs. Then lies the hard part of the problem: We want to dynamically evaluate those APIs' security, performance, and reliability. But APIs take parameters that are tightly coupled to the underlying business logic. A naive automated way would not work: putting random data in parameters would likely not pass the API's validation layer, thus giving us little insight into the real API behavior. Manually creating tests for each API is also not sustainable: it would take years for our 10-people team. We needed to do it in an automated way. Fortunately, our main R&D efforts at Escape aimed to generate legitimate traffic against any API efficently. That's how we developed Feedback-Driven API exploration, a new technique that quickly asses the underlying business logic of an API by analyzing responses and dependencies between reques",
+   "points": 176
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=37088087",
+   "date": "2023-08-11",
+   "title": "Launch HN: Wondercraft (YC S22) \u2013 Use text-to-speech to create podcasts easily",
+   "text": "Hi HN! We\u2019re Dimitris and Youssef, founders of Wondercraft ( https://www.wondercraft.ai/ ), a platform that leverages AI voices to make podcast creation simple. This video shows how it works: https://www.loom.com/share/fa8ac8eba8b9440dbe0321ccb8ba9426?... . \u201cHacker News Recap\u201d ( https://www.wondercraft.ai/podcasts/hacker-news-recap ) a podcast produced using our platform, has been running for 4 months and currently gets close to 23k listens per month. We\u2019ve made its analytics publicly available: https://op3.dev/show/f77aea62-97e5-5cce-92c6-9464e51c30c6 . Having previously attempted to start a podcast, we were well aware of the difficulties. Figuring out what equipment and software you need to buy is a daunting start. Editing is a lengthy and tedious process, technical difficulties often occur during recording, and planning logistics around recording is a hassle. As a result, content release is infrequent, which leads to lackluster growth. At the same time, podcast consumption is experiencing exponential growth. There are 500M podcast listeners around the world, double in size compared to 5 years ago. Apart from the growth in listeners, podcasts are the medium that is most likely to influence behavior, which is the reason why the number of businesses having podcasts has grown 5x over the past 5 years. Finally, the last piece that led to the creation of Wondercraft is that text-to-speech models saw a big improvement about 6 months ago, with ElevenLabs releasing models with an output that is almost indistinguishable to humans (see HN thread here: https://news.ycombinator.com/item?id=34361651 ). Wondercraft integrates realistic text-to-speech with an infrastructure that simplifies podcast creation. For example, you can integrate music, publish your podcast / create an RSS feed, generate a video for your episode, get assistance in the script generation, auto generate show notes and transcript and translate your podcast all together. All text based tasks (e.g. script assi",
+   "points": 153
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=30615352",
+   "date": "2022-03-09",
+   "title": "Launch HN: Rownd (YC W22) \u2013 Add authentication and accounts to any website",
+   "text": "Hi HN! We\u2019re Matt, Rachel, and Rob, the founders of Rownd ( https://rownd.io/ ). We make it easy for developers to sign up users through a code snippet that adds account creation and authentication to any website or web app\u2014like Stripe for accounts. We made a page for you to try it out: https://rownd.io/hacker-news , and a video to walk you through the flow: https://www.youtube.com/watch?v=H7fv17HSYrc . For example, one of our customers is a film festival. The festival requires everyone who buys a movie ticket to make a user account. That's a big drag on conversion rates and requires technical upkeep. We take care of all that for the festival and make account creation and maintenance less painful for their users, which leads to more ticket sales. Further, the day of the festival, they can text \u201ctickets\u201d to xxxxx (our short code) and we send a specialized magic link so they can log in quickly and see their itinerary and tickets. Rownd works across all your websites and apps, so (for example) if a user has subscribed to your newsletter, that data automatically gets contributed to their account for your app. No one needs to re-enter their email address! Turning a website visitor into a user is hard. Turning a waitlist member or a newsletter subscriber into a user is even harder. There is a huge gap between marketing pages (landing pages, blogs, docs) and actual products (web apps and mobile apps). The culprit is the traditional sign-up/login page. Sign-in pages add friction and lose users in your product funnel. Your marketing pages should transition seamlessly to your actual product, but most sign-up flows act as a giant wall: stop, enter information that the company often already has from previous interactions, verify email/phone, remember your password (hopefully it\u2019s in the password manager!), and finally, if you\u2019re lucky\u2026you\u2019re in. We eliminate this gap, stitching together user accounts from your startup\u2019s CRM, mailing lists, and database, making authentication wo",
+   "points": 109
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=29084309",
+   "date": "2021-11-02",
+   "title": "Launch HN: Typedream (YC W20) \u2013 WYSIWYG website builder",
+   "text": "Hi HN, we are Putri, Anthony, Michelle, Kevin, and Albert from Typedream ( https://typedream.com ). We make a website builder with a familiar text-editing interface that makes building websites fast and easy. You can see a bunch of examples here: https://typedream.com/showcase . We were building a passwordless authentication service [1] with tools and integrations for no-code website builders like Webflow, Bubble, etc. when people started asking us to integrate with Notion. We were surprised, as we didn't expect people to build websites on Notion when there\u2019s a lot of other website builders out there. We dug deeper and got the answer that people like Notion's WYSIWYG interface in which they can type in the editor right away, and prefer it instead of selecting a block and making edits on the pop-up forms like you do on older website builders. Since Notion is a note-taking app rather than a website builder, we started asking Notion-to-website users what it was missing as a website builder. We heard that several important aspects of websites are not intuitive. For example, there is no default way to make buttons. The workaround is to make them use callouts and edit the CSS. Another example is navbars: you have to make them manually using columns. We saw an opportunity to present our solution so we decided to make Typedream: a WYSIWYG editor with features catered specifically for building websites. We adopt a text editing interface, something familiar like Google Docs. We realized most people have been exposed to text editors like Google Docs or MS Word, so they know the fundamentals on how to use it, how to type, make headings, change color, add images, etc. We then added nice default styles to allow their sites to look good with no effort. And then we take care of everything else, like responsiveness, paddings, margins, etc., so they don't need to manually set different styles for different device sizes. We also decided to adopt the `/` keyboard shortcut to add new bl",
+   "points": 78
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=21756517",
+   "date": "2019-12-10",
+   "title": "Show HN: A bookmarklet to remove clickgates on New York Times, Medium, etc.",
+   "text": "Recently i stumbled on too many clickgates on the Medium blog Towards Data science. Considering that most people publish to share knowledge on Medium and are driven into putting their content behind a paywall, without actually getting paid for it, including myself. I felt like Medium is running the academic publishing scheme. Get free content and get paid for it. So I decided to create a small script to bypass the paywall on Medium, it turns out it also works on other newssites. Heres the website: https://sugoidesune.github.io/readium/ For the curious I will explain the technical aspects in a comment.",
+   "points": 71
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=1743013",
+   "date": "2010-09-30",
+   "title": "Ask HN:  Please help a virgin blogger.",
+   "text": "After repeated requests, I finally started a blog, but I have no idea what I'm doing. For me, commenting here at hn comes naturally but blogging doesn't. I'm so busy I don't have time, so I did the next best thing; I am \"recycling\" my old Hacker News comments. It only takes about 5 minutes each morning. I don't have the most important thing I advise my customers: a goal. I'm not looking to drive traffic, make money, or get business. I do want to paint a picture of myself and my work and provide whatever value I can. I have included a link to my blog both here on my profile and as the last line of every email I send. http://ShleppingData.com After a few months, I'm wondering if I should continue. Is this a waste of time, or does it provide value and can it lead to something else? 1. No one has ever commented, so I just turned comments off. Does this make sense or just seem lame? Maybe they don't comment because it's recycled material. 2. Posterous allows up to 100 entries per screen, so I just set mine at the max. It's only text and almost everyone should have broadband by now, so it loads fast. Why would anyone set this lower? 3. Posterous allows tags, presumably to group similar posts, but I can't find any facility for an index or Table of Contents. So I just tag every post with it's own title. Again, does this make sense or does it just seem lame? 4. I named my blog \"Shlepping Data\", because the simplest explanation of what I do is \"Shlepp Ones and Zeroes from Point A to Point B\". (Of course there are a lot of details and I'm spending a lifetime mastering them.) I wanted to leave a touch of lightheartedness along with all the technical talk. Cool or lame? 5. Any other suggestions from seasoned bloggers are greatly appreciated. What else could provide value without investing too much time?",
+   "points": 58
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=31293093",
+   "date": "2022-05-07",
+   "title": "Tell HN: Common Misconceptions About Cookies and Consent",
+   "text": "After participating in a few past discussions in HN, I have noticed many comments whose main argument is developed upon one or several of the following misconceptions. Disclaimer: I am an EU citizen. Misconception: \"The browser decides to send cookies.\" Wrong: A browser, or user-agent in general, will never invent a cookie out of thin air, and therefore it never sends a cookie unless it has been set by the webserver beforehand (either with an HTTP header 'Cookie' or with JavaScript code). [1] Misconception: \"Consent forms are mandatory for all cookies.\" Wrong: Cookies that are essential for the proper functioning of the website (e.g. supporting a login session) do not need any consent form, and can be set silently. [2] Misconception: \"Consent forms are mandatory _just_ for cookies.\" Wrong: User consent must be obtained for any kind of processing of the user's personal information (where no other lawful basis exists for the processing), no matter what technical solution achieves that processing. Example: A tracking pixel needs the same consent form as a tracking cookie. [3] Misconception: \"By browsing this site, you implicitly accept tracking cookies.\" Wrong: Consent must be opt-in, informed, freely given. If it's not freely given, it is not consent. Also, the user must be able to revoke consent just as easily as consent was given. [3] Misconception: \"If a user doesn't like cookies, they can just disable them in their browser.\" Wrong: Some cookies may be essential for proper functioning of websites. Browsers cannot technically propose any means to disable only non-essential cookies, that's outright impossible. The only entity capable of deciding if a cookie is essential or not is the website that sets the cookie. [2] Misconception: \"Marketing or tracking cookies can be disabled: just disallow third-party cookies.\" Wrong: marketing or tracking cookies can also be set by the first-party, ie. the website being visited. Example: Google Analytics. [4] Misconception: \"Cook",
+   "points": 49
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=1102594",
+   "date": "2010-02-05",
+   "title": "Ask HN: How can I get my hourly rate from $65 to $125 in the next 90 days?",
+   "text": "I was inspired by some of the comments on this post: http://www.zacharyburt.com/2010/02/how-i-landed-a-50hr-side-gig-with-very-little-effort-how-it-relates-to-picking-up-chicks/ I feel like I'm not really maximizing my income potential as a freelancer. I've been programming for 5-6 years and I've been doing it fulltime for about 2.5 years. 100% of the work I do is PHP/MySQL and I've done it all, from MVC (CakePHP, CI, Symfony) to CMSs (Wordpress, WPMU, Drupal, Joomla) to Facebook apps. I generally charge $50 - 65 / hr, mostly because I've gotten almost no response for rates above $65 / hr. But from the sound of the comments on the post linked to above, I should be making quite a bit more? Or is my skill-set just not work more than $65? So I'd love comments or suggestions for working out a plan to get my hourly rate above $125 in the next 90 days. Please don't post something like \"just ask for it\" because I just can't believe that it's that easy. Here are ideas I have so far: a) Clean up my resume and portfolio, which are both out-of-date and a bit light on technical details b) Learn Python/Django/Pylon or Ruby/Rails (I've been dabbling for awhile) c) Build up a little more in savings so I can ride out a bit of time between work d) Find places to find great work (I mostly look on Craigslist right now) If I make it, I'll write a blog post detailing it all :)",
+   "points": 38
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=31983426",
+   "date": "2022-07-05",
+   "title": "Ask HN: Games which will help increase my appetite for risk?",
+   "text": "I'm very risk averse IRL and am prone to \"turtle\" or \"hoard\" what I have. This mindset does NOT help me with my investments where a certain tolerance for risk is necessary to get reward. Are there any games (video, not board) that can help me flex my risk tolerance muscle so I'm able to be less \"scared\" in reality and less risk averse? Some thoughts on requirements: - Immediate feedback through a failure state: don't want to spend 90% of the game building and 10% of the time risking what I've built - Less about game proficiency/mechanics and more about provoking an emotional response which I can then confront and work through - Would prefer a controlled, PvE environment so I can remove the variables of exploiters and better players from the equation (though this would be something useful to jolt a plateaued learning curve) - Something that can be done without a sophisticated setup Here are some games I've thought of and why they won't work (although I may be approaching them wrong): - Humankind, Civ 6, etc. - Risk occurs late in the game - Feedback isn't immediate and would require analysis - Large amount of build-up - FPS - Requires technical and game proficiency - MMO FPS (Valorant, Overwatch) - Too many uncontrolled variables - Builders, i.e. Rimworld, Factorio, Anno 1800, etc. - More micro-manage-y than risky - Excessive setup before actual risk is faced - Feedback would only occur after analysis I don't know what I don't know so any ideas/comments are greatly appreciated! This is an article I found but it's board games: [https://www.creativelive.com/blog/take-more-risks-board-games/](https://www.creativelive.com/blog/take-more-risks-board-games/)",
+   "points": 22
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=1758059",
+   "date": "2010-10-04",
+   "title": "Ask HN: Want a Hacker Book App?",
+   "text": "Hi guys, Yesterday I wrote up a list of books that I pulled from HN using Google. Today it was posted here and became popular for a bit. Looking at the comments, I have to agree that there were a lot of good books that got left out. I mean heck, at the end of the day the results came back however Google sorted them, and I only did the first few pages of search results. It wasn't much fun taking all day to type in books, but from the voting here it looks like it had some value to you guys. So, I guess I would be a completely bad HN'er and wouldn't have learned anything from being here if I didn't ask you guys the obvious question: should this become a small app instead of just a blog entry? I was thinking something along the lines of RottenTomatoes, only for startup books. I could harvest data from several technical sites and aggregate in one place. I can't promise to listen to any of your opinions (so what's new there?) but I'm interested in what the community thinks about the app. I know there's a boatload of other book-type apps out there, but nobody doing the meta-harvesting thing like I describe. Plus it's something I could hack together in a week, month tops. And I'm working on very similar code right now for my other project, code which would drop quite nicely into something like this. Might make for a nice testing platform. Worthwhile useful idea -- something that people want -- or just another wannabe web application?",
+   "points": 21
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=34817163",
+   "date": "2023-02-16",
+   "title": "Tell HN: GitHub suspended my account without warning or explanation",
+   "text": "About a month ago I created an account on Github to ask questions and participate in internet censorship circumvention repositories like V2Ray. I'm Iranian and there is a GFW-like filtering system active in Iran. I created a static website writing guides and documenting some of my findings there (in Persian). I used Actions and Pages to build the website and I hosted the source on Github itself. After a while, I was suddenly suspended without a single warning or giving any explanation except a generic terms of use violation! I asked for reinstatement 3 times in 2 weeks, none of them were answered. After about a month, I pinged them on Twitter. A day later, finally someone replied to my reinstatement ticket, saying I was using Github Actions \"to interact with 3rd party websites, to engage in incentivized activities,...\" which was against the terms. Thing is, I was not using Actions for such activities. I only used it (with Hugo) to build the static website! I asked them to tell me exactly what repository was violating this rule. Someone replied: \"After further investigation of this particular account, we\u2019ve determined that the account will need to remain flagged.\" They completely ignore telling me what exact thing I did that resulted in this ban. Also, shouldn't there be, like, a \"warning\", issued to the account owner so he has the opportunity to remove the offending content before a ban out of the blue? I was lucky that I had a copy of the tree locally. I licked my wounds, moved the repo to Codeberg [1] and used its static hosting feature. Unfortunately, I was getting lots of 500 errors from their hosting server so I had to yet again migrate the public folder to Netlify [2]. In summary: - All my comments, issues and commit info are shadowed! Feel weird. - I lost a gist file which was an English translation of a Chinese blog about a circumvention method. It took me a couple of hours to create that and I was trying to trust in the C L O U D for once and used gist inst",
+   "points": 17
+  }
+ ]
+}

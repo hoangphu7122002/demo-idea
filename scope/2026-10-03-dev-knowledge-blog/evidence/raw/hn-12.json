@@ -1,0 +1,329 @@
+{
+ "query_url": "https://hn.algolia.com/api/v1/search?query=developer+blogging+platform&tags=comment&hitsPerPage=40",
+ "args": [
+  "developer blogging platform",
+  "comment"
+ ],
+ "items": [
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=33960996",
+   "date": "2022-12-12",
+   "title": "Links mentioning Mastodon flagged as sensitive on Twitter?",
+   "text": "Wow that would be a scorched earth policy, would it not? You would then be deplatforming video and image hosting sites, discussion forums, and blogs. Including people.kernel.org, the Linux kernel developer blogging platform.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=30204817",
+   "date": "2022-02-04",
+   "title": "Ask HN: Who is hiring? (February 2022)",
+   "text": "Hashnode | Multiple roles (engineering, design, product) | Full-Time | REMOTE - globally(!) | https://careers.hashnode.com/jobs Hashnode is a free developer blogging platform that allows you to publish articles on your own domain and helps you stay connected with a global developer community. Hashnode is hiring remote all over the globe (not just US only). We work in an async-fashion. Hashnode is backed by many great VCs (e.g. Salesforce Ventures, Accel Partners, Sierra Ventures, Sequoia Capital's Surge) and individual investors like Vercel's Guillermo Rauch, AngelList's Naval Ravikant, Intercom's Des Traynor, Ed Roman, and Salil Deshpande. Tech-Stack: - Next.js - TypeScript - React Native - Vercel - AWS - Serverless Roles: - Fullstack Engineer - Tech Lead - Product Manager - Designer - and many more Contact sandro@hashnode.com / twitter.com/sandro_vol for more info or checkout the careers page: https://careers.hashnode.com/jobs",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=21223661",
+   "date": "2019-10-11",
+   "title": "Function Currying in Go",
+   "text": "I usually hate these kinds of comments but I have to: Please check out dev.to. It's a minimal, fast, developer focussed blogging platform. It's open source, and quite active.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=5626192",
+   "date": "2013-04-29",
+   "title": "Ghost: The Future of Blogging (Node.js)",
+   "text": "Im a little confused by the choice to use Node.js, whats the purpose? The creator says that ghost is not a blogging platform for developers, but then builds a node.js blog?",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=38600990",
+   "date": "2023-12-11",
+   "title": "Why I created Banner Blog",
+   "text": "First, hats off for making banner blog. I've made three blogging platforms for clients (one old one based on Zope, one based on Django and a static blog generator written in Go). Each time I've built one I'm always reminded of the depth of the rabbit hole, and each blogging platform was built because WordPress was bad at a certain thing, and the customer felt strongly that a plug in wasn't the answer (the first one, WP was young, the second wanted integration and workflow for their publishing business, and the last one was about generating a static blog site for performance). 1. The web really needs better tooling built into the browser for handling HTML input. I shouldn't need a giant ball of JavaScript to have a WYSYWIG HTML editor. It seems that there has always been a need to for editing stylized text, and right now there's not really a standard way to do it. There should be. 2. There's a lot more to a good blog site than just content. Navigation, categories, tags, search all are important for different bloggers. What's a podcast? A blog with video in the feed. What about ways to pay the blogger? Oh, then there's SEO, then there is internationalization, then there's accessibility, then there's syndication out and syndication in. All of it matters to some users and not at all to other users. The rabbit hole is infinitely deep. 3. On the web, output is so easy. Input is a lot more difficult for non-developers. Bringing a blogging platform's writing tools to parity with a 35 year old budget word processor (think Works, not Word) is a pretty expensive proposition. It's remarkable to me how much more capability an old Word Processor has than what we give bloggers. So, what about WordPress? Well, it is proof that good enough wins, and if you pile enough browser plugins with enough WordPress extensions, it works better than most other ways of doing it.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=34232225",
+   "date": "2023-01-03",
+   "title": "Start a fucking blog",
+   "text": "Another great blogging zero hastle blogging platform for developers is _hashnode_. * https://hashnode.com/",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=31874117",
+   "date": "2022-06-25",
+   "title": "The collapsing quality of dev.to (2021)",
+   "text": "IMO these social blogging platforms for developers lowered the overall quality of online technical content by a lot, and made researching technical topics a fair bit harder. It used to be that well-researched people and passionate people blogged about technical topics they knew very well, and when they blogged about unfamiliar topics they usually declared that upfront. Nowadays there are an order of magnitude more grifters churning out a massive amount of blind-leading-the-blind garbage to \"build a presence\", and they usually pose as experts even though they barely know the topics. As an example, whenever I try to compare two similar technologies/libraries I'm not familiar with, I can almost always find one or more Medium or whatever articles on the topic, but 80+% of the time it's quite clear the author basically wrote the useless crap of an article after reading the READMEs, or slightly better, the bare minimum example projects.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=30915755",
+   "date": "2022-04-05",
+   "title": "Ask HN: Who is hiring? (April 2022)",
+   "text": "Hashnode | Fully REMOTE & Async | Full-Time Multiple roles (Engineering, Design, Product) Hashnode is the #1 blogging platform for developers that allows you to publish articles on your own domain and helps you stay connected with a global developer community. You own your content! The two main tech roles are: * Tech Lead: Be the first tech lead in the company, build up a foundation for a tech company * Senior Software Engineer (Fullstack): Develop features & best practices with an awesome tech stack. The tech-stack: - Fully deployed on Vercel - Next.js, React, Tailwind - TypeScript - MongoDB - AWS Serverless - CDK, Lambda, SQS, DynamoDB, Api Gateway We love an open writing culture & transparency so you can share with the world on what you are working on. Hashnode is hiring remote all over the globe (not just US only). We work async, that means you set your own schedule of working. You get dedicated time for writing your articles on blogs like the engineering or the townhall blog. Hashnode is backed by many great VCs (e.g. Salesforce Ventures, Accel Partners, Sierra Ventures, Sequoia Capital's Surge) and individual investors like Vercel's Guillermo Rauch, AngelList's Naval Ravikant, Intercom's Des Traynor, Ed Roman, and Salil Deshpande. Please only apply if you consider yourself a good fit and are active on hashnode or any other blogging platform. Contact me: sandro@hashnode.com / twitter.com/sandro_vol for more info or checkout the careers page: https://careers.hashnode.com/jobs Contact me for any questions I am happy to help :)",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=30552217",
+   "date": "2022-03-04",
+   "title": "Ask HN: Who is hiring? (March 2022)",
+   "text": "Hashnode | Fully REMOTE & Async | Full-Time Multiple roles (Engineering, Design, Product) Hashnode is the #1 blogging platform for developers that allows you to publish articles on your own domain and helps you stay connected with a global developer community. You own your content! The main tech roles are: - Tech-Lead: Bring the hashnode engineering culture on the next level! -> https://careers.hashnode.com/jobs/FvBR2AWLuSLq/tech-lead-remote - Fullstack Developer: Develop the features for the next-gen developer platform. -> https://careers.hashnode.com/jobs/lg_F08w6be30/software-developer-full-stack-javascript-remote The tech-stack: - Fully deployed on Vercel - Next.js, React, Tailwind - TypeScript - MongoDB - AWS Serverless - CDK, Lambda, SQS, DynamoDB, Api Gateway We love an open writing culture & transparency so you can share with the world on what you are working on. Hashnode is hiring remote all over the globe (not just US only). We work async, that means you set your own schedule of working. Hashnode is backed by many great VCs (e.g. Salesforce Ventures, Accel Partners, Sierra Ventures, Sequoia Capital's Surge) and individual investors like Vercel's Guillermo Rauch, AngelList's Naval Ravikant, Intercom's Des Traynor, Ed Roman, and Salil Deshpande. Contact me: sandro@hashnode.com / twitter.com/sandro_vol for more info or checkout the careers page: https://careers.hashnode.com/jobs Contact me for any questions I am happy to help :)",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=29533482",
+   "date": "2021-12-12",
+   "title": "Show HN: AlterClass \u2013 A platform for making and selling programming courses",
+   "text": "Greetings Greg, really great work. Thanks for sharing this. Now my greedy request: if you could take all this technology and make a blogging platform for developers, I would be greatly appreciative! And happy to pay a monthly fee! I really need a coding blog platform where I can write interactive blogs for my readers.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=15083379",
+   "date": "2017-08-23",
+   "title": "Ask HN: How long did it take you to go from side project idea to launch?",
+   "text": "Not a SaaS, but I'm working on a blogging platform for developers : https://www.ploghub.com/ . To use an analogy : Medium for developers without the dickbar. It took me around one month to build the initial version. The front page uses a dumbed down version of the HN algorithm. Code here (need to add test cases) : https://github.com/ploggingdev/ploghub For my next project, I plan to build an alternative to Disqus which respects users' privacy. I removed Disqus from my blog a while due to the 2 MB junk it loads and sends tracking data to 10+ sites. I used to receive a few comments, so I thought I would build myself an alternative to Disqus and maybe turn it into a SaaS if there's demand for such a product. Any interest for a $10/month privacy respecting Disqus alternative + an open source code base? I expect it to take me 2 to 3 weeks to build it. As you build more projects, you end up with a lot of reusable components, so it gets easier to build out the MVP. The real challenge for developers is to get users. This is something I don't have much experience with, so let's see how it goes.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=6788606",
+   "date": "2013-11-24",
+   "title": "Show HN: Beautiful and Ridiculously Fast Websites With Static Blogging",
+   "text": "He might have if he trademarked it. A logo being simple doesn't mean it can be copied at will (e.g. Apple, McDonalds, Nike, Mercedes). Point is, as wmeredith pointed out, he is well known among web designers/developers, created Svbtle (a competing blogging platform), and has been using that as his personal logo for as long as I can remember, maybe half a decade.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=40956661",
+   "date": "2024-07-13",
+   "title": "Show HN: I made a simple Markdown blog creator",
+   "text": "> This really must be the way of milking money Check the projects that are still there in 2 years, building a blogging platform is the developer's favorite hobby when they already have a todo list app.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=24641452",
+   "date": "2020-09-30",
+   "title": "The High Privacy Cost of a \u201cFree\u201d Website",
+   "text": "spartapride creator here. facebook and twitter are there because of the \"see recent facebook posts\" and \"see recent twitter posts\" on the right side of the website. The 30 other trackers from discus were loaded because of discus. When I setup the site originally my adblock/tracker blocker actually blocked discus so I never saw the other trackers being loaded.. When themarkup pointed it out to me I ended up allowing discus through and saw all the other trackers being loaded. Thanks to them, I removed discus from my site. :) I'm not a web developer, the server is running ghost blogging platform with a theme.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=24588069",
+   "date": "2020-09-25",
+   "title": "Time Zone Bugs I Ran Into",
+   "text": "Because it is 1000 words of content with the ability for you to comment on the content, click one of many numerous react options, retweet it, bookmark it, see how long it will take you to read, view other posts with the same tags, for the developer to know who visited, where they visited from, what time they visited, and where else on the site they went and be all presumably configurable as it is not a website the developer made, but built with a blogging platform. It is a full fledged web app because it is a web app for managing thousands of different blogs and doing dozens of little random features, each of which has their own little bit of JS.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=24292131",
+   "date": "2020-08-27",
+   "title": "A leap of faith: Committing to open source",
+   "text": "It doesn't look like an alternative to Medium to me \u2013 its a collection of posts by nominated open source developers, as opposed to a technical blogging platform",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=22393704",
+   "date": "2020-02-22",
+   "title": "Ask HN: Is the disappearance of RSS feeds affecting your happiness too?",
+   "text": "I rarely find a developer website without RSS. Most blogging platforms provide RSS either natively or via plugin. If a website does not offer an RSS feed and I _really_ want to follow it, I will ask the author. Shameless plug: I've created a Tip of the Day platform [1] specifically with RSS in mind. [1] https://tips.darekkay.com",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=16495254",
+   "date": "2018-03-01",
+   "title": "Ask HN: Who is hiring? (March 2018)",
+   "text": "Threespot | WordPress Developer | Washington, DC | ONSITE | Full Time | https://www.threespot.com/ Threespot is an independent digital agency hell-bent on helping those, and only those, who are committed to helping others. We\u2019ve been in business since 1999 and along the way we found something out about ourselves. That we value doing work that matters more than awards, accolades, or cold hard cash. Since that day forward we have chosen a path few agencies take. To use our time and talents to make a difference. All day, every day. Join our team of experienced developers building best-in-class WordPress applications that power our client\u2019s websites, reaching millions of people a year. Threespot WordPress developers transform the web\u2019s most ubiquitous blogging platform into a sophisticated content management system, capable of meeting the needs of any organization. By applying modern best practices, they make WordPress as performant and secure as any rival CMS. They are experts in their field, but always open to new ideas. They thrive on variety and welcome new challenges. They are well rounded and can speak to UX and design challenges. They want to work for clients who are making a difference, not just a profit. Apply here: https://www.threespot.com/jobs/wordpress-developer",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=10604717",
+   "date": "2015-11-21",
+   "title": "Drupal 8.0.0 released",
+   "text": "The creator of ghost (the blogging platform) was a wordpress developer. He doesn't think that wordpress hasn't changed: > http://john.onolan.org/project-ghost/",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7211191",
+   "date": "2014-02-10",
+   "title": "Oh, you still use Wordpress for your blog? That's adorable.",
+   "text": "How about \"Oh you think you can build a blogging platform that competes with WordPress? How adorable.\" I find it funny that WordPress was criticized for being a crappy CMS and when it became a decent CMS people criticized it for being a bloated blogging platform. I also find it humorous that seemingly every 20-something rockstar-ninja-startup founder/developer thinks they can write a \"better blogging platform\" yet I don't see any traction in the real world.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=666008",
+   "date": "2009-06-20",
+   "title": "Matt Mullenweg, Automattic\u2019s Double Standard For WordPress Plugin Developers",
+   "text": "I don't think he's approaching this from a user-centric perspective, but more from the perspective of how it's not \"fair\" to developers and designers. To wit: Theme and plugin developers have helped make WordPress the champion blogging platform that it is today without receiving a single dime of the $29.5 million in funding that Automattic raised last year. Both Matt Mullenweg and his company Automattic benefit financially from the hard work of plugin developers and theme designers. Yet it\u2019s somehow justified in Matt\u2019s mind that it\u2019s not okay for plugin developers and theme designers to directly receive financial compensation for their contributions to WordPress. To me, that reads as \"We've worked hard on Wordpress and we deserve to share in its success.\" The crazy thing is that a) as far as I can tell, not much has changed in terms of the rules, so if this wasn't a problem before, why is it a problem now? And, b) no one is saying that developers and designers can't offer premium themes and plugins for pay, just that Wordpress won't host those assets for them. How it that unreasonable? Again, this goes back to this guy thinking that he deserves to be able to charge for stuff that Wordpress is hosting for him, for free. Give me a break.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=3798459",
+   "date": "2012-04-04",
+   "title": " Would you pay $5 per month for this hosted blog engine?",
+   "text": "I am the creator of this and I am planning to add varnish support within this week to make your blogs HN/reddit resistant. I'd love to know if anyone would be willing to pay for a blogging platform built for hackers/programmers/developers.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=31432803",
+   "date": "2022-05-19",
+   "title": "Ask HK: good blogging platforms for developers?",
+   "text": "This is what I do at the moment. I do have it on github pages. I've created account at dev.to some time ago but mainly to comment and follow other developers. It seems to me that blogging platforms could bring more audience to me. Am I wrong?",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=22300690",
+   "date": "2020-02-11",
+   "title": "Ask HN: Who is hiring? (February 2020)",
+   "text": "ButterCMS | SaaS Headless CMS | Remote | Full Stack Developer I'm the founder. Get in on the ground floor of a leading SaaS Startup and learn what it\u2019s like to build a SaaS company. We're seeking a talented and motivated Full Stack Django + Vue.js Developer with a strong background in software design and development having worked on multiple projects over their career. This is an exciting full-time opportunity to work in a fast-paced environment. ButterCMS is an innovative start-up SaaS business that delivers value to Developers and Marketers through a headless, API-based CMS (Content Management System) and blogging platform. Butter is a developer-friendly CMS that enables developers to build modern apps while also providing their marketing teams with the tools needed to make website content updates. Our customer base of Software Developers and Marketers come from a widely varied set of industries. Interested? Shoot me an email. ~ Jake",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=22162327",
+   "date": "2020-01-27",
+   "title": "An Update on Bradfitz: Leaving Google",
+   "text": "Notable that the word \"Perl\" appears nowhere in his write up of technical legacy. He was once Chief Architect at Six Apart, developers of the Perl-based Movable Type blogging platform which once rivaled Wordpress.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=9832930",
+   "date": "2015-07-05",
+   "title": "JavaScript best practices",
+   "text": "With respect, you're flat wrong here. The consequences of this kind of thing are serious for our industry. This is to be expected... Software isn't a 100% male field; maybe 80-90% in my experience. That means: (a) This list is missing great people, e.g. @ErisDS who was the lead engineer (now CTO) for the Ghost blogging platform (b) This list is thoughtlessly unsupportive of the minority 10-20% in terms of role models. What's the effect of women being constantly portrayed as an underclass of developer by the lack of profile given to successful female devs? Personally I don't think gender matters at all That's exactly what someone who hasn't experienced any gender-related workplace problems would think. This utopian finger-in-ears attitude ignores the reality of the harrassment and the systemic uphill battle female devs face in terms of diminishing remarks (\"Oh, you must be the designer\") and community bias (events typically provide beer & pizza & mens t-shirts). It's okay, you may not know about all this stuff, or have thought about it from that perspective. I'm inviting you to level up. It's time.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=9715586",
+   "date": "2015-06-14",
+   "title": "Show HN: PressRise \u2013 A blogging platform with community voting and aggregation",
+   "text": "This is the prototype/MVP of an idea I had for a blogging platform. It was only made public a few hours ago so it's a ghost town, and it's very basic because I want to iterate based on user feedback, but here's the idea. For bloggers: It's a blogging platform where you can create your own hosted independent blog. Your blog will receive a built-in audience, and your posts will automatically be promoted to that audience, all for free. For readers: It's a blogging community where you can read, comment, and vote on blog posts. The newest and best content is always easy to find because it rises to the top based on your votes. The aggregator frontend works a lot like Reddit or Imgur, but for blogging. I can think of a lot of advantages this system would have over current blogging platforms and content aggregators. For blogging platforms the advantage is obviously the built-in audience. It's hard to get that by submitting your blog to current aggregators because of rules against self-promotion, difficulties in finding the right subreddit, domain loyalty, and hug of death. The advantages over current aggregators might be less obvious though: 1. Users would be able to post almost any form of content imaginable, not just external links or images 2. The content is hosted, no hug of death ever, + all the other benefits of hosting the content yourself 3. Content moderation would scale much more easily, because blog owners would each be responsible for their own blog. This could lead to faster and greater diversification of content. On reddit for example I feel like there's a lot of content that people miss out on because it can't be done at a scale that's active and moderated 4. If this ever were to be monetized, the monetization plan wouldn't be murky. It'd actually be really straightforward and proven 5. Content has a life beyond its 12-hour expiration date. Blog posts are naturally formatted for SEO and it actually makes sense for Google to index them, unlike a Reddit or Imgu",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=9606973",
+   "date": "2015-05-26",
+   "title": "Performance and Speed Optimizations of WordPress [pdf]",
+   "text": "Thank you! Yes you are right! WordPress is huge! but not everyone need all the functionality... let's just say 10% of current WordPress users just need a simple blogging platform without all the widgets... then I think 1K function calls should be enough! Anyway, I love WordPress and do not compare my hubby project with 10 years of 1000+ developers time!",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=9445578",
+   "date": "2015-04-27",
+   "title": "Ask HN: How do you manage Wordpress?",
+   "text": "We outsource it. I know how to administer it myself, but damn I don't want to ever administer WordPress myself any more. (Except on my personal blogs, but I'm a control addict there.) If at all possible, use wordpress.com. Pay some $$ for the redirection. Other outsourcers: Pagely. They're not terrible - they are middling in competence, we have occasionally had to tell them precisely how to do some simple thing - but basically we don't have to interact much, and that's THE DESIRED OUTCOME. WordPress is a commodity these days, treat it like one. (The reason to use WordPress: it is the best blogging platform these days, and is really good as a simple-semistatic-site platform, and it is commoditised with third-party developers and hosters growing on trees. In almost no cases are you actually going to have a legitimate need to reimplement blogging yourself.)",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=8053144",
+   "date": "2014-07-18",
+   "title": "Show HN: Ghostly \u2013 iPhone app for Ghost blogs",
+   "text": "Hi there, Ghostly developer here. The app is built specifically for the Ghost blogging platform and works with Disqus comments. Any feedback would be appreciated.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7778555",
+   "date": "2014-05-21",
+   "title": "Java tools and technologieslandscape for 2014",
+   "text": "I find this to be true of a lot of promising new technologies. None of my day-to-day work is the kind of flashy/bleeding edge stuff that HN tends to cater to, but I'm always on the lookout for new tools that'll make things easier or more reliable. Oftentimes I'll go to evaluate something new only to find that their examples are the tried and true \"get some tweets and do something with them\" or \"here's how you make yet another blog platform.\" Great. If my job consisted of making blogging platforms I might be interested. Show me how your product will free me from having to handle the drudgery of setting up yet another similar-yet-slightly-different form. Show me how your new framework makes it easier to do integration with several developers. Show me something that'll let me ease the technical debt we've accrued. That kind of thing.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7656947",
+   "date": "2014-04-27",
+   "title": "Ask HN: Best CMS/Platform/Tool for this Project",
+   "text": "I am a python developer and use flask extensively and after having come across it few months back, I can say that there's nothing Flask can't do. I have started making a blogging platform similar to yours though it is not complete and lack commenting feature and voting feature, here's the code: https://github.com/scottydelta/miniblog PS: you need to create required db and have data to see it working in case you plan on forking. Fortunately I am using sqlalchemy so models.py has the db schema.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7599140",
+   "date": "2014-04-16",
+   "title": "Create JavaScript, CSS Interactions With Zero Lines of Code",
+   "text": "Totally get your point, and we could have a fun philosophical discussion around whether or not people SHOULD want to learn how to code. However, it's pretty clear that most of the people in the world who want to create/share content on the web are NOT interested in learning how to code at all, right? I mean, that's a big part of the reason why blogging platforms, and many other user-generated content sites are so huge (Facebook, Twitter, YouTube, etc. etc.). Yeah, people could just stick with what they know if they don't want to code -- but then there would still be huge barriers between having an idea that you want to create and get out there, and actually having the ability to make it real. For example, this Webflow Interactions site was entirely created by someone who isn't a coder (I know, I work with him). How long would it have taken him to learn all of the code he would have needed to know to create it all from scratch? Or how much would he have needed to pay a developer to build it for him? And how long would that back and forth taken to get it all right? For a lot of people, those types barriers are insurmountable (they don't have the time/skill to learn themselves, or the money to pay someone else). So should their ideas just not ever have the chance to see the light of day? If everyone who ever had a great idea could code it themselves that would be awesome. I just don't think it's feasible -- and tools like Webflow can bring a lot more people a lot closer.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=757057",
+   "date": "2009-08-12",
+   "title": "Google App Inventor uses Scheme under the hood",
+   "text": "I had a nutty professor in college. He hooked me on scripting languages -- his favorite was gawk. He would write absolutely everything in gawk. Need a data structure? Use an associative array, it is the Gawk Way. Need code reuse? Cheaper to delete and start over. He was brilliant, I learned a lot from him, and I would not let him near my code if my life depended on it. Lisp has always struck me as a \"nutty professor\" sort of language. I hear it is wonderful and pure and that if you truly grok it you see the Hand of God Himself in its awesome majesty staring out from within your code. But while Lisp seems to be long on awe, it seems to be short on software I'd actually want to use. No one has ever claimed to have had a religious experience from reading PHP code (and if they did, I would suggest dousing them with holy water from a safe distance). But PHP has Wordpress. \"Lisp can do a blogging platform too! Better! Stronger! Faster! We can do it, we have the technology!\" Yes, Lisp can... but Lisp doesn't. (And if it did, I have a disturbing premonition that the steps to build a piece of blogging software would start with \"#1: You need a webserver. None of the existing ones are exactly right, but that is no problem, since making a web server is easy in Lisp. First we define a few simple macros...\") Now, if I were a Lisp developer POed at ignorant savages on the Internet suggesting my language was perhaps a bit ivory-towery, I'd probably spend my time writing software which was so good they'd be unable to ignore me.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7476258",
+   "date": "2014-03-26",
+   "title": "Managed WordPress Hosting Performance Benchmarks",
+   "text": "I hear people say stuff like this a lot. I've been using WordPress for years and find it really, really good -- not hard to get into, infinitely customisable, well supported, always improving, well-written plugins for every function that a reasonable number of people requires etc etc. People use Wordpress because by now there's a plug-in for everything; I contribute to a smallish blog about grant writing ( http://blog.seliger.com ) and do simple maintenance, and I use it because everyone else does and practically everything I've ever wanted to do has had a plug-in already written. Joel Spolsky's \"Bloatware and the 80/20 Myth\" http://www.joelonsoftware.com/articles/fog0000000020.html is relevant here: A lot of software developers are seduced by the old \"80/20\" rule. It seems to make a lot of sense: 80% of the people use 20% of the features. So you convince yourself that you only need to implement 20% of the features, and you can still sell 80% as many copies. Unfortunately, it's never the same 20%. Everybody uses a different set of features. In the last 10 years I have probably heard of dozens of companies who, determined not to learn from each other, tried to release \"lite\" word processors that only implement 20% of the features. This story is as old as the PC. Most of the time, what happens is that they give their program to a journalist to review, and the journalist reviews it by writing their review using the new word processor, and then the journalist tries to find the \"word count\" feature which they need because most journalists have precise word count requirements, and it's not there, because it's in the \"80% that nobody uses,\" and the journalist ends up writing a story that attempts to claim simultaneously that lite programs are good, bloat is bad, and I can't use this damn thing 'cause it won't count my words. If I had a dollar for every time this has happened I would be very happy. Replace \"word processors\" with \"blogging platforms\" and the same basic thing",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7367382",
+   "date": "2014-03-09",
+   "title": "Pandoc Markdown and ReST Compared (2013)",
+   "text": "Thank-you for the thoughtful response. Yes, clearly the markdown thing is natural for developers. After all devs spend all their time in cryptic text files that get transformed into something more useful and beautiful That's their (our) thing. And since developers are the ones who create forum software, blogging platforms, one can only expect that their personal preferences would bleed over into these projects. But it's unfortunate because in the meantime we're not really advancing the art of editing content, which is something the \"normals\" would appreciate. (And I think even a number of developer-types would appreciate writing content without markdown if you gave them something that actually worked and worked with static site generators.) Regarding IA, I don't have it but it says that it saves files as plain text?",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7318108",
+   "date": "2014-02-28",
+   "title": "E-mail didn't really evolve since Gmail. Why is it so hard to innovate?",
+   "text": "Here is an idea for something that has been in my head for some time. All that would be required to jumpstart the innovation process is a developer-friendly API and standardised events for extending email: onReceive(headers, body); onOpen(...); onTagged(...); ... That would allow developers to do creative things with email. It may even give way to niceties such as: npm install email-itinerary-parser These events could be standardised across the board. A plugin ecosystem would allow emails to operate much like blogging platforms do today. You could have a self-hosted email platform with a plugin dashboard where you would pick and choose your plugins. The UI would be the hard part but is a tractable problem given the state of client-side MVC libraries that didn't exist until a few years ago. A service like Akismet would provide SPAM filtering and other services could be built around it. The trust factor would be an issue but it might be even possible to send these services only extrapolated data instead of the entire contents of the email. It would even be possible to build atypical interfaces around your email. You could for example build a blogs UI that shows all emails sent to myname+blogs@mydomain.com. The blogs Controller could automatically reply to that email with the published status. In general, things could move in a progressive direction much faster in the hands of the developer community.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7149595",
+   "date": "2014-01-30",
+   "title": "How to Start an Anonymous Blog",
+   "text": "1) Trust. I trust the Tor developers and nodes much more than HideMyAss, which is a single point of failure. 2) Looks like a good suggestion, I'll have to check that out if I ever start a Tor hidden service. 3) The main factors are having control over the HTML, and differentiating the site from just another wordpress blog. Anyone can start a Wordpress blog using Tor, and that wouldn't make a very interesting blog post. This was done mostly as an excercise and experiment. If the goal were just to publish sensitive articles, I would use a free blogging platform.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7050773",
+   "date": "2014-01-13",
+   "title": "Ghost 0.4 Released",
+   "text": "I'm writing from a writer's perspective, not a developer's perspective. Which is not to say that there isn't value to what you're saying, but what I'm looking for is a good way to write quickly, not a code editor that also handles Markdown. I want to convince the writers I edit on a daily basis to use Markdown because of its clear benefits over WYSIWYG. Sublime Text I'm sure is great and I've heard great things about it, but I'm going to have a far harder time selling the journalists I work with on that than I am with something like Mou or iA Writer. WordPress' big weakness, IMHO, is that it has an editor which is not built for writing longer pieces and is poorly suited for editing. (Tumblr's big weakness is that it supports Markdown, but without frills.) That in my opinion is a huge issue\u2014the words are basically the most important part of the editing process, and it means that in editing environments we're still stuck using Word or third-party tools like Editorially. What I see with Ghost is a real honest-to-God effort to focus on the editing tools first. We need more of that. It's where we spend most of our time on our blogging platforms. Why downplay that and instead put all of our energy into these inefficient WYSIWYG ContentEditable editors that nobody really, truly likes? Not everyone who reads HN is a developer.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7001425",
+   "date": "2014-01-02",
+   "title": "Skype blog hacked",
+   "text": "Try http://getkirby.com or http://concrete5.org or http://silverstripe.org there are many many other CMS or Blogging platforms too. For just Blogging as the main thing, you're perfectly set with https://ghost.org/ Without exaggerating, I've downloaded almost any CMS on Github and Bitbucket and Sourceforge and I'm almost done with testing all of them. I think about 15 remain. With all honesty, I cannot say that I'm impressed with any CMS so far. There is just one thing that stood out, with it's concept, but it's still only Alpha grade quality, that's: http://parsimony.mobi/ I've you're curious what I ended up with, just ping me and I'll share my results, after I've really compared all CMS with each other. Currently I would say that there are about ~10 good quality CMS, with hundreds of miserably coded ones. That is a good benchmark, for how good developers are in the real world, I mean there is only so much space at the top of the iceberg. Not everybody can excel with every project they start (well, except people like Fabrice Bellard) I've not compared Typo3, Alfresco and other Enterprise CMS, because even when they come with all features loaded, they suck at code complexity and user friendliness You can't tell me that Wordpress is the only blogging platform that fits to all of your requirements, because there are thousands of CMS out there and you'll spend weeks testing all of them.",
+   "points": null
+  }
+ ]
+}

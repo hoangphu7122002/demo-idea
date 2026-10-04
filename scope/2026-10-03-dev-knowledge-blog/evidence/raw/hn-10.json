@@ -1,0 +1,329 @@
+{
+ "query_url": "https://hn.algolia.com/api/v1/search?query=technical+blog+comments&tags=comment&hitsPerPage=40",
+ "args": [
+  "technical blog comments",
+  "comment"
+ ],
+ "items": [
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=8070407",
+   "date": "2014-07-22",
+   "title": "Ask HN: What are good blogging platforms for programmers?",
+   "text": "If you wind up going with a static site generator (like Jekyll, for example), one thing to watch out for which I experienced on my own technical blog is that if you want comments functionality then your only realistic choice is Disqus... and Disqus is absolutely horrible for comments on technical blogs because it does not allow code snippets! It used to (a few years ago), and then they changed it... now I have to create a pastie or gist for every little piece of code I want to put in a comment response... very annoying. Not a dealbreaker, just something to be aware of. (And if anyone knows of other embeddable comment systems that can be used on static sites, I'd love to hear about them!)",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=47973948",
+   "date": "2026-05-01",
+   "title": "Virtualisation on Apple Silicon Macs is different",
+   "text": "There's more to the article than just the article. A technical blog elicits discussion and conversation in the comments. I never get why people totally miss such value add.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=9862505",
+   "date": "2015-07-10",
+   "title": "Amazon API Gateway \u2013 Build and Run Scalable Application Backends",
+   "text": "Given the point you're trying to make, I'm really struggling with understanding your comment. Are you saying that you don't believe the Amazon technical blog is aimed primarily at existing AWS users?",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=9734802",
+   "date": "2015-06-17",
+   "title": "Early vs. Beginning Coders",
+   "text": "I tried to contact Zed about a month back, to ask him this question. I tried though his blog comments, and at the help email he has for his HTLXTHW courses, but never got a response. I dunno if he just never noticed it, or if he's actually ignoring me for some reason, but having already typed out this question with all the necessary context, I figure I may as well post it a public place where it's relevant, so here: Hi Zed, So, I found [this comment of yours on HN]( https://news.ycombinator.com/item?id=1484030 ) by googling: > site: https://news.ycombinator.com zedshaw engelmann and was pleasantly surprised find you explicitly mentioning Siegfried Engelmann and Direct Instruction. Here's the story: I learned about your \"Learn X the Hard Way\" series through a friend who had learned Python from your course. He told me he heard you knew about Zig and DI. I immediately said something like: > Nah, pretty much nobody has heard about DI, much less properly appreciates it. > Probably Zed just meant lowercase \"direct instruction\" in the literal, non-technical sense of \"instruction that is somehow relatively \"direct\"\". > He's probably never heard of uppercase \"Direct Instruction\" in the technical sense of \"working by Engelmann's Theory of Instruction\". But then I googled, and yeah, aforementioned pleasant surprise. (I am just not going to say anything, outside of these brackets, about \"blasdel\" there. If medicine was like education, the entire field would be dominated by the anti-vaxxers. Hey, blasdel! supporting \"Constructivism\" is morally at least as bad as supporting anti-vaccination! Bah, whatever. Okay, got that out of my system. Anyway. xD ) So now I'm really curious: You said you \" learned quite a bit about how to teach effectively from [Zig and Wes] \". But how did you learn from them? You haven't slogged your way through the \"Theory of Instruction: Principles and Applications\" text itself, have you? I have, and wow was that a dense read... Which is frustrating, becaus",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=9318322",
+   "date": "2015-04-03",
+   "title": "New Hacker News Guideline: Avoid Gratuitous Negativity",
+   "text": "Someone writes a detailed technical blog post and submits it. A few comments are about the content of the post. And then someone makes a comment about the blog CSS or the framework or javascript, wothout mentioning any content of the blog. I get the impression that HN doesn't want those type of comments here.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=8281325",
+   "date": "2014-09-07",
+   "title": "Reddit Just Banned the Subreddit Where People Were Posting Celebrity Nude Images",
+   "text": "Reddit admins could have garnered more sympathy and understanding if they framed their actions purely in terms of site reliability and manpower instead of any weights about the morals of various subreddits. Two admin messages with vastly different theses: First was the yishan post[1]. The TLDR of that one was, \" we don't police subreddits/morals/etc. \" The problem with that post was that it was a ticking time bomb waiting for any inconsistency with the admins handling of subreddits to be scrutinized and vilified. The yishan post should have never been written. The reddit masses felt their intelligence was being insulted. The second post by alienth[2] has a much better message. The TLDR of that one was \" we're getting overwhelmed by DMCA takedowns \". Reddit admins can then drive the point home that they know other subreddits such as /notfamousstolenphotos are questionable but at least those are not getting bombarded by DMCA notices. They can then go on to stress that they just don't have the manpower (technical team and legal team) to address (fight) all of the DMCA notices to keep /thefappening up. Reddit was basically a victim of a DOS (Denial Of Service) attack by way of DMCAs instead of ip packets. It's great that reddit has some lofty ideals of being \"hands off\" but it also has to have the manpower to uphold those ideals. I suppose reddit could ask volunteers to work for $0 salary and review all the DMCA takedowns coming in but that would be a logistical nightmare. Reddit could try to maintain a stance similar to Kevin Rose Digg AACS encryption keys[3] but I don't think they have the resources to do it. In any case, the yishan post has already poisoned the well and any subsequent message to clarify the admins' predicament is getting tainted by it. [1] https://www.reddit.com/r/blog/comments/2foivo/every_man_is_r... [2] http://www.reddit.com/r/announcements/comments/2fpdax/time_t... [3] http://en.wikipedia.org/wiki/AACS_encryption_key_controversy",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7681270",
+   "date": "2014-05-01",
+   "title": "Ask HN: Who is hiring? (May 2014)",
+   "text": "Academia.edu | Downtown San Francisco | Full Time Engineers | Relocation Available Academia.edu is an agile startup located in San Francisco on Kearny and Bush Street. Our CEO is Richard Price who received his PhD from Oxford in Philosophy and is an avid sailor. Our team is also led by CTO Ben Lund who is not only a great technical leader, but also an amazing foosball player. We are well-funded by Khosla Ventures and we are on a mission to Open Science. Our goal as a company is to build an end-to-end publication system that provides the world with free and accessible academic and scientific papers. So far we have 9,364,002 users. Feel free to check out the technical projects that our engineers are tackling (see below) or visit our hiring page at https://www.academia.edu/hiring to learn more about us. We look forward to hearing from you. We are Hiring a Team to Build a Better Future Here at Academia.edu you will have an opportunity to join an agile team of 9 Engineers who are all making a positive impact on the world by contributing to a movement called Open Science. As a member of our team you will be given a lot of autonomy to choose projects that interest you the most and the ability to make product decisions with our CTO Ben Lund and CEO Richard Price. We are currently tackling five incredibly difficult product challenges. Some of these projects have been attempted by larger companies and have failed. In order to be successful we will need to think way outside-of-the-box and take a leap into the unknown\u2026 Peer Review We want to build a peer review platform that allows layers of discussion on top of a single document. One of the biggest challenges we face is that contextual commenting at a large scale has yet to be achieved. In order to be successful we need to find original and novel solutions because simple approaches like putting a blog-style comment box at the end of the paper has been tried before and has not been effective. To build Peer Review we must figure",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7613176",
+   "date": "2014-04-19",
+   "title": "Ask HN: What source code is worth studying?  ",
+   "text": "Rather disturbing, yet perfectly typical. One good example of the problem with his \"technical\" works and his lack of actual experience with the things he likes to talk about so much, is that he makes and promotes outrageously incorrect claims like: https://en.wikipedia.org/wiki/Linus's_Law \"Given enough eyeballs, all bugs are shallow.\" When in fact: Given ANY number of eye, \"all\" bugs are NOT shallow. Some bugs are NEVER \"shallow\". And only a FEW eyes are qualified to see some bugs, while MANY eyes are totally unqualified, including his own: His mouth is certainly not qualified to make sweeping generalizations about \"all\" bugs, given his lack of experience as a programmer, and his spectacular public failure at auditing code in his pathetic attempt to discredit the now-exonerated scientists whose code predicted global warming (described below). Neither \"enough eyeballs\" nor \"the right eyeballs\" are a GIVEN, even for open source software. \"Not enough eyeballs\" (or \"ZERO eyeballs\" as he loves to claim) are NOT a GIVEN for proprietary software, because you can license much proprietary source code, and some proprietary source code is available for you to read and audit for free, under licenses like Microsoft's \"Shared Source\" license. https://en.wikipedia.org/wiki/Shared_source And qualified eye balls are NOT FREE, and usually very busy being well paid to look at much more interesting things than poorly written buggy code like OpenSSL. I doubt that Eric Raymond has contributed any of the profits from his books or VA Linux stocks to Theo De Raadt or anyone else who actually takes the long time and tedious effort to actually audit code. Wikipedia points out: >In Facts and Fallacies about Software Engineering, Robert Glass refers to the law as a \"mantra\" of the open source movement, but calls it a fallacy due to the lack of supporting evidence and because research has indicated that the rate at which additional bugs are uncovered does not scale linearly with the number of r",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7511144",
+   "date": "2014-04-01",
+   "title": "Ask HN: Who is hiring? (April 2014)",
+   "text": "ACADEMIA.EDU DOWNTOWN San Francisco FULL TIME Engineers WORK with CEO Richard Price WORK with CTO Ben Lund WORK with 9 Senior Engineers WORK with the mission to make life better BUILD a killer recommendation engine immersed in Machine Learning and NLP BUILD our next major platform called \u201cPeer Review\u201d from Scratch TACKLE all things related to Scalability, Storage, and Speed VENTURE into mobile HACK because that\u2019s what you love to do CONTRIBUTE to positive changes OPEN SCIENCE, join ACADEMIA.EDU We are Hiring a Team to Build a Better Future Here at Academia.edu you will have an opportunity to join an agile team of 9 Engineers who are all making a positive impact on the world by contributing to a movement called Open Science. As a member of our team you will be given a lot of autonomy to choose projects that interest you the most and the ability to make product decisions with our CTO Ben Lund and CEO Richard Price. We are currently tackling five incredibly difficult product challenges. Some of these projects have been attempted by larger companies and have failed. In order to be successful we will need to think way outside-of-the-box and take a leap into the unknown\u2026 Peer Review We want to build a peer review platform that allows layers of discussion on top of a single document. One of the biggest challenges we face is that contextual commenting at a large scale has yet to be achieved. In order to be successful we need to find original and novel solutions because simple approaches like putting a blog-style comment box at the end of the paper has been tried before and has not been effective. To build Peer Review we must figure out a way to transform all the wide array of styles from any given PDF paper to a clean and consistent format that is embedded for a suitable commenting UI. We are experimenting to build a rich inline-commenting and discussion interface as well as a reputation system that surfaces quality comments. Interface Design We currently have 7.5 million u",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7511134",
+   "date": "2014-04-01",
+   "title": "Ask HN: Who is hiring? (April 2014)",
+   "text": "ACADEMIA.EDU DOWNTOWN San Francisco FULL TIME Engineers WORK with CEO Richard Price WORK with CTO Ben Lund WORK with 9 Senior Engineers WORK with the mission to make life better BUILD a killer recommendation engine immersed in Machine Learning and NLP BUILD our next major platform called \u201cPeer Review\u201d from Scratch TACKLE all things related to Scalability, Storage, and Speed VENTURE into mobile HACK because that\u2019s what you love to do CONTRIBUTE to positive changes OPEN SCIENCE, join ACADEMIA.EDU We are Hiring a Team to Build a Better Future Here at Academia.edu you will have an opportunity to join an agile team of 9 Engineers who are all making a positive impact on the world by contributing to a movement called Open Science. As a member of our team you will be given a lot of autonomy to choose projects that interest you the most and the ability to make product decisions with our CTO Ben Lund and CEO Richard Price. We are currently tackling five incredibly difficult product challenges. Some of these projects have been attempted by larger companies and have failed. In order to be successful we will need to think way outside-of-the-box and take a leap into the unknown\u2026 Peer Review We want to build a peer review platform that allows layers of discussion on top of a single document. One of the biggest challenges we face is that contextual commenting at a large scale has yet to be achieved. In order to be successful we need to find original and novel solutions because simple approaches like putting a blog-style comment box at the end of the paper has been tried before and has not been effective. To build Peer Review we must figure out a way to transform all the wide array of styles from any given PDF paper to a clean and consistent format that is embedded for a suitable commenting UI. We are experimenting to build a rich inline-commenting and discussion interface as well as a reputation system that surfaces quality comments. Interface Design We currently have 7.5 million u",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7428951",
+   "date": "2014-03-19",
+   "title": "What Happens to Older Developers?",
+   "text": "I'm sorry that I did not paint a real-world picture with sufficient tears to satisfy you. My comment was not directed at the way the would \"should be\"... but rather at the way the world \"is\", if you want to maximize the effectiveness of your faceless resume on a pile of them. Besides, I didn't say that you have to \"hide\" your identity or opinions on the job. Just that it's dumb to mix your personal identity with your professional identity in materials that fall solely in the latter realm (e.g. resumes, TECHNICAL blogs, etc). A significant portion of my colleagues over the years have been Sikh, and another significant portion have been non-heterosexual. Who cares? We work in one of the most diverse fields on the planet. However, if your blog about Node.js is hosted on \"sikh-time.com\", or if you list \"homosexual\" as the mission statement on your LinkedIn profile, then you are not \"refusing to hide\". You're just being flaky. It's not the identity that's the issue, is the signal you're sending about boundaries and judgement. EDIT: Hmm... reading your comment more carefully, you may have had the impression that I'm turned off by seeing outward appearances of religion during a face-to-face interview. That could be an issue for certain religions, such as Sikhs or Hasidic Jews, where outward appearance is a part of it. However, to clarify... I was not talking about a face-to-face interview, but rather the faceless materials such as resumes and technical blogs that are seen prior to that stage. Again, the issue is not so much the identity as it is the judgment. Moreover, if you share your politics or sexual orientation during a face-to-face interview, then you're definitely doing it wrong.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7235779",
+   "date": "2014-02-14",
+   "title": "Why Stack Overflow in Portuguese?",
+   "text": "This is odd, but I've noticed that technical Chinese blogs auto-translate really well. I used to follow erlang-china.org, and rarely had a problem with understanding. I have no idea how well it works the other way though, so my comments were all bare links. A Chinese friend of mine guessed that it has something to do with how most Chinese words are built from other Chinese words, and the specificity of technical terms made the translations really easy and unambiguous. He explained it better than I just did:)",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=6820956",
+   "date": "2013-11-29",
+   "title": "Ask HN: Open Source alternatives to Disqus?",
+   "text": "> someone might find it upsetting that you are sending him to some external, tracking, data leeching entity where he even may need to create a new account, give away his email address I'm not at all happy about those things, but this is an issue of tradeoffs - the blog I'm talking about isn't my key business, it's merely a side thing for occasional announcements. My key software project is SQLAlchemy, I run my own Trac instance, and I regularly have to babysit it for when it is getting spammed or crawled or slowing down my server or whatever - but I want to own that data and not give it for free to github, so I make the effort. Similarly, I run my own Jenkins servers instead of relying on Travis and I host them on my own EC2 instances. Services and data which are important to me I self-host. Blog comments for me are not. If I were running a political blog where I'd like to invite lively discussion from a wide variety of individuals, then I'd probably want to take the effort to self-host. But as we all know, if my political blog is visited by folks the US government wants to know about, I will be coerced into secretly sending all my data to the NSA in any case. > just for your laziness to maintain a blog software (which _really_ is not that hard). Of course it's not that hard - but when you say something is \"really not that hard\", you have to consider that as an OSS developer, I am babysitting literally dozens of technical streams, including services and hosting for my projects and technical issues for all kinds of people every single day, all of which is effort I put out for free, save for whatever I get on gittip. Every new service or software I have to host and babysit adds to what is already a formidable amount of plates to keep spinning - so those things that I do self-host have to be worth it. I write only a handful of blog posts a year which are themselves of little consequence and entirely technical. Nobody needs to comment on them and the people who do are c",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=6252337",
+   "date": "2013-08-21",
+   "title": "Introducing Silvrback: Hosted, Markdown-Powered Blogging",
+   "text": "This looks great! Do you plan to support comments? I know it's a difficult thing to do so I'm not expecting that, just curious. I also know about Disqus, but that is no good for a technical blog since they took away the ability to post code samples a year or two ago.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=5532164",
+   "date": "2013-04-11",
+   "title": "No comment",
+   "text": "Comments sections improve blogs because they are a place where readers can point out errors in the parent article. Sending an email or tweeting the correction is more difficult than making an anonymous comment, and would then need the author to both concede their mistake and take the time to correct the article. Until they do that, everyone who reads the article risks being misinformed. I can see an argument that comment areas are less necessary on purely opinion blog posts like this one, but on technical blogs they are much more useful, and even on opinion posts I think giving space for dissent is probably a good general rule to follow. For example James Shakespeare seems to base his opinion on the belief that everyone has the same \"blog reading algorithm\", which I don't think is the case. If there were a comments section I'd post that suggestion, but because of the increased overhead/social investment needed to send an email or tweet I'm not going to bother, and he will probably never read that dissenting opinion.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=5350979",
+   "date": "2013-03-10",
+   "title": "On being a girl in computer science - a confession",
+   "text": "I'll be more interested in hearing the opinions of women who didn't have access to a TI99/4A at age five on the need for \"women in CS\" programs. The questions are: Are there women who, under different circumstances when growing up, would have pursued a career in CS and would like to do so now that they're adults? How do you make it possible for these women to achieve their goals and in the process improve gender balance in the software industry? Tech blog posts/comments and Hacker News being what they are, the opinions I've read have been from the tech-privileged - men and women. I would really like to hear from the tech-unprivileged, particularly those women that discovered computer programming too late in life to make a career of it without access to some sort of special program. We should not pretend that all individuals are born with equal access to technology - or really equal access to anything. I also have a problem with this idea that writing computer programs is some highly technical process that only a small fraction of the world's population is capable of. Yes, it comes more naturally to some of us. But many computer programmers are programmers today because they had access to a computer programming course in high school, or they had parents or mentors or peers who encouraged them to start programming. It all starts with access - interest, focus, ambition, motivation, intellect etc are determining factors on career trajectories but these all come later, after access has been granted. If Formula 1 teams started signing female drivers en masse, the likelihood of one of them being a Saudi would be effectively zero. I apologize, that's hardly a fair analogy, but it underscores my point that it all boils down to access. If one of those hypothetical female drivers happened to be a Saudi princess, raised in Belgium with access to Spa in the off-season and Michael Schumacher's 1994 championship-winning Benetton, and she couldn't see why other women needed special",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=5148920",
+   "date": "2013-02-01",
+   "title": "Once again, Path steals your data without permission",
+   "text": "Actually, I am wrong. As was pointed out to me in a blog comment, three screens in on Settings.app, in Settings->Privacy->Photos, there is a warning in grey text that says that photos contain location information of where they were taken. Regardless, despite missing this warning, I'm a technical user and know about EXIF data. The real issue is Path ignoring my explicit demand that it not track my location.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=4970947",
+   "date": "2012-12-26",
+   "title": "Ask HN: What is your preferred registrar?",
+   "text": "Have you read their actual contract terms instead of their marketing materials? If any content on your website (even if user-generated) violates their \"code of ethics\", Gandi can take your domain from you. There's pretty much no way to run any kind of forum, blog with comments, website with any adult content, or even a site which simply expresses opinions that are not legal in another country, without giving Gandi the contractual right to take your domain and kill your site whenever they want. And good luck explaining that your definition of \"hacking\" (i.e. Hacker News) is not the same as theirs. That's bullshit. By accepting Our Contracts and using Our services, You agree to abide to Our code of ethics which consists, in particular, of protecting and respecting minors, human dignity, public order and good moral standards, not infringing on the rights of third parties (private life, image, honor and reputation, trademarks, designs and models, copyrights, etc.) or the security of persons, property, the government, or the good working order of public institutions, and to help in the fight against abusive and/or deviant uses of the Internet (spamming, phishing, hacking, cracking, or attempts at hacking or cracking), or any other infraction as cited in the Penal Code. You also commit Yourself to ensuring that any third party to whom You would resell Our services, or grant a license of use, or grant any access or ability to modify any published Contents, will fully abide by the terms and conditions herein, and that You are able to effectively guarantee this commitment with regards to Gandi, and You remain fully responsible in case of violation of this Contract and/or violation of laws and legislations in force, without prejudice of Your liability towards third parties ... You acknowledge and accept that the use of Our service: \u2022 is expressly forbidden for use in any way that engages or participates in practices that are deviant, abusive, illegal, or prejudicial, and \u2022 mu",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=49550047",
+   "date": "2026-09-03",
+   "title": "Ask HN: Are Technical Blogs Dead?",
+   "text": "The incentives have disappeared. I'm old (64), and when I started out, there were printed trade publications for pretty much any discipline, that showed up in the mail, paid for by advertisers. The articles were deep and useful, because they had to respect the audiences time enough to avoid the trash bin. The money that funded those got sucked up by ad-tech companies like Google and Facebook. Blogging, was a low to non-profit version of the same thing. You'd direct your RSS reader to your favorite feeds, read what your \"friends\" wrote, and reply in the comments, etc. The thing that happened was the audience shifted from technical people happy to deal with RSS readers, and do the work of maintaining subscriptions found the process of getting a blog going to be burdensome, and moved into the easier walled gardens. The effort of blogging to a stand alone platform wasn't horrible, nor was writing and editing something long enough to be worth the time and consideration of the reader. To make it worth it for a blogger though, you need an audience, and the feedback cycle was slow, through Google for anyone not using an RSS reader. It was really hard to get attention enough to feel the effort was worth it. The social networks arrived, and they offered faster feedback, and more of it, with a single mechanism to handle replies, instead of each platform having a different system, and anti-spam mechanism. When Robert Scoble gave up on blogging, that signaled the end of it for me. A technical blog is a teaching tool, and nobody is willing to pay the teachers enough in money, or attention, to make it worth it. One area that has bloomed though, because that's where the incentives moved, is video blogging. Here are some YouTube channels that might be interesting to you: https://www.youtube.com/@HuygensOptics -- if you want to learn about optics https://www.youtube.com/@EEVblog -- an opinionated Australian with one of the oldest EE focused channels https://www.youtube.com/@CuriousMa",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=49088266",
+   "date": "2026-07-28",
+   "title": "Substack writers, you need a website",
+   "text": ">No one is writing purely for themselves Every time I see posts like this one and go into comments, everyone in the comments treat writing as a hobby which they would like to turn into work and earn money from, more or less. And I suppose the words \"writing\" and \"blogging\" associate with the community around themselves in their minds, not with the text information per se. I'm writing technical articles (blog posts) my whole life most of the time as a result of me learning something new, to structure the information on some topic for myself and others. If it's a research, I make a post with all the information and final result of it in public, primarily for myself and sometimes for others, because 95% of the time it's not secret and there's no point to store it privately. If it's a helpful information (software: unofficial bugfix, hacky workaround, poorly documented feature somewhere, etc), I want it to be searchable/indexed, only that . I don't care about attribution, about who reads my writing (be it me, my friends, people I don't know, or AI), I have no incentive to push (as in post here or on social networks) or promote these articles in any way. I don't want people to get back to my site, to subscribe to it, or to build a community around it. If the user types \"How do I solve issue X\" and by a mere coincidence I solved and documented it, I don't care if the user gets the solution from my website, from the scrape & repost websites, or from AI agent which scraped the site. If this helps the user to fix the issue or to learn something new, every way is fine for me!",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=48942030",
+   "date": "2026-07-17",
+   "title": "Unjica",
+   "text": "That\u2019s actually a fair question. It\u2019s definitely more of an art publication than a technical blog. I shared it here mostly because I thought the building process might be interesting to other makers. There aren\u2019t really any technical articles on the website at the moment. The technical part lives behind the scenes \u2014 finding stories, filtering and grouping them, deciding what\u2019s worth publishing, generating summaries, and putting everything together into a daily or weekly editorial format. As for the articles themselves, they\u2019re written for people interested in contemporary art rather than developers. Reading your comment, I\u2019m realizing that a technical write-up about how Unjica works internally would probably make more sense for Hacker News than linking to the publication itself. I might write one once I\u2019m happy with the editorial pipeline. Thanks for the question!",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=48392418",
+   "date": "2026-06-04",
+   "title": "[dead]",
+   "text": "Previously: https://news.ycombinator.com/item?id=47195123 (March 2026, 136 comments) Several months ago I posted about my little proto-app, Now I Get It! that uses LLMs to translate scientific papers into web pages that anyone can understand. The feedback and engagement from this community was terrific and helped me turn it into a real product. It's a niche, convenience product. Not a game changer. I'm comfortable with that and went into it with eyes wide open. Regardless of whether the product does anything, building and launching this as a solopreneur was super fun and educational. It helped me hone my agentic engineering skills and also gave me a better sense of what I could truly delegate to coding agents and where I had to be involved. In short, my experience led me to believe that the best models, harnesses, and techniques aren't yet there to fully build a cloud-native app (AWS) that is fast, cost-efficient, robust, and secure. Not to mention modular and extensible. The number of decisions a human must make is still very high. That's not a huge surprise to me since coding is just one part of engineering. The fun part of engineering (for me at least) is putting shape to a problem and thinking at a systems level even when decomposing into tasks. It's the constant zoom-in, zoom-out interplay that first attracted me to software engineering. Yes, I rely heavily on LLMs for development but 9/10 times I would find something wrong in a plan, a design, an implementation, or a test that would have created problems if I wasn't there. The process I followed for this build, in-a-nutshell: 1. Every feature, bug, and improvement gets its own Issue. Descriptions are sparse so the LLM can really dig into during planning. 2. Plan every issue but override Claude Code's planning mode since it tries to implement immediately after a plan is approved. Also, it's helpful to have the LLM write a user story before writing the plan so that UX stays front-and-center. I had so many issues",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=47726610",
+   "date": "2026-04-11",
+   "title": "A compelling title that is cryptic enough to get you to take action on it",
+   "text": "A post by dang about related posts: A Technical Blog Post by a Big Name Expert - https://news.ycombinator.com/item?id=5326511 - March 2013 (189 comments) A compelling title that is cryptic enough to get you to take action on it - https://news.ycombinator.com/item?id=43219556 - Feb 2025 (112 comments) A Hacker News thread where every comment describes itself - https://news.ycombinator.com/item?id=38451203 - Nov 2023 (74 comments) A request for others to add to the list.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=47721995",
+   "date": "2026-04-10",
+   "title": "A compelling title that is cryptic enough to get you to take action on it",
+   "text": "\"A Technical Blog Post by a Big Name Expert\" (2013) http://bradconte.com/files/misc/HackerNewsParodyThread/ Discussion (589 points, 189 comments): https://news.ycombinator.com/item?id=5326511",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=4747794",
+   "date": "2012-11-06",
+   "title": "Ghost \u2014 rethinking WordPress",
+   "text": "How about following the definition you yourself picked? >Although not a requirement, most good quality blogs are interactive, allowing visitors to leave comments and even message each other via GUI widgets on the blogs, and it is this interactivity that distinguishes them from other static websites. Even with a reference to an academic paper and exactly what i said prior. > You can't say that a \"normal\" blog has comments without defining those, you can't even define \"normal\" without defining the set. I define the set. Easily. Take every site on this internet someone thinks is a blog and merge them to a default. You will have comments and ping/trackbacks (and PHP, probably). You choosed an interesting example: Jekyll. There is that interesting motion that you can observe technical development to follow circles. Those new static site generators are on such a backward circle. As I was told, in those early times before Wordpress, it was common to use systems like this to generate the sites that resembled modern blogs. Then came Wordpress & Co, PHP-based dynamic blog-engines. With comments and ping/trackbacks. I'm pretty sure, like the wikipedia-entry you cited, there are enough definitions acknowledging that. They became the archetypical implementation of a Blog for many years, just like the iPad clinges to the archetypical implementation of a tablet laid down by Star Trek and functional requirements. The movement now to generate blogs as static sites is probably a reaction to the awful caching and ressource-usage of Wordpress or a reaction to the popularity of git. > You use the term need, but imply want. Your blog has no commenting requisite, ... Really not true. If I didn't have comments, my blog would almost certainly not exist anymore. Which qualifies as a need over a want. > There are many people called bloggers who's sites don't have comments, Gruber's Daring Fireball, Marco Arment's blog for a few. There are people sitting on a tree claiming to ride a horse. Gru",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=4740707",
+   "date": "2012-11-04",
+   "title": "Accessors: There and Back Again",
+   "text": "This is my first technical blog post; I am looking forward to your comments.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=47242306",
+   "date": "2026-03-04",
+   "title": "Disable Your SSH access accidentally with scp",
+   "text": "I for one appreciate this genre of comment. It's these days kinda one of the only things still redeemable on this particular website. I dont have to agree with it or end up using it, but its always good to see. You get rid of some (wannabe-)greybeard nerd sniping someone's technical blog about an obscure linux util? What would even be left here? Just B2B SaaS AI blah blah forever? You wan't them to couch this in \"great job! Use whatever your comfortable with!\" Are we really at that point?",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46835599",
+   "date": "2026-01-31",
+   "title": "Automatic Programming",
+   "text": "> Pre-training is, actually, our collective gift I feel like this wording isn't great when there are many impactful open source programmers who have explicitly stated that they don't want their code used to train these models and licensed their work in a world where LLMs didn't exist. It wasn't their \"gift\", it was unwillingly taken from them. > I'm a programmer, and I use automatic programming. The code I generate in this way is mine. My code, my output, my production. I, and you, can be proud. I've seen LLMs generate code that I have immediately recognized as being copied a from a book or technical blog post I've read before (e.g. exact same semantics, very similar comment structure and variable names). Even if not legally required, crediting where you got ideas and code from is the least you can do. While LLMs just launder code as completely your own.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=4605558",
+   "date": "2012-10-03",
+   "title": "Why Leo Traynor\u2019s troll story may be a lie",
+   "text": "Problem is he didn't do that critical second step, the \"burrowing through emails or checking blog comments\" for something that links the IP to a friend. He made the mistake of responding to the criticism of his story's technical implausability by claiming his friend used a procedure of looking up the IP location on a general web database. But those only resolve to ISP-level geolocation, not user-level, as the very post he linked to was later updated to admit. Would have been better for him to keep quiet and let us all keep imagining exotic solutions.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=45712229",
+   "date": "2025-10-26",
+   "title": "The Linux Boot Process: From Power Button to Kernel",
+   "text": "Based on all the negative comments, and being a non-expert, I had an LLM generate an article for that same title. I suspect it was more approachable and more technically accurate than this. In fact I asked it to compare its article with this one and the negative comments. The author of any technical blog post should be using an LLM to vet things before posting to find gaps or inconsistencies.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=45705975",
+   "date": "2025-10-25",
+   "title": "Date bug in Rust-based coreutils affects Ubuntu 25.10 automatic updates",
+   "text": "> I'm not sure LP is a high-quality source. He has reputation that makes me want to listen to everyone else but him. Based off his reputation, I would agree, but after reading a lot of his own words via blog posts, comments in github issues, etc, I wonder how he gained that reputation. He has solid reasoning behind many of his ideas even if you disagree with them, and his comments seem pretty respectful and focused on the technical aspects. Maybe things were different in the past, or maybe some segments of the community just never forgave him for the early buggy systemd implementations, or maybe I just happened to only read things he wrote when he wasn't having a bad day, who knows.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=44757954",
+   "date": "2025-08-01",
+   "title": "Paninaro",
+   "text": "It's better to wait until you have a localized version in English, and post it. Anyway, do you have a technical blog? If you have some interesting anecdotes of technical problems that you solved to make the site, they may be good post for HN. Some ideas: * A long time ago, non-ascii characters used to cause problems. I think it's fixed now in most platforms. * Have you deployed it in a second cafeteria? There is a lot of custom code that work for N=1 and must be rewriten for N=2. PS: In the contact part of your site, it says email@gmail.com PS2: At the bottom, it says \"Website built by Unknown\" with a link to your github profile. PS3: Taking a look, this project is in GitHub with a MIT license! https://github.com/IMmercato/paninaro You can submit a link to the repo in github that has a readme in English. The title may be \" Paninaro: a cloud-based SaaS platform for restaurants \" or something that makes sense. And then make a comment explaining that you are the author, are happy to reply questions and a short backstory about the school cafeteria. I recommend to wait until Monday because if you post your projects everyday, people will complain. (Waiting until Monday is a recommendation that is too careful. There is no hard rule, but for new users is a good idea to wait a few days before reposting.)",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=4825172",
+   "date": "2012-11-24",
+   "title": "Linode Kernel caused kernel oops. My Post Mortem blog post?",
+   "text": "Thank you for your comment. This blog post is for non technical people. I doubt more than 2% of the users has ever heard about the world kernel or even knows that a server is not something you simply and just works. Actually, the don't even know you need to administer it. I say this because I know them personally. Right now for instance I am in Riga, Latvia, visiting the users. So my concern was to be as clear and simple as possible. Nevertheless I agree with you on the technical side. It won't harm to add some more details in a \"Technical - read at your own risk\" section. I'll do this, thank you.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=9156519",
+   "date": "2015-03-06",
+   "title": "TuneMyGC: Optimal MRI Ruby 2.1+ Garbage Collection",
+   "text": "To clarify my down-voted comment a bit: I think part of the problem is that GC tuning has become kind of a black art. It's hard to find documentation and advice to get good results. Tuning services like MySQL, Apache, Nginx is pretty straightforward; there's documentation, guides, tools and plenty of clear ways to monitor it. In my search for Ruby VM tuning, I've found only very technical guides or blog posts that involve a lot of steps, and are not focused on real-world experience. That being said, I'd like to try this service, the guys behind it seem to really know what they are doing.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=8518795",
+   "date": "2014-10-27",
+   "title": "#define CTO",
+   "text": "Not the way I am thinking of it. A retro is more what went wrong / right with our interactions in the team or outside team. It's rarely in my experience a technical what if discussion I am thinking more a way of allowing a single CTO to engage regularly with individuals, less time consuming than 1:1, more free flowing and technically focused - a discussion on what are good or bad or crazy approaches. Again the main things not to do are give the answers nor set deadlines. That's for the team / coders to do. I think I see a blog post sized comment coming so will stop now :-)",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=8282646",
+   "date": "2014-09-07",
+   "title": "Ask HN: How do you manage ideas, tasks, notes and other stuff?",
+   "text": "Org-mode for in-class notes, since I'm a student. Gitit personal wiki for technical information (my blog post: \" rel=\"nofollow\">http://nathantypanski.com/blog/2014-07-09-personal-wiki.html... ). Google Calendar has my schedule, including where I am at any time during the day. It syncs with my phone, laptop, and tablet. While I would prefer something plaintext (like Org-Mode offers) the Android compatibility is not as good. Google Tasks (integrated with calendar) and Google Keep for on-the-go notes and tasks. Paper notes in two-column Cornell style in bound notebooks \" rel=\"nofollow\">http://www.reddit.com/r/GradSchool/comments/27l7tx/whats_you... .",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=8165887",
+   "date": "2014-08-11",
+   "title": "White House launches \u201cU.S. Digital Service,\u201d with HealthCare.gov fixer at helm",
+   "text": "If your comment isn't simply rhetorical, there was a lot of coverage of the root cause: the federal procurement process is a mess, which is especially harmful for IT. A quick summary is Clay Johnson and Harper Reed's oped from last year: http://www.nytimes.com/2013/10/25/opinion/getting-to-the-bot... For a longer read, you might enjoy a Clay's essay on fixing procurement that delves a bit deeper: http://dobtco.github.io/fixing-procurement-ebook/final/fixin... It sort of fails to convey the scope of how enormous, byzantine, and Kafkaesque the whole system is, however. For a hint of that, you can try clicking through https://www.itdashboard.gov/ (remember, this didn't exist before the huge efforts of Open Government Initiative pushed in the Obama admin) - it's still completely opaque who runs, bids, owns, or works on any project. There's some more detail about how the bidding process for Healthcare.gov went down: http://www.washingtonpost.com/blogs/wonkblog/wp/2013/10/16/m... CGI Federal's bidding actually preceded the conception of Healthcare.gov! They were one of 16 companies certified for a $4B contract via a GWAC (that means if you weren't one of those contractors, you couldn't even be in the running). The way that GSA scheduling works pretty much guarantees that you won't get small effective teams building lean/effective tech. CGI Federal of course was only part of the picture: http://www.npr.org/blogs/alltechconsidered/2013/10/25/240532... There was some interesting tech analysis of how this actually played out in terms of the data flow: http://www.appdynamics.com/blog/apm/technical-deep-dive-what... The Federal Information Technology Acquisition Reform Act (HR 1232) would help. It was introduced back in March 2013 and has slowly making it's way through, but basically doesn't have any traction and is IMO pretty endemic and a great example of the type of deep regulatory/legislative dysfunction at the Federal level. https://www.govtrack.us/congress/bills/113/hr123",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7805793",
+   "date": "2014-05-27",
+   "title": "Python 3 is killing Python",
+   "text": "Of course. I'm not making some pie-in-the-sky assertion that arguments should be devoid of emotion, just that I had noticed what appeared enough emotion to overrule civil discourse in the past. That said, after re-reading your original comment, I don't see much to disagree on (except for one thing, which I'll cover later), and it doesn't seem to exhibit many of the problems I was alluding to, so you have my apologies. It was inappropriate of me to bring that up in this context. What I should have commented on was that Parrot was all but dead long before MoarVM put the last nail in the coffin. I doubt the announcement did much beyond cement what most developers already knew - Parot was not well suited for it's original purpose, whether you view that as a VM for P6 or a general purpose VM, specifically because for too long it had tried to follow both paths to the detriment of all. My impression of Parrot, as an outsider who consumed quite a bit of the public information available about parrot development, ended up being that Parrot was too experimental of a VM, and never moved beyond the stage of being a fun sandbox for developers to come experiment in. When P6 was still coalescing around how to implement what was in the spec (and revising the spec in light of that), this didn't matter much. As P6 increasingly moved towards an actual implementation, Parrot's misalignment with what P6 needed along with Parrot's deprecation policy caused many problems between the projects. I think at one point, prior to MoarVM being announced, there was still a chance Parrot could have been \"saved\". But by saved, I mean continue on as a sandbox for developers to experiment in, possibly without ever culminating in a VM that was useful as primary target for a language. If enough developers would have been willing to continue with this truth exposed (and I'm not sure enough would), then if Parrot and made the choice to continue as a \"general purpose VM\" instead of primarily a P6 target, it",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7263332",
+   "date": "2014-02-19",
+   "title": "HP to begin charging for firmware updates and service packs for servers",
+   "text": "HP's Vice President of HP Servers Support Technology Services received a beating in the comments for the announcement: http://h30507.www3.hp.com/t5/Technical-Support-Services-Blog...",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=6918375",
+   "date": "2013-12-16",
+   "title": "Ask HN: Is it possible to get a tech job without a degree?",
+   "text": "Read and implement papers is extremely good advice. It also applies even if you have a degree. I have a BA in math but in the last 6 years have found myself in positions that usually require a phd. And that is not an option with a family and no university nearby. The ability to read academic papers and understand them and turn them into something useful is very valuable. One thing I would add is to learn how to write, as tptacek obviously has. And like the reading material, not internet comments or blog posts. Learn to write real technical reports and proposals. Many engineers, in particular software people can't write worth a lick.",
+   "points": null
+  }
+ ]
+}

@@ -1,0 +1,334 @@
+{
+  "rows": [
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=10001342",
+      "date": "2015-08-04",
+      "quote_or_number": "Can someone suggest a good starting point (on-line courses, books,blog etc...) to improve my writing skills",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=42467666",
+      "date": "2024-12-20",
+      "quote_or_number": "Hi all, I have a bunch of blog posts I want to share for free and am looking for a good platform to post on",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=38531759",
+      "date": "2023-12-05",
+      "quote_or_number": "Hi HN",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=45643176",
+      "date": "2025-10-20",
+      "quote_or_number": "Hi HN",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=39637566",
+      "date": "2024-03-08",
+      "quote_or_number": "Recently, AI, LLM, AI agents, all these buzzwords are spreading everywhere, triggered tons of frenzy and enthusiasm",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=3259457",
+      "date": "2011-11-21",
+      "quote_or_number": "Hi fellow HN readers",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=34281695",
+      "date": "2023-01-06",
+      "quote_or_number": "I saw an essay on Ask HN the other day by a full on sex offender looking for work, so I thought I'd follow up with my own plea for assistance",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=561958",
+      "date": "2009-04-14",
+      "quote_or_number": "Hi fellow hackers, I was going to start a new blog (personal / technical) and was wondering what platforms / tools people use here",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=43099509",
+      "date": "2025-02-19",
+      "quote_or_number": "In November2024, I built MD2FILE ( https://md2file.com ) \u2013 a Markdown editor and Markdown to PDF converter (two-in-one)",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=38745315",
+      "date": "2023-12-23",
+      "quote_or_number": "hey all",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "review",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=6284610",
+      "date": "2013-08-27",
+      "quote_or_number": "I want to put inline comments on my blog",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=40704613",
+      "date": "2024-06-17",
+      "quote_or_number": "How do you gain karma on Reddit when you constantly get blocked and filtered",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=35904292",
+      "date": "2023-05-11",
+      "quote_or_number": "Hello HN, Today we are launching Gromit, an open-source AI powered assistant for your website",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=45629572",
+      "date": "2025-10-18",
+      "quote_or_number": "I wanted to quantify the endless \"which knife should I buy\" debates on r/chefknives, so I built a data analysis pipeline to get some real answers",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=3174407",
+      "date": "2011-10-30",
+      "quote_or_number": "[EDIT: Available at the following URL with proper hyperlinks, per a suggestion in the comments: http://michaelnielsen.org/blog/open-access-a-short-summary/] The topic of open access to scientific papers comes up often on Hacker News",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=9318462",
+      "date": "2015-04-03",
+      "quote_or_number": "I really want to work at Google, for various reasons",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=22777673",
+      "date": "2020-04-04",
+      "quote_or_number": "I've noticed that in the past few months, I'm increasingly encountering spam results in the first page of Google searches",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=35151881",
+      "date": "2023-03-14",
+      "quote_or_number": "Hey HN, We're Alex, Martin and Laurent",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=383784",
+      "date": "2008-12-03",
+      "quote_or_number": "I work extensively in .NET with some background in PHP on the server side",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=46261174",
+      "date": "2025-12-14",
+      "quote_or_number": "Hi HN, I dropped out of college 3 months ago to solve my own problem: I kept building SaaS products that nobody wanted",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=9216151",
+      "date": "2015-03-17",
+      "quote_or_number": "Good day fellow HNers, I've been looking at alternatives to increase my online presence a little (in ways other than a StackOverflow and GitHub account)",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=35871077",
+      "date": "2023-05-09",
+      "quote_or_number": "Hi HN, We are super excited to launch our second SaaS product, Hyvor Blogs",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=36783073",
+      "date": "2023-07-19",
+      "quote_or_number": "I often read comments here on HN stating how difficult writing documentation is and how big of a chore it can be",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=35084108",
+      "date": "2023-03-09",
+      "quote_or_number": "tl;dr we at Escape (YC W23), we scanned 5651+ public APIs on the internet with our in house feedback driven API exploration tech, and ranked them using security, performance, reliability, and design criteria",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=37088087",
+      "date": "2023-08-11",
+      "quote_or_number": "Hi HN",
+      "persona_match": "n",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=30615352",
+      "date": "2022-03-09",
+      "quote_or_number": "Hi HN",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=21756517",
+      "date": "2019-12-10",
+      "quote_or_number": "Recently i stumbled on too many clickgates on the Medium blog Towards Data science",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=1743013",
+      "date": "2010-09-30",
+      "quote_or_number": "After repeated requests, I finally started a blog, but I have no idea what I'm doing",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=31293093",
+      "date": "2022-05-07",
+      "quote_or_number": "After participating in a few past discussions in HN, I have noticed many comments whose main argument is developed upon one or several of the following misconceptions",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=1102594",
+      "date": "2010-02-05",
+      "quote_or_number": "I was inspired by some of the comments on this post: http://www.zacharyburt.com/2010/02/how-i-landed-a-50hr-side-gig-with-very-little-effort-how-it-relates-to-picking-up-chicks/ I feel like I'm not really maximizing my income potential as a freelancer",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=31983426",
+      "date": "2022-07-05",
+      "quote_or_number": "I'm very risk averse IRL and am prone to \"turtle\" or \"hoard\" what I have",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=1758059",
+      "date": "2010-10-04",
+      "quote_or_number": "Hi guys, Yesterday I wrote up a list of books that I pulled from HN using Google",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=34817163",
+      "date": "2023-02-16",
+      "quote_or_number": "About a month ago I created an account on Github to ask questions and participate in internet censorship circumvention repositories like V2Ray",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    }
+  ]
+}

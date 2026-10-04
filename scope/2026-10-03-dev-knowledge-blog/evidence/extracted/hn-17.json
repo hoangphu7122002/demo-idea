@@ -1,0 +1,324 @@
+{
+  "rows": [
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=41764845",
+      "date": "2024-10-07",
+      "quote_or_number": "Convert your voice to social media posts, blogs, lists, newsletters, etc.",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=46464942",
+      "date": "2026-01-02",
+      "quote_or_number": "Hi HN, I would like to share a project I have been working on called IngestGPT ( https://ingestgpt.com )",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47065963",
+      "date": "2026-02-18",
+      "quote_or_number": "Hey HN, I built NarrateNow after noticing a pretty consistent pattern: blog readers engage more when there's an audio option, but the barrier to adding it is either \"record yourself\" or \"pay for an enterprise tool with a demo call.\" Neither is realistic for an indie blogger or a small team running...",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=46854791",
+      "date": "2026-02-02",
+      "quote_or_number": "I find that I often listen to long articles/blog posts using Apple's in built text-to-speech (when you highlight the text and right click while using Chrome or any Apple browser or text app, then hit speech)",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=46793874",
+      "date": "2026-01-28",
+      "quote_or_number": "Hi HN, I\u2019m one of the founders of Gling https://gling.ai We\u2019ve been working on AI video editing for a while (mostly helping YouTubers remove silences and bad takes), but we just released a new feature that I wanted to share with you: converting text links directly into talking head videos",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=15185089",
+      "date": "2017-09-06",
+      "quote_or_number": "Hi HN",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=45572130",
+      "date": "2025-10-13",
+      "quote_or_number": "I've been trying to articulate why coding feels less pleasant now",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=3104544",
+      "date": "2011-10-12",
+      "quote_or_number": "Just received an email from the Diapora team, asking to contribute a bit more to their efforts",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=46907373",
+      "date": "2026-02-06",
+      "quote_or_number": "Hey HN, I'm George",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=29422166",
+      "date": "2021-12-02",
+      "quote_or_number": "I was reading how someone made 6-figures PER DAY making Excel videos (https://www.theverge.com/22807858/tiktok-influencer-microsoft-excel-instagram-decoder-podcast) and started wondering if creators would benefit from having a platform where they could create content centered around audio",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=46518527",
+      "date": "2026-01-06",
+      "quote_or_number": "We built this stack last summer while working on AI voice agents for healthcare practices",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=46268002",
+      "date": "2025-12-14",
+      "quote_or_number": "Heya HN, I've been working on a vibe-marketing platform as my primary side project for the last few months",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=35439433",
+      "date": "2023-04-04",
+      "quote_or_number": "Hi HN",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=45672059",
+      "date": "2025-10-22",
+      "quote_or_number": "Hey HN, My name is Andrew Petrovics",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=42660042",
+      "date": "2025-01-10",
+      "quote_or_number": "I have been programming for the last 7 years professionally",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=46883160",
+      "date": "2026-02-04",
+      "quote_or_number": "I have been toying with the idea of converting my blog posts to audio by reading them out loud",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48147390",
+      "date": "2026-05-15",
+      "quote_or_number": "I built Blogr because I've shipped a handful of side projects and can never stick to blogging, even though I know it's the best thing to do for SEO long term",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=5641157",
+      "date": "2013-05-01",
+      "quote_or_number": "I was fired from a startup 6 weeks before my first year of vesting, (my guess is mainly because they are running out of funding and I was the most expensive employ) but I was told in the exit interview that they would make that day my vesting cliff, because I had worked very hard and deserved...",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=41014490",
+      "date": "2024-07-20",
+      "quote_or_number": "Hi HN",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=36001581",
+      "date": "2023-05-19",
+      "quote_or_number": "Posting this with a throwaway account",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=43404396",
+      "date": "2025-03-18",
+      "quote_or_number": "We\u2019re releasing access to Speech-1, our conversational speech model designed specifically for customer phone calls (8khz telephony) to reduce call drop rates",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=15749079",
+      "date": "2017-11-21",
+      "quote_or_number": "Dear Sam, Eight months ago you wrote a blog post titled, \"Keep the Internet Open\" (http://blog.samaltman.com/keep-the-internet-open) where you wrote: \"We need to make our voices heard",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47120884",
+      "date": "2026-02-23",
+      "quote_or_number": "Hey HN, The Claw ecosystem is incredible \u2014 OpenClaw alone has 180K GitHub stars",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=38068413",
+      "date": "2023-10-30",
+      "quote_or_number": "Hi, I wanted a faster way to write repetitive content that may have some variation like emails, cover letters, etc",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=44540182",
+      "date": "2025-07-12",
+      "quote_or_number": "Hi Hacker News I\u2019ve been working on Sage-AI and am excited to share it with the community",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=41443651",
+      "date": "2024-09-04",
+      "quote_or_number": "Hi HN, I'd like to introduce Blogcard, an advanced AI-powered SEO blog content generator I've been working on",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=42531744",
+      "date": "2024-12-28",
+      "quote_or_number": "Source code: https://github.com/vvolhejn/sine_wave_speech An interactive website for exploring how human speech can be reduced to just a few sine waves and still be intelligible - or at least recognized to be a human voice",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=44272381",
+      "date": "2025-06-13",
+      "quote_or_number": "Hi HN, I\u2019ve been building a social media automation tool called WaveGen, which turns blog posts into short-form, text-overlay videos for platforms like TikTok, Instagram, and YouTube Shorts",
+      "persona_match": "y",
+      "theme": "blogging platform",
+      "note": ""
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=1205317",
+      "date": "2010-03-19",
+      "quote_or_number": "Background: About the Open Government Initiative: http://www.whitehouse.gov/open/about About the public participation period: http://www.whitehouse.gov/blog/2010/02/23/make-your-voice-heard I just learned about the Open Government Initiative last night.The OG Initiative was setup to improve the...",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=44186796",
+      "date": "2025-06-04",
+      "quote_or_number": "I built GetYourBrandVoice.com\u2014an AI tool that crawls all publicly available text about your brand (website copy, blog posts, social media, reviews, press mentions, etc.) and produces a clear, data-backed \u201cBrand Voice Report.\u201d Instead of guessing your tone or manually collecting examples, you simply...",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=42756157",
+      "date": "2025-01-19",
+      "quote_or_number": "I\u2019ve always had a million thoughts, to-dos, and reminders swirling around in my head",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=40042646",
+      "date": "2024-04-15",
+      "quote_or_number": "Hey HN'ers",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    }
+  ]
+}

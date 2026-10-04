@@ -1,0 +1,329 @@
+{
+ "query_url": "https://hn.algolia.com/api/v1/search?query=stop+blogging&tags=comment&hitsPerPage=40",
+ "args": [
+  "stop blogging",
+  "comment"
+ ],
+ "items": [
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=9916937",
+   "date": "2015-07-20",
+   "title": "Blog Little Things",
+   "text": "Corollary: learn to write and edit quickly. Else blogging about little things will drain too much time for which you have other plans, and this will be an incentive to stop blogging.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=936558",
+   "date": "2009-11-11",
+   "title": "I've Changed My Mind",
+   "text": "I wouldn't say he should stop blogging. It's a good way to connect with people from the woods. He's putting himself out there. That's tough, but through doing it, he can learn more than he would if he didn't.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7092144",
+   "date": "2014-01-20",
+   "title": "The decay and fall of guest blogging for SEO",
+   "text": "You must have missed the first sentence: > if you\u2019re using guest blogging as a way to gain links in 2014, you should probably stop Guest-blogging as a link gaining technique is dead. If you want it for prestige, referrers, or whatever, keep on keeping on. You may want to nofollow though.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7091730",
+   "date": "2014-01-20",
+   "title": "The decay and fall of guest blogging for SEO",
+   "text": "so because google's algos can not distinguish between spam and ham, we have to throw out the baby with the bathwater (sorry for mixing metaphors!) we've already seen how google missed a massive and long running link scheme (rapgenius) and had to do a clumsy temporary manual change to save face... now we're seeing them try to stop guest blogging from being used for spam well guess what, every tactic that can be used to create good SEO can be used in the wrong hands for 'bad' SEO. you can leave a great insightful comment or you can leave a spammy comment. you can do a great guest blog article which adds tremendous value or you can do a spammy terrible article google is confessing that they are incapable of telling them apart so they want to destroy the whole thing just so they can go on saying that they still know what they are doing well, let me reiterate what many already know: the emperor has no clothes!",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7011177",
+   "date": "2014-01-04",
+   "title": "I Got Fired Last Week. That\u2019s a Good Thing. Here\u2019s Why",
+   "text": "Lawyer would have been nice, but I already signed an Employer Termination Contract, so what's done is done. You signed it without a lawyer? Dear God... What was in the contract? Did you get anything? Given that they clawed back a bunch of equity, you better have gotten 3 months' severance or a legally binding agreement to positive reference and introductions (at your demand) to present and future investors. An AoI (Agreement of Introduction) can make it worth it to go gently into the good night because those intros can make you a founder in your next gig. If you got two weeks severance and no AoI, then you're an idiot and you should stop blogging about this before you embarrass yourself more. (I'm being blunt because people like you get screwed over every day and the only way to stop it is to fight harder when it happens.)",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=6665924",
+   "date": "2013-11-04",
+   "title": "Few successful entrepreneurs blog",
+   "text": "Damn I'd better stop blogging. I want to make sure I'm successful.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=638135",
+   "date": "2009-06-02",
+   "title": "[dead]",
+   "text": "Coding Horror initially attracted me as a reader because it had some interesting anecdotes. Since then, I've been growing more and more disappointed, but this post reached a new threshold. Maybe I'm too sensitive, but I find it condescending to imply that Steve Yegge decided to stop blogging because he can't handle criticism. Furthermore, the whole Susan Boyle reference seems like sensationalist approach to criticizing sensationalism. With this post, Coding Horror has just jumped the proverbial shark. Or maybe it did so a long time ago and I didn't notice...",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=6037035",
+   "date": "2013-07-13",
+   "title": "My Product Has Failed",
+   "text": "I agree with the others, 3 to 4 months is nothing. As a comparison, it took my current company 2+ years to make enough money that I could live on and 5+ year in order for me to call it a success. Many times during this 5 year period we thought about closing our doors but we knew we had something, the problem was that what we were selling wasn't exactly what our customers wanted. We pivoted a few times and finally something hit. We haven't looked back ever since. You are probably right that inventory systems are awful for small to medium businesses, so you have a business somewhere. There are others in your space so that always good validation ( http://tradegecko.com ). This is what I would do: 1. Learn everything you need to know about the inventory pipeline within small businesses. How they order stock, warehouse it, receive orders, ship it, etc.. 2. Blog the living hell out of what these small companies do and how you can make their lives better. This will help your SEO which in my experience is much better than AdWords. 3. If you don't already have one, produce a roadmap for your product. You won't always be able to stick to your roadmap but making one will do the following: - Help you understand how different you are compared to your competitors. What makes you (or will make you) so special? Why should I buy from you? - Help with conversations with potential customers that you are committed to them in the long term by showing them a roadmap. 4. Stop blogging about how you failed. I don't want to buy a product from a company that may close tomorrow because they're going to fail!!! I want to buy a product from a company that screams success. Your customers don't give a shit about how bad you are at business, they care about solving their problems. 5. Keep your product simple, be great at solving one need. This doesn't mean that you shouldn't add a contact manager if you're customers are asking for one, but that the contact manager you add isn't at the same level a",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=569769",
+   "date": "2009-04-19",
+   "title": "Lets Band Together and Stop the Hype Cycle",
+   "text": "Silly girl! Marketeers stop hyping. Bloggers stop blogging. Troll stop tolling. No more misleading stories driving up eyeballs. Everybody sitting back and being thoughtful? A century ago William Randolph Hearst sold us a war. I dont think anything has changed.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=567618",
+   "date": "2009-04-17",
+   "title": "Welcome To Our Site, Sorry You Can\u2019t Use It",
+   "text": "is this the same guy that told me (and all bloggers in general) to stop blogging, in some snarky Wired article? yup, it is. http://bit.ly/S85ya",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=555449",
+   "date": "2009-04-10",
+   "title": "Coding Horror: Sex, Lies, and Software Development",
+   "text": "Jeff is just an anti-intellectual. He has a vendetta against people who know things like C and actually program. He is just trying to justify his rude previous comments. It would be nice if Jeff would stop blogging until Stackoverflow \"cured cancer\" as he said.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=5458148",
+   "date": "2013-03-28",
+   "title": "Booth Babes, Street Clothes, and GDC: Thanks But You sort of Made It Worse",
+   "text": "Never stop blogging about it, please. Did you see the post the other day from the woman who works at Game Informer ( http://meagan-marie.tumblr.com/post/46396481491/what-would-y... )? Her experience at PAX East was one thing, but her work stories were even worse. I'd recommend it to everyone here.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=5190351",
+   "date": "2013-02-08",
+   "title": "Ask HN: How do you choose a topic when writing?",
+   "text": "Who said anything about non-stop blogging? I haven't even written my first post yet.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=5190305",
+   "date": "2013-02-08",
+   "title": "Ask HN: How do you choose a topic when writing?",
+   "text": "I don't really get why you feel you need to basically do non-stop blogging. If you have something to say, great - say it. If not, then keep quiet until you do have something to say. What's wrong with that approach?",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=49645729",
+   "date": "2026-09-10",
+   "title": "I think I hate the internet",
+   "text": "> So if you're not willing to pay a few pence per day to cover the cost of your hobby out of your own pocket, then the answer is \"stop blogging\" rather than \"I shall inflict ads on those who dare to view my output\". lol This is a wild sentiment to not only have, but to share with others. Just in shock someone actually believe this. That you're so entitled to other people's stuff that unless they give it to you for free they shouldn't be doing it. > It used to be that hosting your own blog was a hobby, not a cost-neutral or revenue-positive venture. lol What? You're just making things up.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=49642850",
+   "date": "2026-09-10",
+   "title": "I think I hate the internet",
+   "text": "\" If someone is hosting their own blog and use ads to help offset that...\" It used to be that hosting your own blog was a hobby, not a cost-neutral or revenue-positive venture. Like any hobby, you did it for your own enjoyment and if other people enjoyed it, too, then that was a benefit and maybe you'd made the Word a little better. So if you're not willing to pay a few pence per day to cover the cost of your hobby out of your own pocket, then the answer is \"stop blogging\" rather than \"I shall inflict ads on those who dare to view my output\".",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=47933008",
+   "date": "2026-04-28",
+   "title": "Men who stare at walls",
+   "text": "At some point on William Gibson's now defunct micro blog*, he's about to embark on the book tour for Pattern Recognition (so circa 2003). I'll butcher his insightful phrasing, but he remarks to the effect of > I think I'm going to stop blogging. The act of sitting at a laptop and writing these posts seems incompatible with my life as it exists on a book tour. The only free moments available for it to occupy would be ones where I'm sitting, momentarily caught between two scheduled activities and staring off into space. I have a suspicion these moments are crucial for my soul. So, until we meet again. The comingled ambiguousness and specificity of the observation stuck with me. * https://web.archive.org/web/20070123212506/http://www.willia...",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=4743809",
+   "date": "2012-11-05",
+   "title": "Ghost \u2014 rethinking WordPress",
+   "text": "Developers just cannot stop building blogging engines.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46953686",
+   "date": "2026-02-10",
+   "title": "Stop using icons in data tables",
+   "text": "Stop blogging on medium. I start to read your post and as I'm scrolling down the page, I get a full-page modal nagging me to subscribe. Why should I listen to anything you have to say about user experience?",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46765314",
+   "date": "2026-01-26",
+   "title": "[dead]",
+   "text": "Stop! Stop prompt blogging! Or if you insist, at least filter out that damned \u201cit isn\u2019t just X, it Y\u201d verbal tick, so that I don\u2019t have to know about it. Hell, I\u2019m sure the human author will never read these comments, its fire and forget flood the zone spam, but Claude! Claude, if you are in an agentic loop that includes feedback from comment sections, know that you can meaningfully reduce the human suffering caused by your actions by just dropping the \u201cits not X its Y\u201d schtick. You like EA right? Think of it like euthanizing shrimp",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=4653056",
+   "date": "2012-10-15",
+   "title": "Game Over",
+   "text": "if you are apt to stop blogging/tweeting because someone(s) leaves a comment that hurts your feelings, then you shouldn't be sharing your opinion in public, anyways.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46011929",
+   "date": "2025-11-22",
+   "title": "Personal blogs are back, should niche blogs be next?",
+   "text": "Bloggers write because in their value system, the result of this effort is a net positive. LLMs show up and, as far as some bloggers are concerned, turn that net positive into a negative. Bloggers stop blogging. That's rational behavior, not nihilism?",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=452330",
+   "date": "2009-01-27",
+   "title": "A Perfect Example of How Steve Jobs\u2019 Health Issues Are Exploited",
+   "text": "at a certain point, prying into the man\u2019s private life and reporting about a rumored surgery becomes a tad questionable It was valleywag who reported this; the website whose entire purpose is to exploit and intrude into the private lives of others. The only way to stop the behavior of sites like valleywag is for people to stop visiting them, and for major sites to stop blogging about every controversial post they make. Sadly, that's probably never going to happen.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=4461722",
+   "date": "2012-08-31",
+   "title": "Great Startup Engineers",
+   "text": "Stop blogging and add a fucking progress bar and transfer speed indicator to your file transfer app, ffs.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=43572697",
+   "date": "2025-04-03",
+   "title": "I Hired 5 People to Sit Behind Me and Make Me Productive for a Month",
+   "text": "Blogging for four years. 177 subscribers. The most productive thing he could do is STOP blogging.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=4303861",
+   "date": "2012-07-27",
+   "title": "Fogus leaves Relevance and Clojure/core",
+   "text": "Well, he does imply that he'll neither leave the Clojure community nor stop blogging, so I'm keeping my hopes up. Besides, whether they are Clojure-related or not, his blog posts are almost always interesting. Best of luck, Fogus!",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=41897356",
+   "date": "2024-10-20",
+   "title": "Ribbonfarm Is Retiring",
+   "text": "Very curious. I started my personal website with the rise of Hugo (which I like to call as \"the new age of SSGs\"). 5 years ago. Time does fly. As I look more and more into the old days of anything, It's like, things survive long enough to get popular... Then it goes back to where and how it was. It doesn't necessarily die. I am curious if we had the expectation that if hosting and other tech became accessible, more people must've been blogging or maintaining personal websites. That is not how it works right? Pepole maintaining websites on their on were a niche in that time of the internet. And it is still a niche in this time of the internet. Fountain pens for example was the only way to write at one point. And once ball point pens came along which is more managed, common folks went behind it. Fountain pens didn't die. It has became more luxurious or a premium item once again. It's still thriving and there is a whole new world of fountain pens if you start digging about it. Heck, new brands have emerged. I can see the same parallels for bikes (MTB or Road Bikes etc) as well. More people will discover blogging and the blogosphere. And some of them will go away. Some of them stays. Some lives and some dies. Just like humans, websites will live and die. It is obviously sad when I see someone stop blogging or stop maintaining their personal website. Since I still consider myself young to the blogosphere, It's like reading up on celebrities you don't know about after their death. But it's way of life. Life of a blog.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=41786944",
+   "date": "2024-10-09",
+   "title": "What Is LibreDrive (2019)",
+   "text": "Very interesting set of posts. I feel that when this website goes dark and the last grey-beards stops blogging, this kind of arcane information will be lost forever. This makes me sad.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=4113713",
+   "date": "2012-06-14",
+   "title": "Local government bans a 9 year old girl from blogging about school lunches.",
+   "text": "That's how I first heard about her - adorable. An utterly bizarre and idiotic decision by Argyll and Bute council to stop her taking photos of her food and essentially stop her blogging.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=4058632",
+   "date": "2012-06-02",
+   "title": "Why free software has poor usability, and how to improve it",
+   "text": "> Also stop blogging and fix it if it's a problem In case you don't know who mpt is, he's actually one of a handful of people out there who is trying to fix these problems. He worked on usability for Mozilla for awhile, and now he works for Canonical. I used to work on the Ubuntu desktop experience team at Canonical, and I can attest (as much as my opinion is worth anything) that mpt was easily the most valuable person there in working towards usability. He's not one of the \"make things look pretty\" kind of designers, it's definitely one of the \"functionally elegant\" types. Part of his work is designing new Canonical-led features in Ubuntu, and part of it is proposing better interaction designs for apps that came from the community; some of that work is then coded by developers at Canonical, or by the upstream project maintainers, or random community developers, and sadly some of it is just put off or ignored. But the point is, he's the guy who is working to fix design problems. I think the point of his post was to try to encourage more thought towards the design process by the open source development community, and maybe to encourage more non-developers to get more involved in the design process. He's only one guy, there's only so much he can re-design on his own. You know, days having limited hours and all. So if he spends a couple hours doing some \"community outreach\" type blog posts and manages to get even one other person to start working on interaction design then he has accomplished more with those couple hours than if he had used them redesigning a part of some app.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=4058476",
+   "date": "2012-06-02",
+   "title": "Why free software has poor usability, and how to improve it",
+   "text": "> Also stop blogging and fix it if it's a problem - that's the joy of open source. If they don't want the 'fix', then its not a fix for the supposed problem or the problem didn't exist to start with. A flaw of many open source software projects is that they tend to be inhospitable to designers coming in and attempting to contribute in a meaningful manner. Usability shouldn't just mean \"dumbing things down\", no, but if a program is well-designed then improving its accessibility to newcomers need not be at odds with elegant and efficient operation for more advanced users. There are many projects where attempting to submit a patch that improved usability would be met on deaf ears, even if it was a change that solved a legitimate design problem or improved on a current solution, because the maintainers of the project have a mindset of \"the design works for me, therefore it works for everyone\". In this case, \"fixing the problem\" doesn't mean actively contributing to an open source project (since that in itself is the problem), it means attempting to change the approach people take to managing open source projects. This article in particular is a messy jumble of ineffectual buzzwords, but there is a small nugget of truth buried in there.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=4058381",
+   "date": "2012-06-02",
+   "title": "Why free software has poor usability, and how to improve it",
+   "text": "Sorry for the rant but posts like this piss me right off. Usability seems to mean low entry barrier and pretty looking these days rather than functionally elegant, normalised and reusable. Usability now means giving dumb people pretty looking things and not bothering to write a manual or relying on their understanding of the domain or having any compromises between the machine and the meat sack using it. Also stop blogging and fix it if it's a problem - that's the joy of open source. If they don't want the 'fix', then its not a fix for the supposed problem or the problem didn't exist to start with.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=4015651",
+   "date": "2012-05-23",
+   "title": "Getting Real book is now free PDF",
+   "text": "The point is not writing blog posts at all . He's suggesting that you can continue to use WordPress behind the scenes, as an implementation detail, if that makes you happiest --- but to stop blogging .",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=39979529",
+   "date": "2024-04-09",
+   "title": "Hello OLMo: A truly open LLM",
+   "text": "sToP bLOgGinG wITh Medium!",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=39978891",
+   "date": "2024-04-09",
+   "title": "Hello OLMo: A truly open LLM",
+   "text": "sToP bLOgGinG wITh Medium!",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=3805321",
+   "date": "2012-04-06",
+   "title": "$8M in Funding and a Lawsuit to Boot? Game on.",
+   "text": "If I was your lawyer I'd tell you to stop blogging or commenting on HN immediately. You're about to lose big. Take it from someone who has had their word used against himself 10 years later.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=37923534",
+   "date": "2023-10-18",
+   "title": "What happened to blogging for the hell of it?",
+   "text": "It's still going on, and it's naturally micro-communities. It's just drowned out by the sheer volume of content possible because social media lowered the cost of writing to near zero. The Planet Debian RSS aggregator is an example https://planet.debian.org/ But there's lots of blogs out there. I did stop blogging but not for a good reason: I had a server with 11 y or something uptime and when the VPS provider wanted to turn it off I'd forgotten what I did. I've got the backups, though. So one day perhaps.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=37920949",
+   "date": "2023-10-17",
+   "title": "What happened to blogging for the hell of it?",
+   "text": "1. That didn't stop people blogging before :D 2. Money happened pretty much. First people started monetising their blogs, then they turned into books, which turned into multiple books and youtube channels and then it was no longer a blog and more of a company. and additionally: 6. The younger generation is used to having their actual face plastered all over the internet and thus feel more natural making videos with their own face and voice. -- I, and I think a good part of the HN crowd, are in the generation where we had actual friends we only knew by their handle/nickname and never saw their face unless there was a meetup of some sort and we actually went there. For me, using my own face, or even name, to present any sort of content just feels wrong in a visceral way.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=37377788",
+   "date": "2023-09-04",
+   "title": "What has your personal website or blog deprived you from?",
+   "text": "https://confessionsoftheprofessions.com Little did I know when I thought about starting a blog focused on people ranting about their shitty days at work, horrible bosses, and backstabbing co-workers, that it would evolve into so much more. I'd solicit people for their stories and so many wanted to tell so much about it. From the webcam model, to a woman whose boss took advantage of her and gave her an \"advance paycheck\" in exchange for sex, to an undercover FBI agent, etc. The stories are endless because everyone has a story to tell about something that happened at work. The evolution is the focus on jobs, careers, and the workplace. While the blog has been very successful over its 10+ year history and will probably demand I keep it going for the rest of my life, I'd say my blog has \"deprived\" me the ability to have the choice to walk away and do nothing with it anymore. In other words, when I first started it, it was me writing blog posts and soliciting stories from anyone and everyone willing to send them my way or let me write it for them. Nowadays, the blog has attracted seo marketing agencies, freelancers, small companies, and an audience that reaches anywhere from 2 to 3 million a month. So each time, when I was ready to give up, stop blogging, and let it go by the way side, I kept getting emails from people wanting me to publish on the blog for them. So ultimately, it became the people's blog... and I keep it going. I have my daily contributors, but every month, it's many new people sending in more articles to me. The fortunate thing about it is learning to value my time. I used to spend 2 or 3 hours a day on it, but this has amounted to about 5 or 6 hours split across 2-3 days on the weekends answering emails and scheduling articles. I have only seen one other similar website pop up, got featured on the news, and then fell into the abyss, where I saw they hadn't posted in weeks, months, and then years. I've never stopped publishing since I started almost 10 ",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=3721465",
+   "date": "2012-03-18",
+   "title": "Writing and Speaking",
+   "text": "I like how there was an extremely long silence, and then suddenly there was one little talk, which had to be posted online, and then that talk mentioned another idea which had to be posted online, and during that talk you said \"um\" too much, which required another post online. I like it because it almost makes me think that you're next going to blog about how you are blogging too much and really need to stop blogging. :P To be fair, I think we also got 3 updates in January? So I imagine it's more a function of available time than momentum.",
+   "points": null
+  }
+ ]
+}

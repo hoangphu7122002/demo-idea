@@ -1,0 +1,329 @@
+{
+ "query_url": "https://hn.algolia.com/api/v1/search?query=developer+blogging+platform&tags=story&hitsPerPage=40",
+ "args": [
+  "developer blogging platform",
+  "story"
+ ],
+ "items": [
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=22641967",
+   "date": "2020-03-20",
+   "title": "Ask HN: What are the best blogging platforms for developers in 2020?",
+   "text": "Now that I'm stuck home due to the corona virus, I want to pick up blogging. I'm curious what blogging platforms out there do you consider to be the best. Features like Markdown and syntax highlighting would help. In the past I used Ghost, WordPress, and I even built my own blogging engine. I don't want to spend a month creating a new one so I'm looking for a complete solution. Which blogging platform do you prefer?",
+   "points": 18
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=31432538",
+   "date": "2022-05-19",
+   "title": "Ask HK: good blogging platforms for developers?",
+   "text": "I was surprised to see that HN considers dev.to, and in some cases, Medium as platforms for spammers.[1] For me fact that HN flags this sites means that I should stay away from them. Am I right? Which blogging platform would be a good choice for developers? GitHub pages, selfhosted solution, WordPress.com, https://hashnode.com? [1] https://news.ycombinator.com/item?id=27108910",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7535613",
+   "date": "2014-04-05",
+   "title": "Open Source Blogging Platforms for Developers",
+   "text": "",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=24303569",
+   "date": "2020-08-28",
+   "title": "I am building a blogging platform for developers. What features should it have?",
+   "text": "I am building a blogging platform for developers (like myself), with these three main qualities in mind: - minimalistic, lightweight pages with blazingly fast loading times - own your data: exporting and syncing capabilities - green: combined with fast loading times, it will run on renewable energy to minimize CO2 emissions What features should it have to make YOU use it?",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=19992102",
+   "date": "2019-05-23",
+   "title": "Devblog \u2013 A dead simple blogging platform for developers by Hashnode",
+   "text": "",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=13600233",
+   "date": "2017-02-08",
+   "title": "Ask HN: What is a good blogging platform for non-developers",
+   "text": "",
+   "points": 8
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=31154567",
+   "date": "2022-04-25",
+   "title": "Show HN: Lists.sh \u2013 A Microblog for Lists",
+   "text": "Greetings, creator here! I've been working on a new blogging platform specifically for lists on and off for a few months now and I'm excited to officially announce its launch. After seeing https://charm.sh a few months ago, I've been enamored by the idea of SSH apps. I decided that a blogging platform focused on developers could be the perfect use case for an SSH app. Also, I love writing lists. I think restricting writing to a set of lists can really help improve clarity in thought. The goal of this blogging platform is to make it simple to use the tools you love to write and publish lists. There is no installation, signup is as easy as SSH'ing into our CMS, and publishing content is as easy as copying files to our server. Check it out and let me know what you think! source: https://github.com/neurosnap/lists.sh",
+   "points": 271
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=3557396",
+   "date": "2012-02-06",
+   "title": "Ask HN: Where do you find current blogging platforms lacking as a developer?",
+   "text": "The big-name blogging platforms currently on the market aren't catered to the needs of hackers. - I don't know of any blogging software that provides built-in integration for your GitHub account. - Current blogging software has too many options. All I need to do is post my article, possibly give it a thumbnail, and maybe add a few tags for easier browsing. Where do you find current blogging platforms lacking, as a developer? If you were going to hack together your own blogging software, what would you include?",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=1830401",
+   "date": "2010-10-25",
+   "title": "Tell HN: Talking Points Memo needs a Designer/Developer",
+   "text": "TPM Media LLC, the company that owns Talkingpointsmemo.com, is looking for a developer with design chops. In this role, you'll be leading innovation at a site TIME Magazine called \"the prototype of what a successful Web-based news organization is likely to be in the future.\" The developer will be responsible for maintaining the existing technology and devising new features for the site. Projects may include building sign-in systems, implementing internal analytics packages, or inventing news apps such as TPM PollTracker (http://polltracker.talkingpointsmemo.com). The ideal candidate is comfortable in a Ruby environment (both plain old Ruby, and Rails/Sinatra), has expert front end skills (semantic HTML, CSS, JavaScript + jQuery, Photoshop), is competent in a *nix shell + Git, and has worked with databases (especially MySQL). Experience with PHP is a bonus. A deep understanding of template-based blogging platforms like Movable Type or WordPress is also a plus. We prefer candidates who are obsessive about latest web technologies, online news and social media. In our business things change rapidly, so the developer must be able and eager to to learn new languages and frameworks on the fly. A good design sense is a must. A background in journalism is preferred. If this sounds like you, drop a note to talk@talkingpointsmemo.com with subject line \"Designer/Developer.\" Include a resume, cover letter and some work you are proud of (GitHub account too, if you've got one).",
+   "points": 3
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=14080868",
+   "date": "2017-04-10",
+   "title": "Ask HN: Are you interested in a very simple blogging platform?",
+   "text": "There exist a plethora of blogging platforms from WordPress to Ghost but most of the developers prefer just static blog engines like Jekyll, Hugo. But some people are even too lazy to do that too. So are you interested in a platform that is dead simple where you could just login, and write post in markdown, apply some tags and hit publish. Blog layout will be plain and super fast, no side crap. Just good old plain blogging. Any suggestions?",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=25263421",
+   "date": "2020-12-01",
+   "title": "Ask HN: How to Start a Developer Blog?",
+   "text": "I've been reading developer blogs from a long time and was a consumer. I'm trying to break out of this habit and start a blog before 2021. I don't want to be something fancy, I just want to setup it easily. If I should go with blogging platforms like Medium or Dev.to. Or should I look up for static site generators like Gatsby. PS: What advice would you give to someone starting a blog?",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=33835935",
+   "date": "2022-12-02",
+   "title": "Show HN: BlogHunch \u2013 Next generation blogging platform",
+   "text": "The SEO-optimized, flexible No-Code blogging platform that lets you build and manage your blog without worrying about servers, developers, branding, and SEO",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=19413809",
+   "date": "2019-03-17",
+   "title": "Recommendation for Tech Blogging Platforms",
+   "text": "I am a senior developer and I am interested in doing some tech blogging. I would like to get some feedback on what blogging platform would be ideal for tech blogging. The topics could range from a variety of areas in computer science and mathematics including OS internals, security, programming, algorithms, statistics, calculus etc. My target is a technical audience interested in learning. I would definitely like to spend more time on content and not have to deal with blogging infrastructure. I would like a platform where dealing with mathematical symbols and highlighting code is not tedious. Finally, I would like to reach out to a wide variety of folks including developers, ops, technical managers etc. I am aware of github and medium but I am not sure if there are better platforms out there that will meet my needs.",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=27909800",
+   "date": "2021-07-21",
+   "title": "Another blogging platform. But this one is optimized for developer experience",
+   "text": "",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=27230779",
+   "date": "2021-05-21",
+   "title": "Which blogging platform should I use as a developer?",
+   "text": "",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=21900341",
+   "date": "2019-12-28",
+   "title": "VS Code and GitHub Gist = Developer Micro-Blogging (a.k.a. a \u201cGistLog\u201d)",
+   "text": "",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=21799123",
+   "date": "2019-12-15",
+   "title": "Show HN: VS Code + GitHub Gist = Developer Micro-Blogging (aka a \u201cGistLog\u201d)",
+   "text": "",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=20687354",
+   "date": "2019-08-13",
+   "title": "In an age of social media blogging platforms, exclusivity is a good thing",
+   "text": "",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=1963368",
+   "date": "2010-12-02",
+   "title": "How to present my idea/site to developers?",
+   "text": "I am working on site for developers and IT-geeks. It's kind of collaborative blog with special filter by tags. But it's not \"another\" blog or forum. It provides for user two special features: 1) easily share his posts with other users who have same interests; (On your own standalone blog you have to make some effort to became popular, even if you write interesting posts. Idea of my site - provide for each user simple way for share his posts with other users and get comments/discussion from them) 2) filter posts by tags - user can configure what posts he will see and hide unwanted information. (If you want see posts only with some tag (for example with tag \"c++\") - you just need to configure simple filter and get only posts with this tag. And of course you have list of ignored tags and users.) Also it has other useful features. I've tried to send emails to several bloggers but almost nobody answered me. Probably they think that it was spam. I think that my idea can be interested for developers but I don't know how to share it with people. I want to describe and discuss it with people who is really interested, because it is little bit differ from existing blogging platforms and forums. Or it's wrong way? Anyway site will be launched soon. If you are interested in it - could you please send me email: vladimir.pankratiev at gmail",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=6664412",
+   "date": "2013-11-03",
+   "title": "Ask HN: PHP vs. Node.js vs. Go for a new startup?",
+   "text": "I am coming back to the IT industry after about 6 years of being involved in something completely unrelated. My partner and I are starting a startup that\u2019s going to make a online blogging application for a niche market. If we are successful, the application would need to be able to scale to handle a lot of users (100k visitor per day if we are successful, nothing like FB levels or something). Because it\u2019s going to be a blogging platform with a business model similar to squarespace.com, the load will be distributed over many different domains, making it easier to scale. Both my partner and I have good knowledge of PHP. However, due to the complexity of the project, we will have to find additional developers anyway. From what I read online Node.js and Go are the in thing right now, and scale much better than PHP. My question is, should we stick with the \u201cDevil we know,\u201d PHP, or dive into learning and developing in Node.js or Go. Should we consider another programing language / platform? What are your thoughts. This are honest questions, we are just looking for some feedback. Thank you for your help.",
+   "points": 29
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=16796654",
+   "date": "2018-04-09",
+   "title": "Ask HN: Late career changer looking for resume and job advice",
+   "text": "Hello! I\u2019m a self-taught web developer who switched careers from architecture and construction management a bit over 2 years ago when I finally decided to follow my call. Since then I\u2019ve been learning to code and building some projects, the main one being a blogging platform (https://blogme.space), which design is inspired on Medium\u2019s. I\u2019m now looking for a full-time job and would really appreciate any advice on how I wrote my resume, which includes some of my projects and previous experience as well as transferable skills. Also much appreciated is any advice/suggestions you may have regarding job search for a late career changer. Resume: https://www.dropbox.com/s/a88655lepkgba26/Regen_Resume_2018.pdf?dl=0",
+   "points": 6
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=15488743",
+   "date": "2017-10-17",
+   "title": "Ask HN: Should I use LinkedIn for blogging?",
+   "text": "I'm a grad student in IT, but I'm looking to get a job as a front-end web application developer. I'm not sure if completing the degree is going to be worth it, so I've taken less credits this semester to focus on learning and building a portfolio project on my own. I've been considering writing a blog about the research I've done while getting ready for the portfolio-project, such as cloud platforms, front-end frameworks (I think I'm going to indulge myself and use ClojureScript), etc. I just noticed that linkedIn has a blogging platform, so I'm wondering If I should use that instead of my blogger page. Do you or your co-workers use LinkedIn for job hunting and/or networking? Would it be worth it to try and put an effort into building connections through the site? Any anecdotes are appreciated.",
+   "points": 3
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=21407362",
+   "date": "2019-10-31",
+   "title": "Show HN: Personal CV Website with Blog and Marketplace \u2013 Your vCard on Steroid",
+   "text": "Hello Community! My name is Vivek, I am a software developer who recently started working for an innovative company and I am sharing our new product with you today. FreelancerCV is a personal web app to expose your skills and make revenue based on your skills. Most marketplace can be complicated to use and doesn't fulfill most of your requirements in one place. What can I do with it? FreelancerCV is all in one marketplace where you create your own * Personal CV website under custom domain or subdomain for FREE (http://usercv.freelancercv.om) * FREE blogging platform like tumblr or medium * Free Marketplace & Store to sell your digital items (if any) or sell your services (if any) (e.g, http://codecanyon.freelancercv.com) What's Next? = We are planning to add the \"Status\" and \"Follow\" option to bring all the like-minded people together. = We are also planning to add \"Company Profile\" option where you can list your company page and add a number of employees = We are also planning to add \"Support Desk\" for each of your companies to collaborate with your clients. Head to https://freelancercv.com and create your free CV website today!",
+   "points": 3
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=2024254",
+   "date": "2010-12-20",
+   "title": "Ask HN: Best tool for (several) jobs",
+   "text": "I'm a PHP developer by day. I like PHP, I'm good at it and have a decent track record to point to for employers (my first e-commerce site is still going strong 11 years later - though I do NOT want to look at the code :). However, that's really not enough these days. I've been rejected for some recent PHP jobs for people who had also done stuff in Rails - and it's becoming harder and harder to find standard employment with a history in PHP alone (C & Perl don't count for much either as it happens). So, rather than bitch about how they failt to see my obvious greatness, I'm gonna try and pick up (in a rudimentary sense), a couple of new languages over the next months and build a simple web app with each. I obviously don't expect to become great, but I hope this will at least give me something to show to employers. This is where I'm stuck. I don't want to just write a blogging platform over & over again - I'd rather build something that the language in question is best suited for. I've bought myself a VPS, I just need an idea of what to build. Relevant communities are always good, but generally tend to be of the \"you can do ANYTHING!\" mindset and I'm sure that's true, but some languages excel in certain areas and I would like to pursue this. My plan is for the following: * Rails * Python * Node.js and possibly some wildcard, which I am open to suggestions for. I hope this post makes sense and finds you well!",
+   "points": 3
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=44382354",
+   "date": "2025-06-25",
+   "title": "Ask HN: What makes an engineering blog great?",
+   "text": "According to Stack Overflow\u2019s annual surveys, about 1 in 3 developers say that company-owned content \u2014 like engineering blogs \u2014 is one of their top three ways of discovering potential employers (alongside personal networks and company reviews). That got me thinking about what actually makes a great engineering blog. Here are a few patterns I\u2019ve noticed \u2014 curious to hear what others think: 1. Transparency draws talent. The best engineering blogs don\u2019t just explain what the company is working on \u2014 they offer a candid view into real challenges, trade-offs, and how the team thinks. For folks considering joining, this can be a signal of technical depth and culture. 2. Credit where it\u2019s due. Companies like Netflix do this well \u2014 not just sharing the technical content, but also spotlighting individual contributors. That kind of recognition builds internal morale and shows the outside world the caliber of people behind the work. 3. Distribution matters. A good post can go unnoticed without internal buy-in. When engineers share their own writing (or each other\u2019s), it creates a loop: more reach, more recognition, more reputational lift for the company. 4. The Medium migration. A few years back, Medium was the default blogging platform for tech orgs. Lately, there\u2019s been a quiet shift back to company-owned domains \u2014 probably for better SEO, more control over analytics, and long-term ownership. 5. Substack? Not (yet) mainstream. I expected Substack might fill the gap \u2014 but very few engineering blogs seem to be using it. A couple examples like PostHog and Jam.dev stand out, but it\u2019s not widely adopted. Curious if anyone else has thoughts or examples. 6. Write for devs. Engineering content that gains traction tends to teach something \u2014 not just showcase your stack. Code snippets, TL;DR summaries, actionable insights \u2014 these resonate more than generic case studies or product updates. One trick I\u2019ve seen work well: test draft blog posts here on Hacker News to get early feedback. It",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7172953",
+   "date": "2014-02-03",
+   "title": "Ask HN: Review Fik Stores",
+   "text": "Hi Everyone, This is the first time here, but I was really looking forward to have something to post. We are about to launch an online store SaaS, where stores are built on WordPress. All the administration of products and site is based on the blogging platform, and all orders and payments are handled through a Symfony backend. We are currently looking for people willing to try out our product and for partners (themers, developers, payment gateways, logistics) willing to build upon our platform. We are currently in private beta, if you want to give our platform a spin, just put HN in the invitation code field, this is our homepage: http://fikstores.com Another thing, we are currently located in Spain, so also any help reaching the US market would be awesome. Cheers, Bill",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=12737080",
+   "date": "2016-10-18",
+   "title": "Ask HN: Help DreamCoin",
+   "text": "Hey, my name's Aaron. I created DreamCoin to help people make money off of their ideas, blogs, or whatever else they can put into writing. You can find it here: https://dreamco.in I'm aware that the site confuses people and could be vastly improved upon. That's where you come in. I'm looking for people who'd like to either join my team or provide contract work to improve the design. I can pay in small amounts, but I cannot offer salary or wages. As an amateur developer / designer with no business experience, creating the platform from scratch took a long time and hasn't gone very far. Please contact me at hackernews@dreamco.in with any suggestions or help you can offer. Originally, DreamCoin was for individual, anonymous ideas. Users pay the price to view an idea, and if they like it, the price goes up by 1. If they dislike it, the price goes down by 1. So, you're paying to view content based on popularity. I now see this as a potential blogging platform where users make money off of quality writing. I've had many people explain to me why this will never work. People don't like paying for individual pieces of content. They'd rather donate via Patreon or a crowd-funded method. Preferably, they'd pay nothing, and the webmaster would use tracking / advertising to make money. That's fine. I believe people will pay for content if the platform is set up correctly and doesn't violate user privacy. Amazon requires you to purchase a book before you can read it. Why can't the same go for ideas / blogs? I've been at this for a long time now, and I'm not interested in the arguments for why DreamCoin can't work. If you believe it can and want to join me in taking it further, please let me know. Thanks, Aaron Hatch",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=14129383",
+   "date": "2017-04-17",
+   "title": "Ask HN: Good WordPress themes for dev blog?",
+   "text": "Hi HN! In the last couple years I've played with several blogging platforms--hand rolled, Jekyll, Medium, Ghost, WordPress--and found that WordPress is the one I enjoy using the most. Strange, I know, but it is what it is. Problem is, I haven't been able to find too many themes that work well for a developer blog. Most of the official themes, as well as ones on third-party marketplaces, seem to be geared towards either magazine-style websites or image-heavy portfolios. I'm looking for a theme with a simple sticky sidebar/top bar for navigation, and a stripped-down reading experience. The focus should be good typography and readability. I get a lot of consulting work from my blog, so I'm willing to pay for this. In fact, I've been talking to some programmer friends and some of them have offered to pitch in cash to get an actual designer to build this from scratch. Before I go down that route, though, I'd like to know if I can buy something off the shelf that's suitable for a dev blog. Do you guys know of something?",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=45800810",
+   "date": "2025-11-03",
+   "title": "Show HN: Tired of manually cross-posting articles? I built a solution",
+   "text": "Hello, I've been blogging on multiple platforms (Dev.to, Hashnode, Medium, Ghost) for the past year. The biggest pain: reposting the same article 4 times with manual formatting adjustments for each platform. That's how AllPub was born. The challenge wasn't the publishing\u2014most platforms have APIs. The real problem was: 1. Each platform formats markdown differently 2. SEO metadata (titles, keywords, tags) need customization per platform 3. Notion \u2192 Platform conversion loses formatting/structure 4. Manual formatting errors are common The solution: - Connect your content source (for example notion, dev, hashnode) - AI generates platform-optimized metadata - Smart parsing converts content correctly for each platform - One-click publish to all your platforms simultaneously Tech stack: Next.js, Supabase, clerk, mailerlite, Vercel. Using Notion's official API + platform APIs (Dev.to, Hashnode, etc). We're currently in free beta and launching on Product Hunt Friday. Looking for early feedback from the HN community before official release. Biggest takeaway: Most developer tools fail not because the core idea is bad, but because they underestimate platform-specific quirks and edge cases. Beta: allpub.co Questions about architecture, API integration, or Notion API weirdness? Happy to discuss.",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=44713142",
+   "date": "2025-07-28",
+   "title": "Show HN: I built Nexty.dev \u2013 90 days since launch, 70 paid customers",
+   "text": "The Next.js SaaS boilerplate market is saturated, but there's still room if you solve real developer pain points. I believe I've done exactly that \u2013 70+ customers in just 90 days proves there's genuine demand for what Nexty offers. Hi, I'm Jude Wei, a software engineer obsessed with understanding what developers actually need. 90 days ago, I started building what I thought would be just another personal Next.js template. But as features evolved, I realized I was creating something that could genuinely help fellow developers ship faster. That's when Nexty.dev was born. Thanks to incredible feedback from early users, Nexty has become one of the top 3 Next.js SaaS boilerplates. Here's what makes it different: 1. Perfect Landing Pages: Universal structure design \u2013 just swap text and images to get a beautiful product landing page 2. Multi-language Support: Launch globally from day one with built-in internationalization 3. Flexible Authentication: Social + email login via Supabase Auth, easily extensible for more providers 4. Complete Email Solution: Domain email setup + ready-to-use newsletter system for instant user engagement 5. SEO-Optimized: Optimized page structure and comprehensive meta handling to get search engines' attention fast 6. Visual Pricing Management (Nexty Exclusive): No more complex JSON configs! Manage pricing plans through a visual dashboard, sync with Stripe, and auto-translate to multiple languages 7. AI Testing Playground (Nexty Exclusive): Not just API wrappers \u2013 a complete testing environment that teaches you AI development. Other boilerplates give you templates; Nexty gives you understanding. 8. Advanced CMS (Most Comprehensive): Beyond blogging \u2013 build paid content platforms with access control and multi-language support. Features no other boilerplate offers. Nexty's Tech Stack: Next.js, TailwindCSS, Shadcn, Supabase, Stripe, Resend, Upstash, AI SDK, OpenRouter, Replicate. Deploy Anywhere: Vercel, Dokploy, or VPS. What I'm most proud of? The t",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=423765",
+   "date": "2009-01-07",
+   "title": "Ask HN: Am I the only one tired of Twitter apps?",
+   "text": "Practically every morning when I tune into HN, I find an announcement of at least one if not more new apps related to Twitter. I always check the comments to see if anyone else is as sick of Twitter apps as I am, but all I ever find are other hackers cheering them on. So, am I the only one who thinks there's an enormous waste of developer/entrepreneurial resources here? Aren't there more interesting problem spaces for developers to explore -- especially ones that are relevant to people outside the ubergeek set most us belong to? This isn't meant to be a rant against Twitter, and it's certainly not a rant against any individual one of those apps or developers working on them. (In fact, I posted this as a separate discussion because I didn't one to impugn any one developer or group's efforts.) But I'm just curious if anyone else feels the same way as I do -- or if Twitter is such a revolutionary new platform, akin to email or blogging, that I'm being short-sighted in poo-pooing innovation efforts in the space.",
+   "points": 71
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=27762869",
+   "date": "2021-07-07",
+   "title": "Should junior developers blog about what they learn?",
+   "text": "I have always had a dream of having a self-built blog where I share what I learn. Not for any ulterior motives but just to share my experiences, as I do not like the ecosystem social media platforms have built. But now, that I am all setup and have written a few articles, I am concerned if I should be spending time writing articles just for fun. All the \"blogging as a career\" content out there seems to make me feel like aspiring to just blog as a hobby is a pipe-dream. So I want to ask, is anyone out there blogging for fun anymore?",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46133567",
+   "date": "2025-12-03",
+   "title": "AutoPilot AI News Platform \u2013 Automated, Monetizable and Ready to Launch",
+   "text": "FULL PROJECT HERE \u2192 https://ainewshub2025.netlify.app/ and if you are interested you can purchase here \u2192 https://polar.sh/checkout/polar_c_HcM5XbbPsBCAetYTy8JZunQX8kVxj1cfLRni14Z0Bh7 I built AI News Hub as a complete platform that automatically collects, organizes, and publishes the latest content from the AI world, programming, machine learning, dev tools, and tech tutorials. Every 2 hours, the system scrapes trusted sources, cleans the data, generates SEO-optimized posts, and updates a fully featured dashboard. It also sends push notifications to users whenever new content is available. The whole project is designed to be a plug-and-launch SaaS: it includes authentication, subscriptions, blog system, PRO mode (ads removed), backend API, scraper, SEO, and everything needed to run a polished production website. Scraper \u00b7 Backend \u00b7 Dashboard \u00b7 Push Notifications \u00b7 Authentication \u00b7 SEO \u00b7 Blog \u00b7 Friendly URLs React 18 \u00b7 FastAPI Python \u00b7 TailwindCSS \u00b7 shadcn/ui \u00b7 MongoDB Atlas \u00b7 OneSignal \u00b7 Clerk Auth FEATURES INCLUDED Frontend (React + Tailwind + shadcn) What I built on the front: SEO-ready homepage /hub dashboard with all scraped news /subscription page for plans /profile for user details /post/:slug for individual articles /blog with a complete technical blogging system SEO: dynamic titles, meta descriptions, OpenGraph, JSON-LD, sitemap, robots, and clean URLs like: /post/openai-new-model-2025 Backend (FastAPI + Python) The backend exposes clean endpoints: /api/articles /api/post/{slug} /api/dashboard /api/notifications/send Includes Pydantic models, error handling, and optional Clerk token validation. Automated Scraper Fully automated: Runs every 2 hours Normalizes and deduplicates content Inserts everything into MongoDB Triggers push notifications when new posts appear Push Notifications Built-in OneSignal integration: Automatic registration Service worker included Works for new article alerts Monetization (Monthly Subscriptions) Subscription billing using Clerk + ",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=9045297",
+   "date": "2015-02-13",
+   "title": "Show HN: We Made a Marketplace for Reputation",
+   "text": "Repcoin\u2019s the first market-based approach to reputation. It\u2019s a content-discovery platform for everyone from developers to musicians. Investors give reps, our virtual currency, to experts they believe in for various skills like coding, blogging, and guitar.",
+   "points": 31
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=12818724",
+   "date": "2016-10-28",
+   "title": "Ask HN: Thinking of only using open-source in 2017. What would that mean to you?",
+   "text": "Under the heading of \"be the change you want to see in the world\", I'm playing around with the idea of restricting myself to only using free and open-source software in 2017 and blogging about the experience (I know - it's already been done: http://yearofopensource.net/). As an audio/video engineer and more recently as a front-end developer, I've always been a three operating system guy (Linux for servers, Windows in the living room, and Macs for my daily driver/laptop) but recently have found myself using my Linux desktop more and the other platforms less and less. From a practical perspective, going purely open-source would mean trading OSX for Linux, Sublime Text for Atom, Chrome for Firefox, Photoshop for Gimp, etc. All of that sounds totally doable, but the more I think about it, the trickier deciding what should count as \"closed-source\" gets. My iPhone is certainly closed-source, but I'm not sure it's even possible to run AOSP on any of the current batch of Android phones. Replacing my phone with a land line feels like taking too much of a step away from society. Facebook and Twitter are both closed-source platforms I could walk away from easily but again, deciding where to draw the line gets tricky. Avoiding Github and only sharing my code via a self-hosted Gitlab CE instance would seem like obeying the letter of the law but against the spirit of the experiment. Avoiding Google services would probably be the hardest but most interesting transition. (is there anyone offering a truly open-source email service? I know I could self-host, but I imagine I'd run into problems with messages being caught by spam filters.) So I ask you all: what would going purely open-source mean to you? Where would you be willing to compromise and where would you draw the line? Do you think in 2017 it's even a reasonable thing to attempt? Thanks! And I'm looking forward to reading your responses.",
+   "points": 9
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=1429996",
+   "date": "2010-06-14",
+   "title": "A Case For Personal Cloud - LinuxTag Talk by Dmitri Popov",
+   "text": "Good afternoon everybody, [SLIDE #1] Since I only have 30 minutes, let me jump right into it. My talk is roughly divided into two parts. First, I'll talk briefly about the concept of personal cloud computing, and then I'll showcase the Tonido personal cloud platform and the TonidoPlug device. So let me start with asking the obvious question: What is personal cloud computing? To better understand this concept let's use the following metaphor: Wallet vs Bank. [SLIDE #2] Like most people, I have a bank account, and my bank manages my savings, payments, retirement funds, and so on. Basically, the bank offers an advanced functionality which would be impossible or impractical for an individual user to replicate. Moreover, it offers convenience by hiding the complexity of financial operations from the end user. In other words, I don't have to be an investment guru in order to manage my retirement funds -- the bank's experts do that for me and explain the process in terms I can understand. But there are also disadvantages of \"hosting\" your money with a bank. Firstly, there is the issue of privacy: bank employees have access to your financial data, and so have tax authorities. You have no full control over what the bank does with your money either: you rely on the bank's investment experts to manage your retirement funds, and you have no control over how and where they invest your money. For example, imagine the surprise of some customers of one of the banks in Denmark when they recently discovered that some of their retirement funds were invested into the defense industry and factories producing land mines. But being a bank customer doesn't preclude me from having a wallet. The wallet has several advantages compared to the bank. The key among them are availability, complete control, and privacy. My wallet is always with me, so I don't have to find a bank or ATM every time I need to make a purchase. I'm also in full control of the money in my wallet: I can use the money any ",
+   "points": 5
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=29894319",
+   "date": "2022-01-11",
+   "title": "Long term benefits on being active on Stack Overflow",
+   "text": "Let's ask some questions of yourself before we begin. 1. Are you the same person looking into stackoverflow.com when you are stuck somewhere or ready to help someone on your free time. 2. Why would someone help you with answers without any benefit, as they might have spent hours to solve the same problem which you have faced. Have you ever thought about these? Stack Overflow Benefits There are lot of direct benefits by using stackoverflow.com. Those are well visible on the portal as: QnA thread Jobs Teams Collectives Learnings Reputations Badges etc. But do you see the possibility of using your stackoverflow.com profile from a marketing view point? Right, let's come to the real part. There are numerous possibilities for developers to make money online, some of them are: Affiliate Marketing Blogging Info Products Micro Startups Freelancing Online courses etc. All these are good, but Freelancing is one of the great opportunities. But the main problem is where/how to find the clients? And now that is solved by lots of freelancing portals such as: Upwork Freelancer Codementor Toptal PeoplePerHour etc. Now the biggest problem is how will you get the projects which are listed on those freelancing platforms. People think that, as a beginner to the freelancing world it is difficult to get their first project. But indeed it is not if you are moving on the right path. There are a lot of tactics to get your first project; one of them is, using stackoverflow.com profiles to market yourself while submitting your proposals. This is literally a successful approach from my experience. Let's Have A Closer Look In the past, I started my career around 2013, and I was very active on stackoverflow.com at the end of 2014 or early 2015 time frame. Soon I became addicted to it and kept searching for my favorite tag \"django\"and trying to answer all the questions daily. It really helped me to increase my knowledge as a developer, and it went well for a period of time. As an added advantage, ",
+   "points": 4
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=3573405",
+   "date": "2012-02-09",
+   "title": "2 RoR Jobs at DailyKos- the nation's largest liberal online political community",
+   "text": "Ruby on Rails Developer- Two Full Time Positions Available Daily Kos is the nation's largest liberal online political community, news organization, and activism hub. Powered by millions of dedicated activists, we\u2019re transforming media and organizing by empowering average Americans to reshape a political world once only the domain of the rich, powerful, and connected. The time has come to port Daily Kos from an aging Perl-based architecture to Rails. The project is a good technical challenge--we get almost a million requests a day and have an extensive feature set that extends from blogging to social network features. We aren't a startup--3 million people a month will use the software you build to amplify their voice in the nation's political discussion--and we aren't wondering where the next infusion of cash will come from. Yet, we also have many of the benefits of a startup--we are redefining everything about the Daily Kos platform from low level infrastructure to software architecture to interface design. We are a small, efficient team, running scrum. We code with jquery, backbone.js, scss, the latest stable version of Rails, and have great automated test coverage. We\u2019re searching for full stack developers with real world experience developing Rails applications. You'll be focused on building out features as we move them from the old Perl code base to Rails, from markup to query optimizations. We value careful, deliberate developers who take pride in well crafted code and continue to self educate to keep up with evolving technology and practices. Required skills: * 2 years Rails development experience * Javascript and jQuery * CSS, HTML5 fluency * Experience writing tests, preferably test first development experience. Rspec is a plus. * Comfortable with Git These additional qualifications will put you at the top of the list: * Located in the San Francisco Bay Area (we're in Berkeley) * Sysadmin * Chef knowledge * Understanding and appreciation of graphic design, U",
+   "points": 4
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=41635830",
+   "date": "2024-09-24",
+   "title": "Show HN: 3 AI SaaS Source Code",
+   "text": "Hey HN, I\u2019m offering the source code for three of my AI-powered SaaS products, designed for developers or anyone looking to jumpstart a similar business. Each platform was built with Laravel, Inertia, and VueJS, making them highly customizable and scalable. 1. https://quickshorts.co Quickshorts automates faceless short video content creation for social media platforms. It generates AI-powered videos in minutes, making it an ideal tool for creators or businesses looking to boost their social media presence without the manual workload. 2. https://replyhub.co Replyhub monitors social media in real-time to capture high-potential leads. Currently, it includes a Reddit-specific version that focuses on monitoring and lead capture from Reddit threads. Features like real-time content scraping, sentiment analysis, and automated lead generation make Replyhub a powerful tool for engagement and business growth. 3. https://supawriter.com Supawriter automates the creation of long-form blog content. It produces complete blogs (along with meta descriptions and featured images) entirely based on a monthly content plan. The code includes features for generating content plans, images, and SEO metadata, streamlining the blogging process for businesses. If you're interested in learning more or want access to the source code, feel free to reach out. I'd love to hear your thoughts!",
+   "points": 3
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=5146938",
+   "date": "2013-01-31",
+   "title": "Ask HN: I need a marketing partner for my startup",
+   "text": "I am a developer by profession and currently working on building a platform for developers to pair up with marketing professionals - www.tractionify.com. Ironically, I am in need of a marketing individual who can work with me to build and grow this developer-marketer interfacing platform. The application is about 60% complete and I can share a link to the work-in-progress website to anyone who is interested in teaming up. Brief background about myself - senior .NET developer with about 8 years of experience in I.T.; passionate about building startups; projects in the past - www.docverifier.com, www.inqvest.com; very flexible and open to suggestions on how a product can be improved, change directions if needed. What am I looking for? A qualified marketing individual who 1. is passionate about building a startup 2. who can work part-time, I work on weekends and weeknights 3. is skilled at using the online marketing toolkit - blogging, facebook, linkedin, twitter. What would you get in return? 1. we build a cool startup 2. we can negotiate the partnership terms Please drop in a line at hello@tractionify.com and we can chat up. Cheers.",
+   "points": 1
+  }
+ ]
+}

@@ -9,3 +9,8 @@ __pycache__/
 .ruff_cache/
 *.tsbuildinfo
 .DS_Store
+
+# reference clones (read-only, not part of the app)
+/bach-workflow/
+/focus-hour/
+/lean-web-stack/

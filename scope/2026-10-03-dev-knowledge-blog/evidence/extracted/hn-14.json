@@ -1,0 +1,404 @@
+{
+  "rows": [
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=9916937",
+      "date": "2015-07-20",
+      "quote_or_number": "Corollary: learn to write and edit quickly. Else blogging about little things will drain too much time for which you have other plans, and this will be an incentive to stop blogging.",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=936558",
+      "date": "2009-11-11",
+      "quote_or_number": "I wouldn't say he should stop blogging. It's a good way to connect with people from the woods. He's putting himself out there. That's tough, but through doing it, he can learn more than he would if he didn't.",
+      "persona_match": "n",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=7092144",
+      "date": "2014-01-20",
+      "quote_or_number": "You must have missed the first sentence: > if you\u2019re using guest blogging as a way to gain links in 2014, you should probably stop Guest-blogging as a link gaining technique is dead. If you want it for prestige, referrers, or whatever, keep on keeping on. You may want to nofollow though.",
+      "persona_match": "n",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=7091730",
+      "date": "2014-01-20",
+      "quote_or_number": "so because google's algos can not distinguish between spam and ham, we have to throw out the baby with the bathwater (sorry for mixing metaphors!) we've already seen how google missed a massive and long running link scheme (rapgenius) and had to do a clumsy temporary manual change to save face..",
+      "persona_match": "n",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=7011177",
+      "date": "2014-01-04",
+      "quote_or_number": "Lawyer would have been nice, but I already signed an Employer Termination Contract, so what's done is done",
+      "persona_match": "n",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=6665924",
+      "date": "2013-11-04",
+      "quote_or_number": "Damn I'd better stop blogging. I want to make sure I'm successful.",
+      "persona_match": "n",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=638135",
+      "date": "2009-06-02",
+      "quote_or_number": "Coding Horror initially attracted me as a reader because it had some interesting anecdotes",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "review",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=6037035",
+      "date": "2013-07-13",
+      "quote_or_number": "I agree with the others, 3 to 4 months is nothing",
+      "persona_match": "n",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=569769",
+      "date": "2009-04-19",
+      "quote_or_number": "Silly girl! Marketeers stop hyping. Bloggers stop blogging. Troll stop tolling. No more misleading stories driving up eyeballs. Everybody sitting back and being thoughtful? A century ago William Randolph Hearst sold us a war. I dont think anything has changed.",
+      "persona_match": "n",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=567618",
+      "date": "2009-04-17",
+      "quote_or_number": "is this the same guy that told me (and all bloggers in general) to stop blogging, in some snarky Wired article? yup, it is. http://bit.ly/S85ya",
+      "persona_match": "n",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=555449",
+      "date": "2009-04-10",
+      "quote_or_number": "Jeff is just an anti-intellectual. He has a vendetta against people who know things like C and actually program. He is just trying to justify his rude previous comments. It would be nice if Jeff would stop blogging until Stackoverflow \"cured cancer\" as he said.",
+      "persona_match": "n",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=5458148",
+      "date": "2013-03-28",
+      "quote_or_number": "Never stop blogging about it, please. Did you see the post the other day from the woman who works at Game Informer ( http://meagan-marie.tumblr.com/post/46396481491/what-would-y... )? Her experience at PAX East was one thing, but her work stories were even worse. I'd recommend it to everyone here.",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=5190351",
+      "date": "2013-02-08",
+      "quote_or_number": "Who said anything about non-stop blogging? I haven't even written my first post yet.",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=5190305",
+      "date": "2013-02-08",
+      "quote_or_number": "I don't really get why you feel you need to basically do non-stop blogging. If you have something to say, great - say it. If not, then keep quiet until you do have something to say. What's wrong with that approach?",
+      "persona_match": "n",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49645729",
+      "date": "2026-09-10",
+      "quote_or_number": "> So if you're not willing to pay a few pence per day to cover the cost of your hobby out of your own pocket, then the answer is \"stop blogging\" rather than \"I shall inflict ads on those who dare to view my output\"",
+      "persona_match": "n",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49642850",
+      "date": "2026-09-10",
+      "quote_or_number": "\" If someone is hosting their own blog and use ads to help offset that...\" It used to be that hosting your own blog was a hobby, not a cost-neutral or revenue-positive venture",
+      "persona_match": "n",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47933008",
+      "date": "2026-04-28",
+      "quote_or_number": "At some point on William Gibson's now defunct micro blog*, he's about to embark on the book tour for Pattern Recognition (so circa 2003)",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=4743809",
+      "date": "2012-11-05",
+      "quote_or_number": "Developers just cannot stop building blogging engines.",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=46953686",
+      "date": "2026-02-10",
+      "quote_or_number": "Stop blogging on medium. I start to read your post and as I'm scrolling down the page, I get a full-page modal nagging me to subscribe. Why should I listen to anything you have to say about user experience?",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=46765314",
+      "date": "2026-01-26",
+      "quote_or_number": "Stop",
+      "persona_match": "y",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=4653056",
+      "date": "2012-10-15",
+      "quote_or_number": "if you are apt to stop blogging/tweeting because someone(s) leaves a comment that hurts your feelings, then you shouldn't be sharing your opinion in public, anyways.",
+      "persona_match": "n",
+      "theme": "comment system",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=46011929",
+      "date": "2025-11-22",
+      "quote_or_number": "Bloggers write because in their value system, the result of this effort is a net positive. LLMs show up and, as far as some bloggers are concerned, turn that net positive into a negative. Bloggers stop blogging. That's rational behavior, not nihilism?",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=452330",
+      "date": "2009-01-27",
+      "quote_or_number": "at a certain point, prying into the man\u2019s private life and reporting about a rumored surgery becomes a tad questionable It was valleywag who reported this; the website whose entire purpose is to exploit and intrude into the private lives of others",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=4461722",
+      "date": "2012-08-31",
+      "quote_or_number": "Stop blogging and add a fucking progress bar and transfer speed indicator to your file transfer app, ffs.",
+      "persona_match": "n",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=43572697",
+      "date": "2025-04-03",
+      "quote_or_number": "Blogging for four years. 177 subscribers. The most productive thing he could do is STOP blogging.",
+      "persona_match": "n",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=4303861",
+      "date": "2012-07-27",
+      "quote_or_number": "Well, he does imply that he'll neither leave the Clojure community nor stop blogging, so I'm keeping my hopes up. Besides, whether they are Clojure-related or not, his blog posts are almost always interesting. Best of luck, Fogus!",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=41897356",
+      "date": "2024-10-20",
+      "quote_or_number": "Very curious",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=41786944",
+      "date": "2024-10-09",
+      "quote_or_number": "Very interesting set of posts. I feel that when this website goes dark and the last grey-beards stops blogging, this kind of arcane information will be lost forever. This makes me sad.",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=4113713",
+      "date": "2012-06-14",
+      "quote_or_number": "That's how I first heard about her - adorable. An utterly bizarre and idiotic decision by Argyll and Bute council to stop her taking photos of her food and essentially stop her blogging.",
+      "persona_match": "n",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=4058632",
+      "date": "2012-06-02",
+      "quote_or_number": "> Also stop blogging and fix it if it's a problem In case you don't know who mpt is, he's actually one of a handful of people out there who is trying to fix these problems",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=4058476",
+      "date": "2012-06-02",
+      "quote_or_number": "> Also stop blogging and fix it if it's a problem - that's the joy of open source",
+      "persona_match": "n",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=4058381",
+      "date": "2012-06-02",
+      "quote_or_number": "Sorry for the rant but posts like this piss me right off",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=4015651",
+      "date": "2012-05-23",
+      "quote_or_number": "The point is not writing blog posts at all . He's suggesting that you can continue to use WordPress behind the scenes, as an implementation detail, if that makes you happiest --- but to stop blogging .",
+      "persona_match": "y",
+      "theme": "platform choice",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=39979529",
+      "date": "2024-04-09",
+      "quote_or_number": "sToP bLOgGinG wITh Medium!",
+      "persona_match": "n",
+      "theme": "platform choice",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=39978891",
+      "date": "2024-04-09",
+      "quote_or_number": "sToP bLOgGinG wITh Medium!",
+      "persona_match": "n",
+      "theme": "platform choice",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=3805321",
+      "date": "2012-04-06",
+      "quote_or_number": "If I was your lawyer I'd tell you to stop blogging or commenting on HN immediately. You're about to lose big. Take it from someone who has had their word used against himself 10 years later.",
+      "persona_match": "n",
+      "theme": "comment system",
+      "note": "old (>24mo)"
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=37923534",
+      "date": "2023-10-18",
+      "quote_or_number": "It's still going on, and it's naturally micro-communities",
+      "persona_match": "n",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=37920949",
+      "date": "2023-10-17",
+      "quote_or_number": "1",
+      "persona_match": "n",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "spend",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=37377788",
+      "date": "2023-09-04",
+      "quote_or_number": "https://confessionsoftheprofessions.com Little did I know when I thought about starting a blog focused on people ranting about their shitty days at work, horrible bosses, and backstabbing co-workers, that it would evolve into so much more",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": ""
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=3721465",
+      "date": "2012-03-18",
+      "quote_or_number": "I like how there was an extremely long silence, and then suddenly there was one little talk, which had to be posted online, and then that talk mentioned another idea which had to be posted online, and during that talk you said \"um\" too much, which required another post online",
+      "persona_match": "y",
+      "theme": "blogging",
+      "note": "old (>24mo)"
+    }
+  ]
+}

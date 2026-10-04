@@ -1,0 +1,91 @@
+{
+ "files": [
+  "scope/2026-10-03-dev-knowledge-blog/evidence/raw/hn-10.json",
+  "scope/2026-10-03-dev-knowledge-blog/evidence/raw/hn-11.json",
+  "scope/2026-10-03-dev-knowledge-blog/evidence/raw/hn-12.json",
+  "scope/2026-10-03-dev-knowledge-blog/evidence/raw/hn-13.json",
+  "scope/2026-10-03-dev-knowledge-blog/evidence/raw/hn-14.json",
+  "scope/2026-10-03-dev-knowledge-blog/evidence/raw/hn-15.json",
+  "scope/2026-10-03-dev-knowledge-blog/evidence/raw/hn-16.json",
+  "scope/2026-10-03-dev-knowledge-blog/evidence/raw/hn-17.json"
+ ],
+ "items": 320,
+ "failures": [
+  {
+   "kind": "reddit",
+   "args": [
+    "technical blog comments"
+   ],
+   "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  {
+   "kind": "reddit",
+   "args": [
+    "developer blogging platform"
+   ],
+   "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  {
+   "kind": "reddit",
+   "args": [
+    "stop blogging"
+   ],
+   "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  {
+   "kind": "reddit",
+   "args": [
+    "voice to blog post"
+   ],
+   "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  {
+   "kind": "reddit",
+   "args": [
+    "webdev",
+    "technical blog comments"
+   ],
+   "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  {
+   "kind": "reddit",
+   "args": [
+    "webdev",
+    "developer blogging platform"
+   ],
+   "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  {
+   "kind": "reddit",
+   "args": [
+    "programming",
+    "technical blog comments"
+   ],
+   "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  {
+   "kind": "reddit",
+   "args": [
+    "programming",
+    "developer blogging platform"
+   ],
+   "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  {
+   "kind": "reddit",
+   "args": [
+    "ExperiencedDevs",
+    "technical blog comments"
+   ],
+   "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  {
+   "kind": "reddit",
+   "args": [
+    "ExperiencedDevs",
+    "developer blogging platform"
+   ],
+   "error": "<urlopen error [Errno 61] Connection refused>"
+  }
+ ]
+}
