@@ -93,6 +93,26 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/posts/{slug}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /**
+         * Get Post
+         * @description Current MDX source plus all revisions (oldest first).
+         */
+        get: operations["get_post_api_posts__slug__get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/health": {
         parameters: {
             query?: never;
@@ -205,6 +225,35 @@ export interface components {
             tags?: string[] | null;
             /** Title */
             title: string;
+        };
+        /** PostOut */
+        PostOut: {
+            /** Revisions */
+            revisions: components["schemas"]["RevisionOut"][];
+            /** Slug */
+            slug: string;
+            /** Source */
+            source: string;
+            /** Title */
+            title: string;
+        };
+        /** RevisionOut */
+        RevisionOut: {
+            /** Change End */
+            change_end?: number | null;
+            /** Change Start */
+            change_start?: number | null;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Credit Name */
+            credit_name?: string | null;
+            /** Number */
+            number: number;
+            /** Previous Text */
+            previous_text?: string | null;
         };
         /** ValidationError */
         ValidationError: {
@@ -399,6 +448,37 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["JobAccepted"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    get_post_api_posts__slug__get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                slug: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PostOut"];
                 };
             };
             /** @description Validation Error */
