@@ -6,7 +6,7 @@ export
 API_PORT ?= 8000
 APP_PORT ?= 8080
 
-.PHONY: help setup dev gen check up down logs reseed
+.PHONY: help setup dev gen check up down logs
 
 help:
 	@grep -E '^## ' Makefile | sed 's/^## //'
@@ -18,7 +18,6 @@ help:
 ## up      prod-like stack in Docker (2 workers), web on APP_PORT
 ## down    stop the prod-like stack
 ## logs    follow prod-like stack logs
-## reseed  reset and reseed demo data
 
 setup:
 	cd backend && uv sync --frozen
@@ -52,6 +51,3 @@ down:
 
 logs:
 	$(COMPOSE) --profile app logs -f --tail=50
-
-reseed:
-	cd backend && uv run python -m scripts.reseed
