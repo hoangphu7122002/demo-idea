@@ -20,9 +20,11 @@ class SuggestionIn(BaseModel):
 
     @model_validator(mode="after")
     def _anchor(self) -> "SuggestionIn":
-        span = self.anchor_start is not None and self.anchor_end is not None
-        if span and self.anchor_end is not None and self.anchor_start is not None:
-            if self.anchor_end <= self.anchor_start:
+        start, end = self.anchor_start, self.anchor_end
+        if (start is None) != (end is None):
+            raise ValueError("anchor_start and anchor_end must be given together")
+        if start is not None and end is not None:
+            if end <= start:
                 raise ValueError("anchor_end must be greater than anchor_start")
         elif not self.paragraph_id:
             raise ValueError("anchor needs a start/end span or a paragraph_id")
@@ -43,3 +45,10 @@ class SuggestionOut(BaseModel):
     status: SuggestionStatus
     spam_score: float | None = None
     created_at: datetime
+
+
+class RunFilterOut(BaseModel):
+    checked: int
+    spam: int
+    ham: int
+    filtered_total: int

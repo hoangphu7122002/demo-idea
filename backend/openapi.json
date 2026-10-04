@@ -294,6 +294,34 @@
         "title": "RevisionOut",
         "type": "object"
       },
+      "RunFilterOut": {
+        "properties": {
+          "checked": {
+            "title": "Checked",
+            "type": "integer"
+          },
+          "filtered_total": {
+            "title": "Filtered Total",
+            "type": "integer"
+          },
+          "ham": {
+            "title": "Ham",
+            "type": "integer"
+          },
+          "spam": {
+            "title": "Spam",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "checked",
+          "spam",
+          "ham",
+          "filtered_total"
+        ],
+        "title": "RunFilterOut",
+        "type": "object"
+      },
       "SuggestionIn": {
         "properties": {
           "anchor_end": {
@@ -816,6 +844,49 @@
         "summary": "Get Post",
         "tags": [
           "posts"
+        ]
+      }
+    },
+    "/api/posts/{slug}/run-filter": {
+      "post": {
+        "description": "Classify pending suggestions; spam moves to filtered. Returns counts.",
+        "operationId": "run_filter_api_posts__slug__run_filter_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "slug",
+            "required": true,
+            "schema": {
+              "title": "Slug",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RunFilterOut"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Run Filter",
+        "tags": [
+          "suggestions"
         ]
       }
     },
