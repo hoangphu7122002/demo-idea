@@ -1,14 +1,18 @@
 import LinearProgress from '@mui/material/LinearProgress'
 import Box from '@mui/material/Box'
+import { useRef } from 'react'
 import { useParams } from 'react-router'
 import '../features/post/postFonts'
 import { MdxContent } from '../features/post/MdxContent'
 import { useGetPostQuery } from '../features/post/postApi'
+import { suggestEnabled } from '../features/suggest/flag'
+import { SuggestLayer } from '../features/suggest/SuggestLayer'
 import { LOCAL_POSTS } from '../features/post/posts'
 import { NotFoundPage } from './NotFoundPage'
 
 export function PostPage() {
   const { slug = '' } = useParams()
+  const articleRef = useRef<HTMLElement>(null)
   const { data, isLoading } = useGetPostQuery(slug)
   const local = LOCAL_POSTS[slug]
   if (isLoading) return <LinearProgress aria-label="Loading post" />
@@ -18,6 +22,7 @@ export function PostPage() {
   return (
     <Box
       component="article"
+      ref={articleRef}
       data-testid="post-body"
       sx={{
         maxWidth: 720,
@@ -32,6 +37,7 @@ export function PostPage() {
       }}
     >
       {body}
+      {suggestEnabled() && <SuggestLayer slug={slug} containerRef={articleRef} source={data?.source ?? null} />}
     </Box>
   )
 }
