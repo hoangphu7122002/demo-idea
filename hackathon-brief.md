@@ -23,12 +23,6 @@ Build a technical blogging platform with everything a real blog needs, where aut
 
 - Create content by voice: people share more easily when they speak than when they write
 - Turn content into short motion videos with Claude Code for sharing
-- **Knowledge radar (auto-update pipeline):** the author falls behind without others updating them.
-  A scheduled pipeline pulls new items from followed sources (tech blogs, newsletters, release notes,
-  papers, video channels), dedupes, summarizes in EN + VI, and puts them in an author inbox; one click
-  turns an item into a draft post. It can also feed the freshness signal: a new release flags posts
-  whose claims it makes outdated. Sources: see `scope/2026-10-03-dev-knowledge-blog/refs/sources.md`.
-  Facebook pages can't be crawled (login wall, ToS): only links the author saves by hand.
 
 
 
@@ -40,6 +34,16 @@ Build a technical blogging platform with everything a real blog needs, where aut
 credit for contributors; moderation and anti-spam
 - **Bilingual:** every post and the UI in English and Vietnamese (one post, two language versions)
 - **Topics:** AI (applied + deep research) and System Design / Architecture (author's path: AI Solution Engineer)
+- **New-finding service (required):** the author falls behind without others updating them, so a
+  service must deliver **2–3 new pieces of knowledge per day** on the two topics:
+  - Ingest on a schedule from followed sources (tech blogs, newsletters, release notes, papers,
+    YouTube channels; list in `scope/2026-10-03-dev-knowledge-blog/refs/sources.md`) plus links the
+    author saves by hand (Facebook pages can't be crawled: login wall, ToS).
+  - Filter and rank automatically: relevance to the topics, novelty versus what the author already
+    knows or wrote, source quality; drop duplicates and hype.
+  - Daily digest in EN + VI: what's new, why it matters, a short summary, source link.
+  - Author feedback (useful / already known / skip) tunes the ranking; one click turns an item into a draft post or TIL.
+  - Can feed the freshness signal: a new release flags posts whose claims it makes outdated.
 - Seed data: a few real posts and several fake users to demo interaction between roles
 
 
