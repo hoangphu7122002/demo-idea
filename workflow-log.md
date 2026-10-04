@@ -14,6 +14,11 @@ Brief: [hackathon-brief.md](hackathon-brief.md) · bach-workflow commit `8a90db1
 | **Research total (Frame → findings)** | **21:04** | **21:14** | **~10 min** | Agent tokens ≈ 252k (Haiku 186k, Sonnet 66k) |
 | demo-scope · Step 1 Research (human runbook) | — | — | skipped | User asked for agent findings first |
 
+## Setup (2026-10-04, not counted in test time)
+
+- `brew install poppler`; `~/bach-workflow/bootstrap.sh` → claude-hud, `teammateMode: tmux`, `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`, `~/.tmux.conf`, plugin `bach@bach-workflow`
+- `demo-idea` turned into a project from `lean-web-stack` (`new-project.sh demo-idea`), reference clones gitignored, `make setup` ok
+
 ## Agents (cost routing)
 
 | Agent | Model | Job | Rows / output |
