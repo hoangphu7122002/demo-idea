@@ -113,6 +113,27 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/posts/{slug}/suggestions": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** List Suggestions */
+        get: operations["list_suggestions_api_posts__slug__suggestions_get"];
+        put?: never;
+        /**
+         * Submit Suggestion
+         * @description Anonymous submit. Lands as pending.
+         */
+        post: operations["submit_suggestion_api_posts__slug__suggestions_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/health": {
         parameters: {
             query?: never;
@@ -254,6 +275,56 @@ export interface components {
             number: number;
             /** Previous Text */
             previous_text?: string | null;
+        };
+        /** SuggestionIn */
+        SuggestionIn: {
+            /** Anchor End */
+            anchor_end?: number | null;
+            /** Anchor Start */
+            anchor_start?: number | null;
+            /** Name */
+            name?: string | null;
+            /** Original Text */
+            original_text: string;
+            /** Paragraph Id */
+            paragraph_id?: string | null;
+            /** Reason */
+            reason?: string | null;
+            /** Replacement */
+            replacement: string;
+            /** Website */
+            website?: string | null;
+        };
+        /** SuggestionOut */
+        SuggestionOut: {
+            /** Anchor End */
+            anchor_end?: number | null;
+            /** Anchor Start */
+            anchor_start?: number | null;
+            /**
+             * Created At
+             * Format: date-time
+             */
+            created_at: string;
+            /** Id */
+            id: number;
+            /** Name */
+            name?: string | null;
+            /** Original Text */
+            original_text: string;
+            /** Paragraph Id */
+            paragraph_id?: string | null;
+            /** Reason */
+            reason?: string | null;
+            /** Replacement */
+            replacement: string;
+            /** Spam Score */
+            spam_score?: number | null;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "pending" | "filtered" | "approved";
         };
         /** ValidationError */
         ValidationError: {
@@ -479,6 +550,74 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["PostOut"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    list_suggestions_api_posts__slug__suggestions_get: {
+        parameters: {
+            query?: {
+                status?: ("pending" | "filtered" | "approved") | null;
+            };
+            header?: never;
+            path: {
+                slug: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SuggestionOut"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    submit_suggestion_api_posts__slug__suggestions_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                slug: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["SuggestionIn"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["SuggestionOut"];
                 };
             };
             /** @description Validation Error */
