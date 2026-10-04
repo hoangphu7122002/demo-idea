@@ -54,4 +54,5 @@ logs:
 	$(COMPOSE) --profile app logs -f --tail=50
 
 reseed:
+	cd backend && uv run alembic upgrade head
 	cd backend && uv run python scripts/reseed.py
