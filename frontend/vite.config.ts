@@ -1,12 +1,8 @@
 /// <reference types="vitest/config" />
 import mdx from '@mdx-js/rollup'
-import rehypeShiki from '@shikijs/rehype'
 import react from '@vitejs/plugin-react'
-import rehypeKatex from 'rehype-katex'
-import remarkMath from 'remark-math'
 import { defineConfig } from 'vite'
-import { rehypeCollectPrePos, rehypeRestorePrePos } from './src/features/post/rehypeKeepPrePos.ts'
-import { remarkSourcePos } from './src/features/post/remarkSourcePos.ts'
+import { mdxOptions } from './src/features/post/mdxOptions.ts'
 
 const API_URL = process.env.API_URL ?? `http://127.0.0.1:${process.env.API_PORT ?? 8000}`
 const WEB_PORT = Number(process.env.WEB_PORT ?? 5173)
@@ -15,10 +11,7 @@ export default defineConfig({
   plugins: [
     {
       enforce: 'pre',
-      ...mdx({
-        remarkPlugins: [remarkMath, remarkSourcePos],
-        rehypePlugins: [rehypeKatex, rehypeCollectPrePos, [rehypeShiki, { themes: { light: 'github-light', dark: 'github-dark' }, defaultColor: 'light' }], rehypeRestorePrePos],
-      }),
+      ...mdx(mdxOptions),
     },
     react({ include: /\.(mdx|tsx?|jsx?)$/ }),
   ],
