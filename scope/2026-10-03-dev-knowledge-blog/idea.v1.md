@@ -1,8 +1,7 @@
 # Idea card
 
 PERSONA: developer / engineer who wants to share in-depth technical knowledge (long posts, math, code) and keep a personal blog long-term
-JOB: let readers give inline feedback on a technical post without spam/moderation burden; author approves good feedback into a credited revision
-NARROWED (2026-10-04): pain = comment spam / moderation burden on dev blogs (G2 evidence), not stale posts. Demo: inline suggestion -> auto spam filter -> author approve -> revision + credit. No voice/video.
+JOB: publish technical knowledge and let readers discuss, give feedback and contribute so posts improve over time
 WORKAROUND: static site (Hugo/Jekyll/Astro) + giscus/Disqus comments, GitHub PRs for fixes; or hosted platforms (Medium, dev.to, Hashnode, Substack, Ghost)
 OPEN IDEAS: voice-first authoring; post -> short motion video
 KEYWORDS: technical blog comments, developer blogging platform, blog reader contributions, voice to blog post, stop blogging developer

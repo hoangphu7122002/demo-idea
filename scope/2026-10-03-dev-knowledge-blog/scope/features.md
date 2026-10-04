@@ -1,0 +1,60 @@
+- Inline suggestion on selected text span in a post — idea.md job / Hypothesis
+- Suggest-edit diff view (before/after of selected text) — Docs sites "Edit this page" / basic
+- Reader enters replacement text with short reason/note — basic
+- Optional reader name/handle for credit — idea.md (credit)
+- Anonymous submission, no login — giscus/utterances weakness (GitHub-only login) / E009
+- Login via GitHub — giscus
+- Login via email magic link — Remark42/Isso
+- Social/multi-auth login — Remark42
+- Submit button with success confirmation — basic
+- Auto spam filter on submission — WordPress Akismet / comment spam theme
+- Honeypot field — basic
+- Rate limit per IP — basic
+- Link-count/keyword heuristic spam score — basic / Isso
+- Akismet integration — WordPress
+- LLM-based spam classifier — basic / Cusdis lacks filter
+- Spam score badge shown on each submission — demo visibility
+- Spam folder with restore button — Disqus false-positive reviews E005
+- Counter "N spam blocked" for author — chriswiegman 35-50 spam/day
+- Author moderation queue — Ghost / Disqus / basic
+- Approve button — idea.md job
+- Reject button — basic
+- Edit suggestion before approving — basic
+- Bulk approve/reject — Disqus / WordPress
+- Approve applies change to post text — idea.md (revision)
+- Revision history list per post — idea.md (revision)
+- Diff view between revisions — Docs sites / basic
+- Revert to previous revision — basic
+- Contributor credit line on revised paragraph — idea.md (credit)
+- Contributors list at post bottom — Docs sites GitHub contributor list
+- Contributor reputation / accepted count — Stack Overflow / dev.to badges
+- Contributor badge on profile — Stack Overflow
+- Notify contributor on approval (email) — basic
+- Notify author on new suggestion — basic
+- "Last revised" date + change log on post — dasroot freshness / basic
+- Last-reviewed / freshness label (current vs outdated) — dasroot review metadata
+- Reader flag "this is outdated" button — idea.md original / E001-E004
+- Threaded discussion comments alongside suggestions — Disqus / dev.to / Hashnode
+- Reactions/likes on comments — dev.to / Medium claps
+- Upvote suggestions by other readers — Stack Overflow
+- Markdown rendering of post body — dev.to / Hashnode
+- Code block syntax highlighting — Hashnode / static sites
+- KaTeX/LaTeX math rendering — Hashnode / dev.to (persona: math, code)
+- Suggestion works on code blocks and math — persona need
+- Post editor for author (markdown) — Hashnode / Ghost
+- Seeded sample technical post for demo — basic (demo seed)
+- Seeded spam + valid suggestions for demo — basic (demo seed)
+- Author dashboard with pending/approved/spam counts — Ghost / WordPress
+- Embeddable widget for static sites (Hugo/Jekyll/Astro) — giscus / Remark42
+- Self-hosted option — Remark42 / Isso
+- Export approved revisions as markdown/Git patch — static site workaround
+- Open GitHub PR from approved suggestion — Docs sites "Edit this page" -> PR
+- Webhook to rebuild static site on approval — static site workflow
+- Email moderation (approve from email link) — WordPress
+- Disable/enable suggestions per post — basic / chriswiegman turned comments off
+- Permalink to a specific suggestion/annotation — Hypothesis
+- Highlight of paragraphs with pending suggestions (author view) — Hypothesis
+- Reader view of accepted suggestions highlighted — idea.md (credit)
+- Mobile-responsive layout — basic
+- Voice-first authoring — idea.md OPEN IDEAS / Voicenotes / Wispr Flow
+- Post to short motion video — idea.md OPEN IDEAS / Remotion / Golpo

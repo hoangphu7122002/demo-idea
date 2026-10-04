@@ -1,0 +1,401 @@
+{
+ "rows": 338,
+ "by": {
+  "agent": 338,
+  "human": 0
+ },
+ "by_type": {
+  "competitor": 39,
+  "pain": 215,
+  "review": 45,
+  "spend": 39
+ },
+ "pain_quotes": 195,
+ "pain_places": 8,
+ "themes": [
+  {
+   "theme": "comment system",
+   "quotes": 69,
+   "places": 1,
+   "ids": [
+    "E009",
+    "E010",
+    "E011",
+    "E012",
+    "E013",
+    "E014",
+    "E015",
+    "E016",
+    "E017",
+    "E018",
+    "E019",
+    "E020",
+    "E021",
+    "E022",
+    "E023",
+    "E024",
+    "E025",
+    "E026",
+    "E028",
+    "E029",
+    "E030",
+    "E031",
+    "E033",
+    "E034",
+    "E035",
+    "E036",
+    "E037",
+    "E038",
+    "E039",
+    "E040",
+    "E041",
+    "E042",
+    "E043",
+    "E044",
+    "E045",
+    "E046",
+    "E049",
+    "E052",
+    "E053",
+    "E054",
+    "E056",
+    "E058",
+    "E059",
+    "E060",
+    "E062",
+    "E063",
+    "E064",
+    "E065",
+    "E066",
+    "E067",
+    "E069",
+    "E074",
+    "E075",
+    "E077",
+    "E078",
+    "E079",
+    "E094",
+    "E102",
+    "E111",
+    "E130",
+    "E142",
+    "E203",
+    "E205",
+    "E211",
+    "E222",
+    "E228",
+    "E229",
+    "E233",
+    "E243"
+   ]
+  },
+  {
+   "theme": "blogging",
+   "quotes": 59,
+   "places": 1,
+   "ids": [
+    "E051",
+    "E070",
+    "E072",
+    "E152",
+    "E158",
+    "E163",
+    "E164",
+    "E168",
+    "E169",
+    "E173",
+    "E174",
+    "E177",
+    "E178",
+    "E181",
+    "E183",
+    "E191",
+    "E192",
+    "E200",
+    "E202",
+    "E204",
+    "E206",
+    "E207",
+    "E208",
+    "E209",
+    "E210",
+    "E214",
+    "E216",
+    "E217",
+    "E220",
+    "E221",
+    "E223",
+    "E224",
+    "E226",
+    "E227",
+    "E230",
+    "E231",
+    "E232",
+    "E234",
+    "E236",
+    "E237",
+    "E239",
+    "E240",
+    "E241",
+    "E244",
+    "E245",
+    "E247",
+    "E251",
+    "E255",
+    "E256",
+    "E257",
+    "E258",
+    "E260",
+    "E261",
+    "E262",
+    "E263",
+    "E265",
+    "E267",
+    "E270",
+    "E272"
+   ]
+  },
+  {
+   "theme": "blogging platform",
+   "quotes": 39,
+   "places": 1,
+   "ids": [
+    "E080",
+    "E081",
+    "E085",
+    "E087",
+    "E088",
+    "E091",
+    "E095",
+    "E098",
+    "E103",
+    "E104",
+    "E110",
+    "E112",
+    "E115",
+    "E116",
+    "E121",
+    "E122",
+    "E123",
+    "E124",
+    "E125",
+    "E126",
+    "E127",
+    "E128",
+    "E133",
+    "E135",
+    "E137",
+    "E138",
+    "E141",
+    "E145",
+    "E146",
+    "E148",
+    "E149",
+    "E151",
+    "E198",
+    "E201",
+    "E235",
+    "E249",
+    "E250",
+    "E252",
+    "E253"
+   ]
+  },
+  {
+   "theme": "outdated post",
+   "quotes": 4,
+   "places": 1,
+   "ids": [
+    "E001",
+    "E002",
+    "E003",
+    "E004"
+   ]
+  },
+  {
+   "theme": "paywall-frustration",
+   "quotes": 2,
+   "places": 2,
+   "ids": [
+    "E300",
+    "E301"
+   ]
+  },
+  {
+   "theme": "platform-frustration",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E299"
+   ]
+  },
+  {
+   "theme": "spam-moderation",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E304"
+   ]
+  },
+  {
+   "theme": "comments-broken",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E305"
+   ]
+  },
+  {
+   "theme": "content-quality",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E306"
+   ]
+  },
+  {
+   "theme": "maintenance-burden",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E308"
+   ]
+  },
+  {
+   "theme": "doc-maintenance",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E309"
+   ]
+  },
+  {
+   "theme": "post-pruning",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E310"
+   ]
+  },
+  {
+   "theme": "comments-architecture",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E311"
+   ]
+  },
+  {
+   "theme": "performance-cost",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E312"
+   ]
+  },
+  {
+   "theme": "time-commitment",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E314"
+   ]
+  },
+  {
+   "theme": "burnout-barrier",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E315"
+   ]
+  },
+  {
+   "theme": "time-scarcity",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E316"
+   ]
+  },
+  {
+   "theme": "voice-authoring",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E325"
+   ]
+  },
+  {
+   "theme": "time-discipline",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E327"
+   ]
+  },
+  {
+   "theme": "distribution-strategy",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E329"
+   ]
+  },
+  {
+   "theme": "writing-efficiency",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E330"
+   ]
+  },
+  {
+   "theme": "mod-burden",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E331"
+   ]
+  },
+  {
+   "theme": "self-host-cost",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E333"
+   ]
+  },
+  {
+   "theme": "walled-garden",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E334"
+   ]
+  },
+  {
+   "theme": "audience-mismatch",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E335"
+   ]
+  },
+  {
+   "theme": "ux-regression",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E336"
+   ]
+  },
+  {
+   "theme": "reader-contributions",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E338"
+   ]
+  }
+ ]
+}
