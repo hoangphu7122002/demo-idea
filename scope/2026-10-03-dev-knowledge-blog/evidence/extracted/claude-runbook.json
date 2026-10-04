@@ -1,0 +1,84 @@
+{
+ "rows": [
+  {
+   "type": "pain",
+   "source": "dev.to",
+   "url": "https://dev.to/sidunn/learning-from-out-of-date-online-tutorials-courses-1lhk",
+   "date": "2023-01-07",
+   "quote_or_number": "I have been frustrated by numerous tutorials that turn out to be out of date, and this has slowed my learning process when I hit a dead end and can't figure out--or find out--what to do next.",
+   "persona_match": "y",
+   "theme": "outdated post",
+   "note": "old (>24mo)"
+  },
+  {
+   "type": "pain",
+   "source": "dev.to",
+   "url": "https://dev.to/sidunn/learning-from-out-of-date-online-tutorials-courses-1lhk",
+   "date": "2023-01-07",
+   "quote_or_number": "But many that I find are in need of software updates and clearly are being neglected by the authors and/or companies that posted them.",
+   "persona_match": "y",
+   "theme": "outdated post",
+   "note": "old (>24mo)"
+  },
+  {
+   "type": "pain",
+   "source": "dev.to",
+   "url": "https://dev.to/rickdelpo1/13-reasons-why-dev-tutorials-can-be-misleading-2bfn",
+   "date": "2023-11-08",
+   "quote_or_number": "writers never take anything down or edit their writings so a ton of mis-information is awaiting",
+   "persona_match": "y",
+   "theme": "outdated post",
+   "note": "old (>24mo)"
+  },
+  {
+   "type": "pain",
+   "source": "dev.to",
+   "url": "https://dev.to/rickdelpo1/13-reasons-why-dev-tutorials-can-be-misleading-2bfn",
+   "date": "2023-11-08",
+   "quote_or_number": "I recently revisited a tutorial I wrote only 2 years ago and it is now outdated code.",
+   "persona_match": "y",
+   "theme": "outdated post",
+   "note": "old (>24mo); author side"
+  },
+  {
+   "type": "review",
+   "source": "Trustpilot Disqus",
+   "url": "https://www.trustpilot.com/review/disqus.com",
+   "date": "2024-11-26",
+   "quote_or_number": "Every comment, long or short, gets instantly marked as spam.",
+   "persona_match": "n",
+   "theme": "comment moderation",
+   "note": "reader-side"
+  },
+  {
+   "type": "review",
+   "source": "Trustpilot Disqus",
+   "url": "https://www.trustpilot.com/review/disqus.com",
+   "date": "2025-06-14",
+   "quote_or_number": "They suddenly remove comments removing 2+ years of memories...the highly inappropriate ads they be allowing",
+   "persona_match": "n",
+   "theme": "comment moderation",
+   "note": "reader-side"
+  },
+  {
+   "type": "review",
+   "source": "Trustpilot Disqus",
+   "url": "https://www.trustpilot.com/review/disqus.com",
+   "date": "2025-07-02",
+   "quote_or_number": "Lately there have been 'thread closed' messages that amount to censorship.",
+   "persona_match": "n",
+   "theme": "comment moderation",
+   "note": "reader-side"
+  },
+  {
+   "type": "review",
+   "source": "Trustpilot Disqus",
+   "url": "https://www.trustpilot.com/review/disqus.com",
+   "date": "2026-08-07",
+   "quote_or_number": "No one monitors their members comments section...If you report any issues nothing is ever done about it.",
+   "persona_match": "n",
+   "theme": "comment moderation",
+   "note": "reader-side"
+  }
+ ]
+}

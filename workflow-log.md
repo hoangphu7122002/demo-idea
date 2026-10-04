@@ -13,6 +13,7 @@ Brief: [hackathon-brief.md](hackathon-brief.md) · bach-workflow commit `8a90db1
 | Merge + verify evidence (Claude, main session) | 21:13 | 21:14 | ~1 min | 330 rows → 65 recent persona pain → ~5 genuine on top theme after manual check |
 | **Research total (Frame → findings)** | **21:04** | **21:14** | **~10 min** | Agent tokens ≈ 252k (Haiku 186k, Sonnet 66k) |
 | demo-scope · Step 1 Research (human runbook) | — | — | skipped | User asked for agent findings first |
+| Human runbook done by Claude instead (10-04) | 12:33 | 12:38 | ~5 min | Reddit/G2/Capterra all 403 from this machine; search engine returns no Reddit links. Got 8 rows: 4 outdated-post (all >24 months), 4 Disqus moderation reviews |
 
 ## Usage
 
@@ -49,4 +50,5 @@ Brief: [hackathon-brief.md](hackathon-brief.md) · bach-workflow commit `8a90db1
 | 21:13 | Reddit agent labeled 40 non-Reddit rows as `r/<sub>` (provenance fabricated) | Would inflate W1 "places" count | Validate `source` against URL domain in merge_evidence.py; reject rows whose source/URL disagree |
 | 21:14 | Keyword theme counting inflated: HN "comments" (meta talk about HN threads) matched the feedback theme, 12 → ~5 genuine | Gate W1 needs human/LLM check | Theme tagging by a Sonnet-low judge, not keyword or Haiku |
 | 21:04 | Not in tmux (`$TMUX` empty) | Not needed for research, needed for pr-team | — |
+| 10-04 | Human runbook can't be delegated: Reddit, G2, Capterra block agents (403) and search engines rarely return Reddit threads | W1/W2 stay Partial unless a human browses | Keep H1/H4 as human-only, or a logged-in browser tool |
 | 10-04 | Operator uses the Claude Code VS Code extension, not the CLI; pr-team preflight requires tmux and bootstrap forces `teammateMode: tmux` | Hard for IDE users; resolved by preparing a detached `tmux` session `work` running `claude`, attached from the VS Code terminal | pr-team: make tmux optional (in-process teammates), bootstrap: default `teammateMode: auto` |
