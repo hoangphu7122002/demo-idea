@@ -1,6 +1,48 @@
 {
   "components": {
     "schemas": {
+      "ApproveOut": {
+        "description": "New revision plus what the frontend needs to render the credit and inline diff.",
+        "properties": {
+          "change_end": {
+            "title": "Change End",
+            "type": "integer"
+          },
+          "change_start": {
+            "title": "Change Start",
+            "type": "integer"
+          },
+          "credit_name": {
+            "title": "Credit Name",
+            "type": "string"
+          },
+          "new_text": {
+            "title": "New Text",
+            "type": "string"
+          },
+          "old_text": {
+            "title": "Old Text",
+            "type": "string"
+          },
+          "revision": {
+            "$ref": "#/components/schemas/RevisionOut"
+          },
+          "suggestion": {
+            "$ref": "#/components/schemas/SuggestionOut"
+          }
+        },
+        "required": [
+          "suggestion",
+          "revision",
+          "old_text",
+          "new_text",
+          "change_start",
+          "change_end",
+          "credit_name"
+        ],
+        "title": "ApproveOut",
+        "type": "object"
+      },
       "ChatIn": {
         "properties": {
           "message": {
@@ -1003,6 +1045,49 @@
           }
         },
         "summary": "Submit Suggestion",
+        "tags": [
+          "suggestions"
+        ]
+      }
+    },
+    "/api/suggestions/{suggestion_id}/approve": {
+      "post": {
+        "description": "Apply the suggestion to the post as a new credited revision.",
+        "operationId": "approve_api_suggestions__suggestion_id__approve_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "suggestion_id",
+            "required": true,
+            "schema": {
+              "title": "Suggestion Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApproveOut"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Approve",
         "tags": [
           "suggestions"
         ]

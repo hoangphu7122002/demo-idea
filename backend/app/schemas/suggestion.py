@@ -3,6 +3,8 @@ from typing import Literal
 
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
+from app.schemas.post import RevisionOut
+
 SuggestionStatus = Literal["pending", "filtered", "approved"]
 
 
@@ -52,3 +54,15 @@ class RunFilterOut(BaseModel):
     spam: int
     ham: int
     filtered_total: int
+
+
+class ApproveOut(BaseModel):
+    """New revision plus what the frontend needs to render the credit and inline diff."""
+
+    suggestion: SuggestionOut
+    revision: RevisionOut
+    old_text: str
+    new_text: str
+    change_start: int
+    change_end: int
+    credit_name: str
