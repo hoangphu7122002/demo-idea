@@ -23,6 +23,20 @@ describe('PostPage', () => {
     expect(body.querySelector('p')?.hasAttribute('data-src-start')).toBe(true)
   })
 
+  it('renders {expressions} and JSX in API source as inert text', async () => {
+    ;(globalThis as { pwned?: boolean }).pwned = false
+    vi.spyOn(api, 'GET').mockResolvedValue({
+      data: { slug: 'x', title: 'T', source: '# Safe\n\nHi {globalThis.pwned = true} and {alert(1)} <b>x</b>\n', revisions: [] },
+      error: undefined,
+      response: { ok: true, status: 200 },
+    } as never)
+    renderApp('/posts/x')
+    await screen.findByRole('heading', { name: 'Safe' })
+    const body = screen.getByTestId('post-body')
+    expect(body.textContent).toContain('{alert(1)}')
+    expect((globalThis as { pwned?: boolean }).pwned).toBe(false)
+  })
+
   it('falls back to the local fixture when the API is down', async () => {
     renderApp('/posts/raft-consensus-in-practice')
     expect(await screen.findByRole('heading', { name: /why raft needs a majority/i })).toBeTruthy()
