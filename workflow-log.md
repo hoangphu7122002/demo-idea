@@ -14,6 +14,14 @@ Brief: [hackathon-brief.md](hackathon-brief.md) · bach-workflow commit `8a90db1
 | **Research total (Frame → findings)** | **21:04** | **21:14** | **~10 min** | Agent tokens ≈ 252k (Haiku 186k, Sonnet 66k) |
 | demo-scope · Step 1 Research (human runbook) | — | — | skipped | User asked for agent findings first |
 
+## Usage
+
+| Checkpoint | Weekly usage % | Note |
+|---|---|---|
+| Before demo-scope | ~70% used (30% left) | budget for project: 20%, keep 10% for Monday |
+| After demo-scope | | |
+| After pr-team | | |
+
 ## Setup (2026-10-04, not counted in test time)
 
 - `brew install poppler`; `~/bach-workflow/bootstrap.sh` → claude-hud, `teammateMode: tmux`, `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`, `~/.tmux.conf`, plugin `bach@bach-workflow`
