@@ -6,6 +6,7 @@ import '../features/post/postFonts'
 import { MdxContent } from '../features/post/MdxContent'
 import { useGetPostQuery } from '../features/post/postApi'
 import { suggestEnabled } from '../features/suggest/flag'
+import { ModerationPanel } from '../features/moderation/ModerationPanel'
 import { SuggestLayer } from '../features/suggest/SuggestLayer'
 import { LOCAL_POSTS } from '../features/post/posts'
 import { NotFoundPage } from './NotFoundPage'
@@ -19,7 +20,7 @@ export function PostPage() {
   // API first; the bundled fixture is the offline fallback.
   if (!data && !local) return <NotFoundPage />
   const body = data ? <MdxContent source={data.source} /> : local && <local.Content />
-  return (
+  const article = (
     <Box
       component="article"
       ref={articleRef}
@@ -27,6 +28,8 @@ export function PostPage() {
       sx={{
         maxWidth: 720,
         mx: 'auto',
+        flex: 1,
+        minWidth: 0,
         fontFamily: '"Crimson Pro", Georgia, serif',
         fontSize: '1.25rem',
         lineHeight: 1.7,
@@ -38,6 +41,13 @@ export function PostPage() {
     >
       {body}
       {suggestEnabled() && <SuggestLayer slug={slug} containerRef={articleRef} source={data?.source ?? null} />}
+    </Box>
+  )
+  if (!suggestEnabled()) return article
+  return (
+    <Box sx={{ display: 'flex', gap: 4, alignItems: 'flex-start' }}>
+      {article}
+      <ModerationPanel slug={slug} />
     </Box>
   )
 }

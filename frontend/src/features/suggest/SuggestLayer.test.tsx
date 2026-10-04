@@ -27,7 +27,7 @@ async function openPost() {
 describe('suggestion popup', () => {
   beforeEach(() => {
     vi.stubEnv('VITE_FEATURE_SUGGEST', 'true')
-    vi.spyOn(api, 'GET').mockResolvedValue(ok(post))
+    vi.spyOn(api, 'GET').mockImplementation((async (url: string) => ok(url === '/api/posts/{slug}' ? post : [])) as never)
   })
   afterEach(() => vi.unstubAllEnvs())
 
