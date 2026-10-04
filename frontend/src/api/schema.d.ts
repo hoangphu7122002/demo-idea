@@ -113,6 +113,26 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/posts/{slug}/run-filter": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /**
+         * Run Filter
+         * @description Classify pending suggestions; spam moves to filtered. Returns counts.
+         */
+        post: operations["run_filter_api_posts__slug__run_filter_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/posts/{slug}/suggestions": {
         parameters: {
             query?: never;
@@ -275,6 +295,17 @@ export interface components {
             number: number;
             /** Previous Text */
             previous_text?: string | null;
+        };
+        /** RunFilterOut */
+        RunFilterOut: {
+            /** Checked */
+            checked: number;
+            /** Filtered Total */
+            filtered_total: number;
+            /** Ham */
+            ham: number;
+            /** Spam */
+            spam: number;
         };
         /** SuggestionIn */
         SuggestionIn: {
@@ -550,6 +581,37 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["PostOut"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    run_filter_api_posts__slug__run_filter_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                slug: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["RunFilterOut"];
                 };
             };
             /** @description Validation Error */
