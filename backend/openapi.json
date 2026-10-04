@@ -200,6 +200,100 @@
         "title": "NoteOut",
         "type": "object"
       },
+      "PostOut": {
+        "properties": {
+          "revisions": {
+            "items": {
+              "$ref": "#/components/schemas/RevisionOut"
+            },
+            "title": "Revisions",
+            "type": "array"
+          },
+          "slug": {
+            "title": "Slug",
+            "type": "string"
+          },
+          "source": {
+            "title": "Source",
+            "type": "string"
+          },
+          "title": {
+            "title": "Title",
+            "type": "string"
+          }
+        },
+        "required": [
+          "slug",
+          "title",
+          "source",
+          "revisions"
+        ],
+        "title": "PostOut",
+        "type": "object"
+      },
+      "RevisionOut": {
+        "properties": {
+          "change_end": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Change End"
+          },
+          "change_start": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Change Start"
+          },
+          "created_at": {
+            "format": "date-time",
+            "title": "Created At",
+            "type": "string"
+          },
+          "credit_name": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Credit Name"
+          },
+          "number": {
+            "title": "Number",
+            "type": "integer"
+          },
+          "previous_text": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Previous Text"
+          }
+        },
+        "required": [
+          "number",
+          "created_at"
+        ],
+        "title": "RevisionOut",
+        "type": "object"
+      },
       "ValidationError": {
         "properties": {
           "ctx": {
@@ -257,7 +351,7 @@
     }
   },
   "info": {
-    "title": "demo-idea API",
+    "title": "myapp API",
     "version": "0.1.0"
   },
   "openapi": "3.1.0",
@@ -484,6 +578,49 @@
         "summary": "Summarise Note",
         "tags": [
           "notes"
+        ]
+      }
+    },
+    "/api/posts/{slug}": {
+      "get": {
+        "description": "Current MDX source plus all revisions (oldest first).",
+        "operationId": "get_post_api_posts__slug__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "slug",
+            "required": true,
+            "schema": {
+              "title": "Slug",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PostOut"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Post",
+        "tags": [
+          "posts"
         ]
       }
     },
