@@ -124,6 +124,6 @@ else SUMMARY="$(git log --format='- %s' "$BASE_REF..HEAD")"; fi
 } > "$OUT/pr-body.md"
 
 if [ "$DRY" = 1 ]; then echo "dry run: $OUT/pr-body.md"; exit 0; fi
-git rev-parse --abbrev-ref '@{u}' >/dev/null 2>&1 || git push -u origin HEAD || exit 1
+git push -q -u origin HEAD || exit 1
 if [ -z "$TITLE" ]; then PASS+=(--title "$(git log -1 --format=%s)"); fi
 gh pr create --base "$BASE_BRANCH" --body-file "$OUT/pr-body.md" "${PASS[@]}"
