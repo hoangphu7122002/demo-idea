@@ -2,6 +2,7 @@ import { screen, waitFor, within } from '@testing-library/react'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { api } from '../../api/client'
 import { renderApp } from '../../test/render'
+import { MOVE_MS, moveTotalMs, STAGGER_MS } from './moveAnim'
 
 const ok = (data: unknown) => ({ data, error: undefined, response: { ok: true, status: 200 } }) as never
 const sug = (id: number, status: string, over = {}) => ({
@@ -40,6 +41,18 @@ describe('moderation panel', () => {
     await waitFor(() => expect(screen.getByTestId('filtered-count').textContent).toBe('2'))
     expect(screen.getByTestId('pending-count').textContent).toBe('1')
     expect(within(screen.getByTestId('filtered-list')).getByText('fix 2')).toBeTruthy()
+    // The moved item slides out of Pending and into Filtered (each >= 300 ms), then the markers clear.
+    expect(screen.getAllByText('fix 2').length).toBe(2)
+    expect(document.querySelectorAll('[data-moving="true"]').length).toBe(2)
+    await waitFor(() => expect(screen.getByTestId('spam-blocked').textContent).toBe('2 spam blocked'))
+    await waitFor(() => expect(document.querySelectorAll('[data-moving="true"]').length).toBe(0))
+    expect(screen.getAllByText('fix 2').length).toBe(1)
+  })
+
+  it('animation lasts at least 300 ms per item and is staggered', () => {
+    expect(MOVE_MS).toBeGreaterThanOrEqual(300)
+    expect(STAGGER_MS).toBeGreaterThan(0)
+    expect(moveTotalMs(7)).toBe(MOVE_MS + 6 * STAGGER_MS)
   })
 
   it('shows no panel when the flag is off', async () => {

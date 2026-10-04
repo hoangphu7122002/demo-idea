@@ -5,6 +5,11 @@ import Stack from '@mui/material/Stack'
 import Typography from '@mui/material/Typography'
 import { QueryState } from '../../components/QueryState'
 import { useMutationToast } from '../../hooks/useMutationToast'
+import { useState } from 'react'
+import type { Suggestion } from '../suggest/suggestApi'
+import { FilteredList } from './FilteredList'
+import { moveTotalMs, MOVE_MS, slideOut, STAGGER_MS } from './moveAnim'
+import { useCountUp } from './useCountUp'
 import { useGetSuggestionsQuery, useRunFilterMutation } from './moderationApi'
 import { SuggestionCard } from './SuggestionCard'
 
@@ -15,7 +20,26 @@ export function ModerationPanel({ slug }: { slug: string }) {
   const [runFilter, { isLoading: running }] = useRunFilterMutation()
   const run = useMutationToast()
 
-  const onRun = () => run(runFilter(slug).unwrap(), { success: 'Filter finished', error: 'Could not run filter' })
+  // Items caught by a run: they linger in Pending while sliding out, then show up in Filtered, staggered.
+  const [leaving, setLeaving] = useState<Suggestion[]>([])
+  const [entering, setEntering] = useState<Record<number, number>>({})
+  const [blocked, startBlockedFrom] = useCountUp(filtered.data?.length ?? 0)
+
+  const onRun = async () => {
+    const before = pending.data ?? []
+    startBlockedFrom(filtered.data?.length ?? 0)
+    const ok = await run(runFilter(slug).unwrap(), { success: 'Filter finished', error: 'Could not run filter' })
+    if (!ok) return
+    const after = await Promise.all([pending.refetch().unwrap(), filtered.refetch().unwrap()])
+    const filteredIds = new Set(after[1].map((x) => x.id))
+    const moved = before.filter((x) => filteredIds.has(x.id))
+    setLeaving(moved)
+    setEntering(Object.fromEntries(moved.map((x, i) => [x.id, i])))
+    setTimeout(() => {
+      setLeaving([])
+      setEntering({})
+    }, moveTotalMs(moved.length))
+  }
 
   return (
     <Box component="aside" aria-label="Moderation" data-testid="moderation-panel" sx={{ width: 320, flexShrink: 0, display: { xs: 'none', md: 'block' } }}>
@@ -32,20 +56,17 @@ export function ModerationPanel({ slug }: { slug: string }) {
             <Typography variant="subtitle2">Pending</Typography>
             <Chip label={pending.data?.length ?? 0} data-testid="pending-count" />
           </Stack>
+          {leaving.map((s, i) => (
+            <Box key={s.id} data-moving="true" sx={{ overflow: 'hidden', animation: `${slideOut} ${MOVE_MS}ms ease-in both`, animationDelay: `${i * STAGGER_MS}ms` }}>
+              <SuggestionCard suggestion={s} />
+            </Box>
+          ))}
           <QueryState query={pending} emptyMessage="No pending suggestions.">
             {(items) => items.map((s) => <SuggestionCard key={s.id} suggestion={s} onApprove={() => {}} approveDisabled />)}
           </QueryState>
         </Stack>
 
-        <Stack spacing={1} data-testid="filtered-list">
-          <Stack direction="row" spacing={1} sx={{ alignItems: 'center' }}>
-            <Typography variant="subtitle2">Filtered</Typography>
-            <Chip label={filtered.data?.length ?? 0} color="warning" data-testid="filtered-count" />
-          </Stack>
-          <QueryState query={filtered} emptyMessage="Nothing filtered.">
-            {(items) => items.map((s) => <SuggestionCard key={s.id} suggestion={s} />)}
-          </QueryState>
-        </Stack>
+        <FilteredList query={filtered} entering={entering} blocked={blocked} />
       </Stack>
     </Box>
   )
