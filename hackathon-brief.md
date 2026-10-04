@@ -23,6 +23,12 @@ Build a technical blogging platform with everything a real blog needs, where aut
 
 - Create content by voice: people share more easily when they speak than when they write
 - Turn content into short motion videos with Claude Code for sharing
+- **Knowledge radar (auto-update pipeline):** the author falls behind without others updating them.
+  A scheduled pipeline pulls new items from followed sources (tech blogs, newsletters, release notes,
+  papers, video channels), dedupes, summarizes in EN + VI, and puts them in an author inbox; one click
+  turns an item into a draft post. It can also feed the freshness signal: a new release flags posts
+  whose claims it makes outdated. Sources: see `scope/2026-10-03-dev-knowledge-blog/refs/sources.md`.
+  Facebook pages can't be crawled (login wall, ToS): only links the author saves by hand.
 
 
 
@@ -32,6 +38,8 @@ Build a technical blogging platform with everything a real blog needs, where aut
 - Reader: find, read and follow new content comfortably on desktop and mobile
 - Community: multiple roles (guest, member, author/admin); discussion; content contributions;
 credit for contributors; moderation and anti-spam
+- **Bilingual:** every post and the UI in English and Vietnamese (one post, two language versions)
+- **Topics:** AI (applied + deep research) and System Design / Architecture (author's path: AI Solution Engineer)
 - Seed data: a few real posts and several fake users to demo interaction between roles
 
 
