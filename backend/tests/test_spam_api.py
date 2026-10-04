@@ -23,7 +23,7 @@ def test_run_filter_moves_spam_and_returns_counts(client: TestClient) -> None:
     client.post(URL, json=_payload())
     client.post(URL, json=_payload(replacement="Win free money at casino"))
     client.post(URL, json=_payload(website="bot"))
-    client.post(URL, json=_payload(replacement="go to http://spam.xyz"))
+    client.post(URL, json=_payload(replacement="go to http://spam.xyz casino"))
     r = client.post(f"/api/posts/{SLUG}/run-filter")
     assert r.status_code == 200
     assert r.json() == {"checked": 4, "spam": 3, "ham": 1, "filtered_total": 3}
