@@ -62,8 +62,8 @@ architecture, review, critic → strongest model. Spawn an agent team only when 
 1. `/bach:demo-scope` → research, decide, demo script, cut, spec, plan. Log the time of each step.
 2. **Build hour 1 (60 min), bach-workflow only:** `/bach:pr-team <spec>`. Focus Hour stays off
    (not even `--observe`: its hooks, system-prompt section and pane would change how pr-team runs).
-   Run it in tmux (`teammateMode: "tmux"`): in the VS Code terminal, `tmux attach -t work`
-   (session prepared in `~/demo-idea` with `claude` running; mouse on, so click a pane to focus it).
+   Run it in tmux (`teammateMode: "tmux"`): in a fresh VS Code terminal, `tmux new -s work`, then
+   `claude`, then type the slash command at Claude's prompt (mouse on, so click a pane to focus it).
    Log start/end by hand; PR data comes from
    `gh pr list --state all --json number,title,createdAt,mergedAt,reviews`.
 3. **Between hours:** merge or close every open PR so hour 2 starts from a clean `main`.
