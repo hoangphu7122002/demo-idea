@@ -1,0 +1,8 @@
+{
+  "phase": "decide",
+  "note": "Step 0-1 done by hand on 2026-10-03 (see /workflow-log.md). Before Step 2: user fills evidence_human.csv via human_runbook.md, then run merge_evidence.py. Core preference from the user: A+B (suggest-edit with credit + freshness of claims); C (voice) stretch; D (video) v2. Budget: see hackathon-brief.md Usage budget.",
+  "wr_run_dir": "scope/2026-10-03-dev-knowledge-blog/research",
+  "workflow_runs": [],
+  "decision": null,
+  "timestamps": {"frame": "2026-10-03T21:04+07:00", "research_done": "2026-10-03T21:14+07:00"}
+}
