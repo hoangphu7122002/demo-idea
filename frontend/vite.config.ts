@@ -22,6 +22,7 @@ export default defineConfig({
   },
   preview: { port: WEB_PORT, strictPort: true },
   build: {
+    target: 'esnext', // top-level await in the Shiki highlighter setup
     rollupOptions: {
       output: {
         // MUI core + Emotion change less often than app code, so they get their own long-cached chunk.
