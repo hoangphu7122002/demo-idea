@@ -6,7 +6,7 @@ export
 API_PORT ?= 8000
 APP_PORT ?= 8080
 
-.PHONY: help setup dev gen check up down logs
+.PHONY: help setup dev gen check report up down logs
 
 help:
 	@grep -E '^## ' Makefile | sed 's/^## //'
@@ -15,6 +15,7 @@ help:
 ## dev     db + redis in Docker; api, worker, web with hot reload
 ## gen     regenerate openapi.json and the typed TS client
 ## check   lint, format, typecheck, tests (backend + frontend)
+## report  local test evidence (.test-report/report.md) vs origin/main
 ## up      prod-like stack in Docker (2 workers), web on APP_PORT
 ## down    stop the prod-like stack
 ## logs    follow prod-like stack logs
@@ -41,6 +42,10 @@ check:
 	$(COMPOSE) up -d --wait db redis
 	cd backend && uv run ruff check . && uv run ruff format --check . && uv run mypy app tests && uv run pytest -q
 	cd frontend && npm run lint && npm run typecheck && npm test
+
+report:
+	$(COMPOSE) up -d --wait db redis
+	scripts/test-report.sh
 
 up:
 	$(COMPOSE) --profile app up -d --build --scale worker=2

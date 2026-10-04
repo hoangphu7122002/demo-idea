@@ -1,7 +1,6 @@
-/// <reference types="vitest/config" />
 import mdx from '@mdx-js/rollup'
 import react from '@vitejs/plugin-react'
-import { defineConfig } from 'vite'
+import { configDefaults, defineConfig } from 'vitest/config'
 import { mdxOptions } from './src/features/post/mdxOptions.ts'
 
 const API_URL = process.env.API_URL ?? `http://127.0.0.1:${process.env.API_PORT ?? 8000}`
@@ -31,5 +30,5 @@ export default defineConfig({
       },
     },
   },
-  test: { environment: 'jsdom', setupFiles: ['./src/test/setup.ts'], testTimeout: 20_000 },
+  test: { environment: 'jsdom', setupFiles: ['./src/test/setup.ts'], testTimeout: 20_000, exclude: [...configDefaults.exclude, 'e2e/**'] },
 })

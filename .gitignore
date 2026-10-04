@@ -12,3 +12,6 @@ __pycache__/
 
 # reference clones (read-only, not part of the app)
 /archive/
+
+# local test evidence
+.test-report/
