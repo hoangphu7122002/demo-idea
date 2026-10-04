@@ -35,7 +35,7 @@ deps() { # tree
 }
 build_serve() { # tree outdir port
   (cd "$1/frontend" && npx vite build --outDir "$2" --emptyOutDir >"$TMP/build-$3.log" 2>&1) || { echo "build failed ($1), see log:" >&2; tail -20 "$TMP/build-$3.log" >&2; return 1; }
-  (cd "$1/frontend" && exec npx vite preview --outDir "$2" --port "$3" --strictPort >"$TMP/preview-$3.log" 2>&1) &
+  (cd "$1/frontend" && exec npx vite preview --outDir "$2" --host 127.0.0.1 --port "$3" --strictPort >"$TMP/preview-$3.log" 2>&1) &
   PIDS="$PIDS $!"
 }
 wait_port() { for _ in $(seq 1 60); do curl -sf "http://127.0.0.1:$1/" >/dev/null && return 0; sleep 1; done; return 1; }
