@@ -1,28 +1,10 @@
 """Rules-first spam classifier: honeypot, links, keywords. Pure, no I/O."""
 
-import re
 from dataclasses import dataclass, field
 
+from app.ai.spam_utils import find_keywords, has_link
+
 SPAM_THRESHOLD = 0.5
-_LINK = re.compile(r"https?://|www\.|\b[a-z0-9-]+\.(?:com|net|org|io|xyz|ru|top|biz)\b", re.I)
-_KEYWORDS = (
-    "viagra",
-    "casino",
-    "crypto",
-    "bitcoin",
-    "free money",
-    "click here",
-    "buy now",
-    "cheap",
-    "seo service",
-    "backlink",
-    "loan",
-    "porn",
-    "work from home",
-    "limited offer",
-    "whatsapp",
-    "telegram",
-)
 
 
 @dataclass(frozen=True)
@@ -41,10 +23,10 @@ def classify(
     if honeypot:
         return Verdict(True, 1.0, ["honeypot"])
     text = " ".join(t for t in (replacement, reason, name) if t)
-    if _LINK.search(text):
+    if has_link(text):
         score += 0.6
         reasons.append("link")
-    hits = [k for k in _KEYWORDS if k in text.lower()]
+    hits = find_keywords(text)
     if hits:
         score += min(0.5 * len(hits), 0.9)
         reasons.extend(f"keyword:{k}" for k in hits)

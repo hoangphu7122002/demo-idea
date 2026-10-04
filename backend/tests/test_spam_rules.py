@@ -55,3 +55,10 @@ def test_run_filter_moves_spam_and_returns_counts(client: TestClient) -> None:
 
 def test_run_filter_unknown_post(client: TestClient) -> None:
     assert client.post("/api/posts/nope/run-filter").status_code == 404
+
+
+def test_utils_match() -> None:
+    from app.ai.spam_utils import find_keywords, has_link
+
+    assert has_link("see www.x.com") and not has_link("2f+1 nodes")
+    assert find_keywords("Free Money") == ["free money"]
