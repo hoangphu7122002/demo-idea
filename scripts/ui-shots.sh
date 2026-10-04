@@ -9,8 +9,9 @@ BASE_REF="${1:-origin/main}"
 ROUTES="${SHOT_ROUTES:-/}"
 ROOT="$(git rev-parse --show-toplevel)"
 OUT="$ROOT/.test-report"
-BASE_PORT="${SHOT_BASE_PORT:-4174}"
-HEAD_PORT="${SHOT_HEAD_PORT:-4173}"
+free_port() { python3 -c "import socket; s=socket.socket(); s.bind((\"127.0.0.1\",0)); print(s.getsockname()[1])"; }
+BASE_PORT="${SHOT_BASE_PORT:-$(free_port)}"
+HEAD_PORT="${SHOT_HEAD_PORT:-$(free_port)}"
 BASE_SHA="$(git rev-parse "$BASE_REF^{commit}")"
 mkdir -p "$OUT"
 rm -rf "$OUT/shots"; mkdir -p "$OUT/shots/base" "$OUT/shots/head"
@@ -35,7 +36,7 @@ deps() { # tree
 }
 build_serve() { # tree outdir port
   (cd "$1/frontend" && npx vite build --outDir "$2" --emptyOutDir >"$TMP/build-$3.log" 2>&1) || { echo "build failed ($1), see log:" >&2; tail -20 "$TMP/build-$3.log" >&2; return 1; }
-  (cd "$1/frontend" && exec npx vite preview --outDir "$2" --host 127.0.0.1 --port "$3" --strictPort >"$TMP/preview-$3.log" 2>&1) &
+  (cd "$1/frontend" && exec node node_modules/vite/bin/vite.js preview --outDir "$2" --host 127.0.0.1 --port "$3" --strictPort >"$TMP/preview-$3.log" 2>&1) &
   PIDS="$PIDS $!"
 }
 wait_port() { for _ in $(seq 1 60); do curl -sf "http://127.0.0.1:$1/" >/dev/null && return 0; sleep 1; done; return 1; }
