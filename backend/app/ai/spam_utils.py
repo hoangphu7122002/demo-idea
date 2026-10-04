@@ -2,7 +2,7 @@
 
 import re
 
-LINK = re.compile(r"https?://|www\.|\b[a-z0-9-]+\.(?:com|net|org|io|xyz|ru|top|biz)\b", re.I)
+LINK = re.compile(r"https?://|\bwww\.", re.I)  # bare domains (socket.io) are not links
 KEYWORDS = (
     "viagra",
     "casino",
@@ -28,5 +28,5 @@ def has_link(text: str) -> bool:
 
 
 def find_keywords(text: str) -> list[str]:
-    lowered = text.lower()
-    return [k for k in KEYWORDS if k in lowered]
+    """Whole-word, case-insensitive keyword hits (each keyword once)."""
+    return [k for k in KEYWORDS if re.search(rf"\b{re.escape(k)}\b", text, re.I)]
