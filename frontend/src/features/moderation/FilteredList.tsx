@@ -19,7 +19,7 @@ export function FilteredList({ query, entering, blocked }: Props) {
     <Stack spacing={1} data-testid="filtered-list">
       <Stack direction="row" spacing={1} sx={{ alignItems: 'center' }}>
         <Typography variant="subtitle2">Filtered</Typography>
-        <Chip label={query.data?.length ?? 0} color="warning" data-testid="filtered-count" />
+        <Chip label={blocked} color="warning" data-testid="filtered-count" />
         <Chip label={`${blocked} spam blocked`} color="error" variant="outlined" data-testid="spam-blocked" />
       </Stack>
       <QueryState query={query} emptyMessage="Nothing filtered.">

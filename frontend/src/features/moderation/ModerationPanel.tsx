@@ -5,7 +5,7 @@ import Stack from '@mui/material/Stack'
 import Typography from '@mui/material/Typography'
 import { QueryState } from '../../components/QueryState'
 import { useMutationToast } from '../../hooks/useMutationToast'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import type { Suggestion } from '../suggest/suggestApi'
 import { FilteredList } from './FilteredList'
 import { moveTotalMs, MOVE_MS, slideOut, STAGGER_MS } from './moveAnim'
@@ -20,25 +20,27 @@ export function ModerationPanel({ slug }: { slug: string }) {
   const [runFilter, { isLoading: running }] = useRunFilterMutation()
   const run = useMutationToast()
 
-  // Items caught by a run: they linger in Pending while sliding out, then show up in Filtered, staggered.
-  const [leaving, setLeaving] = useState<Suggestion[]>([])
-  const [entering, setEntering] = useState<Record<number, number>>({})
+  // Items caught by a run linger in Pending while sliding out, then show up in Filtered, staggered.
+  // `before` is the Pending snapshot taken at click time; what moved is derived once the invalidation refetch lands.
+  const [before, setBefore] = useState<Suggestion[] | null>(null)
   const [blocked, startBlockedFrom] = useCountUp(filtered.data?.length ?? 0)
+  const pendingIds = new Set((pending.data ?? []).map((x) => x.id))
+  const filteredIds = new Set((filtered.data ?? []).map((x) => x.id))
+  const leaving = (before ?? []).filter((x) => filteredIds.has(x.id) && !pendingIds.has(x.id))
+  const entering: Record<number, number> = Object.fromEntries(leaving.map((x, i) => [x.id, i]))
+  const movedCount = leaving.length
+
+  // Clear the move markers once the last item has landed; cleared on unmount too.
+  useEffect(() => {
+    if (movedCount === 0) return
+    const t = setTimeout(() => setBefore(null), moveTotalMs(movedCount))
+    return () => clearTimeout(t)
+  }, [movedCount])
 
   const onRun = async () => {
-    const before = pending.data ?? []
+    const snapshot = pending.data ?? []
     startBlockedFrom(filtered.data?.length ?? 0)
-    const ok = await run(runFilter(slug).unwrap(), { success: 'Filter finished', error: 'Could not run filter' })
-    if (!ok) return
-    const after = await Promise.all([pending.refetch().unwrap(), filtered.refetch().unwrap()])
-    const filteredIds = new Set(after[1].map((x) => x.id))
-    const moved = before.filter((x) => filteredIds.has(x.id))
-    setLeaving(moved)
-    setEntering(Object.fromEntries(moved.map((x, i) => [x.id, i])))
-    setTimeout(() => {
-      setLeaving([])
-      setEntering({})
-    }, moveTotalMs(moved.length))
+    if (await run(runFilter(slug).unwrap(), { success: 'Filter finished', error: 'Could not run filter' })) setBefore(snapshot)
   }
 
   return (
