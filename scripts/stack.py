@@ -513,7 +513,7 @@ class Stack:
                 ]
                 avg = cp[1] / cp[0] / 1000 if cp[0] else 0.0
                 print(
-                    f"postgres: last checkpoint {last:%Y-%m-%d %H:%M:%S}, "
+                    f"postgres: last checkpoint {last.astimezone():%Y-%m-%d %H:%M:%S %Z}, "
                     f"avg checkpoint duration {avg:.1f}s over {cp[0]}"
                 )
                 tmpl = c.execute(
