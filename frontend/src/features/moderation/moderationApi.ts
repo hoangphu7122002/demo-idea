@@ -6,6 +6,8 @@ import type { Suggestion } from '../suggest/suggestApi'
 export type SuggestionStatus = NonNullable<components['schemas']['SuggestionOut']['status']>
 export type RunFilterResult = components['schemas']['RunFilterOut']
 
+export type ApproveResult = components['schemas']['ApproveOut']
+
 export const moderationApi = baseApi.injectEndpoints({
   endpoints: (build) => ({
     getSuggestions: build.query<Suggestion[], { slug: string; status: SuggestionStatus }>({
@@ -16,7 +18,11 @@ export const moderationApi = baseApi.injectEndpoints({
       queryFn: (slug) => fromApi(() => api.POST('/api/posts/{slug}/run-filter', { params: { path: { slug } } })),
       invalidatesTags: [{ type: 'Suggestion', id: 'LIST' }],
     }),
+    approveSuggestion: build.mutation<ApproveResult, number>({
+      queryFn: (id) => fromApi(() => api.POST('/api/suggestions/{suggestion_id}/approve', { params: { path: { suggestion_id: id } } })),
+      invalidatesTags: [{ type: 'Suggestion', id: 'LIST' }, 'Post'],
+    }),
   }),
 })
 
-export const { useGetSuggestionsQuery, useRunFilterMutation } = moderationApi
+export const { useGetSuggestionsQuery, useRunFilterMutation, useApproveSuggestionMutation } = moderationApi
