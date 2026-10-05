@@ -45,6 +45,22 @@ describe('revision layer', () => {
     expect((await screen.findByTestId('credit-badge')).textContent).toBe('fixed by a reader')
   })
 
+  it('marks the occurrence at change_start, not the first match', async () => {
+    const src = 'The leader sends the log to the followers.\n'
+    const at = src.lastIndexOf('the')
+    vi.spyOn(api, 'GET').mockResolvedValue({
+      data: { slug: 'x', title: 'T', source: src, revisions: [{ number: 2, created_at: '2026-10-05T00:00:00Z', credit_name: 'Ada', previous_text: 'teh', change_start: at, change_end: at + 3 }] },
+      error: undefined,
+      response: { ok: true, status: 200 },
+    } as never)
+    renderApp('/posts/x')
+    const badge = await screen.findByTestId('credit-badge')
+    expect(badge).toBeTruthy()
+    const span = screen.getByTestId('post-body').querySelector('[data-revision-span]')
+    expect(span?.textContent).toBe('the')
+    expect(span?.previousSibling?.textContent).toMatch(/log to $/)
+  })
+
   it('meta helpers', () => {
     expect(creditLabel('  ')).toBe('fixed by a reader')
     expect(unescapeMdx('a \\{b\\} \\<c\\>')).toBe('a {b} <c>')
