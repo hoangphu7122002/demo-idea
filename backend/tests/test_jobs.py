@@ -1,11 +1,14 @@
 import uuid
 from unittest.mock import patch
 
+import pytest
 from fastapi.testclient import TestClient
 
 from app.core.db import SyncSessionLocal
 from app.models import Job
 from app.worker.tasks import word_stats
+
+pytestmark = pytest.mark.db
 
 
 def test_word_stats_enqueues_and_task_is_idempotent(client: TestClient) -> None:
