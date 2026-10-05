@@ -44,12 +44,28 @@ function textNodes(block: HTMLElement): Text[] {
 }
 
 /** Range over `needle` inside the block's text, or the whole block content when it is not found. */
-function locate(block: HTMLElement, needles: string[]): Range {
+function countOf(hay: string, needle: string): number {
+  let n = 0
+  for (let i = hay.indexOf(needle); i >= 0 && needle; i = hay.indexOf(needle, i + needle.length)) n++
+  return n
+}
+
+/** Nth occurrence start (0-based) of needle in hay, else the first, else -1. */
+function nthIndex(hay: string, needle: string, n: number): number {
+  let at = -1
+  for (let k = 0; k <= n; k++) {
+    at = hay.indexOf(needle, at < 0 ? 0 : at + needle.length)
+    if (at < 0) return hay.indexOf(needle)
+  }
+  return at
+}
+
+function locate(block: HTMLElement, needles: { text: string; nth: number }[]): Range {
   const nodes = textNodes(block)
   const full = nodes.map((n) => n.data).join('')
   const range = document.createRange()
-  for (const needle of needles) {
-    const at = needle ? full.indexOf(needle) : -1
+  for (const { text: needle, nth } of needles) {
+    const at = needle ? nthIndex(full, needle, nth) : -1
     if (at < 0) continue
     const pos = (offset: number) => {
       let acc = 0
@@ -86,7 +102,11 @@ export function RevisionLayer({ containerRef, source, revision, showChanges }: P
     const attempt = () => {
       const block = findBlock(root, revision.change_start)
       if (!block || !textNodes(block).length) return false
-      const range = locate(block, [unescapeMdx(newText), plainMd(newText)])
+      const prefix = source.slice(Number(block.dataset.srcStart), revision.change_start)
+      const range = locate(
+        block,
+        [unescapeMdx, plainMd].map((f) => ({ text: f(newText), nth: countOf(f(prefix), f(newText)) })),
+      )
       host = document.createElement('span')
       host.dataset.revisionSpan = 'true'
       host.append(range.extractContents())
