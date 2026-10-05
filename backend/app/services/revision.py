@@ -22,6 +22,14 @@ def escape_mdx(text: str) -> str:
     return _MDX_SPECIAL.sub(r"\\\1", text)
 
 
+def in_literal_region(source: str, pos: int) -> bool:
+    """True if pos is in a fenced code block or $...$ math, which MDX keeps literal."""
+    before = source[:pos]
+    if len(re.findall(r"^\s*(?:```|~~~)", before, re.M)) % 2:
+        return True
+    return before.count("$") % 2 == 1
+
+
 def _locate(source: str, s: Suggestion) -> tuple[int, int]:
     """Find the span to replace: stored offsets if they still match, else the first match."""
     start, end = s.anchor_start, s.anchor_end
@@ -49,7 +57,7 @@ async def approve_suggestion(
     if post is None:
         raise SuggestionNotFoundError(suggestion_id)
     start, end = _locate(post.source, s)
-    new_text = escape_mdx(s.replacement)
+    new_text = s.replacement if in_literal_region(post.source, start) else escape_mdx(s.replacement)
     new_source = post.source[:start] + new_text + post.source[end:]
     number = max((r.number for r in post.revisions), default=0) + 1
     revision = PostRevision(

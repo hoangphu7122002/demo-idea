@@ -57,7 +57,8 @@ async def approve(suggestion_id: int, session: SessionDep) -> ApproveOut:
         raise HTTPException(404, "suggestion not found") from None
     except revision_service.SuggestionStateError as e:
         raise HTTPException(409, str(e)) from None
-    assert rev.change_start is not None and rev.change_end is not None
+    if rev.change_start is None or rev.change_end is None:
+        raise HTTPException(500, "revision is missing change offsets")
     return ApproveOut(
         suggestion=SuggestionOut.model_validate(s),
         revision=RevisionOut.model_validate(rev),

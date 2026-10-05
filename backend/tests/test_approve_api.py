@@ -1,11 +1,14 @@
 from typing import Any
 
+import pytest
 from fastapi.testclient import TestClient
 
 from app.core.db import SyncSessionLocal
 from app.seeds.post import SLUG, SOURCE, seed_post
 
 URL = f"/api/posts/{SLUG}/suggestions"
+pytestmark = pytest.mark.db
+
 TARGET = "exactly 3 nodes"
 
 
