@@ -12,3 +12,9 @@ __pycache__/
 
 # reference clones (read-only, not part of the app)
 /archive/
+
+# pr-team runtime files
+.claude/pr-team/state.json
+.claude/pr-team/shots/
+.claude/worktrees/
+.env.slot

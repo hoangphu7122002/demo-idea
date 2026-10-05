@@ -42,6 +42,10 @@ ignore_missing_imports = true
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 asyncio_mode = "auto"
+addopts = "--strict-markers"
+markers = [
+    "db: test needs Postgres (schema once per session + TRUNCATE after each test)",
+]
 
 [dependency-groups]
 dev = [

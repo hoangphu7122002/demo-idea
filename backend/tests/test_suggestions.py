@@ -1,10 +1,13 @@
 from typing import Any
 
+import pytest
 from fastapi.testclient import TestClient
 
 from app.core.db import SyncSessionLocal
 from app.models import Suggestion
 from app.seeds.post import SLUG, SOURCE, seed_post
+
+pytestmark = pytest.mark.db
 
 URL = f"/api/posts/{SLUG}/suggestions"
 

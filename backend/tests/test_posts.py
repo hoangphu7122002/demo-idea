@@ -1,7 +1,10 @@
+import pytest
 from fastapi.testclient import TestClient
 
 from app.core.db import SyncSessionLocal
 from app.seeds.post import SLUG, seed_post
+
+pytestmark = pytest.mark.db
 
 
 def _seed() -> None:

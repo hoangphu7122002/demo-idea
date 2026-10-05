@@ -54,6 +54,19 @@ All host ports come from `.env` (created from `.env.example` by `make setup`):
 
 If you change `DB_PORT` or `REDIS_PORT`, also change the port inside `DATABASE_URL` / `REDIS_URL` in `.env`.
 
+### Slot ports (parallel agents)
+
+Agents in their own worktrees don't use the ports above. `scripts/stack lease <owner>` gives the worktree slot N (1–6) and writes `.env.slot`; `scripts/stack run` exports it:
+
+| Variable | Slot N |
+|---|---|
+| `API_PORT` / `API_URL` | `8100 + N` / `http://127.0.0.1:<API_PORT>` |
+| `WEB_PORT` | `5200 + N` |
+| `DATABASE_URL` / `TEST_DATABASE_URL` | `.../app_sN` / `.../app_test_sN` |
+| `REDIS_URL` | `redis://127.0.0.1:<REDIS_PORT>/N` |
+
+Bases and limits live in `stack.toml`. See the root `CLAUDE.md`.
+
 ## 4. Where things live
 
 | You want to change… | Go to |
