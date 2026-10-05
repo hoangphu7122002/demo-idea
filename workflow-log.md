@@ -170,3 +170,12 @@ Causes: reviewer is push-only (no poll; waits for lead relay) · exits after eac
 20. CI never ran (Actions startup_failure, account billing) → preflight: confirm one workflow run succeeds; paths filter must include scripts/Makefile/.github.
 21. Watcher reported stale budget from state.json → watcher recounts via gh before reporting.
 22. Plugin cache (0.3.0) ignores edited agent files → document "update plugin after editing" or spawn with file path.
+- 18:04 Paused state: be-approve pushed (b8edcf8, no PR, 7 tests); be-spam-tune-2 local only (9/9 spam, 1/10 real flagged); fe-anim-polish pushed (c5de20f, no PR). Not started: fe-revision-diff, be-llm-classifier.
+- 10:00 Plugin PR opened from fork: https://github.com/bachtly/bach-workflow/pull/1 (commit 1 re-adds pr-team 06fc555, commit 2 pr_poll fix 09c8c55). Upstream repo appears recreated: PR numbering restarted at #1, PR #4 404, 8a90db1 unknown.
+
+### Agent-team verification in terminal (2026-10-05)
+- VS Code extension session = Agent SDK → `Agent(name=…)` runs as plain subagents (documented). Yesterday's run was named subagents, not a team.
+- Terminal `claude` (wt-app-stack): real team created (`~/.claude/teams/session-545161a0`, lead `team-lead`, in-process). alice↔bob direct messages, bob → team-lead, idle then resumed by message, shutdown_request approved by both.
+- guard-infra hook blocked teammate bob's `docker ps` ("Blocked by guard-infra … matched: docker").
+- Task tools on Opus 5.5: off by default. `CLAUDE_CODE_ENABLE_TODO_TOOLS=1` → TaskCreate/TaskList/TaskUpdate yes (deferred, load via ToolSearch). `CLAUDE_CODE_ENABLE_TASKS=1` → no.
+- Lượt C (task list): lead TaskCreate ×2 + `addBlockedBy` OK. alice and bob self-claimed via TaskList/TaskUpdate (no direct assignment). **Race:** both claimed #1 in the same second (08:05:42), both ran it (idempotent here, so the file was still right). Blocking held: #2 only claimed after #1 completed (alice). Completed tasks vanish from TaskList ("No tasks found"); the task dir keeps only .lock/.highwatermark. → Claiming is not atomic; pr-team needs owner verification or lead-assigned owners / folder-scoped claims.
