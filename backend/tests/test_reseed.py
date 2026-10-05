@@ -1,5 +1,6 @@
 import time
 
+import pytest
 from fastapi.testclient import TestClient
 
 from app.ai.spam_rules import classify
@@ -8,6 +9,7 @@ from app.seeds.reseed import reseed
 from app.seeds.suggestions import REAL, SPAM
 
 
+@pytest.mark.db
 def test_reseed_is_fast_and_repeatable(client: TestClient) -> None:
     t = time.perf_counter()
     assert reseed() == {"posts": 1, "suggestions": 10}
@@ -22,6 +24,7 @@ def test_seed_originals_exist_in_source() -> None:
         assert s.original in SOURCE
 
 
+@pytest.mark.db
 def test_rules_split_seeds_7_spam_3_ham_and_lan_is_ham(client: TestClient) -> None:
     reseed()
     r = client.post(f"/api/posts/{SLUG}/run-filter")

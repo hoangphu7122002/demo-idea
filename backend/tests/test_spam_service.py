@@ -7,6 +7,8 @@ from app.models import Post, Suggestion
 from app.seeds.post import SLUG, seed_post
 from app.services import suggestions as service
 
+pytestmark = pytest.mark.db
+
 
 def _add(post_id: int, replacement: str, honeypot: str | None = None) -> None:
     with SyncSessionLocal() as s:

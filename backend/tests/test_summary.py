@@ -51,6 +51,7 @@ def test_gives_up_after_one_retry() -> None:
         summarise("anything", model=FunctionModel(always_bad))
 
 
+@pytest.mark.db
 def test_summary_endpoint_queues_job_and_task_stores_result(client: TestClient) -> None:
     note = client.post("/api/notes", json={"title": "Sprint", "body": BODY}).json()
     with patch.object(llm_summarize_note, "apply_async") as enqueue:
@@ -70,5 +71,6 @@ def test_summary_endpoint_queues_job_and_task_stores_result(client: TestClient) 
     assert client.get(f"/api/jobs/{job_id}").json()["result"]["tags"] == listed["tags"]
 
 
+@pytest.mark.db
 def test_summary_404_for_missing_note(client: TestClient) -> None:
     assert client.post("/api/notes/999/summary").status_code == 404

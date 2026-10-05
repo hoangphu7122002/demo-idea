@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Thin wrapper: run the stack CLI with the backend's Python env. See scripts/stack.py.
+set -euo pipefail
+here="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+exec uv run --quiet --frozen --project "$here/../backend" python "$here/stack.py" "$@"

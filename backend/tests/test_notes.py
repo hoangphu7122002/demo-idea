@@ -1,4 +1,7 @@
+import pytest
 from fastapi.testclient import TestClient
+
+pytestmark = pytest.mark.db
 
 
 def test_create_and_list_notes(client: TestClient) -> None:
