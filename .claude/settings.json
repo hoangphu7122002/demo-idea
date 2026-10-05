@@ -2,8 +2,16 @@
   "enabledPlugins": {
     "bach@bach-workflow": true
   },
-  "teammateMode": "in-process",
+  "teammateMode": "tmux",
   "env": {
-    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
-  }
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1",
+    "CLAUDE_CODE_ENABLE_TODO_TOOLS": "1"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(make gen)",
+      "Bash(make gen:*)",
+      "Bash(cp -n .env.example .env)"
+    ]
+}
 }
