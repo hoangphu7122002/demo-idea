@@ -154,6 +154,26 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/suggestions/{suggestion_id}/approve": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /**
+         * Approve
+         * @description Apply the suggestion to the post as a new credited revision.
+         */
+        post: operations["approve_api_suggestions__suggestion_id__approve_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/health": {
         parameters: {
             query?: never;
@@ -192,6 +212,24 @@ export interface paths {
 export type webhooks = Record<string, never>;
 export interface components {
     schemas: {
+        /**
+         * ApproveOut
+         * @description New revision plus what the frontend needs to render the credit and inline diff.
+         */
+        ApproveOut: {
+            /** Change End */
+            change_end: number;
+            /** Change Start */
+            change_start: number;
+            /** Credit Name */
+            credit_name: string;
+            /** New Text */
+            new_text: string;
+            /** Old Text */
+            old_text: string;
+            revision: components["schemas"]["RevisionOut"];
+            suggestion: components["schemas"]["SuggestionOut"];
+        };
         /** ChatIn */
         ChatIn: {
             /** Message */
@@ -680,6 +718,37 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["SuggestionOut"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    approve_api_suggestions__suggestion_id__approve_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                suggestion_id: number;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ApproveOut"];
                 };
             };
             /** @description Validation Error */
