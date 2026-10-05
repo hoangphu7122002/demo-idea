@@ -29,6 +29,7 @@
     "@shikijs/rehype": "^4.5.0",
     "@shikijs/themes": "^4.5.0",
     "dayjs": "^1.11.23",
+    "diff": "^9.0.0",
     "katex": "^0.19.0",
     "notistack": "^3.0.2",
     "openapi-fetch": "^0.17.0",

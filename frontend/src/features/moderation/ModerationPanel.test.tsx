@@ -34,7 +34,7 @@ describe('moderation panel', () => {
     expect(within(pending).getByText('Lan')).toBeTruthy()
     expect(within(pending).getByText('a reader')).toBeTruthy()
     expect((await screen.findByTestId('filtered-count')).textContent).toBe('1')
-    expect((within(pending).getByTestId('approve-1') as HTMLButtonElement).disabled).toBe(true)
+    expect((within(pending).getByTestId('approve-1') as HTMLButtonElement).disabled).toBe(false)
 
     await user.click(screen.getByTestId('run-filter'))
     await waitFor(() => expect(post_).toHaveBeenCalled())

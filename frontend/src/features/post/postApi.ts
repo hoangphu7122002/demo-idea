@@ -8,6 +8,7 @@ export const postApi = baseApi.injectEndpoints({
   endpoints: (build) => ({
     getPost: build.query<Post, string>({
       queryFn: (slug) => fromApi(() => api.GET('/api/posts/{slug}', { params: { path: { slug } } })),
+      providesTags: (_r, _e, slug) => [{ type: 'Post', id: slug }],
     }),
   }),
 })

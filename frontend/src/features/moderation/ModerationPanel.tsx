@@ -10,7 +10,7 @@ import type { Suggestion } from '../suggest/suggestApi'
 import { FilteredList } from './FilteredList'
 import { moveTotalMs, MOVE_MS, slideOut, STAGGER_MS } from './moveAnim'
 import { useCountUp } from './useCountUp'
-import { useGetSuggestionsQuery, useRunFilterMutation } from './moderationApi'
+import { useApproveSuggestionMutation, useGetSuggestionsQuery, useRunFilterMutation } from './moderationApi'
 import { SuggestionCard } from './SuggestionCard'
 
 /** Author side panel: Pending queue, Run filter, and the separate Filtered pile with its count. */
@@ -18,6 +18,7 @@ export function ModerationPanel({ slug }: { slug: string }) {
   const pending = useGetSuggestionsQuery({ slug, status: 'pending' })
   const filtered = useGetSuggestionsQuery({ slug, status: 'filtered' })
   const [runFilter, { isLoading: running }] = useRunFilterMutation()
+  const [approve] = useApproveSuggestionMutation()
   const run = useMutationToast()
 
   // Items caught by a run: they linger in Pending while sliding out, then show up in Filtered, staggered.
@@ -62,7 +63,7 @@ export function ModerationPanel({ slug }: { slug: string }) {
             </Box>
           ))}
           <QueryState query={pending} emptyMessage="No pending suggestions.">
-            {(items) => items.map((s) => <SuggestionCard key={s.id} suggestion={s} onApprove={() => {}} approveDisabled />)}
+            {(items) => items.map((s) => <SuggestionCard key={s.id} suggestion={s} onApprove={(x) => run(approve(x.id).unwrap(), { success: 'Approved', error: 'Could not approve' })} />)}
           </QueryState>
         </Stack>
 
